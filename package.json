@@ -1,5 +1,6 @@
 {
   "name": "template-react-ts",
+  "type": "module",
   "description": "A Phaser 3 TypeScript project template that demonstrates React communication and uses Vite for bundling.",
   "version": "1.1.0",
   "repository": {
@@ -30,12 +31,15 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"*.{js,mjs,json}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"*.{js,mjs,json}\"",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "xray": "npx -y -p ts-morph node scripts/xray.js"
   },
   "dependencies": {
+    "flexlayout-react": "^0.8.17",
     "phaser": "^3.90.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "zustand": "^5.0.9"
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",

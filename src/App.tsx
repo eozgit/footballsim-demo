@@ -1,95 +1,85 @@
-import { JSX, useRef, useState } from 'react';
-import { IRefPhaserGame, PhaserGame } from './PhaserGame';
-import { MainMenu } from './game/scenes/MainMenu';
+import React, { JSX, useCallback, useRef } from 'react';
+import * as FlexLayout from 'flexlayout-react';
+import 'flexlayout-react/style/dark.css';
+import { PhaserGame, IRefPhaserGame } from './PhaserGame';
+import { useSimulationStore } from './bridge/useSimulationStore';
 
-function App(): JSX.Element {
-  // The sprite can only be moved in the MainMenu Scene
-  const [canMoveSprite, setCanMoveSprite] = useState(true);
+const layoutConfig: FlexLayout.IJsonModel = {
+  global: { tabEnableClose: false, tabSetTabLocation: 'top' },
+  layout: {
+    type: 'row',
+    weight: 100,
+    children: [
+      {
+        type: 'column',
+        weight: 75,
+        children: [
+          {
+            type: 'tabset',
+            weight: 70,
+            children: [{ type: 'tab', name: 'Simulation Engine', component: 'phaser_engine' }],
+          },
+          {
+            type: 'tabset',
+            weight: 30,
+            children: [{ type: 'tab', name: 'Live Telemetry', component: 'telemetry' }],
+          },
+        ],
+      },
+      {
+        type: 'tabset',
+        weight: 25,
+        children: [{ type: 'tab', name: 'Command Deck', component: 'controls' }],
+      },
+    ],
+  },
+};
 
-  //  References to the PhaserGame component (game and scene are exposed)
+const model = FlexLayout.Model.fromJson(layoutConfig);
+
+export const App = (): JSX.Element => {
   const phaserRef = useRef<IRefPhaserGame | null>(null);
-  const [spritePosition, setSpritePosition] = useState({ x: 0, y: 0 });
+  const isPlaying = useSimulationStore((state): boolean => state.isPlaying);
 
-  const changeScene = (): void => {
-    if (phaserRef.current) {
-      const scene = phaserRef.current.scene as MainMenu;
+  const factory = useCallback(
+    (node: FlexLayout.TabNode): React.ReactNode => {
+      const component = node.getComponent();
 
-      if (scene) {
-        scene.changeScene();
+      switch (component) {
+        case 'phaser_engine':
+          return (
+            <div className="phaser-wrapper">
+              {/* This puts Phaser specifically in this pane */}
+              <PhaserGame ref={phaserRef} />
+            </div>
+          );
+        case 'controls':
+          return (
+            <div className="p-4 bg-gray-900 text-white h-full">
+              <h3 className="text-blue-400 font-mono">
+                SYSTEMS: {isPlaying ? 'ACTIVE' : 'STANDBY'}
+              </h3>
+              <button className="mt-4 p-2 bg-blue-600 rounded">Initialize Match</button>
+            </div>
+          );
+        case 'telemetry':
+          return (
+            <div className="p-2 font-mono text-xs text-green-500 bg-black h-full">
+              Waiting for engine data...
+            </div>
+          );
+        default:
+          return null;
       }
-    }
-  };
-
-  const moveSprite = (): void => {
-    if (phaserRef.current) {
-      const scene = phaserRef.current.scene as MainMenu;
-
-      if (scene && scene.scene.key === 'MainMenu') {
-        // Get the update logo position
-        scene.moveLogo(({ x, y }): void => {
-          setSpritePosition({ x, y });
-        });
-      }
-    }
-  };
-
-  const addSprite = (): void => {
-    if (phaserRef.current) {
-      const scene = phaserRef.current.scene;
-
-      if (scene) {
-        // Add more stars
-        const x = Phaser.Math.Between(64, scene.scale.width - 64);
-        const y = Phaser.Math.Between(64, scene.scale.height - 64);
-
-        //  `add.sprite` is a Phaser GameObjectFactory method and it returns a Sprite Game Object instance
-        const star = scene.add.sprite(x, y, 'star');
-
-        //  ... which you can then act upon. Here we create a Phaser Tween to fade the star sprite in and out.
-        //  You could, of course, do this from within the Phaser Scene code, but this is just an example
-        //  showing that Phaser objects and systems can be acted upon from outside of Phaser itself.
-        scene.add.tween({
-          targets: star,
-          duration: 500 + Math.random() * 1000,
-          alpha: 0,
-          yoyo: true,
-          repeat: -1,
-        });
-      }
-    }
-  };
-
-  // Event emitted from the PhaserGame component
-  const currentScene = (scene: Phaser.Scene): void => {
-    setCanMoveSprite(scene.scene.key !== 'MainMenu');
-  };
+    },
+    [isPlaying]
+  );
 
   return (
-    <div id="app">
-      <PhaserGame ref={phaserRef} currentActiveScene={currentScene} />
-      <div>
-        <div>
-          <button className="button" onClick={changeScene}>
-            Change Scene
-          </button>
-        </div>
-        <div>
-          <button disabled={canMoveSprite} className="button" onClick={moveSprite}>
-            Toggle Movement
-          </button>
-        </div>
-        <div className="spritePosition">
-          Sprite Position:
-          <pre>{`{\n  x: ${spritePosition.x}\n  y: ${spritePosition.y}\n}`}</pre>
-        </div>
-        <div>
-          <button className="button" onClick={addSprite}>
-            Add New Sprite
-          </button>
-        </div>
-      </div>
+    <div className="w-screen h-screen overflow-hidden">
+      <FlexLayout.Layout model={model} factory={factory} />
     </div>
   );
-}
+};
 
 export default App;
