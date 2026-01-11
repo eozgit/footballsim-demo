@@ -32,7 +32,8 @@
     "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"*.{js,mjs,json}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"*.{js,mjs,json}\"",
     "type-check": "tsc --noEmit",
-    "xray": "npx -y -p ts-morph node scripts/xray.js"
+    "xray": "npx -y -p ts-morph node scripts/xray.js",
+    "snapshot": "npx -y -p ts-morph node scripts/generate-context.js"
   },
   "dependencies": {
     "flexlayout-react": "^0.8.17",
