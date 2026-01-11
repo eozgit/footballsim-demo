@@ -1,27 +1,64 @@
 /* global self */
 import { initiateGame, MatchDetails, playIteration, Team } from 'footballsim';
 
-// We keep the matchState in the worker's scope
 let matchState: MatchDetails;
+let isRunning = false;
+
+// --- CONFIGURATION ---
+const THROTTLE_MS = 100; // Aim for 10 iterations per second
+
+const runSimulation = async (): Promise<void> => {
+  if (!isRunning || !matchState) return;
+
+  const startTime = performance.now();
+
+  // 1. Execute Logic
+  matchState = await playIteration(matchState);
+
+  const endTime = performance.now();
+  const logicDuration = endTime - startTime;
+
+  // 2. Report State + Monitoring Data
+  self.postMessage({
+    type: 'STATE_UPDATED',
+    state: matchState,
+    monitor: {
+      logicDuration: logicDuration.toFixed(2), // How long the math took
+      idleTarget: THROTTLE_MS,
+    },
+  });
+
+  // 3. Schedule next run based on throttle
+  // We use setTimeout to ensure we don't stack calls if math gets heavy
+  setTimeout(runSimulation, THROTTLE_MS);
+};
 
 self.onmessage = async (e: MessageEvent): Promise<void> => {
   const { type, data } = e.data as { type: string; data: unknown };
 
   switch (type) {
     case 'INIT_MATCH': {
-      // data contains { teamA, teamB } from your JSON files
       const pitchDetails = { pitchHeight: 1050, pitchWidth: 680, goalWidth: 90 };
       const { teamA, teamB } = data as { teamA: Team; teamB: Team };
+
       matchState = await initiateGame(teamA, teamB, pitchDetails);
-      console.log('INIT!!!', matchState);
+      isRunning = true;
+
       self.postMessage({ type: 'MATCH_INITIALIZED', state: matchState });
+
+      // Kick off the independent loop
+      await runSimulation();
       break;
     }
-    case 'PLAY_TICK':
-      if (matchState) {
-        // Returns the next state based on the current one
-        matchState = await playIteration(matchState);
-        self.postMessage({ type: 'STATE_UPDATED', state: matchState });
+
+    case 'PAUSE_MATCH':
+      isRunning = false;
+      break;
+
+    case 'RESUME_MATCH':
+      if (!isRunning) {
+        isRunning = true;
+        await runSimulation();
       }
       break;
 
