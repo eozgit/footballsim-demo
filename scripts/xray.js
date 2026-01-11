@@ -1,3 +1,4 @@
+/* global console, process */
 import { execSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
@@ -12,6 +13,7 @@ const loadConfig = (filePath) => {
   const clean = raw
     .replace(/\\"|"(?:\\"|[^"])*"|(\/\/.*|\/\*[\s\S]*?\*\/)/g, (m, g) => g ? "" : m)
     .replace(/,(?=\s*[}\]])/g, "")
+    // eslint-disable-next-line no-control-regex
     .replace(/[\x00-\x1F\x7F-\x9F]/g, "");
   return JSON.parse(clean);
 };
@@ -19,7 +21,7 @@ const loadConfig = (filePath) => {
 let tsMorph;
 try {
   tsMorph = require('ts-morph');
-} catch (e) {
+} catch {
   console.log("🛡️  X-Ray: Bootstrapping environment...");
   execSync('npm install ts-morph --no-save', { stdio: 'inherit' });
   tsMorph = require('ts-morph');
@@ -36,7 +38,7 @@ const getSnapshot = () => {
   return {
     timestamp: new Date().toISOString(),
     health: {
-      tsc: (() => { try { execSync('npm run type-check'); return "OK"; } catch (e) { return "ERRORS"; } })()
+      tsc: (() => { try { execSync('npm run type-check'); return "OK"; } catch { return "ERRORS"; } })()
     },
     hardening: {
       strict: tsconfig.compilerOptions.strict,

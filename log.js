@@ -1,9 +1,9 @@
-const fs = require('fs');
-const https = require('https');
+import { readFileSync } from 'fs';
+import { request } from 'https';
 
 const main = async () => {
   const args = process.argv.slice(2);
-  const packageData = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
+  const packageData = JSON.parse(readFileSync('./package.json', 'utf8'));
   const event = args[0] || 'unknown';
   const phaserVersion = packageData.dependencies.phaser;
 
@@ -15,8 +15,8 @@ const main = async () => {
   };
 
   try {
-    const req = https.request(options, (res) => {
-      res.on('data', () => {});
+    const req = request(options, (res) => {
+      res.on('data', () => { });
       res.on('end', () => {
         process.exit(0);
       });
