@@ -1,0 +1,221 @@
+{
+  "name": "Galatasaray 1999-00",
+  "description": "The historic UEFA Cup and UEFA Super Cup winning squad, widely considered the greatest Turkish club side ever.",
+  "primaryColour": "Crimson",
+  "secondaryColour": "Gold",
+  "awayColour": "Black",
+  "rating": 89,
+  "teamID": "GS_LEGEND_2000",
+  "intent": "attacking",
+  "players": [
+    {
+      "name": "Cláudio Taffarel",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "88",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "25",
+        "saving": "92",
+        "agility": "85",
+        "strength": "80",
+        "penalty_taking": "60",
+        "jumping": "285"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [340, 1000]
+    },
+    {
+      "name": "Capone",
+      "position": "RB",
+      "shirtNumber": 35,
+      "rating": "81",
+      "skill": {
+        "passing": "76",
+        "shooting": "70",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "78",
+        "strength": "82",
+        "penalty_taking": "65",
+        "jumping": "438"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [580, 800]
+    },
+    {
+      "name": "Gheorghe Popescu",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "87",
+      "skill": {
+        "passing": "88",
+        "shooting": "75",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "72",
+        "strength": "86",
+        "penalty_taking": "92",
+        "jumping": "440"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [420, 850]
+    },
+    {
+      "name": "Bülent Korkmaz",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "86",
+      "skill": {
+        "passing": "70",
+        "shooting": "55",
+        "tackling": "94",
+        "saving": "10",
+        "agility": "68",
+        "strength": "95",
+        "penalty_taking": "50",
+        "jumping": "290"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [260, 850]
+    },
+    {
+      "name": "Hakan Ünsal",
+      "position": "LB",
+      "shirtNumber": 33,
+      "rating": "83",
+      "skill": {
+        "passing": "78",
+        "shooting": "74",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "86",
+        "strength": "84",
+        "penalty_taking": "55",
+        "jumping": "436"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [100, 800]
+    },
+    {
+      "name": "Okan Buruk",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "78",
+        "tackling": "75",
+        "saving": "12",
+        "agility": "92",
+        "strength": "74",
+        "penalty_taking": "65",
+        "jumping": "433"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [580, 650]
+    },
+    {
+      "name": "Suat Kaya",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "82",
+      "skill": {
+        "passing": "82",
+        "shooting": "68",
+        "tackling": "86",
+        "saving": "15",
+        "agility": "75",
+        "strength": "78",
+        "penalty_taking": "60",
+        "jumping": "429"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [420, 600]
+    },
+    {
+      "name": "Emre Belözoğlu",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "83",
+      "skill": {
+        "passing": "86",
+        "shooting": "78",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "88",
+        "strength": "70",
+        "penalty_taking": "75",
+        "jumping": "431"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [260, 600]
+    },
+    {
+      "name": "Gheorghe Hagi",
+      "position": "AM",
+      "shirtNumber": 10,
+      "rating": "94",
+      "skill": {
+        "passing": "98",
+        "shooting": "96",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "90",
+        "strength": "78",
+        "penalty_taking": "95",
+        "jumping": "426"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [340, 500]
+    },
+    {
+      "name": "Arif Erdem",
+      "position": "ST",
+      "shirtNumber": 6,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "85",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "88",
+        "strength": "72",
+        "penalty_taking": "82",
+        "jumping": "438"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [280, 520]
+    },
+    {
+      "name": "Hakan Şükür",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "89",
+      "skill": {
+        "passing": "75",
+        "shooting": "92",
+        "tackling": "45",
+        "saving": "12",
+        "agility": "78",
+        "strength": "90",
+        "penalty_taking": "85",
+        "jumping": "305"
+      },
+      "fitness": 100,
+      "injured": false,
+      "currentPOS": [400, 520]
+    }
+  ]
+}
