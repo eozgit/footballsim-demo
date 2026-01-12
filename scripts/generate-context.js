@@ -116,7 +116,7 @@ const getLogicNodes = () => {
   const nodes = {};
   project.getSourceFiles().forEach(sf => {
     const rel = path.relative(ROOT, sf.getFilePath());
-    if (!rel.startsWith('src/')) return;
+    if (!rel.startsWith('src/') || rel.includes('.test.') || rel.includes('src/test/')) return;
 
     const items = sf.getDescendantsOfKind(SyntaxKind.FunctionDeclaration)
       .concat(sf.getDescendantsOfKind(SyntaxKind.MethodDeclaration))

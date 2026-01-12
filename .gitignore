@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 project-xray.json
+
+/coverage

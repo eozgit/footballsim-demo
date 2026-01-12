@@ -1,8 +1,17 @@
-echo "Running Modularity Check..."
-npm run check:circ || exit 1
+echo "\n🔍 \033[1m[1/4] ANALYZING ARCHITECTURE\033[0m"
+echo "   ↳ Checking for circular dependencies..."
+npm run check:circ || { echo "❌ \033[31mDEATH SPIRAL DETECTED: Circular dependencies found!\033[0m"; exit 1; }
 
-echo "Running Type Check..."
-npm run type-check || exit 1
+echo "\n🛡️  \033[1m[2/4] VALIDATING TYPES\033[0m"
+echo "   ↳ Compiling TypeScript..."
+npm run type-check || { echo "❌ \033[31mTYPE SHIFT DETECTED: Compilation failed!\033[0m"; exit 1; }
 
-echo "Running Linting..."
-npx lint-staged || exit 1
+echo "\n🧪 \033[1m[3/4] RUNNING ENGINE TESTS\033[0m"
+echo "   ↳ Executing Vitest suite..."
+npm run test:run || { echo "❌ \033[31mENGINE STALL: Tests failed!\033[0m"; exit 1; }
+
+echo "\n🧹 \033[1m[4/4] POLISHING SOURCE\033[0m"
+echo "   ↳ Linting staged files..."
+npx lint-staged || { echo "❌ \033[31mSTAIN DETECTED: Linting issues found!\033[0m"; exit 1; }
+
+echo "\n✅ \033[32m\033[1mSYSTEM READY: Commit Authorized.\033[0m\n"
