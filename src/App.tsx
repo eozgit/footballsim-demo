@@ -3,6 +3,7 @@ import * as FlexLayout from 'flexlayout-react';
 import 'flexlayout-react/style/dark.css';
 import { PhaserGame, IRefPhaserGame } from './PhaserGame';
 import { useSimulationStore } from './bridge/useSimulationStore';
+import { TerminalLog } from './components/TerminalLog'; // adjust path as needed
 
 const layoutConfig: FlexLayout.IJsonModel = {
   global: { tabEnableClose: false, tabSetTabLocation: 'top' },
@@ -63,11 +64,7 @@ export const App = (): JSX.Element => {
             </div>
           );
         case 'telemetry':
-          return (
-            <div className="p-2 font-mono text-xs text-green-500 bg-black h-full">
-              Waiting for engine data...
-            </div>
-          );
+          return <TerminalLog />;
         default:
           return null;
       }

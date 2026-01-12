@@ -2,6 +2,7 @@ import { GameObjects, Scene } from 'phaser';
 import { EventBus } from '../EventBus';
 import SimWorker from '../simulation.worker?worker';
 import { MatchDetails, Team } from '../../../../fse1/dist/lib/types';
+import { useSimulationStore } from '../../bridge/useSimulationStore';
 
 export class MatchScene extends Scene {
   private worker!: Worker;
@@ -45,7 +46,14 @@ export class MatchScene extends Scene {
 
     this.worker.onmessage = (e: MessageEvent): void => {
       const { type, state } = e.data as { type: string; state: MatchDetails };
-      if (type === 'STATE_UPDATED') this.syncVisuals(state);
+      if (type === 'STATE_UPDATED') {
+        this.syncVisuals(state);
+
+        // Push the new logs to the React store
+        if (state.iterationLog && state.iterationLog.length > 0) {
+          useSimulationStore.getState().appendLogs(state.iterationLog);
+        }
+      }
     };
 
     EventBus.emit('current-scene-ready', this);
@@ -67,8 +75,8 @@ export class MatchScene extends Scene {
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
       // 1. Create the initial weighted pool
       const pool = [
-        { name: team.primaryColour, weight: 3 },
-        { name: team.secondaryColour, weight: 2 },
+        { name: team.primaryColour, weight: 5 },
+        { name: team.secondaryColour, weight: 4 },
         { name: team.awayColour, weight: 1 },
       ].filter((c): boolean => !!c.name);
 
