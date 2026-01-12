@@ -1,25 +1,29 @@
 {
-  "name": "template-react-ts",
+  "name": "footballsim-demo",
+  "description": "A real-time football simulation engine integrated with a React-based telemetry dashboard, featuring a multi-threaded Phaser visualization, Zustand state management, and virtualized diagnostic logging.",
   "type": "module",
-  "description": "A Phaser 3 TypeScript project template that demonstrates React communication and uses Vite for bundling.",
   "version": "1.1.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phaserjs/template-react-ts.git"
+    "url": "git+https://github.com/eozgit/footballsim-demo.git"
   },
   "author": "Phaser Studio <support@phaser.io> (https://phaser.io/)",
   "license": "MIT",
   "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
-  "bugs": {
-    "url": "https://github.com/phaserjs/template-react-ts/issues"
-  },
-  "homepage": "https://github.com/phaserjs/template-react-ts#readme",
+  "homepage": "https://github.com/eozgit/footballsim",
   "keywords": [
-    "phaser",
-    "phaser3",
-    "react",
-    "vite",
-    "typescript"
+    "football-simulation",
+    "phaser-ce",
+    "react-19",
+    "web-worker",
+    "telemetry-dashboard",
+    "zustand",
+    "flexlayout-react",
+    "react-virtuoso",
+    "real-time-simulation",
+    "sports-engine",
+    "typescript",
+    "data-visualization"
   ],
   "scripts": {
     "dev": "node log.js dev & vite --config vite/config.dev.mjs",
