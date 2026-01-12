@@ -1,15 +1,15 @@
-import { GameObjects, Scene } from 'phaser';
-import { EventBus } from '../EventBus';
-import { toCanvasCoordinates, getBallVisualY, getBallScale } from '../../core/physics';
-import { MatchManager } from '../MatchManager';
-import { Team, MatchDetails } from 'footballsim';
+import { MatchDetails, Team } from 'footballsim';
+import { Scene } from 'phaser';
+import { toCanvasCoordinates } from '../../core/physics';
+import { Ball } from '../entities/Ball';
 import { Player } from '../entities/Player';
+import { EventBus } from '../EventBus';
+import { MatchManager } from '../MatchManager';
 
 export class MatchScene extends Scene {
   private manager!: MatchManager;
-  private ball!: GameObjects.Arc;
+  private ballEntity!: Ball;
   private playerSprites: Map<number, Player> = new Map();
-  private ballShadow!: GameObjects.Ellipse;
   private teamStyle: Map<number, { body: number; detail: number }> = new Map();
 
   private readonly SIM_STEP_MS = 100;
@@ -27,8 +27,7 @@ export class MatchScene extends Scene {
   create(): void {
     this.add.image(525, 340, 'pitch').setDisplaySize(1050, 680);
 
-    this.ballShadow = this.add.ellipse(-100, -100, 16, 8, 0x000000, 0.3).setDepth(1);
-    this.ball = this.add.circle(-100, -100, 8, 0xffffff).setDepth(3).setStrokeStyle(2, 0x000000);
+    this.ballEntity = new Ball(this);
 
     // Initialize manager and start worker
     this.manager = new MatchManager((state): void => this.syncVisuals(state));
@@ -88,30 +87,9 @@ export class MatchScene extends Scene {
   private syncVisuals(state: MatchDetails): void {
     if (this.playerSprites.size === 0) this.initPlayers(state);
 
-    // Ball & Shadow
     if (state.ball?.position) {
       const [engX, engY, engZ] = state.ball.position;
-      const { x, y } = toCanvasCoordinates(engX, engY);
-      const visualY = getBallVisualY(y, engZ ?? 0);
-      const scale = getBallScale(engZ ?? 0);
-
-      this.tweens.add({
-        targets: this.ball,
-        x,
-        y: visualY,
-        scale,
-        duration: this.SIM_STEP_MS,
-        overwrite: true,
-      });
-      this.tweens.add({
-        targets: this.ballShadow,
-        x,
-        y,
-        alpha: 0.3,
-        scale: scale * 0.8,
-        duration: this.SIM_STEP_MS,
-        overwrite: true,
-      });
+      this.ballEntity.updatePosition(engX, engY, engZ ?? 0, this.SIM_STEP_MS);
     }
 
     // Players
