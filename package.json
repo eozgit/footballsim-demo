@@ -42,7 +42,8 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:run": "vitest run",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "test:json": "vitest run --reporter=json --outputFile=test-results.json"
   },
   "dependencies": {
     "flexlayout-react": "^0.8.17",

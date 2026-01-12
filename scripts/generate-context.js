@@ -170,6 +170,36 @@ const getTscErrors = () => {
     return err.stdout?.toString()?.trim() || err.message;
   }
 };
+//
+// ------------------- Test Insights -------------------
+const getTestInsights = () => {
+  try {
+    // Run vitest to generate the report if it doesn't exist
+    execSync('npm run test:json', { stdio: 'ignore' });
+    const report = loadJsonClean('./test-results.json');
+
+    // Map results to a readable behavioral summary
+    const behaviorMap = report.testResults.map(file => ({
+      file: path.relative(ROOT, file.name),
+      status: file.status,
+      assertions: file.assertionResults.map(res => ({
+        behavior: res.ancestorTitles.join(' > ') + ' → ' + res.title,
+        passed: res.status === 'passed'
+      }))
+    }));
+
+    return {
+      summary: {
+        total: report.numTotalTests,
+        passed: report.numPassedTests,
+        failed: report.numFailedTests
+      },
+      behaviors: behaviorMap
+    };
+  } catch (err) {
+    return { status: "ERROR", message: "Ensure vitest is configured with JSON reporter." };
+  }
+};
 
 // ------------------- Main -------------------
 const run = async () => {
@@ -185,6 +215,7 @@ const run = async () => {
   writeSection(fd, 'config.eslint', await loadEslintConfig('./eslint.config.mjs'));
   writeSection(fd, 'directory-tree', JSON.stringify(buildDirTree(ROOT)));
   writeSection(fd, 'function-graph', JSON.stringify(getLogicNodes()));
+  writeSection(fd, 'test-behavior-map', JSON.stringify(getTestInsights()));
   writeSection(fd, 'config.circular-deps', JSON.stringify(getCircularDeps()));
   writeSection(fd, 'git-recent-commits', JSON.stringify(getRecentGitCommits()));
   writeSection(fd, 'tsc-errors', getTscErrors());
