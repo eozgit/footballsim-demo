@@ -3,11 +3,12 @@ import { EventBus } from '../EventBus';
 import { toCanvasCoordinates, getBallVisualY, getBallScale } from '../../core/physics';
 import { MatchManager } from '../MatchManager';
 import { Team, MatchDetails } from 'footballsim';
+import { Player } from '../entities/Player';
 
 export class MatchScene extends Scene {
   private manager!: MatchManager;
   private ball!: GameObjects.Arc;
-  private playerSprites: Map<number, GameObjects.Container> = new Map();
+  private playerSprites: Map<number, Player> = new Map();
   private ballShadow!: GameObjects.Ellipse;
   private teamStyle: Map<number, { body: number; detail: number }> = new Map();
 
@@ -24,6 +25,8 @@ export class MatchScene extends Scene {
   }
 
   create(): void {
+    this.add.image(525, 340, 'pitch').setDisplaySize(1050, 680);
+
     this.ballShadow = this.add.ellipse(-100, -100, 16, 8, 0x000000, 0.3).setDepth(1);
     this.ball = this.add.circle(-100, -100, 8, 0xffffff).setDepth(3).setStrokeStyle(2, 0x000000);
 
@@ -64,21 +67,20 @@ export class MatchScene extends Scene {
 
   private initPlayers(state: MatchDetails): void {
     this.setTeamStyles(state);
+
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
       const style = this.teamStyle.get(team.teamID)!;
-      team.players.forEach((player): void => {
-        const bodyColor = player.position === 'GK' ? 0x00ff00 : style.body;
-        const circle = this.add.circle(0, 0, 15, bodyColor).setStrokeStyle(3, style.detail);
-        const text = this.add
-          .text(0, 0, player.shirtNumber.toString(), {
-            fontSize: '14px',
-            color: '#000',
-            fontStyle: 'bold',
-          })
-          .setOrigin(0.5);
 
-        const container = this.add.container(-100, -100, [circle, text]).setDepth(2);
-        this.playerSprites.set(player.playerID, container);
+      team.players.forEach((p): void => {
+        const player = new Player(
+          this,
+          -100,
+          -100, // Initial off-screen pos
+          p.shirtNumber.toString(),
+          style,
+          p.position === 'GK'
+        );
+        this.playerSprites.set(p.playerID, player);
       });
     });
   }
@@ -115,16 +117,11 @@ export class MatchScene extends Scene {
     // Players
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
       team.players.forEach((p): void => {
-        const container = this.playerSprites.get(p.playerID);
-        if (container && p.currentPOS[0] !== 'NP') {
+        const sprite = this.playerSprites.get(p.playerID);
+        if (sprite && p.currentPOS[0] !== 'NP') {
           const { x, y } = toCanvasCoordinates(p.currentPOS[0], p.currentPOS[1]);
-          this.tweens.add({
-            targets: container,
-            x,
-            y,
-            duration: this.SIM_STEP_MS,
-            overwrite: true,
-          });
+          // Change moveTo to updatePosition here
+          sprite.updatePosition(x, y, this.SIM_STEP_MS);
         }
       });
     });

@@ -1,8 +1,11 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
 
-echo "--- 🛡️  MODULARITY CHECK ---"
+echo "Running Modularity Check..."
 npm run check:circ || exit 1
 
-echo "--- 💅 LINTING & FORMATTING ---"
-npm exec lint-staged
+echo "Running Type Check..."
+npm run type-check || exit 1
+
+echo "Running Linting..."
+npx lint-staged || exit 1
