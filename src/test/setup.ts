@@ -1,6 +1,19 @@
 import '@testing-library/jest-dom';
-import { vi } from 'vitest';
+import { beforeEach, vi } from 'vitest';
+import { useSimulationStore } from '../bridge/useSimulationStore';
 
+beforeEach(() => {
+  // Reset Vitest mocks
+  vi.clearAllMocks();
+
+  // Reset the Zustand store to its initial state
+  useSimulationStore.setState({
+    teams: { home: 'HOME', away: 'AWAY' },
+    score: { home: 0, away: 0 },
+    logs: [],
+    isPaused: false,
+  });
+});
 // Mock Phaser since it requires a Canvas which JSDOM doesn't fully support
 vi.mock('phaser', () => ({
   default: {
