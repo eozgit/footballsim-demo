@@ -31,6 +31,21 @@ const { parse } = require('@babel/parser');
 const traverse = require('@babel/traverse').default;
 
 // ------------------- Utilities -------------------
+const getCircularDeps = () => {
+  try {
+    // We run madge and capture the JSON output for cleaner parsing
+    const output = execSync('npx madge --circular --json --extensions ts ./src').toString();
+    const circular = JSON.parse(output);
+    return {
+      count: circular.length,
+      dependencies: circular,
+      status: circular.length === 0 ? "PASSED" : "FAILED"
+    };
+  } catch (err) {
+    return { status: "ERROR", message: err.message };
+  }
+};
+
 const writeSection = (fd, section, content) => {
   fs.writeSync(fd, `@section ${section}\n${content}\n`);
 };
@@ -165,6 +180,7 @@ const run = async () => {
   writeSection(fd, 'config.eslint', await loadEslintConfig('./eslint.config.mjs'));
   writeSection(fd, 'directory-tree', JSON.stringify(buildDirTree(ROOT)));
   writeSection(fd, 'function-graph', JSON.stringify(getLogicNodes()));
+  writeSection(fd, 'config.circular-deps', JSON.stringify(getCircularDeps()));
   writeSection(fd, 'git-recent-commits', JSON.stringify(getRecentGitCommits()));
   writeSection(fd, 'tsc-errors', getTscErrors());
 

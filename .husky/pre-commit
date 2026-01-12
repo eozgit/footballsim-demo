@@ -1,2 +1,8 @@
-npx lint-staged
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
+echo "--- 🛡️  MODULARITY CHECK ---"
+npm run check:circ || exit 1
+
+echo "--- 💅 LINTING & FORMATTING ---"
+npm exec lint-staged
