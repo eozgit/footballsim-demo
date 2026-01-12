@@ -16,7 +16,7 @@ const main = async () => {
 
   try {
     const req = request(options, (res) => {
-      res.on('data', () => { });
+      res.on('data', () => {});
       res.on('end', () => {
         process.exit(0);
       });

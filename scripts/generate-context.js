@@ -1,4 +1,3 @@
-
 /* global console, process */
 /* generate-context.mjs
  * Compact AI-readable snapshot of the project
@@ -8,12 +7,28 @@
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
-import { Project, SyntaxKind } from 'ts-morph';
-import { parse } from '@babel/parser';
-import traverse from '@babel/traverse';
+import { createRequire } from 'module';
 
+const require = createRequire(import.meta.url);
 const ROOT = process.cwd();
 const CONTEXT_FILE = path.join(ROOT, 'context.txt');
+
+// ------------------- Bootstrapper -------------------
+const ensureDeps = () => {
+  try {
+    require.resolve('ts-morph');
+    require.resolve('@babel/parser');
+    require.resolve('@babel/traverse');
+  } catch {
+    console.log("🛡️  Snapshot: Bootstrapping environment (installing ts-morph, babel)...");
+    execSync('npm install ts-morph @babel/parser @babel/traverse --no-save', { stdio: 'inherit' });
+  }
+};
+
+ensureDeps();
+const { Project, SyntaxKind } = require('ts-morph');
+const { parse } = require('@babel/parser');
+const traverse = require('@babel/traverse').default;
 
 // ------------------- Utilities -------------------
 const writeSection = (fd, section, content) => {
@@ -33,47 +48,23 @@ const loadJsonClean = (filePath) => {
 // ------------------- ESLint Config Loader -------------------
 const loadEslintConfig = async (filePath) => {
   try {
-    const imported = await import(filePath);
+    const absolutePath = path.resolve(filePath);
+    const imported = await import(`file://${absolutePath}?update=${Date.now()}`);
     const cfg = imported.default || imported;
-    if (typeof cfg !== 'object') throw new Error('Config not object');
-    return JSON.stringify(cfg);
+    return JSON.stringify(cfg, (_key, value) => typeof value === 'function' ? '[Function]' : value);
   } catch {
     try {
       const raw = fs.readFileSync(filePath, 'utf8');
       const ast = parse(raw, { sourceType: 'module', plugins: ['importMeta'] });
-      let objExp = null;
+      let extracted = "COULD_NOT_SERIALIZE";
       traverse(ast, {
-        ExportDefaultDeclaration({ node }) {
-          if (node.declaration.type === 'CallExpression') {
-            for (const arg of node.declaration.arguments)
-              if (arg.type === 'ObjectExpression') objExp = arg;
-          } else if (node.declaration.type === 'ObjectExpression') {
-            objExp = node.declaration;
-          }
+        ExportDefaultDeclaration(p) {
+          extracted = raw.substring(p.node.start, p.node.end);
         }
       });
-      if (!objExp) throw new Error('Cannot extract ESLint config');
-      const convert = (obj) => {
-        const result = {};
-        for (const prop of obj.properties) {
-          if (prop.type !== 'ObjectProperty') continue;
-          const key = prop.key.name || prop.key.value;
-          let value = null;
-          switch (prop.value.type) {
-            case 'StringLiteral': value = prop.value.value; break;
-            case 'NumericLiteral': value = prop.value.value; break;
-            case 'BooleanLiteral': value = prop.value.value; break;
-            case 'ObjectExpression': value = convert(prop.value); break;
-            case 'ArrayExpression': value = prop.value.elements.map(e => e.value); break;
-            default: value = null;
-          }
-          result[key] = value;
-        }
-        return result;
-      };
-      return JSON.stringify(convert(objExp));
+      return extracted;
     } catch {
-      return 'ERROR: Failed to extract eslint.config.mjs. Ask user to verify plain object export.';
+      return 'ERROR: Failed to extract eslint.config.mjs.';
     }
   }
 };
@@ -84,7 +75,7 @@ const buildDirTree = (dir) => {
   const dirs = {};
   const files = [];
   for (const entry of entries) {
-    if (entry.name === 'node_modules' || entry.name === 'dist') continue;
+    if (['node_modules', 'dist', '.git'].includes(entry.name)) continue;
     const fullPath = path.join(dir, entry.name);
     if (entry.isDirectory()) dirs[entry.name] = buildDirTree(fullPath);
     else files.push(entry.name);
@@ -120,10 +111,7 @@ const getLogicNodes = () => {
     items.forEach(item => {
       const line = item.getStartLineNumber();
       const sym = item.getSymbol();
-      let name;
-      if (sym) name = sym.getName();
-      else if (item.getKindName() === 'ArrowFunction') name = `arrow@${line}`;
-      else name = `anon@${line}`;
+      let name = sym ? sym.getName() : (item.getKindName() === 'ArrowFunction' ? `arrow@${line}` : `anon@${line}`);
 
       const calls = item.getDescendantsOfKind(SyntaxKind.CallExpression)
         .map(getCalleeSequence)
@@ -132,7 +120,7 @@ const getLogicNodes = () => {
       if (calls.length > 0 || /^[A-Z]/.test(name)) {
         nodes[`${rel}:${name}`] = {
           category: /^[A-Z]/.test(name) ? 'UI_COMPONENT' : 'ENGINE_LOGIC',
-          calls
+          calls: [...new Set(calls)]
         };
       }
     });
@@ -150,15 +138,13 @@ const getRecentGitCommits = () => {
         return { hash, author, date, message };
       })
     };
-  } catch {
-    return { commits: [] };
-  }
+  } catch { return { commits: [] }; }
 };
 
 // ------------------- TS Errors -------------------
 const getTscErrors = () => {
   try {
-    const raw = execSync('tsc --noEmit', { stdio: 'pipe' }).toString();
+    const raw = execSync('npx tsc --noEmit', { stdio: 'pipe' }).toString();
     return raw.trim() ? raw.split('\n').map(l => l.trim()).join('; ') : 'No errors';
   } catch (err) {
     return err.stdout?.toString()?.trim() || err.message;
@@ -182,11 +168,8 @@ const run = async () => {
   writeSection(fd, 'git-recent-commits', JSON.stringify(getRecentGitCommits()));
   writeSection(fd, 'tsc-errors', getTscErrors());
 
-  if (fs.existsSync('README.md')) {
-    const readme = fs.readFileSync('README.md', 'utf8');
-    const head = readme.split('\n\n')[0];
-    writeSection(fd, 'readme-head', head);
-  }
+  const readme = fs.readFileSync('README.md', 'utf8');
+  writeSection(fd, 'readme-head', readme.split('\n\n')[0]);
 
   fs.closeSync(fd);
   console.log(`✅ AI context snapshot generated at ${CONTEXT_FILE}`);
