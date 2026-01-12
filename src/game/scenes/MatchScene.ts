@@ -5,12 +5,13 @@ import { Ball } from '../entities/Ball';
 import { Player } from '../entities/Player';
 import { EventBus } from '../EventBus';
 import { MatchManager } from '../MatchManager';
+import { TeamProvider } from '../services/TeamProvider';
 
 export class MatchScene extends Scene {
   private manager!: MatchManager;
   private ballEntity!: Ball;
+  private teamProvider!: TeamProvider; // New
   private playerSprites: Map<number, Player> = new Map();
-  private teamStyle: Map<number, { body: number; detail: number }> = new Map();
 
   private readonly SIM_STEP_MS = 100;
 
@@ -26,6 +27,8 @@ export class MatchScene extends Scene {
 
   create(): void {
     this.add.image(525, 340, 'pitch').setDisplaySize(1050, 680);
+
+    this.teamProvider = new TeamProvider(this.cache.json.get('colors') as Record<string, string>);
 
     this.ballEntity = new Ball(this);
 
@@ -45,36 +48,17 @@ export class MatchScene extends Scene {
     EventBus.emit('current-scene-ready', this);
   }
 
-  private getHexColor(name: string): number {
-    const hex = (this.cache.json.get('colors') as Record<string, string>)[name];
-    return hex ? parseInt(hex, 16) : 0xffffff;
-  }
-
-  private setTeamStyles(state: MatchDetails): void {
-    [state.kickOffTeam, state.secondTeam].forEach((team): void => {
-      const pool = [
-        { name: team.primaryColour, weight: 5 },
-        { name: team.secondaryColour, weight: 4 },
-      ].filter((c): boolean => !!c.name);
-
-      this.teamStyle.set(team.teamID, {
-        body: this.getHexColor(pool[0]?.name || 'White'),
-        detail: this.getHexColor(pool[1]?.name || 'Black'),
-      });
-    });
-  }
-
   private initPlayers(state: MatchDetails): void {
-    this.setTeamStyles(state);
+    const styles = this.teamProvider.getStyles(state);
 
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
-      const style = this.teamStyle.get(team.teamID)!;
+      const style = styles.get(team.teamID)!;
 
       team.players.forEach((p): void => {
         const player = new Player(
           this,
           -100,
-          -100, // Initial off-screen pos
+          -100,
           p.shirtNumber.toString(),
           style,
           p.position === 'GK'
@@ -87,18 +71,18 @@ export class MatchScene extends Scene {
   private syncVisuals(state: MatchDetails): void {
     if (this.playerSprites.size === 0) this.initPlayers(state);
 
+    // Ball sync...
     if (state.ball?.position) {
       const [engX, engY, engZ] = state.ball.position;
       this.ballEntity.updatePosition(engX, engY, engZ ?? 0, this.SIM_STEP_MS);
     }
 
-    // Players
+    // Player sync...
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
       team.players.forEach((p): void => {
         const sprite = this.playerSprites.get(p.playerID);
         if (sprite && p.currentPOS[0] !== 'NP') {
           const { x, y } = toCanvasCoordinates(p.currentPOS[0], p.currentPOS[1]);
-          // Change moveTo to updatePosition here
           sprite.updatePosition(x, y, this.SIM_STEP_MS);
         }
       });
