@@ -1,17 +1,14 @@
 import { GameObjects, Scene } from 'phaser';
 import { EventBus } from '../EventBus';
-import SimWorker from '../simulation.worker?worker';
-import { MatchDetails, Team } from '../../../../fse1/dist/lib/types';
-import { useSimulationStore } from '../../bridge/useSimulationStore';
 import { toCanvasCoordinates, getBallVisualY, getBallScale } from '../../core/physics';
+import { MatchManager } from '../MatchManager';
+import { Team, MatchDetails } from 'footballsim';
 
 export class MatchScene extends Scene {
-  private worker!: Worker;
-  private pitch!: GameObjects.Image;
+  private manager!: MatchManager;
   private ball!: GameObjects.Arc;
   private playerSprites: Map<number, GameObjects.Container> = new Map();
   private ballShadow!: GameObjects.Ellipse;
-  private colorMap: Record<string, string> = {};
   private teamStyle: Map<number, { body: number; detail: number }> = new Map();
 
   private readonly SIM_STEP_MS = 100;
@@ -21,149 +18,66 @@ export class MatchScene extends Scene {
   }
 
   preload(): void {
-    this.load.json('colors', 'assets/colors.json'); // Load the map
+    this.load.json('colors', 'assets/colors.json');
     this.load.json('GS2025', 'assets/teams/GS1905.json');
     this.load.json('GS2000', 'assets/teams/GS_LEGEND_2000.json');
   }
 
   create(): void {
-    this.pitch = this.add.image(525, 340, 'pitch');
-    this.pitch.setDisplaySize(1050, 680);
-
-    // Ball: Initialized as White with Black stroke
     this.ballShadow = this.add.ellipse(-100, -100, 16, 8, 0x000000, 0.3).setDepth(1);
-    this.ball = this.add.circle(-100, -100, 8, 0xffffff).setDepth(3);
-    this.ball.setStrokeStyle(2, 0x000000);
-    this.add.existing(this.ball);
+    this.ball = this.add.circle(-100, -100, 8, 0xffffff).setDepth(3).setStrokeStyle(2, 0x000000);
 
-    // Shadow: Initialized once
-    this.ballShadow = this.add.ellipse(-100, -100, 16, 8, 0x000000, 0.3);
+    // Initialize manager and start worker
+    this.manager = new MatchManager((state): void => this.syncVisuals(state));
 
-    this.worker = new SimWorker();
+    // CLEANUP LIGIC FOR HMR:
+    // This listener ensures that when Vite swaps this code, the worker is killed.
+    this.events.once('shutdown', (): void => {
+      this.manager.terminate();
+    });
+
     const teamA = this.cache.json.get('GS2025') as Team;
     const teamB = this.cache.json.get('GS2000') as Team;
-
-    this.worker.postMessage({ type: 'INIT_MATCH', data: { teamA, teamB } });
-
-    this.worker.onmessage = (e: MessageEvent): void => {
-      const { type, state } = e.data as { type: string; state: MatchDetails };
-
-      if (type === 'STATE_UPDATED' && state) {
-        this.syncVisuals(state);
-
-        const store = useSimulationStore.getState();
-
-        // 1. Defensively set Team Names
-        if (store.teams.home === 'HOME' && state.kickOffTeam?.name) {
-          store.setTeams(state.kickOffTeam.name, state.secondTeam?.name || 'AWAY');
-        }
-
-        // 2. Defensively Sync Score (Check if score exists and is an array)
-        if (
-          state.kickOffTeamStatistics.goals !== store.score.home ||
-          state.secondTeamStatistics.goals !== store.score.away
-        ) {
-          store.updateScore(state.kickOffTeamStatistics.goals, state.secondTeamStatistics.goals);
-        }
-
-        // 3. RESTORE LOGS: Call store even if showLogs is false
-        // (The store handles the filtering logic now)
-        if (state.iterationLog && state.iterationLog.length > 0) {
-          store.appendLogs(state.iterationLog);
-        }
-      }
-    };
+    this.manager.initMatch(teamA, teamB);
 
     EventBus.emit('current-scene-ready', this);
   }
 
   private getHexColor(name: string): number {
-    const hex = this.colorMap[name];
-
-    if (!hex) {
-      throw new Error(
-        `CRITICAL ERROR: Color "${name}" is not defined in public/assets/colors.json! Please add it.`
-      );
-    }
-
-    return parseInt(hex, 16);
+    const hex = (this.cache.json.get('colors') as Record<string, string>)[name];
+    return hex ? parseInt(hex, 16) : 0xffffff;
   }
 
   private setTeamStyles(state: MatchDetails): void {
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
-      // 1. Create the initial weighted pool
       const pool = [
         { name: team.primaryColour, weight: 5 },
         { name: team.secondaryColour, weight: 4 },
-        { name: team.awayColour, weight: 1 },
       ].filter((c): boolean => !!c.name);
 
-      // Helper function for weighted random selection
-      const pickFromPool = (currentPool: typeof pool): { name: string; weight: number } => {
-        const totalWeight = currentPool.reduce((sum, item): number => sum + item.weight, 0);
-        let random = Math.random() * totalWeight;
-
-        for (const item of currentPool) {
-          if (random < item.weight) return item;
-          random -= item.weight;
-        }
-        return currentPool[0];
-      };
-
-      // 2. Pick Color 1 (Body)
-      const first = pickFromPool(pool);
-
-      // 3. Remove Color 1 from the pool to pick Color 2 (Detail)
-      const remainingPool = pool.filter((c): boolean => c.name !== first.name);
-
-      let second;
-      if (remainingPool.length > 0) {
-        second = pickFromPool(remainingPool);
-      } else {
-        // Fallback if team only provided one color in JSON
-        const isWhite = first.name.toLowerCase() === 'white';
-        second = { name: isWhite ? 'Black' : 'White', weight: 0 };
-      }
-
       this.teamStyle.set(team.teamID, {
-        body: this.getHexColor(first.name),
-        detail: this.getHexColor(second.name),
+        body: this.getHexColor(pool[0]?.name || 'White'),
+        detail: this.getHexColor(pool[1]?.name || 'Black'),
       });
-
-      console.log(`Kit selection for ${team.name}: Body=${first.name}, Detail=${second.name}`);
     });
   }
 
   private initPlayers(state: MatchDetails): void {
-    this.colorMap = this.cache.json.get('colors') as Record<string, string>;
-    this.setTeamStyles(state); // Set team-wide colors first
-
-    const teams = [state.kickOffTeam, state.secondTeam];
-    const gkColors = ['LimeGreen', 'DeepSkyBlue', 'Gold', 'HotPink'];
-
-    teams.forEach((team): void => {
+    this.setTeamStyles(state);
+    [state.kickOffTeam, state.secondTeam].forEach((team): void => {
       const style = this.teamStyle.get(team.teamID)!;
-
       team.players.forEach((player): void => {
-        const isGK = player.position === 'GK';
-        const bodyColor = isGK
-          ? this.getHexColor(gkColors[Math.floor(Math.random() * gkColors.length)])
-          : style.body;
-        const detailColor = isGK ? 0x000000 : style.detail;
-
-        const circle = this.add.circle(0, 0, 15, bodyColor);
-        circle.setStrokeStyle(3, detailColor);
-
+        const bodyColor = player.position === 'GK' ? 0x00ff00 : style.body;
+        const circle = this.add.circle(0, 0, 15, bodyColor).setStrokeStyle(3, style.detail);
         const text = this.add
           .text(0, 0, player.shirtNumber.toString(), {
             fontSize: '14px',
-            color: `#${detailColor.toString(16).padStart(6, '0')}`,
+            color: '#000',
             fontStyle: 'bold',
           })
           .setOrigin(0.5);
 
-        const container = this.add.container(-100, -100, [circle, text]);
-        container.setDepth(2); // Ensure players are above the pitch
+        const container = this.add.container(-100, -100, [circle, text]).setDepth(2);
         this.playerSprites.set(player.playerID, container);
       });
     });
@@ -172,58 +86,43 @@ export class MatchScene extends Scene {
   private syncVisuals(state: MatchDetails): void {
     if (this.playerSprites.size === 0) this.initPlayers(state);
 
-    // Ball & Shadow Logic with Z-Height
+    // Ball & Shadow
     if (state.ball?.position) {
       const [engX, engY, engZ] = state.ball.position;
-      const ballZ = engZ ?? 0;
-
-      // 1. Get our base 2D ground coordinates
       const { x, y } = toCanvasCoordinates(engX, engY);
+      const visualY = getBallVisualY(y, engZ ?? 0);
+      const scale = getBallScale(engZ ?? 0);
 
-      // 2. Calculate visual offsets
-      const visualBallY = getBallVisualY(y, ballZ); // Lift the ball up
-      const heightScale = getBallScale(ballZ);
-
-      // Ball Tweens: Uses visualBallY (Lifted)
       this.tweens.add({
         targets: this.ball,
-        x: x,
-        y: visualBallY, // Fixed: Ball is lifted
-        scale: heightScale,
+        x,
+        y: visualY,
+        scale,
         duration: this.SIM_STEP_MS,
-        ease: 'Linear',
         overwrite: true,
       });
-
-      // Shadow Tweens: Uses y (Ground)
       this.tweens.add({
         targets: this.ballShadow,
-        x: x,
-        y: y, // Fixed: Shadow stays on the floor
-        alpha: Math.max(0, 0.4 - ballZ / 200), // Stick to ballZ for fade
-        scale: heightScale * 0.8,
+        x,
+        y,
+        alpha: 0.3,
+        scale: scale * 0.8,
         duration: this.SIM_STEP_MS,
-        ease: 'Linear',
         overwrite: true,
       });
     }
 
-    // Players positioning (using containers)
+    // Players
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
       team.players.forEach((p): void => {
-        const [curX, curY] = p.currentPOS;
-        if (curX === 'NP') {
-          throw new Error('No player position!');
-        }
         const container = this.playerSprites.get(p.playerID);
-        if (container) {
-          const { x, y } = toCanvasCoordinates(curX, curY);
+        if (container && p.currentPOS[0] !== 'NP') {
+          const { x, y } = toCanvasCoordinates(p.currentPOS[0], p.currentPOS[1]);
           this.tweens.add({
             targets: container,
-            x: x,
-            y: y,
+            x,
+            y,
             duration: this.SIM_STEP_MS,
-            ease: 'Linear',
             overwrite: true,
           });
         }
