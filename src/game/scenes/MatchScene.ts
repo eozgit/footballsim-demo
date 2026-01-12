@@ -46,13 +46,28 @@ export class MatchScene extends Scene {
 
     this.worker.onmessage = (e: MessageEvent): void => {
       const { type, state } = e.data as { type: string; state: MatchDetails };
-      if (type === 'STATE_UPDATED') {
+
+      if (type === 'STATE_UPDATED' && state) {
         this.syncVisuals(state);
 
-        // 🔥 Check the flag BEFORE calling the store
-        // This prevents the function call and state-selector overhead
         const store = useSimulationStore.getState();
-        if (store.showLogs && state.iterationLog?.length > 0) {
+
+        // 1. Defensively set Team Names
+        if (store.teams.home === 'HOME' && state.kickOffTeam?.name) {
+          store.setTeams(state.kickOffTeam.name, state.secondTeam?.name || 'AWAY');
+        }
+
+        // 2. Defensively Sync Score (Check if score exists and is an array)
+        if (
+          state.kickOffTeamStatistics.goals !== store.score.home ||
+          state.secondTeamStatistics.goals !== store.score.away
+        ) {
+          store.updateScore(state.kickOffTeamStatistics.goals, state.secondTeamStatistics.goals);
+        }
+
+        // 3. RESTORE LOGS: Call store even if showLogs is false
+        // (The store handles the filtering logic now)
+        if (state.iterationLog && state.iterationLog.length > 0) {
           store.appendLogs(state.iterationLog);
         }
       }

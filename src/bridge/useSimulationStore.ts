@@ -6,11 +6,15 @@ interface SimulationState {
   logs: string[];
   showLogs: boolean;
   totalLogsSeen: number;
+  score: { home: number; away: number };
+  teams: { home: string; away: string };
   setPlaying: (playing: boolean) => void;
   appendLogs: (newLogs: string[]) => void;
   toggleLogs: () => void;
+  setTeams: (home: string, away: string) => void;
+  updateScore: (home: number, away: number) => void;
 }
-
+// src/bridge/useSimulationStore.ts
 export const useSimulationStore = create<SimulationState>(
   (
     set
@@ -19,25 +23,69 @@ export const useSimulationStore = create<SimulationState>(
     showLogs: true;
     logs: never[];
     totalLogsSeen: number;
+    score: { home: number; away: number };
+    teams: { home: string; away: string };
     setPlaying: (playing: boolean) => void;
     toggleLogs: () => void;
+    setTeams: (home: string, away: string) => void;
+    updateScore: (home: number, away: number) => void;
     appendLogs: (newLogs: string[]) => void;
   } => ({
     isPlaying: false,
     showLogs: true,
     logs: [],
     totalLogsSeen: 0,
-    setPlaying: (playing: boolean): void => set({ isPlaying: playing }),
+    score: { home: 0, away: 0 },
+    teams: { home: 'HOME', away: 'AWAY' },
+
+    setPlaying: (playing): void => set({ isPlaying: playing }),
     toggleLogs: (): void => set((state): { showLogs: boolean } => ({ showLogs: !state.showLogs })),
-    appendLogs: (newLogs: string[]): void =>
-      set((state): SimulationState | { logs: string[]; totalLogsSeen: number } => {
-        // 🔥 CRITICAL: If logs are disabled, we exit immediately
-        if (!state.showLogs) return state;
+    setTeams: (home, away): void =>
+      set(
+        (
+          state
+        ): {
+          teams: { home: string; away: string };
+          isPlaying: boolean;
+          logs: string[];
+          showLogs: boolean;
+          totalLogsSeen: number;
+          score: { home: number; away: number };
+          setPlaying: (playing: boolean) => void;
+          appendLogs: (newLogs: string[]) => void;
+          toggleLogs: () => void;
+          setTeams: (home: string, away: string) => void;
+          updateScore: (home: number, away: number) => void;
+        } => ({ ...state, teams: { home, away } })
+      ),
+    updateScore: (home, away): void =>
+      set(
+        (
+          state
+        ): {
+          score: { home: number; away: number };
+          isPlaying: boolean;
+          logs: string[];
+          showLogs: boolean;
+          totalLogsSeen: number;
+          teams: { home: string; away: string };
+          setPlaying: (playing: boolean) => void;
+          appendLogs: (newLogs: string[]) => void;
+          toggleLogs: () => void;
+          setTeams: (home: string, away: string) => void;
+          updateScore: (home: number, away: number) => void;
+        } => ({ ...state, score: { home, away } })
+      ),
+
+    appendLogs: (newLogs): void =>
+      set((state): SimulationState => {
+        if (!state.showLogs || !newLogs.length) return state;
 
         const limit = 100;
         const combined = [...state.logs, ...newLogs];
 
         return {
+          ...state, // Critical: keep score/teams intact
           logs: combined.slice(-limit),
           totalLogsSeen: state.totalLogsSeen + newLogs.length,
         };

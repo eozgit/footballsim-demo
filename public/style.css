@@ -5,10 +5,32 @@
   padding: 0;
   overflow: hidden;
   background-color: #1a1a1a;
+  --font-console: 'JetBrains Mono', 'Fira Code', 'Ubuntu Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Ubuntu Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
 }
 
 /* Ensure Phaser canvas doesn't overflow its pane */
 canvas {
   max-width: 100%;
   max-height: 100%;
+}
+
+
+body, button, input, div {
+  font-family: var(--font-console);
+  letter-spacing: -0.02em;
+}
+
+/* Scoreboard-specific digital look */
+.scoreboard-font {
+  font-variant-numeric: tabular-nums;
+  text-shadow: 0 0 8px rgba(234, 179, 8, 0.4); /* Glow effect for yellow text */
+  letter-spacing: -0.05em;
+}
+
+
+
+body, button, .flexlayout__tab_button_content {
+  font-family: inherit !important;
+  -webkit-font-smoothing: antialiased;
 }

@@ -37,30 +37,48 @@ const layoutConfig: FlexLayout.IJsonModel = {
 };
 
 const model = FlexLayout.Model.fromJson(layoutConfig);
-// App.tsx
 const CommandDeck = (): JSX.Element => {
-  const isPlaying = useSimulationStore((state): boolean => state.isPlaying);
-  const showLogs = useSimulationStore((state): boolean => state.showLogs);
-  const toggleLogs = useSimulationStore((state): (() => void) => state.toggleLogs);
+  const { score, teams, showLogs, toggleLogs } = useSimulationStore();
 
   return (
-    <div className="p-4 bg-gray-900 text-white h-full flex flex-col gap-2">
-      <h3 className="text-blue-400 font-mono text-sm border-b border-gray-700 pb-2">
-        CORE_SYSTEMS: {isPlaying ? 'RUNNING' : 'IDLE'}
-      </h3>
-      <button className="mt-2 p-2 bg-blue-700 hover:bg-blue-600 rounded text-sm font-bold transition-colors">
-        INITIALIZE MATCH
-      </button>
-      <button
-        onClick={toggleLogs}
-        className={`p-2 w-full text-xs font-mono rounded transition-all ${
-          showLogs
-            ? 'bg-red-950 text-red-400 border border-red-900 hover:bg-red-900'
-            : 'bg-green-950 text-green-400 border border-green-900 hover:bg-green-900'
-        }`}
-      >
-        {showLogs ? 'TERMINATE_DUMP' : 'RESUME_DUMP'}
-      </button>
+    <div className="p-4 bg-gray-900 text-white h-full flex flex-col justify-between">
+      <div className="flex flex-col gap-4">
+        {/* SCOREBOARD SECTION */}
+        <div className="bg-black p-3 border-2 border-gray-800 rounded shadow-inner">
+          <div className="flex justify-between items-center mb-2">
+            <span className="w-2 h-2 rounded-full bg-red-600 animate-pulse"></span>
+          </div>
+
+          <div className="grid grid-cols-3 gap-2 items-center text-center">
+            <div className="flex flex-col">
+              <span className="text-xs font-bold truncate">{teams.home}</span>
+            </div>
+
+            {/* Dot Matrix Font Style Score */}
+            <div className="bg-gray-950 px-2 py-1 rounded border border-gray-800 font-mono text-2xl text-yellow-500 tabular-nums">
+              {score.home}:{score.away}
+            </div>
+
+            <div className="flex flex-col">
+              <span className="text-xs font-bold truncate">{teams.away}</span>
+            </div>
+          </div>
+        </div>
+
+        {/* CONTROLS */}
+        <button
+          onClick={toggleLogs}
+          className={`p-2 w-full text-xs font-mono rounded transition-all border ${
+            showLogs
+              ? 'bg-red-950 text-red-400 border-red-900 hover:bg-red-900'
+              : 'bg-green-950 text-green-400 border-green-900 hover:bg-green-900'
+          }`}
+        >
+          {showLogs ? 'TERMINATE_DUMP' : 'RESUME_DUMP'}
+        </button>
+      </div>
+
+      {/* METADATA FOOTER */}
       <div className="text-[10px] font-mono text-gray-500 border-t border-gray-800 pt-2">
         LAST_HMR_SYNC: {new Date().toLocaleTimeString()}
         <br />
