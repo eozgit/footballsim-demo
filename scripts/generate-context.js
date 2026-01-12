@@ -196,7 +196,7 @@ const getTestInsights = () => {
       },
       behaviors: behaviorMap
     };
-  } catch (err) {
+  } catch {
     return { status: "ERROR", message: "Ensure vitest is configured with JSON reporter." };
   }
 };
