@@ -49,9 +49,11 @@ export class MatchScene extends Scene {
       if (type === 'STATE_UPDATED') {
         this.syncVisuals(state);
 
-        // Push the new logs to the React store
-        if (state.iterationLog && state.iterationLog.length > 0) {
-          useSimulationStore.getState().appendLogs(state.iterationLog);
+        // 🔥 Check the flag BEFORE calling the store
+        // This prevents the function call and state-selector overhead
+        const store = useSimulationStore.getState();
+        if (store.showLogs && state.iterationLog?.length > 0) {
+          store.appendLogs(state.iterationLog);
         }
       }
     };
