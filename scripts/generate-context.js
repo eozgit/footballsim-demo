@@ -124,16 +124,21 @@ const getLogicNodes = () => {
         .map(v => v.getInitializerIfKind(SyntaxKind.ArrowFunction)).filter(Boolean));
 
     items.forEach(item => {
-      const line = item.getStartLineNumber();
+      const line = item.getStartLineNumber(); // Extract line number
       const sym = item.getSymbol();
-      let name = sym ? sym.getName() : (item.getKindName() === 'ArrowFunction' ? `arrow@${line}` : `anon@${line}`);
+
+      // Assign name or fallback to type
+      let name = sym ? sym.getName() : (item.getKindName() === 'ArrowFunction' ? `arrow` : `anon`);
+
+      // NEW KEY FORMAT: file/path.ts:functionName@lineNumber
+      const key = `${rel}:${name}@${line}`;
 
       const calls = item.getDescendantsOfKind(SyntaxKind.CallExpression)
         .map(getCalleeSequence)
         .filter(Boolean);
 
       if (calls.length > 0 || /^[A-Z]/.test(name)) {
-        nodes[`${rel}:${name}`] = {
+        nodes[key] = {
           category: /^[A-Z]/.test(name) ? 'UI_COMPONENT' : 'ENGINE_LOGIC',
           calls: [...new Set(calls)]
         };

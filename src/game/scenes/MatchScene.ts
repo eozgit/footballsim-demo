@@ -3,6 +3,7 @@ import { EventBus } from '../EventBus';
 import SimWorker from '../simulation.worker?worker';
 import { MatchDetails, Team } from '../../../../fse1/dist/lib/types';
 import { useSimulationStore } from '../../bridge/useSimulationStore';
+import { toCanvasCoordinates, getBallVisualY, getBallScale } from '../../core/physics';
 
 export class MatchScene extends Scene {
   private worker!: Worker;
@@ -175,28 +176,31 @@ export class MatchScene extends Scene {
     if (state.ball?.position) {
       const [engX, engY, engZ] = state.ball.position;
       const ballZ = engZ ?? 0;
-      const canvasX = engY;
-      const canvasY = engX;
 
-      const heightScale = 1 + ballZ / 100;
+      // 1. Get our base 2D ground coordinates
+      const { x, y } = toCanvasCoordinates(engX, engY);
 
-      // Ball Tweens (Lift and Scale)
+      // 2. Calculate visual offsets
+      const visualBallY = getBallVisualY(y, ballZ); // Lift the ball up
+      const heightScale = getBallScale(ballZ);
+
+      // Ball Tweens: Uses visualBallY (Lifted)
       this.tweens.add({
         targets: this.ball,
-        x: canvasX,
-        y: canvasY - ballZ,
+        x: x,
+        y: visualBallY, // Fixed: Ball is lifted
         scale: heightScale,
         duration: this.SIM_STEP_MS,
         ease: 'Linear',
         overwrite: true,
       });
 
-      // Shadow Tweens (Stays on ground, fades with height)
+      // Shadow Tweens: Uses y (Ground)
       this.tweens.add({
         targets: this.ballShadow,
-        x: canvasX,
-        y: canvasY,
-        alpha: Math.max(0, 0.4 - ballZ / 200),
+        x: x,
+        y: y, // Fixed: Shadow stays on the floor
+        alpha: Math.max(0, 0.4 - ballZ / 200), // Stick to ballZ for fade
         scale: heightScale * 0.8,
         duration: this.SIM_STEP_MS,
         ease: 'Linear',
@@ -207,12 +211,17 @@ export class MatchScene extends Scene {
     // Players positioning (using containers)
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
       team.players.forEach((p): void => {
+        const [curX, curY] = p.currentPOS;
+        if (curX === 'NP') {
+          throw new Error('No player position!');
+        }
         const container = this.playerSprites.get(p.playerID);
         if (container) {
+          const { x, y } = toCanvasCoordinates(curX, curY);
           this.tweens.add({
             targets: container,
-            x: p.currentPOS[1],
-            y: p.currentPOS[0],
+            x: x,
+            y: y,
             duration: this.SIM_STEP_MS,
             ease: 'Linear',
             overwrite: true,
