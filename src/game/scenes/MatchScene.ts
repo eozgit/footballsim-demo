@@ -26,16 +26,13 @@ export class MatchScene extends Scene {
     this.add.image(525, 340, 'pitch').setDisplaySize(1050, 680);
 
     this.teamProvider = new TeamProvider(this.cache.json.get('colors') as Record<string, string>);
-
     this.entities = new FieldEntityManager(this, this.teamProvider);
 
-    // Initialize manager and start worker
+    // Standard instantiation (no useMemo)
     this.manager = new MatchManager((state): void => {
       this.entities.sync(state, this.SIM_STEP_MS);
     });
 
-    // CLEANUP LIGIC FOR HMR:
-    // This listener ensures that when Vite swaps this code, the worker is killed.
     this.events.once('shutdown', (): void => {
       this.manager.terminate();
     });
@@ -45,5 +42,26 @@ export class MatchScene extends Scene {
     this.manager.initMatch(teamA, teamB);
 
     EventBus.emit('current-scene-ready', this);
+  }
+
+  // Add this helper for external control
+  public toggleActive(playing: boolean): void {
+    if (playing) {
+      this.manager.resume();
+    } else {
+      this.manager.pause();
+    }
+  }
+  /**
+   * External bridge for the React UI to control simulation flow
+   */
+  public updateSimulationStatus(isPlaying: boolean): void {
+    if (!this.manager) return;
+
+    if (isPlaying) {
+      this.manager.resume();
+    } else {
+      this.manager.pause();
+    }
   }
 }

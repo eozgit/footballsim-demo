@@ -19,7 +19,7 @@ export const useSimulationStore = create<SimulationState>(
   (
     set
   ): {
-    isPlaying: false;
+    isPlaying: true;
     showLogs: true;
     logs: never[];
     totalLogsSeen: number;
@@ -31,7 +31,7 @@ export const useSimulationStore = create<SimulationState>(
     updateScore: (home: number, away: number) => void;
     appendLogs: (newLogs: string[]) => void;
   } => ({
-    isPlaying: false,
+    isPlaying: true,
     showLogs: true,
     logs: [],
     totalLogsSeen: 0,

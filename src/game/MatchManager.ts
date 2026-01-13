@@ -16,15 +16,19 @@ export class MatchManager {
   private setupWorkerListener(): void {
     this.worker.onmessage = (e: MessageEvent): void => {
       const { type, state } = e.data as { type: string; state: MatchDetails };
-
       if (type === 'STATE_UPDATED' && state) {
-        // Trigger Phaser Visuals
         this.onUpdateCallback(state);
-
-        // Trigger UI Sync via Bridge (Decoupled)
         SimulationBridge.sync(state);
       }
     };
+  }
+
+  public pause(): void {
+    this.worker.postMessage({ type: 'PAUSE_MATCH' });
+  }
+
+  public resume(): void {
+    this.worker.postMessage({ type: 'RESUME_MATCH' });
   }
 
   public initMatch(teamA: Team, teamB: Team): void {
@@ -33,6 +37,5 @@ export class MatchManager {
 
   public terminate(): void {
     this.worker?.terminate();
-    console.log('[SYSTEM] Simulation Worker Terminated');
   }
 }
