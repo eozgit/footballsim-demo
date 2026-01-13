@@ -4,6 +4,7 @@ import { Player } from '../entities/Player';
 import { Ball } from '../entities/Ball';
 import { TeamProvider } from './TeamProvider';
 import { toCanvasCoordinates } from '../../core/physics';
+import { useSimulationStore } from '../../bridge/useSimulationStore';
 
 export class FieldEntityManager {
   private scene: Scene;
@@ -28,7 +29,9 @@ export class FieldEntityManager {
       const [engX, engY, engZ] = state.ball.position;
       this.ball.updatePosition(engX, engY, engZ ?? 0, stepMs);
     }
-
+    const currentPitch = useSimulationStore.getState().pitchTexture;
+    const isSnow = currentPitch.toLowerCase().includes('snow');
+    this.ball.setSnowMode(isSnow);
     // 3. Sync Players
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
       team.players.forEach((p): void => {

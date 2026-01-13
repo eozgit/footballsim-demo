@@ -57,4 +57,16 @@ export class Ball {
       });
     }
   }
+  public setSnowMode(isSnow: boolean): void {
+    if (isSnow) {
+      // "DarkOrange" for high-visibility contrast without being too dark
+      this.sprite.setFillStyle(0xff8c00);
+      this.sprite.setStrokeStyle(2, 0x8b0000); // Keeping DarkRed border for edge definition
+      this.sprite.setDepth(12); // Highest depth, above everything
+    } else {
+      this.sprite.setFillStyle(0xffffff);
+      this.sprite.setStrokeStyle(2, 0x000000);
+      this.sprite.setDepth(3);
+    }
+  }
 }
