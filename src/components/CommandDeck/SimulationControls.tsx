@@ -1,5 +1,5 @@
 import { useControls, folder } from 'leva';
-import { useSimulationStore } from '../../bridge/useSimulationStore';
+import { PITCH_STYLES, useSimulationStore } from '../../bridge/useSimulationStore';
 import { StoreType } from 'leva/dist/declarations/src/types';
 
 // Accept store as a prop
@@ -34,7 +34,7 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
         },
         PITCH_STYLE: {
           value: pitchTexture,
-          options: ['default', 'checkered', 'crater', 'grass', 'snow', 'wear'],
+          options: PITCH_STYLES,
           label: 'SURFACE',
           onChange: (v: string): void => setPitchTexture(v),
         },

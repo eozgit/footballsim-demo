@@ -4,7 +4,7 @@ import { EventBus } from '../EventBus';
 import { MatchManager } from '../MatchManager';
 import { FieldEntityManager } from '../services/FieldEntityManager';
 import { TeamProvider } from '../services/TeamProvider';
-import { useSimulationStore } from '../../bridge/useSimulationStore';
+import { PITCH_STYLES, useSimulationStore } from '../../bridge/useSimulationStore';
 
 export class MatchScene extends Scene {
   private manager!: MatchManager;
@@ -22,9 +22,8 @@ export class MatchScene extends Scene {
     this.load.json('colors', 'assets/colors.json');
     this.load.json('GS2025', 'assets/teams/GS1905.json');
     this.load.json('GS2000', 'assets/teams/GS_LEGEND_2000.json');
-    const textures = ['default', 'checkered', 'crater', 'grass', 'snow', 'wear'];
-    textures.forEach((t): void => {
-      this.load.image(`pitch-${t}`, `assets/pitch/${t}.webp`);
+    PITCH_STYLES.forEach((style): void => {
+      this.load.image(`pitch-${style}`, `assets/pitch/${style}.webp`);
     });
   }
 
