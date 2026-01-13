@@ -5,7 +5,8 @@ import { StoreType } from 'leva/dist/declarations/src/types';
 // Accept store as a prop
 export const SimulationControls = ({ store }: { store: StoreType }): null => {
   // Extract playback state and setter alongside telemetry state
-  const { isPlaying, setPlaying, showLogs, toggleLogs } = useSimulationStore();
+  const { isPlaying, setPlaying, showLogs, toggleLogs, pitchTexture, setPitchTexture } =
+    useSimulationStore();
 
   useControls(
     {
@@ -30,6 +31,12 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
               toggleLogs();
             }
           },
+        },
+        PITCH_STYLE: {
+          value: pitchTexture,
+          options: ['default', 'checkered', 'crater', 'grass', 'snow', 'wear'],
+          label: 'SURFACE',
+          onChange: (v: string): void => setPitchTexture(v),
         },
       }),
     },

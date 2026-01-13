@@ -13,6 +13,8 @@ interface SimulationState {
   toggleLogs: () => void;
   setTeams: (home: string, away: string) => void;
   updateScore: (home: number, away: number) => void;
+  pitchTexture: string;
+  setPitchTexture: (texture: string) => void;
 }
 // src/bridge/useSimulationStore.ts
 export const useSimulationStore = create<SimulationState>(
@@ -30,6 +32,8 @@ export const useSimulationStore = create<SimulationState>(
     setTeams: (home: string, away: string) => void;
     updateScore: (home: number, away: number) => void;
     appendLogs: (newLogs: string[]) => void;
+    pitchTexture: string;
+    setPitchTexture: (texture: string) => void;
   } => ({
     isPlaying: true,
     showLogs: true,
@@ -37,7 +41,8 @@ export const useSimulationStore = create<SimulationState>(
     totalLogsSeen: 0,
     score: { home: 0, away: 0 },
     teams: { home: 'HOME', away: 'AWAY' },
-
+    pitchTexture: 'default',
+    setPitchTexture: (texture): void => set({ pitchTexture: texture }),
     setPlaying: (playing): void => set({ isPlaying: playing }),
     toggleLogs: (): void => set((state): { showLogs: boolean } => ({ showLogs: !state.showLogs })),
     setTeams: (home, away): void =>

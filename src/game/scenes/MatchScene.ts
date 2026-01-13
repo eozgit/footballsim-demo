@@ -4,12 +4,13 @@ import { EventBus } from '../EventBus';
 import { MatchManager } from '../MatchManager';
 import { FieldEntityManager } from '../services/FieldEntityManager';
 import { TeamProvider } from '../services/TeamProvider';
+import { useSimulationStore } from '../../bridge/useSimulationStore';
 
 export class MatchScene extends Scene {
   private manager!: MatchManager;
   private entities!: FieldEntityManager; // New delegated manager
   private teamProvider!: TeamProvider; // New
-
+  private pitchSprite!: Phaser.GameObjects.Image;
   private readonly SIM_STEP_MS = 100;
 
   constructor() {
@@ -20,10 +21,17 @@ export class MatchScene extends Scene {
     this.load.json('colors', 'assets/colors.json');
     this.load.json('GS2025', 'assets/teams/GS1905.json');
     this.load.json('GS2000', 'assets/teams/GS_LEGEND_2000.json');
+    const textures = ['default', 'checkered', 'crater', 'grass', 'snow', 'wear'];
+    textures.forEach((t): void => {
+      this.load.image(`pitch-${t}`, `assets/pitch/${t}.webp`);
+    });
   }
 
   create(): void {
-    this.add.image(525, 340, 'pitch').setDisplaySize(1050, 680);
+    const currentTexture = useSimulationStore.getState().pitchTexture;
+    this.pitchSprite = this.add
+      .image(525, 340, `pitch-${currentTexture}`)
+      .setDisplaySize(1050, 680);
 
     this.teamProvider = new TeamProvider(this.cache.json.get('colors') as Record<string, string>);
     this.entities = new FieldEntityManager(this, this.teamProvider);
@@ -62,6 +70,11 @@ export class MatchScene extends Scene {
       this.manager.resume();
     } else {
       this.manager.pause();
+    }
+  }
+  public updatePitchTexture(texture: string): void {
+    if (this.pitchSprite) {
+      this.pitchSprite.setTexture(`pitch-${texture}`);
     }
   }
 }
