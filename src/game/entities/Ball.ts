@@ -7,9 +7,6 @@ export class Ball {
   private shadow: GameObjects.Ellipse;
   private scene: Scene;
 
-  // DIAGNOSTIC ONLY: Remove after verifying Z-axis physics
-  private debugLabel: GameObjects.Text;
-
   constructor(scene: Scene) {
     this.scene = scene;
 
@@ -18,15 +15,6 @@ export class Ball {
 
     // Ball (Higher depth)
     this.sprite = scene.add.circle(-100, -100, 8, 0xffffff).setDepth(3).setStrokeStyle(2, 0x000000);
-
-    // TODO: DIAGNOSTIC ONLY - Display Z-coordinate near the ball
-    this.debugLabel = scene.add
-      .text(-100, -100, 'Z: 0', {
-        fontSize: '12px',
-        color: '#ffff00',
-        backgroundColor: '#000000',
-      })
-      .setDepth(10);
   }
 
   /**
@@ -68,18 +56,5 @@ export class Ball {
         overwrite: true,
       });
     }
-
-    // TODO: DIAGNOSTIC ONLY - Update debug label position and text
-    this.scene.tweens.add({
-      targets: this.debugLabel,
-      x: x + 15, // Offset slightly to the right
-      y: visualY - 15, // Offset slightly above
-      duration,
-      ease: 'Linear',
-      overwrite: true,
-      onUpdate: (): void => {
-        this.debugLabel.setText(`Z: ${engZ.toFixed(2)}`);
-      },
-    });
   }
 }

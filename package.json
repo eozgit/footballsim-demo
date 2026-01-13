@@ -48,6 +48,7 @@
   "dependencies": {
     "flexlayout-react": "^0.8.17",
     "footballsim": "/home/enis/Work/fse1",
+    "leva": "^0.10.1",
     "phaser": "^3.90.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
