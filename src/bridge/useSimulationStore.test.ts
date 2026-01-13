@@ -2,18 +2,6 @@ import { describe, it, expect, beforeEach } from 'vitest';
 import { useSimulationStore } from './useSimulationStore';
 
 describe('useSimulationStore', () => {
-  // Reset store before each test
-  beforeEach(() => {
-    const { getState } = useSimulationStore;
-    // Note: If you add a reset function to your store, use it here.
-    // Otherwise, we manually reset to default values.
-    useSimulationStore.setState({
-      logs: [],
-      score: { home: 0, away: 0 },
-      teams: { home: 'HOME', away: 'AWAY' },
-    });
-  });
-
   it('should update score correctly', () => {
     useSimulationStore.getState().updateScore(2, 1);
     expect(useSimulationStore.getState().score).toEqual({ home: 2, away: 1 });
@@ -26,5 +14,25 @@ describe('useSimulationStore', () => {
     const finalLogs = useSimulationStore.getState().logs;
     expect(finalLogs.length).toBe(100);
     expect(finalLogs[99]).toBe('Log 149'); // Should keep the latest ones
+  });
+  it('should not append logs if showLogs is false', () => {
+    useSimulationStore.setState({ showLogs: false });
+    useSimulationStore.getState().appendLogs(['Test Log']);
+    expect(useSimulationStore.getState().logs).toHaveLength(0);
+  });
+
+  it('should not append logs if input array is empty', () => {
+    useSimulationStore.getState().appendLogs([]);
+    expect(useSimulationStore.getState().totalLogsSeen).toBe(0);
+  });
+  it('should toggle logs visibility', () => {
+    const initial = useSimulationStore.getState().showLogs;
+    useSimulationStore.getState().toggleLogs();
+    expect(useSimulationStore.getState().showLogs).toBe(!initial);
+  });
+
+  it('should update playing state', () => {
+    useSimulationStore.getState().setPlaying(true);
+    expect(useSimulationStore.getState().isPlaying).toBe(true);
   });
 });

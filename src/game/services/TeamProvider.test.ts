@@ -25,4 +25,15 @@ describe('TeamProvider', () => {
     const styles = provider.getStyles(mockMatch);
     expect(styles.get(1)).toEqual({ body: 0xff0000, detail: 0x0000ff });
   });
+  it('should fallback to White and Black if colors are missing from state', () => {
+    const minimalistMatch = {
+      kickOffTeam: { teamID: 1 }, // missing primaryColour/secondaryColour
+      secondTeam: { teamID: 2 },
+    } as any;
+
+    const styles = provider.getStyles(minimalistMatch);
+    // getHexColor('White') -> 0xffffff, getHexColor('Black') -> 0xffffff (unless defined in mock)
+    // Note: Since 'Black' isn't in your mockColors, it hits the 0xffffff fallback
+    expect(styles.get(1)).toEqual({ body: 0xffffff, detail: 0xffffff });
+  });
 });

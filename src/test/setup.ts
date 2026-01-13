@@ -8,10 +8,12 @@ beforeEach(() => {
 
   // Reset the Zustand store to its initial state
   useSimulationStore.setState({
-    teams: { home: 'HOME', away: 'AWAY' },
-    score: { home: 0, away: 0 },
+    isPlaying: false, // Changed from isPaused
+    showLogs: true,
     logs: [],
-    isPaused: false,
+    totalLogsSeen: 0, // Added to prevent carry-over
+    score: { home: 0, away: 0 },
+    teams: { home: 'HOME', away: 'AWAY' },
   });
 });
 // Mock Phaser since it requires a Canvas which JSDOM doesn't fully support
