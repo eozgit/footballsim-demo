@@ -11,15 +11,17 @@ export class FieldEntityManager {
   private teamProvider: TeamProvider;
   private players: Map<number, Player> = new Map();
   private ball: Ball;
-  private shouldReroll: boolean = false;
+  private rerollFlag: { home: boolean; away: boolean } = { home: false, away: false };
 
   constructor(scene: Scene, teamProvider: TeamProvider) {
     this.scene = scene;
     this.teamProvider = teamProvider;
     this.ball = new Ball(scene);
-    window.addEventListener('reroll-kits', (): void => {
-      // We get the latest match state from the last sync or wait for next sync
-      this.shouldReroll = true;
+    window.addEventListener('reroll-home', (): void => {
+      this.rerollFlag.home = true;
+    });
+    window.addEventListener('reroll-away', (): void => {
+      this.rerollFlag.away = true;
     });
   }
 
@@ -62,10 +64,17 @@ export class FieldEntityManager {
         }
       });
     });
-    if (this.shouldReroll) {
+    if (this.rerollFlag.home || this.rerollFlag.away) {
+      const currentStyles = useSimulationStore.getState().kitStyles;
       const newKits = this.teamProvider.generateKitPair(state);
-      useSimulationStore.getState().setKitStyles(newKits.home, newKits.away);
-      this.shouldReroll = false;
+
+      useSimulationStore
+        .getState()
+        .setKitStyles(
+          this.rerollFlag.home ? newKits.home : currentStyles.home!,
+          this.rerollFlag.away ? newKits.away : currentStyles.away!
+        );
+      this.rerollFlag = { home: false, away: false };
     }
   }
 

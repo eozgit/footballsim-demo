@@ -6,7 +6,7 @@ describe('TeamProvider', () => {
   const provider = new TeamProvider(mockColors);
 
   it('should resolve hex strings to numbers', () => {
-    // @ts-ignore - accessing private for test or change to public
+    // @ts-ignore
     const color = provider['getHexColor']('Red');
     expect(color).toBe(0xff0000);
   });
@@ -17,7 +17,8 @@ describe('TeamProvider', () => {
   });
 
   it('should generate correct TeamStyles from MatchDetails', () => {
-    // Force Math.random to return 0 so the first item in the pool (Primary) is always picked
+    // Force Math.random to return 0
+    // This affects color picking AND GK selection (picks first GK color: 0x00ff00)
     const randomMock = vi.spyOn(Math, 'random').mockReturnValue(0);
 
     const mockMatch = {
@@ -27,14 +28,17 @@ describe('TeamProvider', () => {
 
     const styles = provider.getStyles(mockMatch);
 
-    // With random mocked to 0, it should be 100% predictable
-    expect(styles.get(1)).toEqual({ body: 0xff0000, detail: 0x0000ff });
+    // Update expected object to include 'gk'
+    expect(styles.get(1)).toEqual({
+      body: 0xff0000,
+      detail: 0x0000ff,
+      gk: 0x00ff00,
+    });
 
-    randomMock.mockRestore(); // Clean up
+    randomMock.mockRestore();
   });
 
   it('should fallback to White and Black if colors are missing from state', () => {
-    // Also mock here for consistency
     vi.spyOn(Math, 'random').mockReturnValue(0);
 
     const minimalistMatch = {
@@ -43,7 +47,13 @@ describe('TeamProvider', () => {
     } as any;
 
     const styles = provider.getStyles(minimalistMatch);
-    expect(styles.get(1)).toEqual({ body: 0xffffff, detail: 0xffffff });
+
+    // Update expected object to include 'gk'
+    expect(styles.get(1)).toEqual({
+      body: 0xffffff,
+      detail: 0xffffff,
+      gk: 0x00ff00,
+    });
 
     vi.restoreAllMocks();
   });

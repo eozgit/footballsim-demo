@@ -8,6 +8,7 @@ export const PITCH_STYLES = Object.keys(pitchModules).map((path): string => {
 export interface KitStyle {
   body: number;
   detail: number;
+  gk: number;
 }
 interface SimulationState {
   isPlaying: boolean;

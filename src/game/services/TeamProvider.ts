@@ -4,11 +4,12 @@ import { MatchDetails, Team } from 'footballsim';
 export interface TeamStyle {
   body: number;
   detail: number;
+  gk: number;
 }
 
 export class TeamProvider {
   private colorCache: Record<string, string>;
-
+  private GK_COLORS = [0x00ff00, 0xffff00, 0xffa500, 0xff00ff, 0x00ffff, 0x333333];
   constructor(colorsJson: Record<string, string>) {
     this.colorCache = colorsJson;
   }
@@ -23,10 +24,16 @@ export class TeamProvider {
    * Can be called at any time to "re-roll" the current kit colors.
    */
   public generateKitPair(state: MatchDetails): { home: TeamStyle; away: TeamStyle } {
-    return {
-      home: this.calculateTeamStyle(state.kickOffTeam),
-      away: this.calculateTeamStyle(state.secondTeam),
-    };
+    const home = this.calculateTeamStyle(state.kickOffTeam);
+    const away = this.calculateTeamStyle(state.secondTeam);
+
+    // Ensure GKs don't clash (simplified)
+    away.gk =
+      away.gk === home.gk
+        ? this.GK_COLORS[(this.GK_COLORS.indexOf(away.gk) + 1) % this.GK_COLORS.length]
+        : away.gk;
+
+    return { home, away };
   }
 
   /**
@@ -67,6 +74,7 @@ export class TeamProvider {
     return {
       body: this.getHexColor(first.name),
       detail: this.getHexColor(secondName),
+      gk: this.GK_COLORS[Math.floor(Math.random() * this.GK_COLORS.length)],
     };
   }
 

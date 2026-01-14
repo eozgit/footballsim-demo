@@ -1,8 +1,10 @@
 import { GameObjects, Scene } from 'phaser';
+import { TeamStyle } from '../services/TeamProvider';
 
 export interface PlayerStyle {
   body: number;
   detail: number;
+  gk: number;
 }
 
 export class Player extends GameObjects.Container {
@@ -39,8 +41,9 @@ export class Player extends GameObjects.Container {
   /**
    * Updates the visual appearance of the player dynamically.
    */
-  public updateStyle(style: PlayerStyle, isGK: boolean): void {
-    const bodyColor = isGK ? 0x00ff00 : style.body;
+  public updateStyle(style: TeamStyle, isGK: boolean): void {
+    const bodyColor = isGK ? style.gk : style.body;
+    // For GK contrast, we use black stroke/text or the detail color
     const strokeColor = isGK ? 0x000000 : style.detail;
     const textColor = isGK ? '#000000' : `#${style.detail.toString(16).padStart(6, '0')}`;
 

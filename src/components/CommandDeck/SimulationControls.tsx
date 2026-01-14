@@ -36,14 +36,11 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
       }),
       // NEW KITS FOLDER
       KITS: folder({
-        'RANDOMIZE KITS': button((): void => {
-          // This logic can be moved to a helper or the store action
-          // It assumes TeamProvider logic is accessible or simply triggers
-          // a signal that the FieldEntityManager picks up to re-roll.
-
-          // For now, we can use a window event or a simple store flag
-          // to tell the FieldEntityManager: "Next sync, re-roll the kits"
-          window.dispatchEvent(new CustomEvent('reroll-kits'));
+        'HOME KIT': button((): void => {
+          window.dispatchEvent(new CustomEvent('reroll-home'));
+        }),
+        'AWAY KIT': button((): void => {
+          window.dispatchEvent(new CustomEvent('reroll-away'));
         }),
       }),
     },
