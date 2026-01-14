@@ -11,11 +11,16 @@ export class FieldEntityManager {
   private teamProvider: TeamProvider;
   private players: Map<number, Player> = new Map();
   private ball: Ball;
+  private shouldReroll: boolean = false;
 
   constructor(scene: Scene, teamProvider: TeamProvider) {
     this.scene = scene;
     this.teamProvider = teamProvider;
     this.ball = new Ball(scene);
+    window.addEventListener('reroll-kits', (): void => {
+      // We get the latest match state from the last sync or wait for next sync
+      this.shouldReroll = true;
+    });
   }
 
   public sync(state: MatchDetails, stepMs: number): void {
@@ -57,6 +62,11 @@ export class FieldEntityManager {
         }
       });
     });
+    if (this.shouldReroll) {
+      const newKits = this.teamProvider.generateKitPair(state);
+      useSimulationStore.getState().setKitStyles(newKits.home, newKits.away);
+      this.shouldReroll = false;
+    }
   }
 
   private initPlayers(state: MatchDetails): void {

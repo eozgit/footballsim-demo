@@ -1,28 +1,23 @@
-import { useControls, folder } from 'leva';
+import { useControls, folder, button } from 'leva';
 import { PITCH_STYLES, useSimulationStore } from '../../bridge/useSimulationStore';
 import { StoreType } from 'leva/dist/declarations/src/types';
 
-// Accept store as a prop
 export const SimulationControls = ({ store }: { store: StoreType }): null => {
-  // Extract playback state and setter alongside telemetry state
   const { isPlaying, setPlaying, showLogs, toggleLogs, pitchTexture, setPitchTexture } =
     useSimulationStore();
 
   useControls(
     {
       SIMULATION: folder({
-        // 1. Playback control (mapped to isPlaying in Zustand)
         RUNNING: {
           value: isPlaying,
           label: 'ACTIVE',
           onChange: (v: boolean): void => {
-            // Prevent redundant updates if state is already in sync
             if (v !== useSimulationStore.getState().isPlaying) {
               setPlaying(v);
             }
           },
         },
-        // 2. Telemetry control
         DUMP_LOGS: {
           value: showLogs,
           label: 'TELEMETRY',
@@ -39,9 +34,21 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
           onChange: (v: string): void => setPitchTexture(v),
         },
       }),
+      // NEW KITS FOLDER
+      KITS: folder({
+        'RANDOMIZE KITS': button((): void => {
+          // This logic can be moved to a helper or the store action
+          // It assumes TeamProvider logic is accessible or simply triggers
+          // a signal that the FieldEntityManager picks up to re-roll.
+
+          // For now, we can use a window event or a simple store flag
+          // to tell the FieldEntityManager: "Next sync, re-roll the kits"
+          window.dispatchEvent(new CustomEvent('reroll-kits'));
+        }),
+      }),
     },
     { store },
-    [isPlaying, showLogs] // Added isPlaying to the dependency array to keep the UI in sync
+    [isPlaying, showLogs]
   );
 
   return null;
