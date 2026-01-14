@@ -1,4 +1,3 @@
-// src/game/entities/Player.ts
 import { GameObjects, Scene } from 'phaser';
 
 export interface PlayerStyle {
@@ -20,32 +19,36 @@ export class Player extends GameObjects.Container {
   ) {
     super(scene, x, y);
 
-    const bodyColor = isGK ? 0x00ff00 : style.body;
-    // GKs get black text for contrast, others get the team's detail color
-    const textColor = isGK ? '#000000' : `#${style.detail.toString(16).padStart(6, '0')}`;
-    const strokeColor = isGK ? 0x000000 : style.detail;
-
-    // 1. Create the circle (the "body")
-    this.circle = scene.add.circle(0, 0, 15, bodyColor).setStrokeStyle(3, strokeColor);
-
-    // 2. Create the label (the "shirt number")
+    this.circle = scene.add.circle(0, 0, 15, 0xffffff);
     this.label = scene.add
       .text(0, 0, shirtNumber, {
         fontSize: '14px',
-        color: textColor,
         fontStyle: 'bold',
       })
       .setOrigin(0.5);
 
-    // 3. Add to container and scene
     this.add([this.circle, this.label]);
     this.setDepth(2);
+
+    // Apply initial style
+    this.updateStyle(style, isGK);
+
     scene.add.existing(this);
   }
 
   /**
-   * Smoothly moves the player to a new position using Phaser's tween system
+   * Updates the visual appearance of the player dynamically.
    */
+  public updateStyle(style: PlayerStyle, isGK: boolean): void {
+    const bodyColor = isGK ? 0x00ff00 : style.body;
+    const strokeColor = isGK ? 0x000000 : style.detail;
+    const textColor = isGK ? '#000000' : `#${style.detail.toString(16).padStart(6, '0')}`;
+
+    this.circle.setFillStyle(bodyColor);
+    this.circle.setStrokeStyle(3, strokeColor);
+    this.label.setColor(textColor);
+  }
+
   public updatePosition(x: number, y: number, duration: number): void {
     this.scene.tweens.add({
       targets: this,

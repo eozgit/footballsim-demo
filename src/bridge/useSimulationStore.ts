@@ -5,6 +5,10 @@ export const PITCH_STYLES = Object.keys(pitchModules).map((path): string => {
   const filename = path.split('/').pop() || '';
   return filename.replace('.webp', '');
 });
+export interface KitStyle {
+  body: number;
+  detail: number;
+}
 interface SimulationState {
   isPlaying: boolean;
   logs: string[];
@@ -19,6 +23,8 @@ interface SimulationState {
   updateScore: (home: number, away: number) => void;
   pitchTexture: string;
   setPitchTexture: (texture: string) => void;
+  kitStyles: { home: KitStyle | null; away: KitStyle | null };
+  setKitStyles: (home: KitStyle, away: KitStyle) => void;
 }
 // src/bridge/useSimulationStore.ts
 export const useSimulationStore = create<SimulationState>(
@@ -38,6 +44,8 @@ export const useSimulationStore = create<SimulationState>(
     appendLogs: (newLogs: string[]) => void;
     pitchTexture: string;
     setPitchTexture: (texture: string) => void;
+    kitStyles: { home: KitStyle | null; away: KitStyle | null };
+    setKitStyles: (home: KitStyle, away: KitStyle) => void;
   } => ({
     isPlaying: true,
     showLogs: true,
@@ -46,6 +54,7 @@ export const useSimulationStore = create<SimulationState>(
     score: { home: 0, away: 0 },
     teams: { home: 'HOME', away: 'AWAY' },
     pitchTexture: 'default',
+    kitStyles: { home: null, away: null },
     setPitchTexture: (texture): void => set({ pitchTexture: texture }),
     setPlaying: (playing): void => set({ isPlaying: playing }),
     toggleLogs: (): void => set((state): { showLogs: boolean } => ({ showLogs: !state.showLogs })),
@@ -99,5 +108,6 @@ export const useSimulationStore = create<SimulationState>(
           totalLogsSeen: state.totalLogsSeen + newLogs.length,
         };
       }),
+    setKitStyles: (home, away): void => set({ kitStyles: { home, away } }),
   })
 );

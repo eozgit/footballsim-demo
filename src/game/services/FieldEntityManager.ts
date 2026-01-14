@@ -19,7 +19,7 @@ export class FieldEntityManager {
   }
 
   public sync(state: MatchDetails, stepMs: number): void {
-    // 1. Initialize players if they don't exist
+    // 1. Initialize players and Store Kits if they don't exist
     if (this.players.size === 0) {
       this.initPlayers(state);
     }
@@ -29,26 +29,44 @@ export class FieldEntityManager {
       const [engX, engY, engZ] = state.ball.position;
       this.ball.updatePosition(engX, engY, engZ ?? 0, stepMs);
     }
-    const currentPitch = useSimulationStore.getState().pitchTexture;
-    const isSnow = currentPitch.toLowerCase().includes('snow');
+
+    const store = useSimulationStore.getState();
+    const isSnow = store.pitchTexture.toLowerCase().includes('snow');
     this.ball.setSnowMode(isSnow);
-    // 3. Sync Players
+
+    // 3. Sync Players & Their Appearance
+    const { kitStyles } = store;
+
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
+      // Determine which style to use from the store
+      const style = team.teamID === state.kickOffTeam.teamID ? kitStyles.home : kitStyles.away;
+
       team.players.forEach((p): void => {
         const sprite = this.players.get(p.playerID);
-        if (sprite && p.currentPOS[0] !== 'NP') {
-          const { x, y } = toCanvasCoordinates(p.currentPOS[0], p.currentPOS[1]);
-          sprite.updatePosition(x, y, stepMs);
+        if (sprite) {
+          // Update appearance (reactive to store changes)
+          if (style) {
+            sprite.updateStyle(style, p.position === 'GK');
+          }
+
+          // Update position
+          if (p.currentPOS[0] !== 'NP') {
+            const { x, y } = toCanvasCoordinates(p.currentPOS[0], p.currentPOS[1]);
+            sprite.updatePosition(x, y, stepMs);
+          }
         }
       });
     });
   }
 
   private initPlayers(state: MatchDetails): void {
-    const styles = this.teamProvider.getStyles(state);
+    // Generate initial randomized kits and save to store
+    const kits = this.teamProvider.generateKitPair(state);
+    useSimulationStore.getState().setKitStyles(kits.home, kits.away);
 
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
-      const style = styles.get(team.teamID)!;
+      const style = team.teamID === state.kickOffTeam.teamID ? kits.home : kits.away;
+
       team.players.forEach((p): void => {
         const player = new Player(
           this.scene,
