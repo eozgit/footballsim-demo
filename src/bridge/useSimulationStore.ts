@@ -26,6 +26,8 @@ interface SimulationState {
   setPitchTexture: (texture: string) => void;
   kitStyles: { home: KitStyle | null; away: KitStyle | null };
   setKitStyles: (home: KitStyle, away: KitStyle) => void;
+  showPlayerNames: boolean;
+  setShowPlayerNames: (show: boolean) => void;
 }
 // src/bridge/useSimulationStore.ts
 export const useSimulationStore = create<SimulationState>(
@@ -47,6 +49,8 @@ export const useSimulationStore = create<SimulationState>(
     setPitchTexture: (texture: string) => void;
     kitStyles: { home: KitStyle | null; away: KitStyle | null };
     setKitStyles: (home: KitStyle, away: KitStyle) => void;
+    showPlayerNames: boolean;
+    setShowPlayerNames: (show: boolean) => void;
   } => ({
     isPlaying: true,
     showLogs: true,
@@ -56,6 +60,8 @@ export const useSimulationStore = create<SimulationState>(
     teams: { home: 'HOME', away: 'AWAY' },
     pitchTexture: 'default',
     kitStyles: { home: null, away: null },
+    showPlayerNames: false,
+    setShowPlayerNames: (show): void => set({ showPlayerNames: show }),
     setPitchTexture: (texture): void => set({ pitchTexture: texture }),
     setPlaying: (playing): void => set({ isPlaying: playing }),
     toggleLogs: (): void => set((state): { showLogs: boolean } => ({ showLogs: !state.showLogs })),

@@ -10,12 +10,14 @@ export interface PlayerStyle {
 export class Player extends GameObjects.Container {
   private circle: GameObjects.Arc;
   private label: GameObjects.Text;
+  private nameLabel: GameObjects.Text;
 
   constructor(
     scene: Scene,
     x: number,
     y: number,
     shirtNumber: string,
+    playerName: string,
     style: PlayerStyle,
     isGK: boolean
   ) {
@@ -29,13 +31,29 @@ export class Player extends GameObjects.Container {
       })
       .setOrigin(0.5);
 
-    this.add([this.circle, this.label]);
+    this.nameLabel = scene.add
+      .text(0, 22, playerName, {
+        // Removed .toUpperCase()
+        fontSize: '11px',
+        fontStyle: 'bold',
+        fontFamily: 'sans-serif',
+        color: '#ffffff',
+        // Reduced opacity from 'aa' (0.66) to '55' (0.33) for a more subtle look
+        backgroundColor: '#00000055',
+        padding: { x: 6, y: 2 },
+      })
+      .setOrigin(0.5);
+
+    this.add([this.circle, this.label, this.nameLabel]);
     this.setDepth(2);
 
     // Apply initial style
     this.updateStyle(style, isGK);
 
     scene.add.existing(this);
+  }
+  public setDisplayName(visible: boolean): void {
+    this.nameLabel.setVisible(visible);
   }
 
   /**

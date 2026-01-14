@@ -51,6 +51,7 @@ export class FieldEntityManager {
       team.players.forEach((p): void => {
         const sprite = this.players.get(p.playerID);
         if (sprite) {
+          sprite.setDisplayName(store.showPlayerNames);
           // Update appearance (reactive to store changes)
           if (style) {
             sprite.updateStyle(style, p.position === 'GK');
@@ -92,6 +93,7 @@ export class FieldEntityManager {
           -100,
           -100,
           p.shirtNumber.toString(),
+          p.name,
           style,
           p.position === 'GK'
         );

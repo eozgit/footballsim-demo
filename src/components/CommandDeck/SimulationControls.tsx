@@ -3,8 +3,16 @@ import { PITCH_STYLES, useSimulationStore } from '../../bridge/useSimulationStor
 import { StoreType } from 'leva/dist/declarations/src/types';
 
 export const SimulationControls = ({ store }: { store: StoreType }): null => {
-  const { isPlaying, setPlaying, showLogs, toggleLogs, pitchTexture, setPitchTexture } =
-    useSimulationStore();
+  const {
+    isPlaying,
+    setPlaying,
+    showLogs,
+    toggleLogs,
+    pitchTexture,
+    setPitchTexture,
+    showPlayerNames,
+    setShowPlayerNames,
+  } = useSimulationStore();
 
   useControls(
     {
@@ -32,6 +40,11 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
           options: PITCH_STYLES,
           label: 'SURFACE',
           onChange: (v: string): void => setPitchTexture(v),
+        },
+        PLAYER_NAMES: {
+          value: showPlayerNames,
+          label: 'SHOW NAMES',
+          onChange: (v: boolean): void => setShowPlayerNames(v),
         },
       }),
       // NEW KITS FOLDER

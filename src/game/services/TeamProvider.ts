@@ -9,7 +9,7 @@ export interface TeamStyle {
 
 export class TeamProvider {
   private colorCache: Record<string, string>;
-  private GK_COLORS = [0x00ff00, 0xffff00, 0xffa500, 0xff00ff, 0x00ffff, 0x333333];
+  private GK_COLORS = [0x00ff00, 0xffff00, 0xffa500, 0xff00ff, 0x00ffff, 0xe6ff00];
   constructor(colorsJson: Record<string, string>) {
     this.colorCache = colorsJson;
   }
