@@ -12,6 +12,8 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
     setPitchTexture,
     showPlayerNames,
     setShowPlayerNames,
+    showIntentLine,
+    setShowIntentLine,
   } = useSimulationStore();
 
   useControls(
@@ -45,6 +47,11 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
           value: showPlayerNames,
           label: 'SHOW NAMES',
           onChange: (v: boolean): void => setShowPlayerNames(v),
+        },
+        INTENT_MARKERS: {
+          value: showIntentLine,
+          label: 'SHOW INTENT',
+          onChange: (v: boolean): void => setShowIntentLine(v),
         },
       }),
       // NEW KITS FOLDER

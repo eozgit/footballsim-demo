@@ -1,0 +1,249 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MatchDetails",
+  "description": "A complete snapshot of a football match state, used for telemetry and visualization.",
+  "type": "object",
+  "required": [
+    "matchID",
+    "kickOffTeam",
+    "secondTeam",
+    "pitchSize",
+    "ball",
+    "half",
+    "kickOffTeamStatistics",
+    "secondTeamStatistics",
+    "iterationLog"
+  ],
+  "properties": {
+    "matchID": {
+      "type": ["number", "string"],
+      "description": "Unique identifier for the current match session."
+    },
+    "half": {
+      "type": "number",
+      "description": "Current period of play (e.g., 1 for first half, 2 for second half).",
+      "minimum": 1
+    },
+    "pitchSize": {
+      "type": "array",
+      "items": { "type": "number" },
+      "minItems": 3,
+      "maxItems": 3,
+      "description": "Dimensions of the pitch defined as [width, height, goalWidth]."
+    },
+    "iterationLog": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "A list of strings describing events that occurred in the current simulation tick."
+    },
+    "endIteration": {
+      "type": "boolean",
+      "description": "Flag indicating if the current simulation sequence or match has concluded."
+    },
+    "kickOffTeam": { "$ref": "#/definitions/Team" },
+    "secondTeam": { "$ref": "#/definitions/Team" },
+    "ball": { "$ref": "#/definitions/Ball" },
+    "ballIntended": { "$ref": "#/definitions/BallPosition" },
+    "kickOffTeamStatistics": { "$ref": "#/definitions/TeamStatistics" },
+    "secondTeamStatistics": { "$ref": "#/definitions/TeamStatistics" }
+  },
+  "definitions": {
+    "Team": {
+      "type": "object",
+      "required": ["name", "players", "teamID"],
+      "properties": {
+        "name": { "type": "string", "description": "Display name of the football team." },
+        "description": {
+          "type": "string",
+          "description": "Brief bio or historical context for the team."
+        },
+        "primaryColour": {
+          "type": "string",
+          "description": "Hex code or name for the primary kit color."
+        },
+        "secondaryColour": {
+          "type": "string",
+          "description": "Hex code or name for the detail/accent kit color."
+        },
+        "awayColour": { "type": "string", "description": "Alternative kit color for clashes." },
+        "rating": { "type": "number", "description": "Overall team strength score." },
+        "teamID": { "type": "number", "description": "Unique identifier for the team." },
+        "intent": {
+          "type": "string",
+          "description": "Current tactical mindset (e.g., 'Attacking', 'Defensive')."
+        },
+        "players": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Player" },
+          "minItems": 11,
+          "maxItems": 11
+        }
+      }
+    },
+    "Player": {
+      "type": "object",
+      "required": ["name", "shirtNumber", "position", "currentPOS", "playerID"],
+      "properties": {
+        "name": { "type": "string", "description": "Full name of the player." },
+        "shirtNumber": { "type": "number", "description": "Assigned squad number." },
+        "playerID": { "type": "number", "description": "Unique identifier for the player." },
+        "position": {
+          "type": "string",
+          "enum": ["GK", "CB", "LB", "RB", "LM", "RM", "CM", "ST"],
+          "description": "The player's tactical role on the field."
+        },
+        "rating": { "type": "string", "description": "Numerical performance rating as a string." },
+        "fitness": { "type": "number", "description": "Remaining energy level (0-100)." },
+        "injured": {
+          "type": "boolean",
+          "description": "Whether the player is currently unavailable due to injury."
+        },
+        "currentPOS": {
+          "type": "array",
+          "items": { "type": ["number", "string"] },
+          "description": "Current [x, y] coordinates on the pitch. Uses 'NP' for Not Present."
+        },
+        "intentPOS": {
+          "type": "array",
+          "items": { "type": "number" },
+          "description": "The [x, y] coordinate the player is currently moving toward."
+        },
+        "action": {
+          "type": "string",
+          "description": "The specific task the player is performing (e.g., 'Tackling', 'Running')."
+        },
+        "hasBall": {
+          "type": "boolean",
+          "description": "Whether this player is currently in possession of the ball."
+        },
+        "skill": { "$ref": "#/definitions/Skill" },
+        "stats": { "$ref": "#/definitions/Stats" }
+      }
+    },
+    "Ball": {
+      "type": "object",
+      "required": ["position", "withPlayer"],
+      "properties": {
+        "position": { "$ref": "#/definitions/BallPosition" },
+        "withPlayer": {
+          "type": "boolean",
+          "description": "Is the ball currently controlled by a player?"
+        },
+        "Player": {
+          "type": ["number", "string"],
+          "description": "ID of the player currently in possession."
+        },
+        "withTeam": {
+          "type": ["number", "string"],
+          "description": "ID of the team currently in possession."
+        },
+        "direction": {
+          "type": "string",
+          "description": "Textual description of ball movement vector."
+        },
+        "ballOverIterations": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/BallPosition" },
+          "description": "History of ball positions in recent ticks for physics interpolation."
+        },
+        "lastTouch": {
+          "type": "object",
+          "properties": {
+            "playerName": { "type": "string" },
+            "playerID": { "type": "number" },
+            "teamID": { "type": "number" }
+          }
+        }
+      }
+    },
+    "Skill": {
+      "type": "object",
+      "description": "Attribute set defining player capabilities. Most attributes are typically scaled 0-100, except for jumping.",
+      "properties": {
+        "passing": {
+          "type": "number",
+          "description": "Accuracy and vision for moving the ball between teammates (0-100)."
+        },
+        "shooting": {
+          "type": "number",
+          "description": "Power and precision of attempts on goal (0-100)."
+        },
+        "tackling": {
+          "type": "number",
+          "description": "Ability to dispossess an opponent legally (0-100)."
+        },
+        "saving": {
+          "type": "number",
+          "description": "Goalkeeper specific ability to stop shots (0-100)."
+        },
+        "agility": {
+          "type": "number",
+          "description": "Nimbleness and ability to change direction quickly (0-100)."
+        },
+        "strength": {
+          "type": "number",
+          "description": "Physical power and ability to shield the ball (0-100)."
+        },
+        "penalty_taking": {
+          "type": "number",
+          "description": "Composure and accuracy from the penalty spot (0-100)."
+        },
+        "jumping": {
+          "type": "number",
+          "description": "The highest vertical reach a player can achieve legally (excluding hands), measured in centimeters (cm)."
+        }
+      }
+    },
+    "Stats": {
+      "type": "object",
+      "description": "Individual player performance metrics for the current match.",
+      "properties": {
+        "goals": { "type": "number" },
+        "saves": { "type": "number" },
+        "cards": {
+          "type": "object",
+          "properties": {
+            "yellow": { "type": "number" },
+            "red": { "type": "number" }
+          }
+        },
+        "shots": { "$ref": "#/definitions/Shots" },
+        "passes": { "$ref": "#/definitions/Shots" },
+        "tackles": { "$ref": "#/definitions/Shots" }
+      }
+    },
+    "TeamStatistics": {
+      "type": "object",
+      "description": "Aggregated team metrics.",
+      "properties": {
+        "goals": { "type": "number" },
+        "corners": { "type": "number" },
+        "freekicks": { "type": "number" },
+        "penalties": { "type": "number" },
+        "fouls": { "type": "number" },
+        "shots": {
+          "oneOf": [{ "type": "number" }, { "$ref": "#/definitions/Shots" }]
+        }
+      }
+    },
+    "Shots": {
+      "type": "object",
+      "properties": {
+        "total": { "type": "number" },
+        "on": {
+          "type": "number",
+          "description": "Count of successful attempts (on target/completed)."
+        },
+        "off": { "type": "number", "description": "Count of failed attempts (off target/missed)." },
+        "fouls": { "type": "number" }
+      }
+    },
+    "BallPosition": {
+      "type": "array",
+      "items": { "type": "number" },
+      "minItems": 2,
+      "maxItems": 3,
+      "description": "The [x, y, z] spatial coordinates of the ball."
+    }
+  }
+}

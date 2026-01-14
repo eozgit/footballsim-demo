@@ -62,6 +62,17 @@ export class FieldEntityManager {
             const { x, y } = toCanvasCoordinates(p.currentPOS[0], p.currentPOS[1]);
             sprite.updatePosition(x, y, stepMs);
           }
+
+          if (p.intentPOS) {
+            const { x: intentX, y: intentY } = toCanvasCoordinates(p.intentPOS[0], p.intentPOS[1]);
+
+            sprite.updateIntent(
+              intentX,
+              intentY,
+              style?.body ?? 0xffffff, // Fallback to white if no style
+              store.showIntentLine
+            );
+          }
         }
       });
     });
