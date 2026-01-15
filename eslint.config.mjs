@@ -8,6 +8,7 @@ import importPlugin from 'eslint-plugin-import'; // NEW
 import unusedImports from 'eslint-plugin-unused-imports'; // NEW
 import sonarjs from 'eslint-plugin-sonarjs';
 import unicorn from 'eslint-plugin-unicorn';
+import n from 'eslint-plugin-n';
 
 export default tseslint.config(
   { ignores: ['dist', 'node_modules', 'vite', 'coverage'] },
@@ -40,6 +41,8 @@ export default tseslint.config(
       'react-hooks': reactHooksPlugin,
       import: importPlugin, // NEW
       'unused-imports': unusedImports, // NEW
+      n,
+      unicorn,
     },
     rules: {
       ...reactPlugin.configs.recommended.rules,
@@ -85,6 +88,20 @@ export default tseslint.config(
       'unicorn/no-null': 'warn', // Discourages null, encourages undefined/optional
       'unicorn/filename-case': ['error', { case: 'camelCase' }],
 
+      // --- WINTERCG / TC55 COMPLIANCE ---
+      'n/no-deprecated-api': 'error',
+      'n/no-extraneous-import': 'error',
+      'n/prefer-global/buffer': ['error', 'never'], // Forces TextEncoder/Uint8Array
+      'n/prefer-global/process': ['error', 'never'], // Forces feature detection
+
+      // Force Web Standards
+      'no-restricted-globals': [
+        'error',
+        { name: 'Buffer', message: 'Use Uint8Array instead for WinterCG compliance.' },
+        { name: 'process', message: 'Use environment detection or globalThis instead.' },
+        { name: '__dirname', message: 'Use import.meta.url instead.' },
+        { name: '__filename', message: 'Use import.meta.url instead.' }
+      ],
       // --- IMPORT DISCIPLINE ---
       'import/no-deprecated': 'warn',
       'import/no-extraneous-dependencies': 'error', // Error if importing something not in package.json
