@@ -6,11 +6,13 @@ import prettierConfig from 'eslint-config-prettier';
 import globals from 'globals';
 import importPlugin from 'eslint-plugin-import'; // NEW
 import unusedImports from 'eslint-plugin-unused-imports'; // NEW
+import sonarjs from 'eslint-plugin-sonarjs';
+import unicorn from 'eslint-plugin-unicorn';
 
 export default tseslint.config(
   { ignores: ['dist', 'node_modules', 'vite', 'coverage'] },
   js.configs.recommended,
-
+  sonarjs.configs.recommended,
   // Block 1: Infrastructure & Build Files (JS/MJS)
   {
     files: ['*.js', '*.mjs'],
@@ -68,7 +70,24 @@ export default tseslint.config(
         'error',
         { allowExpressions: true, allowTypedFunctionExpressions: false },
       ],
+      // --- THE GOOD PARTS: UI PREDICTABILITY ---
+      'sonarjs/no-nested-template-literals': 'error',
+      'sonarjs/prefer-single-boolean-return': 'error',
 
+      // --- THE GOOD PARTS: PREVENTING "FOOT-SHOOTING" ---
+      '@typescript-eslint/no-floating-promises': 'error', // Must await/catch async calls
+      '@typescript-eslint/no-misused-promises': 'error',
+      '@typescript-eslint/await-thenable': 'error',
+
+      // --- MODERN SAFETY (Unicorn) ---
+      'unicorn/no-array-reduce': 'warn', // Prefer for-of for engine performance
+      'unicorn/prefer-module': 'error',
+      'unicorn/no-null': 'warn', // Discourages null, encourages undefined/optional
+      'unicorn/filename-case': ['error', { case: 'camelCase' }],
+
+      // --- IMPORT DISCIPLINE ---
+      'import/no-deprecated': 'warn',
+      'import/no-extraneous-dependencies': 'error', // Error if importing something not in package.json
       // --- COMPLEXITY & READABILITY (The "Agent Readiness" Gap) ---
       'max-lines-per-function': ['warn', { max: 70, skipBlankLines: true }], // Slightly higher for React components
       'complexity': ['warn', 12],
