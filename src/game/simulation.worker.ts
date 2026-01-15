@@ -1,5 +1,6 @@
 /* global self */
-import { initiateGame, MatchDetails, playIteration, Team } from 'footballsim';
+import type { MatchDetails, Team } from 'footballsim';
+import { initiateGame, playIteration } from 'footballsim';
 
 let matchState: MatchDetails;
 let isRunning = false;
@@ -60,6 +61,7 @@ self.onmessage = async (e: MessageEvent): Promise<void> => {
         isRunning = true;
         await runSimulation();
       }
+
       break;
 
     default:

@@ -1,4 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
+
 import { SimulationBridge } from './SimulationBridge';
 import { useSimulationStore } from './useSimulationStore';
 
@@ -15,6 +16,7 @@ describe('SimulationBridge', () => {
     SimulationBridge.sync(mockState);
 
     const store = useSimulationStore.getState();
+
     expect(store.teams.home).toBe('Galatasaray');
     expect(store.score).toEqual({ home: 3, away: 2 });
     expect(store.logs).toContain('Goal scored!');
@@ -37,6 +39,7 @@ describe('SimulationBridge', () => {
 
     SimulationBridge.sync(partialState);
     const store = useSimulationStore.getState();
+
     expect(store.teams.away).toBe('AWAY');
   });
 
@@ -47,6 +50,7 @@ describe('SimulationBridge', () => {
     } as any;
 
     const spy = vi.spyOn(useSimulationStore.getState(), 'updateScore');
+
     SimulationBridge.sync(state);
     expect(spy).not.toHaveBeenCalled(); // Goals are already 0:0 in store
   });

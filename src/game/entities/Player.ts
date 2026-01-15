@@ -1,5 +1,7 @@
-import { GameObjects, Scene } from 'phaser';
-import { TeamStyle } from '../services/TeamProvider';
+import type { Scene } from 'phaser';
+import { GameObjects } from 'phaser';
+
+import type { TeamStyle } from '../services/TeamProvider';
 
 export interface PlayerStyle {
   body: number;
@@ -106,6 +108,7 @@ export class Player extends GameObjects.Container {
       // so we use a simple segment loop
       const startX = this.x;
       const startY = this.y;
+
       this.drawDashedLine(startX, startY, destX, destY);
     }
   }

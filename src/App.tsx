@@ -1,9 +1,12 @@
 import * as FlexLayout from 'flexlayout-react';
 import 'flexlayout-react/style/dark.css';
-import React, { JSX, useCallback, useRef } from 'react';
-import { IRefPhaserGame, PhaserGame } from './PhaserGame';
+import type { JSX} from 'react';
+import React, { useCallback, useRef } from 'react';
+
 import { CommandDeck } from './components/CommandDeck/CommandDeck';
 import { TerminalLog } from './components/TerminalLog'; // adjust path as needed
+import type { IRefPhaserGame} from './PhaserGame';
+import { PhaserGame } from './PhaserGame';
 
 const layoutConfig: FlexLayout.IJsonModel = {
   global: { tabEnableClose: false, tabSetTabLocation: 'top' },

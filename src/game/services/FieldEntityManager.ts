@@ -1,10 +1,13 @@
-import { MatchDetails } from 'footballsim';
-import { Scene } from 'phaser';
-import { Player } from '../entities/Player';
-import { Ball } from '../entities/Ball';
-import { TeamProvider } from './TeamProvider';
-import { toCanvasCoordinates } from '../../core/physics';
+import type { MatchDetails } from 'footballsim';
+import type { Scene } from 'phaser';
+
 import { useSimulationStore } from '../../bridge/useSimulationStore';
+import { toCanvasCoordinates } from '../../core/physics';
+import { Ball } from '../entities/Ball';
+import { Player } from '../entities/Player';
+
+import type { TeamProvider } from './TeamProvider';
+
 
 export class FieldEntityManager {
   private scene: Scene;
@@ -34,11 +37,13 @@ export class FieldEntityManager {
     // 2. Sync Ball
     if (state.ball?.position) {
       const [engX, engY, engZ] = state.ball.position;
+
       this.ball.updatePosition(engX, engY, engZ ?? 0, stepMs);
     }
 
     const store = useSimulationStore.getState();
     const isSnow = store.pitchTexture.toLowerCase().includes('snow');
+
     this.ball.setSnowMode(isSnow);
 
     // 3. Sync Players & Their Appearance
@@ -50,6 +55,7 @@ export class FieldEntityManager {
 
       team.players.forEach((p): void => {
         const sprite = this.players.get(p.playerID);
+
         if (sprite) {
           sprite.setDisplayName(store.showPlayerNames);
           // Update appearance (reactive to store changes)
@@ -60,6 +66,7 @@ export class FieldEntityManager {
           // Update position
           if (p.currentPOS[0] !== 'NP') {
             const { x, y } = toCanvasCoordinates(p.currentPOS[0], p.currentPOS[1]);
+
             sprite.updatePosition(x, y, stepMs);
           }
 
@@ -93,6 +100,7 @@ export class FieldEntityManager {
   private initPlayers(state: MatchDetails): void {
     // Generate initial randomized kits and save to store
     const kits = this.teamProvider.generateKitPair(state);
+
     useSimulationStore.getState().setKitStyles(kits.home, kits.away);
 
     [state.kickOffTeam, state.secondTeam].forEach((team): void => {
@@ -108,6 +116,7 @@ export class FieldEntityManager {
           style,
           p.position === 'GK'
         );
+
         this.players.set(p.playerID, player);
       });
     });

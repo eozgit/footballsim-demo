@@ -1,4 +1,5 @@
-import { describe, it, expect, beforeEach } from 'vitest';
+import { describe, it, expect } from 'vitest';
+
 import { useSimulationStore } from './useSimulationStore';
 
 describe('useSimulationStore', () => {
@@ -9,9 +10,11 @@ describe('useSimulationStore', () => {
 
   it('should cap logs at 100 entries', () => {
     const manyLogs = Array.from({ length: 150 }, (_, i) => `Log ${i}`);
+
     useSimulationStore.getState().appendLogs(manyLogs);
 
     const finalLogs = useSimulationStore.getState().logs;
+
     expect(finalLogs.length).toBe(100);
     expect(finalLogs[99]).toBe('Log 149'); // Should keep the latest ones
   });
@@ -27,6 +30,7 @@ describe('useSimulationStore', () => {
   });
   it('should toggle logs visibility', () => {
     const initial = useSimulationStore.getState().showLogs;
+
     useSimulationStore.getState().toggleLogs();
     expect(useSimulationStore.getState().showLogs).toBe(!initial);
   });

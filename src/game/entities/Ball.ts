@@ -1,5 +1,6 @@
 // src/game/entities/Ball.ts
-import { GameObjects, Scene } from 'phaser';
+import type { GameObjects, Scene } from 'phaser';
+
 import { toCanvasCoordinates, getBallVisualY, getBallScale } from '../../core/physics';
 
 export class Ball {
@@ -27,6 +28,7 @@ export class Ball {
 
     // 1. Performance Optimization: Hide shadow if on ground
     const isOnGround = engZ <= 0.1;
+
     this.shadow.setVisible(!isOnGround);
 
     // 2. Light Source Math:

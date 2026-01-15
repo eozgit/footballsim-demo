@@ -1,4 +1,5 @@
 import { AUTO, Game } from 'phaser';
+
 import { Boot } from './scenes/Boot';
 import { MatchScene } from './scenes/MatchScene';
 import { Preloader } from './scenes/Preloader';

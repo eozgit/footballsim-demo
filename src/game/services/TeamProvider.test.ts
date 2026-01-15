@@ -1,4 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
+
 import { TeamProvider } from './TeamProvider';
 
 describe('TeamProvider', () => {
@@ -8,11 +9,13 @@ describe('TeamProvider', () => {
   it('should resolve hex strings to numbers', () => {
     // @ts-ignore
     const color = provider['getHexColor']('Red');
+
     expect(color).toBe(0xff0000);
   });
 
   it('should return white for unknown colors', () => {
     const color = provider['getHexColor']('GhostColor');
+
     expect(color).toBe(0xffffff);
   });
 

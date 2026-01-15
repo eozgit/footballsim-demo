@@ -1,6 +1,6 @@
 // src/components/CommandDeck/Resources.tsx
 import { useControls, buttonGroup, folder } from 'leva';
-import { StoreType } from 'leva/dist/declarations/src/types';
+import type { StoreType } from 'leva/dist/declarations/src/types';
 
 export const Resources = ({ store }: { store: StoreType }): null => {
   useControls(

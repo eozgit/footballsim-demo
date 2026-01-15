@@ -1,8 +1,10 @@
 // bridge/useSimulationStore.ts
 import { create } from 'zustand';
 const pitchModules = import.meta.glob('../../public/assets/pitch/*.webp');
+
 export const PITCH_STYLES = Object.keys(pitchModules).map((path): string => {
   const filename = path.split('/').pop() || '';
+
   return filename.replace('.webp', '');
 });
 export interface KitStyle {

@@ -1,5 +1,6 @@
 // src/bridge/SimulationManager.tsx
 import { useEffect } from 'react';
+
 import { useSimulationStore } from './useSimulationStore';
 
 // Assuming your worker instance is created elsewhere or globally

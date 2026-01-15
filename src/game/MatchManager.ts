@@ -1,7 +1,9 @@
 // src/game/MatchManager.ts
-import SimWorker from './simulation.worker?worker';
-import { MatchDetails, Team } from 'footballsim';
+import type { MatchDetails, Team } from 'footballsim';
+
 import { SimulationBridge } from '../bridge/SimulationBridge';
+
+import SimWorker from './simulation.worker?worker';
 
 export class MatchManager {
   private worker: Worker;
@@ -16,6 +18,7 @@ export class MatchManager {
   private setupWorkerListener(): void {
     this.worker.onmessage = (e: MessageEvent): void => {
       const { type, state } = e.data as { type: string; state: MatchDetails };
+
       if (type === 'STATE_UPDATED' && state) {
         this.onUpdateCallback(state);
         SimulationBridge.sync(state);

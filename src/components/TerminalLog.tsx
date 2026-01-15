@@ -1,7 +1,8 @@
 // components/TerminalLog.tsx
+import type { JSX } from 'react';
 import { Virtuoso } from 'react-virtuoso';
+
 import { useSimulationStore } from '../bridge/useSimulationStore';
-import { JSX } from 'react';
 
 export const TerminalLog = (): JSX.Element => {
   const { logs, totalLogsSeen, showLogs } = useSimulationStore();
@@ -23,6 +24,7 @@ export const TerminalLog = (): JSX.Element => {
         itemContent={(index: number, log: string): JSX.Element => {
           // Calculate true rolling index
           const trueIndex = totalLogsSeen - (logs.length - index);
+
           return (
             <div
               style={{

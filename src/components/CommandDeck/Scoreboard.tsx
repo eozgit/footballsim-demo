@@ -1,5 +1,6 @@
+import type { JSX } from 'react';
+
 import { useSimulationStore } from '../../bridge/useSimulationStore';
-import { JSX } from 'react';
 
 export const Scoreboard = (): JSX.Element => {
   const { score, teams } = useSimulationStore();

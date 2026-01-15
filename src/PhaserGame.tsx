@@ -1,8 +1,10 @@
-import { forwardRef, JSX, useEffect, useLayoutEffect, useRef } from 'react';
-import StartGame from './game/main';
-import { EventBus } from './game/EventBus';
-import { MatchScene } from './game/scenes/MatchScene';
+import type { JSX} from 'react';
+import { forwardRef, useEffect, useLayoutEffect, useRef } from 'react';
+
 import { useSimulationStore } from './bridge/useSimulationStore';
+import { EventBus } from './game/EventBus';
+import StartGame from './game/main';
+import { MatchScene } from './game/scenes/MatchScene';
 
 export interface IRefPhaserGame {
   game: Phaser.Game | null;
@@ -25,6 +27,7 @@ export const PhaserGame = forwardRef<IRefPhaserGame, IProps>(function PhaserGame
 
   useEffect((): void => {
     const activeScene = game.current?.scene.getScene('MatchScene') as MatchScene;
+
     if (activeScene?.updatePitchTexture) {
       activeScene.updatePitchTexture(pitchTexture);
     }

@@ -1,6 +1,7 @@
 import { useControls, folder, button } from 'leva';
+import type { StoreType } from 'leva/dist/declarations/src/types';
+
 import { PITCH_STYLES, useSimulationStore } from '../../bridge/useSimulationStore';
-import { StoreType } from 'leva/dist/declarations/src/types';
 
 export const SimulationControls = ({ store }: { store: StoreType }): null => {
   const {

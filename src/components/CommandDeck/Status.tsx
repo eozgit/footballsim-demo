@@ -1,5 +1,5 @@
 // src/components/CommandDeck/Status.tsx
-import { JSX } from 'react';
+import type { JSX } from 'react';
 
 declare const __BUILD_TIME__: string;
 

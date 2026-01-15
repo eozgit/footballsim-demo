@@ -1,4 +1,5 @@
-import { MatchDetails } from 'footballsim';
+import type { MatchDetails } from 'footballsim';
+
 import { useSimulationStore } from './useSimulationStore';
 
 export class SimulationBridge {

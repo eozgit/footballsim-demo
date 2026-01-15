@@ -1,8 +1,9 @@
-import { JSX } from 'react';
 import { LevaPanel, useCreateStore } from 'leva';
+import type { JSX } from 'react';
+
+import { Resources } from './Resources';
 import { Scoreboard } from './Scoreboard';
 import { SimulationControls } from './SimulationControls';
-import { Resources } from './Resources';
 import { Status } from './Status';
 
 export const CommandDeck = (): JSX.Element => {

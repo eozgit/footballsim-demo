@@ -1,10 +1,11 @@
-import { Team } from 'footballsim';
+import type { Team } from 'footballsim';
 import { Scene } from 'phaser';
+
+import { PITCH_STYLES, useSimulationStore } from '../../bridge/useSimulationStore';
 import { EventBus } from '../EventBus';
 import { MatchManager } from '../MatchManager';
 import { FieldEntityManager } from '../services/FieldEntityManager';
 import { TeamProvider } from '../services/TeamProvider';
-import { PITCH_STYLES, useSimulationStore } from '../../bridge/useSimulationStore';
 
 export class MatchScene extends Scene {
   private manager!: MatchManager;
@@ -29,6 +30,7 @@ export class MatchScene extends Scene {
 
   create(): void {
     const currentTexture = useSimulationStore.getState().pitchTexture;
+
     this.pitchSprite = this.add
       .image(525, 340, `pitch-${currentTexture}`)
       .setDisplaySize(1050, 680);
@@ -47,6 +49,7 @@ export class MatchScene extends Scene {
 
     const teamA = this.cache.json.get('GS2025') as Team;
     const teamB = this.cache.json.get('GS2000') as Team;
+
     this.manager.initMatch(teamA, teamB);
     // src/game/scenes/MatchScene.ts
 
@@ -110,6 +113,7 @@ export class MatchScene extends Scene {
 
   private updateWeatherEffects(texture: string): void {
     const isSnow = texture.toLowerCase().includes('snow');
+
     this.fogLayer.setVisible(isSnow);
 
     if (isSnow) {

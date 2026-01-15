@@ -1,5 +1,5 @@
 // src/game/services/TeamProvider.ts
-import { MatchDetails, Team } from 'footballsim';
+import type { MatchDetails, Team } from 'footballsim';
 
 export interface TeamStyle {
   body: number;
@@ -16,6 +16,7 @@ export class TeamProvider {
 
   private getHexColor(name: string): number {
     const hex = this.colorCache[name];
+
     return hex ? parseInt(hex, 16) : 0xffffff;
   }
 
@@ -53,10 +54,12 @@ export class TeamProvider {
     const pickFromPool = (currentPool: typeof pool): { name: string; weight: number } => {
       const totalWeight = currentPool.reduce((sum, item): number => sum + item.weight, 0);
       let random = Math.random() * totalWeight;
+
       for (const item of currentPool) {
         if (random < item.weight) return item;
         random -= item.weight;
       }
+
       return currentPool[0];
     };
 
@@ -64,10 +67,12 @@ export class TeamProvider {
     const remainingPool = pool.filter((c): boolean => c.name !== first.name);
 
     let secondName: string;
+
     if (remainingPool.length > 0) {
       secondName = pickFromPool(remainingPool).name;
     } else {
       const firstName = first?.name || 'White';
+
       secondName = firstName.toLowerCase() === 'white' ? 'Black' : 'White';
     }
 
@@ -84,8 +89,10 @@ export class TeamProvider {
   public getStyles(state: MatchDetails): Map<number, TeamStyle> {
     const kits = this.generateKitPair(state);
     const styles = new Map<number, TeamStyle>();
+
     styles.set(state.kickOffTeam.teamID, kits.home);
     styles.set(state.secondTeam.teamID, kits.away);
+
     return styles;
   }
 }
