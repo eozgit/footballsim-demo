@@ -1,4 +1,4 @@
-import type { JSX} from 'react';
+import type { JSX } from 'react';
 import { forwardRef, useEffect, useLayoutEffect, useRef } from 'react';
 
 import { useSimulationStore } from './bridge/useSimulationStore';
@@ -17,7 +17,7 @@ interface IProps {
 
 export const PhaserGame = forwardRef<IRefPhaserGame, IProps>(function PhaserGame(
   { currentActiveScene },
-  ref
+  ref,
 ): JSX.Element {
   const game = useRef<Phaser.Game | null>(null);
 

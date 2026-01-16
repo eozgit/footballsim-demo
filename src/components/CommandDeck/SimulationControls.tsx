@@ -66,7 +66,7 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
       }),
     },
     { store },
-    [isPlaying, showLogs]
+    [isPlaying, showLogs],
   );
 
   return null;

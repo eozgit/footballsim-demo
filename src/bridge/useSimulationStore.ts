@@ -36,7 +36,7 @@ interface SimulationState {
 // src/bridge/useSimulationStore.ts
 export const useSimulationStore = create<SimulationState>(
   (
-    set
+    set,
   ): {
     isPlaying: true;
     showLogs: true;
@@ -76,7 +76,7 @@ export const useSimulationStore = create<SimulationState>(
     setTeams: (home, away): void =>
       set(
         (
-          state
+          state,
         ): {
           teams: { home: string; away: string };
           isPlaying: boolean;
@@ -89,12 +89,12 @@ export const useSimulationStore = create<SimulationState>(
           toggleLogs: () => void;
           setTeams: (home: string, away: string) => void;
           updateScore: (home: number, away: number) => void;
-        } => ({ ...state, teams: { home, away } })
+        } => ({ ...state, teams: { home, away } }),
       ),
     updateScore: (home, away): void =>
       set(
         (
-          state
+          state,
         ): {
           score: { home: number; away: number };
           isPlaying: boolean;
@@ -107,7 +107,7 @@ export const useSimulationStore = create<SimulationState>(
           toggleLogs: () => void;
           setTeams: (home: string, away: string) => void;
           updateScore: (home: number, away: number) => void;
-        } => ({ ...state, score: { home, away } })
+        } => ({ ...state, score: { home, away } }),
       ),
 
     appendLogs: (newLogs): void =>
@@ -124,5 +124,5 @@ export const useSimulationStore = create<SimulationState>(
         };
       }),
     setKitStyles: (home, away): void => set({ kitStyles: { home, away } }),
-  })
+  }),
 );

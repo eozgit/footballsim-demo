@@ -8,7 +8,6 @@ import { Player } from '../entities/Player';
 
 import type { TeamProvider } from './TeamProvider';
 
-
 export class FieldEntityManager {
   private scene: Scene;
   private teamProvider: TeamProvider;
@@ -77,7 +76,7 @@ export class FieldEntityManager {
               intentX,
               intentY,
               style?.body ?? 0xffffff, // Fallback to white if no style
-              store.showIntentLine
+              store.showIntentLine,
             );
           }
         }
@@ -91,7 +90,7 @@ export class FieldEntityManager {
         .getState()
         .setKitStyles(
           this.rerollFlag.home ? newKits.home : currentStyles.home!,
-          this.rerollFlag.away ? newKits.away : currentStyles.away!
+          this.rerollFlag.away ? newKits.away : currentStyles.away!,
         );
       this.rerollFlag = { home: false, away: false };
     }
@@ -114,7 +113,7 @@ export class FieldEntityManager {
           p.shirtNumber.toString(),
           p.name,
           style,
-          p.position === 'GK'
+          p.position === 'GK',
         );
 
         this.players.set(p.playerID, player);

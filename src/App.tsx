@@ -1,11 +1,11 @@
 import * as FlexLayout from 'flexlayout-react';
 import 'flexlayout-react/style/dark.css';
-import type { JSX} from 'react';
+import type { JSX } from 'react';
 import React, { useCallback, useRef } from 'react';
 
 import { CommandDeck } from './components/CommandDeck/CommandDeck';
 import { TerminalLog } from './components/TerminalLog'; // adjust path as needed
-import type { IRefPhaserGame} from './PhaserGame';
+import type { IRefPhaserGame } from './PhaserGame';
 import { PhaserGame } from './PhaserGame';
 
 const layoutConfig: FlexLayout.IJsonModel = {
@@ -65,7 +65,10 @@ export const App = (): JSX.Element => {
 
   return (
     <div className="w-screen h-screen overflow-hidden">
-      <FlexLayout.Layout model={model} factory={factory} />
+      <FlexLayout.Layout
+        model={model}
+        factory={factory}
+      />
     </div>
   );
 };

@@ -21,11 +21,11 @@
     "noUnusedParameters": true,
     "forceConsistentCasingInFileNames": true,
     "noUncheckedSideEffectImports": true,
-"baseUrl": ".",
-  "paths": {
-    "footballsim": ["../fse1/src/engine.ts"],
-    "footballsim/*": ["../fse1/src/*"]
-  }
+    "baseUrl": ".",
+    "paths": {
+      "footballsim": ["../fse1/src/engine.ts"],
+      "footballsim/*": ["../fse1/src/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/test/setup.ts"],

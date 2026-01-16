@@ -8,13 +8,13 @@ let isRunning = false;
 // --- CONFIGURATION ---
 const THROTTLE_MS = 100; // Aim for 10 iterations per second
 
-const runSimulation = async (): Promise<void> => {
+const runSimulation = (): void => {
   if (!isRunning || !matchState) return;
 
   const startTime = performance.now();
 
   // 1. Execute Logic
-  matchState = await playIteration(matchState);
+  matchState = playIteration(matchState);
 
   const endTime = performance.now();
   const logicDuration = endTime - startTime;
@@ -34,7 +34,7 @@ const runSimulation = async (): Promise<void> => {
   setTimeout(runSimulation, THROTTLE_MS);
 };
 
-self.onmessage = async (e: MessageEvent): Promise<void> => {
+self.onmessage = (e: MessageEvent): void => {
   const { type, data } = e.data as { type: string; data: unknown };
 
   switch (type) {
@@ -42,13 +42,13 @@ self.onmessage = async (e: MessageEvent): Promise<void> => {
       const pitchDetails = { pitchHeight: 1050, pitchWidth: 680, goalWidth: 90 };
       const { teamA, teamB } = data as { teamA: Team; teamB: Team };
 
-      matchState = await initiateGame(teamA, teamB, pitchDetails);
+      matchState = initiateGame(teamA, teamB, pitchDetails);
       isRunning = true;
 
       self.postMessage({ type: 'MATCH_INITIALIZED', state: matchState });
 
       // Kick off the independent loop
-      await runSimulation();
+      runSimulation();
       break;
     }
 
@@ -59,7 +59,7 @@ self.onmessage = async (e: MessageEvent): Promise<void> => {
     case 'RESUME_MATCH':
       if (!isRunning) {
         isRunning = true;
-        await runSimulation();
+        runSimulation();
       }
 
       break;

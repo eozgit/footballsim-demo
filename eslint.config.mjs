@@ -100,16 +100,16 @@ export default tseslint.config(
         { name: 'Buffer', message: 'Use Uint8Array instead for WinterCG compliance.' },
         { name: 'process', message: 'Use environment detection or globalThis instead.' },
         { name: '__dirname', message: 'Use import.meta.url instead.' },
-        { name: '__filename', message: 'Use import.meta.url instead.' }
+        { name: '__filename', message: 'Use import.meta.url instead.' },
       ],
       // --- IMPORT DISCIPLINE ---
       'import/no-deprecated': 'warn',
       'import/no-extraneous-dependencies': 'error', // Error if importing something not in package.json
       // --- COMPLEXITY & READABILITY (The "Agent Readiness" Gap) ---
       'max-lines-per-function': ['warn', { max: 70, skipBlankLines: true }], // Slightly higher for React components
-      'complexity': ['warn', 12],
-      'eqeqeq': ['error', 'always'],
-      'curly': 'error',
+      complexity: ['warn', 12],
+      eqeqeq: ['error', 'always'],
+      curly: 'error',
       'padding-line-between-statements': [
         'error',
         { blankLine: 'always', prev: '*', next: 'return' },
@@ -123,7 +123,8 @@ export default tseslint.config(
         // 1. Ban for..in (Iterates over prototypes, slow, often causes bugs)
         {
           selector: 'ForInStatement',
-          message: 'for..in iterates over the prototype chain. Use for..of or Object.keys/entries().',
+          message:
+            'for..in iterates over the prototype chain. Use for..of or Object.keys/entries().',
         },
         // 2. Ban Labels/GOTO (Makes execution flow unpredictable)
         {
@@ -134,7 +135,8 @@ export default tseslint.config(
         // This prevents: return x++, y++, z; (which is a nightmare to debug)
         {
           selector: 'SequenceExpression',
-          message: 'The comma operator is confusing and obscures return values. Use multiple statements.',
+          message:
+            'The comma operator is confusing and obscures return values. Use multiple statements.',
         },
         // 4. Ban TypeScript Enums (Optional but Recommended for WinterCG)
         // Enums have weird runtime behavior. Const objects + Union types are safer.
@@ -146,7 +148,8 @@ export default tseslint.config(
         // Unless you really need #private, standard private/protected is better for sim-engines.
         {
           selector: 'PropertyDefinition[accessible="private"]',
-          message: 'Use TypeScript "private" keyword instead of "#" for better readability and sim performance.',
+          message:
+            'Use TypeScript "private" keyword instead of "#" for better readability and sim performance.',
         },
       ],
     },
@@ -165,5 +168,5 @@ export default tseslint.config(
       'max-lines-per-function': 'off',
     },
   },
-  prettierConfig
+  prettierConfig,
 );

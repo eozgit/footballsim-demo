@@ -17,10 +17,10 @@ export const Resources = ({ store }: { store: StoreType }): null => {
             },
           }),
         },
-        { collapsed: true } // Sets the folder to start closed
+        { collapsed: true }, // Sets the folder to start closed
       ),
     },
-    { store }
+    { store },
   );
 
   return null;

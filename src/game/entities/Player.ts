@@ -22,7 +22,7 @@ export class Player extends GameObjects.Container {
     shirtNumber: string,
     playerName: string,
     style: PlayerStyle,
-    isGK: boolean
+    isGK: boolean,
   ) {
     super(scene, x, y);
 

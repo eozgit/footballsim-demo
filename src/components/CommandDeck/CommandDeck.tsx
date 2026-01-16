@@ -21,7 +21,12 @@ export const CommandDeck = (): JSX.Element => {
 
         {/* 3. Tell the panel to render THAT specific store */}
         <div className="leva-mount border border-gray-800 rounded overflow-hidden">
-          <LevaPanel store={store} fill flat titleBar={false} />
+          <LevaPanel
+            store={store}
+            fill
+            flat
+            titleBar={false}
+          />
         </div>
       </div>
 
