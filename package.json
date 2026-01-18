@@ -57,6 +57,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
+    "@stylistic/eslint-plugin": "^5.7.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.1",
     "@types/react": "^19.0.10",

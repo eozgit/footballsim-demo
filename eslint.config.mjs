@@ -2,18 +2,22 @@ import js from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
-import prettierConfig from 'eslint-config-prettier';
+import eslintConfigPrettier from 'eslint-config-prettier';
 import globals from 'globals';
-import importPlugin from 'eslint-plugin-import'; // NEW
-import unusedImports from 'eslint-plugin-unused-imports'; // NEW
+import importPlugin from 'eslint-plugin-import';
+import unusedImports from 'eslint-plugin-unused-imports';
 import sonarjs from 'eslint-plugin-sonarjs';
 import unicorn from 'eslint-plugin-unicorn';
 import n from 'eslint-plugin-n';
+import stylistic from '@stylistic/eslint-plugin';
 
 export default tseslint.config(
   { ignores: ['dist', 'node_modules', 'vite', 'coverage'] },
   js.configs.recommended,
   sonarjs.configs.recommended,
+  stylistic.configs['disable-legacy'],
+  stylistic.configs.recommended,
+
   // Block 1: Infrastructure & Build Files (JS/MJS)
   {
     files: ['*.js', '*.mjs'],
@@ -35,21 +39,31 @@ export default tseslint.config(
         project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.test.json'],
         tsconfigRootDir: import.meta.dirname,
       },
+      globals: { ...globals.node, ...globals.browser },
     },
     plugins: {
       react: reactPlugin,
       'react-hooks': reactHooksPlugin,
-      import: importPlugin, // NEW
-      'unused-imports': unusedImports, // NEW
+      'import': importPlugin,
+      'unused-imports': unusedImports,
       n,
       unicorn,
+      '@stylistic': stylistic,
     },
     rules: {
       ...reactPlugin.configs.recommended.rules,
       ...reactHooksPlugin.configs.recommended.rules,
       'react/react-in-jsx-scope': 'off',
 
-      // --- IMPORT DISCIPLINE ---
+      // --- LOGIC SAFETY (Synced with Lib) ---
+      'sonarjs/cognitive-complexity': ['error', 15],
+      'sonarjs/no-identical-functions': 'error',
+      'complexity': ['error', 12],
+      'max-depth': ['error', 3],
+      'max-params': ['error', 4],
+
+      // --- IMPORT DISCIPLINE & AI OPTIMIZATION ---
+      'import/no-default-export': 'error', // Named exports for better AI/refactoring
       'import/order': [
         'error',
         {
@@ -58,7 +72,7 @@ export default tseslint.config(
         },
       ],
 
-      // --- AGENT-OPTIMIZED UNUSED CODE REMOVAL ---
+      // --- UNUSED CODE (Agent Optimized) ---
       '@typescript-eslint/no-unused-vars': 'off',
       'unused-imports/no-unused-imports': 'error',
       'unused-imports/no-unused-vars': [
@@ -66,91 +80,53 @@ export default tseslint.config(
         { vars: 'all', varsIgnorePattern: '^_', args: 'after-used', argsIgnorePattern: '^_' },
       ],
 
-      // --- STRICT TYPE SAFETY ---
-      '@typescript-eslint/no-explicit-any': 'error',
+      // --- HARDENED TYPE SAFETY ---
+      '@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true }],
       '@typescript-eslint/consistent-type-imports': ['error', { prefer: 'type-imports' }],
-      '@typescript-eslint/explicit-function-return-type': [
-        'error',
-        { allowExpressions: true, allowTypedFunctionExpressions: false },
-      ],
-      // --- THE GOOD PARTS: UI PREDICTABILITY ---
-      'sonarjs/no-nested-template-literals': 'error',
-      'sonarjs/prefer-single-boolean-return': 'error',
-
-      // --- THE GOOD PARTS: PREVENTING "FOOT-SHOOTING" ---
-      '@typescript-eslint/no-floating-promises': 'error', // Must await/catch async calls
-      '@typescript-eslint/no-misused-promises': 'error',
+      '@typescript-eslint/explicit-function-return-type': ['error', { allowExpressions: true }],
+      '@typescript-eslint/no-floating-promises': 'error',
       '@typescript-eslint/await-thenable': 'error',
+      '@typescript-eslint/switch-exhaustiveness-check': 'error',
+      '@typescript-eslint/no-unnecessary-type-assertion': 'error',
 
-      // --- MODERN SAFETY (Unicorn) ---
-      'unicorn/no-array-reduce': 'warn', // Prefer for-of for engine performance
-      'unicorn/prefer-module': 'error',
-      'unicorn/no-null': 'warn', // Discourages null, encourages undefined/optional
-      'unicorn/filename-case': ['error', { case: 'camelCase' }],
-
-      // --- WINTERCG / TC55 COMPLIANCE ---
-      'n/no-deprecated-api': 'error',
-      'n/no-extraneous-import': 'error',
-      'n/prefer-global/buffer': ['error', 'never'], // Forces TextEncoder/Uint8Array
-      'n/prefer-global/process': ['error', 'never'], // Forces feature detection
-
-      // Force Web Standards
-      'no-restricted-globals': [
-        'error',
-        { name: 'Buffer', message: 'Use Uint8Array instead for WinterCG compliance.' },
-        { name: 'process', message: 'Use environment detection or globalThis instead.' },
-        { name: '__dirname', message: 'Use import.meta.url instead.' },
-        { name: '__filename', message: 'Use import.meta.url instead.' },
-      ],
-      // --- IMPORT DISCIPLINE ---
-      'import/no-deprecated': 'warn',
-      'import/no-extraneous-dependencies': 'error', // Error if importing something not in package.json
-      // --- COMPLEXITY & READABILITY (The "Agent Readiness" Gap) ---
-      'max-lines-per-function': ['warn', { max: 70, skipBlankLines: true }], // Slightly higher for React components
-      complexity: ['warn', 12],
-      eqeqeq: ['error', 'always'],
-      curly: 'error',
-      'padding-line-between-statements': [
+      // --- STYLISTIC (Synced with Lib & Prettier) ---
+      '@stylistic/semi': ['error', 'always'], // Sync with .prettierrc
+      '@stylistic/member-delimiter-style': ['error', {
+        multiline: { delimiter: 'semi', requireLast: true },
+        singleline: { delimiter: 'semi', requireLast: false },
+      }],
+      '@stylistic/padding-line-between-statements': [
         'error',
         { blankLine: 'always', prev: '*', next: 'return' },
         { blankLine: 'always', prev: ['const', 'let', 'var'], next: '*' },
-        { blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var'] },
         { blankLine: 'always', prev: 'block-like', next: '*' },
       ],
-      // Add this to your rules block
+
+      // --- MODERN STANDARDS (Unicorn & WinterCG) ---
+      'unicorn/filename-case': ['error', { case: 'camelCase' }],
+      'n/prefer-global/buffer': ['error', 'never'],
+      'n/prefer-global/process': ['error', 'never'],
+      'no-restricted-globals': [
+        'error',
+        { name: 'Buffer', message: 'Use Uint8Array for WinterCG compliance.' },
+        { name: 'process', message: 'Use environment detection instead.' },
+      ],
+
+      // --- NAMING CONVENTION (AI Readiness) ---
+      '@typescript-eslint/naming-convention': [
+        'error',
+        { selector: 'variable', format: ['camelCase', 'UPPER_CASE'] },
+        { selector: 'typeLike', format: ['PascalCase'] },
+        { selector: 'interface', format: ['PascalCase'], custom: { regex: '^I[A-Z]', match: false } }
+      ],
+
+      // --- UI-SPECIFIC SAFETY ---
       'no-restricted-syntax': [
         'error',
-        // 1. Ban for..in (Iterates over prototypes, slow, often causes bugs)
-        {
-          selector: 'ForInStatement',
-          message:
-            'for..in iterates over the prototype chain. Use for..of or Object.keys/entries().',
-        },
-        // 2. Ban Labels/GOTO (Makes execution flow unpredictable)
-        {
-          selector: 'LabeledStatement',
-          message: 'Labels are GOTO in disguise. Refactor logic into smaller, pure functions.',
-        },
-        // 3. Ban Sequence Expressions (The comma operator: a, b, c)
-        // This prevents: return x++, y++, z; (which is a nightmare to debug)
-        {
-          selector: 'SequenceExpression',
-          message:
-            'The comma operator is confusing and obscures return values. Use multiple statements.',
-        },
-        // 4. Ban TypeScript Enums (Optional but Recommended for WinterCG)
-        // Enums have weird runtime behavior. Const objects + Union types are safer.
-        {
-          selector: 'TSEnumDeclaration',
-          message: 'Use const objects with "as const" or union types instead of Enums.',
-        },
-        // 5. Ban Class Private Fields (Optional)
-        // Unless you really need #private, standard private/protected is better for sim-engines.
-        {
-          selector: 'PropertyDefinition[accessible="private"]',
-          message:
-            'Use TypeScript "private" keyword instead of "#" for better readability and sim performance.',
-        },
+        { selector: 'ForInStatement', message: 'Use for..of or Object.keys().' },
+        { selector: 'LabeledStatement', message: 'Labels are forbidden.' },
+        { selector: 'SequenceExpression', message: 'The comma operator is forbidden.' },
+        { selector: 'TSEnumDeclaration', message: 'Use const objects or union types instead of Enums.' }
       ],
     },
     settings: { react: { version: 'detect' } },
@@ -165,8 +141,16 @@ export default tseslint.config(
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/no-unsafe-assignment': 'off',
       '@typescript-eslint/no-unsafe-call': 'off',
+      '@typescript-eslint/no-unsafe-member-access': 'off',
       'max-lines-per-function': 'off',
     },
   },
-  prettierConfig,
+
+  // Ensure config files don't use type-checked rules
+  {
+    files: ['*.mjs', '*.js'],
+    extends: [tseslint.configs.disableTypeChecked],
+  },
+
+  eslintConfigPrettier // Must be last
 );
