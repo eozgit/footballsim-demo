@@ -13,6 +13,7 @@ export class SimulationBridge {
 
     // 2. Sync Scoreboard (Safe Navigation)
     const homeGoals = state.kickOffTeamStatistics?.goals;
+
     const awayGoals = state.secondTeamStatistics?.goals;
 
     if (typeof homeGoals === 'number' && typeof awayGoals === 'number') {

@@ -26,6 +26,7 @@ export class TeamProvider {
    */
   public generateKitPair(state: MatchDetails): { home: TeamStyle; away: TeamStyle } {
     const home = this.calculateTeamStyle(state.kickOffTeam);
+
     const away = this.calculateTeamStyle(state.secondTeam);
 
     // Ensure GKs don't clash (simplified)
@@ -53,6 +54,7 @@ export class TeamProvider {
 
     const pickFromPool = (currentPool: typeof pool): { name: string; weight: number } => {
       const totalWeight = currentPool.reduce((sum, item): number => sum + item.weight, 0);
+
       let random = Math.random() * totalWeight;
 
       for (const item of currentPool) {
@@ -64,6 +66,7 @@ export class TeamProvider {
     };
 
     const first = pickFromPool(pool);
+
     const remainingPool = pool.filter((c): boolean => c.name !== first.name);
 
     let secondName: string;
@@ -88,6 +91,7 @@ export class TeamProvider {
    */
   public getStyles(state: MatchDetails): Map<number, TeamStyle> {
     const kits = this.generateKitPair(state);
+
     const styles = new Map<number, TeamStyle>();
 
     styles.set(state.kickOffTeam.teamID, kits.home);

@@ -23,6 +23,7 @@ export const PhaserGame = forwardRef<IRefPhaserGame, IProps>(function PhaserGame
 
   // 1. Subscribe to the simulation playback state
   const isPlaying = useSimulationStore((state): boolean => state.isPlaying);
+
   const pitchTexture = useSimulationStore((state): string => state.pitchTexture);
 
   useEffect((): void => {

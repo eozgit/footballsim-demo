@@ -115,6 +115,7 @@ export const useSimulationStore = create<SimulationState>(
         if (!state.showLogs || !newLogs.length) return state;
 
         const limit = 100;
+
         const combined = [...state.logs, ...newLogs];
 
         return {

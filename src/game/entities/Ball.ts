@@ -23,7 +23,9 @@ export class Ball {
    */
   public updatePosition(engX: number, engY: number, engZ: number = 0, duration: number): void {
     const { x, y } = toCanvasCoordinates(engX, engY);
+
     const visualY = getBallVisualY(y, engZ);
+
     const scale = getBallScale(engZ);
 
     // 1. Performance Optimization: Hide shadow if on ground
@@ -34,6 +36,7 @@ export class Ball {
     // 2. Light Source Math:
     // Offset the shadow by a fraction of Z to simulate a light source
     const shadowOffsetX = engZ * 1.5;
+
     const shadowOffsetY = engZ * 1.2;
 
     // Ball Tween (lifts on Y based on Z)
@@ -59,6 +62,7 @@ export class Ball {
       });
     }
   }
+
   public setSnowMode(isSnow: boolean): void {
     if (isSnow) {
       // "DarkOrange" for high-visibility contrast without being too dark

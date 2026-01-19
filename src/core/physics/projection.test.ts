@@ -11,6 +11,7 @@ describe('Physics Projections', () => {
 
   it('should increase ball scale as engZ rises', () => {
     const scaleGround = getBallScale(0);
+
     const scaleAir = getBallScale(100);
 
     expect(scaleAir).toBeGreaterThan(scaleGround);

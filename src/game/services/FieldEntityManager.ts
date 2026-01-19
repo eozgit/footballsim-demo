@@ -41,6 +41,7 @@ export class FieldEntityManager {
     }
 
     const store = useSimulationStore.getState();
+
     const isSnow = store.pitchTexture.toLowerCase().includes('snow');
 
     this.ball.setSnowMode(isSnow);
@@ -84,6 +85,7 @@ export class FieldEntityManager {
     });
     if (this.rerollFlag.home || this.rerollFlag.away) {
       const currentStyles = useSimulationStore.getState().kitStyles;
+
       const newKits = this.teamProvider.generateKitPair(state);
 
       useSimulationStore

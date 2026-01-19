@@ -64,6 +64,7 @@ export class Player extends GameObjects.Container {
     scene.add.existing(this.intentMarker);
     this.intentMarker.setVisible(false);
   }
+
   public setDisplayName(visible: boolean): void {
     this.nameLabel.setVisible(visible);
   }
@@ -73,8 +74,10 @@ export class Player extends GameObjects.Container {
    */
   public updateStyle(style: TeamStyle, isGK: boolean): void {
     const bodyColor = isGK ? style.gk : style.body;
+
     // For GK contrast, we use black stroke/text or the detail color
     const strokeColor = isGK ? 0x000000 : style.detail;
+
     const textColor = isGK ? '#000000' : `#${style.detail.toString(16).padStart(6, '0')}`;
 
     this.circle.setFillStyle(bodyColor);
@@ -92,6 +95,7 @@ export class Player extends GameObjects.Container {
       overwrite: true,
     });
   }
+
   public updateIntent(destX: number, destY: number, color: number, visible: boolean): void {
     this.intentMarker.setVisible(visible);
     this.intentLine.setVisible(visible);
@@ -107,6 +111,7 @@ export class Player extends GameObjects.Container {
       // Phaser doesn't have a native 'dashed' line method,
       // so we use a simple segment loop
       const startX = this.x;
+
       const startY = this.y;
 
       this.drawDashedLine(startX, startY, destX, destY);
@@ -115,17 +120,24 @@ export class Player extends GameObjects.Container {
 
   private drawDashedLine(x1: number, y1: number, x2: number, y2: number): void {
     const dashLength = 5;
+
     const gapLength = 3;
+
     const distance = Phaser.Math.Distance.Between(x1, y1, x2, y2);
+
     const numDashes = Math.floor(distance / (dashLength + gapLength));
 
     for (let i = 0; i < numDashes; i++) {
       const tStart = (i * (dashLength + gapLength)) / distance;
+
       const tEnd = (i * (dashLength + gapLength) + dashLength) / distance;
 
       const px1 = Phaser.Math.Interpolation.Linear([x1, x2], tStart);
+
       const py1 = Phaser.Math.Interpolation.Linear([y1, y2], tStart);
+
       const px2 = Phaser.Math.Interpolation.Linear([x1, x2], tEnd);
+
       const py2 = Phaser.Math.Interpolation.Linear([y1, y2], tEnd);
 
       this.intentLine.lineBetween(px1, py1, px2, py2);

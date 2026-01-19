@@ -44,7 +44,7 @@ export default tseslint.config(
     plugins: {
       react: reactPlugin,
       'react-hooks': reactHooksPlugin,
-      'import': importPlugin,
+      import: importPlugin,
       'unused-imports': unusedImports,
       n,
       unicorn,
@@ -58,7 +58,7 @@ export default tseslint.config(
       // --- LOGIC SAFETY (Synced with Lib) ---
       'sonarjs/cognitive-complexity': ['error', 15],
       'sonarjs/no-identical-functions': 'error',
-      'complexity': ['error', 12],
+      complexity: ['error', 12],
       'max-depth': ['error', 3],
       'max-params': ['error', 4],
 
@@ -91,10 +91,13 @@ export default tseslint.config(
 
       // --- STYLISTIC (Synced with Lib & Prettier) ---
       '@stylistic/semi': ['error', 'always'], // Sync with .prettierrc
-      '@stylistic/member-delimiter-style': ['error', {
-        multiline: { delimiter: 'semi', requireLast: true },
-        singleline: { delimiter: 'semi', requireLast: false },
-      }],
+      '@stylistic/member-delimiter-style': [
+        'error',
+        {
+          multiline: { delimiter: 'semi', requireLast: true },
+          singleline: { delimiter: 'semi', requireLast: false },
+        },
+      ],
       '@stylistic/padding-line-between-statements': [
         'error',
         { blankLine: 'always', prev: '*', next: 'return' },
@@ -117,7 +120,11 @@ export default tseslint.config(
         'error',
         { selector: 'variable', format: ['camelCase', 'UPPER_CASE'] },
         { selector: 'typeLike', format: ['PascalCase'] },
-        { selector: 'interface', format: ['PascalCase'], custom: { regex: '^I[A-Z]', match: false } }
+        {
+          selector: 'interface',
+          format: ['PascalCase'],
+          custom: { regex: '^I[A-Z]', match: false },
+        },
       ],
 
       // --- UI-SPECIFIC SAFETY ---
@@ -126,7 +133,10 @@ export default tseslint.config(
         { selector: 'ForInStatement', message: 'Use for..of or Object.keys().' },
         { selector: 'LabeledStatement', message: 'Labels are forbidden.' },
         { selector: 'SequenceExpression', message: 'The comma operator is forbidden.' },
-        { selector: 'TSEnumDeclaration', message: 'Use const objects or union types instead of Enums.' }
+        {
+          selector: 'TSEnumDeclaration',
+          message: 'Use const objects or union types instead of Enums.',
+        },
       ],
     },
     settings: { react: { version: 'detect' } },
@@ -152,5 +162,5 @@ export default tseslint.config(
     extends: [tseslint.configs.disableTypeChecked],
   },
 
-  eslintConfigPrettier // Must be last
+  eslintConfigPrettier, // Must be last
 );

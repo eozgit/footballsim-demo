@@ -4,6 +4,7 @@ import { TeamProvider } from './TeamProvider';
 
 describe('TeamProvider', () => {
   const mockColors = { Red: 'ff0000', Blue: '0000ff' };
+
   const provider = new TeamProvider(mockColors);
 
   it('should resolve hex strings to numbers', () => {

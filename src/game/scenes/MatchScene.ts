@@ -48,6 +48,7 @@ export class MatchScene extends Scene {
     });
 
     const teamA = this.cache.json.get('GS2025') as Team;
+
     const teamB = this.cache.json.get('GS2000') as Team;
 
     this.manager.initMatch(teamA, teamB);
@@ -93,6 +94,7 @@ export class MatchScene extends Scene {
       this.manager.pause();
     }
   }
+
   /**
    * External bridge for the React UI to control simulation flow
    */
@@ -105,6 +107,7 @@ export class MatchScene extends Scene {
       this.manager.pause();
     }
   }
+
   // Hook into your existing texture update method
   public updatePitchTexture(texture: string): void {
     if (this.pitchSprite) this.pitchSprite.setTexture(`pitch-${texture}`);
