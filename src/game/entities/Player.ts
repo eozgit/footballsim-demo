@@ -8,6 +8,12 @@ export interface PlayerStyle {
   detail: number;
   gk: number;
 }
+export interface PlayerArgs {
+  shirtNumber: string;
+  playerName: string;
+  style: PlayerStyle;
+  isGK: boolean;
+}
 
 export class Player extends GameObjects.Container {
   private circle: GameObjects.Arc;
@@ -15,16 +21,9 @@ export class Player extends GameObjects.Container {
   private nameLabel: GameObjects.Text;
   private intentMarker: GameObjects.Arc;
   private intentLine: GameObjects.Graphics;
-  constructor(
-    scene: Scene,
-    x: number,
-    y: number,
-    shirtNumber: string,
-    playerName: string,
-    style: PlayerStyle,
-    isGK: boolean,
-  ) {
+  constructor(scene: Scene, x: number, y: number, playerArgs: PlayerArgs) {
     super(scene, x, y);
+    const { shirtNumber, playerName, style, isGK } = playerArgs;
 
     this.circle = scene.add.circle(0, 0, 15, 0xffffff);
     this.label = scene.add

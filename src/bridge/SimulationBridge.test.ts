@@ -1,3 +1,4 @@
+import type { MatchDetails } from 'footballsim';
 import { describe, it, expect, vi } from 'vitest';
 
 import { SimulationBridge } from './SimulationBridge';
@@ -11,7 +12,7 @@ describe('SimulationBridge', () => {
       kickOffTeamStatistics: { goals: 3 },
       secondTeamStatistics: { goals: 2 },
       iterationLog: ['Goal scored!'],
-    } as any;
+    } as MatchDetails;
 
     SimulationBridge.sync(mockState);
 
@@ -26,7 +27,7 @@ describe('SimulationBridge', () => {
     const partialState = {
       kickOffTeam: { name: 'Solo Team' },
       // Missing stats and logs
-    } as any;
+    } as MatchDetails;
 
     expect(() => SimulationBridge.sync(partialState)).not.toThrow();
     expect(useSimulationStore.getState().teams.home).toBe('Solo Team');
@@ -35,7 +36,7 @@ describe('SimulationBridge', () => {
     const partialState = {
       kickOffTeam: { name: 'Home Team' },
       // secondTeam is missing or has no name
-    } as any;
+    } as MatchDetails;
 
     SimulationBridge.sync(partialState);
     const store = useSimulationStore.getState();
@@ -47,7 +48,7 @@ describe('SimulationBridge', () => {
     const state = {
       kickOffTeamStatistics: { goals: 0 },
       secondTeamStatistics: { goals: 0 },
-    } as any;
+    } as MatchDetails;
 
     const spy = vi.spyOn(useSimulationStore.getState(), 'updateScore');
 

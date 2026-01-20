@@ -90,9 +90,11 @@ export class MatchScene extends Scene {
   public toggleActive(playing: boolean): void {
     if (playing) {
       this.manager.resume();
-    } else {
-      this.manager.pause();
+
+      return;
     }
+
+    this.manager.pause();
   }
 
   /**

@@ -108,15 +108,12 @@ export class FieldEntityManager {
       const style = team.teamID === state.kickOffTeam.teamID ? kits.home : kits.away;
 
       team.players.forEach((p): void => {
-        const player = new Player(
-          this.scene,
-          -100,
-          -100,
-          p.shirtNumber.toString(),
-          p.name,
+        const player = new Player(this.scene, -100, -100, {
+          shirtNumber: p.shirtNumber.toString(),
+          playerName: p.name,
           style,
-          p.position === 'GK',
-        );
+          isGK: p.position === 'GK',
+        });
 
         this.players.set(p.playerID, player);
       });

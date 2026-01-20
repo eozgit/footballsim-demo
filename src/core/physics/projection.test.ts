@@ -18,13 +18,11 @@ describe('Physics Projections', () => {
     expect(scaleAir).toBe(2);
   });
   it('should handle missing or undefined Z-axis gracefully', () => {
-    // @ts-ignore: Testing runtime resilience for missing Z
-    const visualY = getBallVisualY(100, undefined);
+    const visualY = getBallVisualY(100, undefined as unknown as number);
 
     expect(visualY).toBe(100);
 
-    // @ts-ignore: Testing scale fallback
-    const scale = getBallScale(null);
+    const scale = getBallScale(null as unknown as number);
 
     expect(scale).toBe(1);
   });

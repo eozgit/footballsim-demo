@@ -3,19 +3,19 @@ import { forwardRef, useEffect, useLayoutEffect, useRef } from 'react';
 
 import { useSimulationStore } from './bridge/useSimulationStore';
 import { EventBus } from './game/EventBus';
-import StartGame from './game/main';
+import { StartGame } from './game/main';
 import { MatchScene } from './game/scenes/MatchScene';
 
-export interface IRefPhaserGame {
+export interface PhaserGameRef {
   game: Phaser.Game | null;
   scene: Phaser.Scene | null;
 }
 
-interface IProps {
+interface PhaserGameProps {
   currentActiveScene?: (scene_instance: Phaser.Scene) => void;
 }
 
-export const PhaserGame = forwardRef<IRefPhaserGame, IProps>(function PhaserGame(
+export const PhaserGame = forwardRef<PhaserGameRef, PhaserGameProps>(function PhaserGame(
   { currentActiveScene },
   ref,
 ): JSX.Element {

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import App from './App.tsx';
+import { App } from './App';
 
 console.log(
   `%c [SYSTEM] App Boot: ${new Date().toLocaleTimeString()}`,

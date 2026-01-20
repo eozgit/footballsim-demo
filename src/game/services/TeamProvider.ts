@@ -38,6 +38,14 @@ export class TeamProvider {
     return { home, away };
   }
 
+  private getSecureRandom(): number {
+    const array = new Uint32Array(1);
+
+    window.crypto.getRandomValues(array);
+
+    return array[0] / (0xffffffff + 1);
+  }
+
   /**
    * Logic to pick primary and secondary colors based on weighted probability.
    */
@@ -55,7 +63,7 @@ export class TeamProvider {
     const pickFromPool = (currentPool: typeof pool): { name: string; weight: number } => {
       const totalWeight = currentPool.reduce((sum, item): number => sum + item.weight, 0);
 
-      let random = Math.random() * totalWeight;
+      let random = this.getSecureRandom() * totalWeight;
 
       for (const item of currentPool) {
         if (random < item.weight) return item;
@@ -82,7 +90,7 @@ export class TeamProvider {
     return {
       body: this.getHexColor(first.name),
       detail: this.getHexColor(secondName),
-      gk: this.GK_COLORS[Math.floor(Math.random() * this.GK_COLORS.length)],
+      gk: this.GK_COLORS[Math.floor(this.getSecureRandom() * this.GK_COLORS.length)],
     };
   }
 

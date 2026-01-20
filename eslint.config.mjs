@@ -10,9 +10,9 @@ import sonarjs from 'eslint-plugin-sonarjs';
 import unicorn from 'eslint-plugin-unicorn';
 import n from 'eslint-plugin-n';
 import stylistic from '@stylistic/eslint-plugin';
-
+import reactRefresh from 'eslint-plugin-react-refresh';
 export default tseslint.config(
-  { ignores: ['dist', 'node_modules', 'vite', 'coverage'] },
+  { ignores: ['dist', 'node_modules', 'vite', 'coverage', 'scripts'] },
   js.configs.recommended,
   sonarjs.configs.recommended,
   stylistic.configs['disable-legacy'],
@@ -36,6 +36,7 @@ export default tseslint.config(
     extends: [...tseslint.configs.recommendedTypeChecked],
     languageOptions: {
       parserOptions: {
+        ecmaFeatures: { jsx: true },
         project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.test.json'],
         tsconfigRootDir: import.meta.dirname,
       },
@@ -44,6 +45,7 @@ export default tseslint.config(
     plugins: {
       react: reactPlugin,
       'react-hooks': reactHooksPlugin,
+      'react-refresh': reactRefresh,
       import: importPlugin,
       'unused-imports': unusedImports,
       n,
@@ -54,7 +56,7 @@ export default tseslint.config(
       ...reactPlugin.configs.recommended.rules,
       ...reactHooksPlugin.configs.recommended.rules,
       'react/react-in-jsx-scope': 'off',
-
+      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
       // --- LOGIC SAFETY (Synced with Lib) ---
       'sonarjs/cognitive-complexity': ['error', 15],
       'sonarjs/no-identical-functions': 'error',
@@ -106,7 +108,7 @@ export default tseslint.config(
       ],
 
       // --- MODERN STANDARDS (Unicorn & WinterCG) ---
-      'unicorn/filename-case': ['error', { case: 'camelCase' }],
+      'unicorn/filename-case': ['error', { cases: { camelCase: true, pascalCase: true } }],
       'n/prefer-global/buffer': ['error', 'never'],
       'n/prefer-global/process': ['error', 'never'],
       'no-restricted-globals': [
@@ -118,15 +120,23 @@ export default tseslint.config(
       // --- NAMING CONVENTION (AI Readiness) ---
       '@typescript-eslint/naming-convention': [
         'error',
-        { selector: 'variable', format: ['camelCase', 'UPPER_CASE'] },
+        // Allow PascalCase for components (variables) and standard camelCase/UPPER_CASE
+        {
+          selector: 'variable',
+          format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
+        },
+        // Allow PascalCase for function components
+        {
+          selector: 'function',
+          format: ['camelCase', 'PascalCase'],
+        },
         { selector: 'typeLike', format: ['PascalCase'] },
         {
           selector: 'interface',
           format: ['PascalCase'],
-          custom: { regex: '^I[A-Z]', match: false },
+          custom: { regex: '^I[A-Z]', match: false }, // Disallow 'I' prefix
         },
       ],
-
       // --- UI-SPECIFIC SAFETY ---
       'no-restricted-syntax': [
         'error',

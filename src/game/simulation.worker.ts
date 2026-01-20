@@ -3,6 +3,7 @@ import type { MatchDetails, Team } from 'footballsim';
 import { initiateGame, playIteration } from 'footballsim';
 
 let matchState: MatchDetails;
+
 let isRunning = false;
 
 // --- CONFIGURATION ---
@@ -17,6 +18,7 @@ const runSimulation = (): void => {
   matchState = playIteration(matchState);
 
   const endTime = performance.now();
+
   const logicDuration = endTime - startTime;
 
   // 2. Report State + Monitoring Data
@@ -40,6 +42,7 @@ self.onmessage = (e: MessageEvent): void => {
   switch (type) {
     case 'INIT_MATCH': {
       const pitchDetails = { pitchHeight: 1050, pitchWidth: 680, goalWidth: 90 };
+
       const { teamA, teamB } = data as { teamA: Team; teamB: Team };
 
       matchState = initiateGame(teamA, teamB, pitchDetails);

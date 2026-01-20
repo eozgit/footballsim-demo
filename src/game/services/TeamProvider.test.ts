@@ -1,3 +1,4 @@
+import type { MatchDetails } from 'footballsim';
 import { describe, it, expect, vi } from 'vitest';
 
 import { TeamProvider } from './TeamProvider';
@@ -8,7 +9,6 @@ describe('TeamProvider', () => {
   const provider = new TeamProvider(mockColors);
 
   it('should resolve hex strings to numbers', () => {
-    // @ts-ignore
     const color = provider['getHexColor']('Red');
 
     expect(color).toBe(0xff0000);
@@ -23,12 +23,12 @@ describe('TeamProvider', () => {
   it('should generate correct TeamStyles from MatchDetails', () => {
     // Force Math.random to return 0
     // This affects color picking AND GK selection (picks first GK color: 0x00ff00)
-    const randomMock = vi.spyOn(Math, 'random').mockReturnValue(0);
+    const randomMock = vi.spyOn(provider as any, 'getSecureRandom').mockReturnValue(0);
 
     const mockMatch = {
       kickOffTeam: { teamID: 1, primaryColour: 'Red', secondaryColour: 'Blue' },
       secondTeam: { teamID: 2, primaryColour: 'Blue', secondaryColour: 'Red' },
-    } as any;
+    } as MatchDetails;
 
     const styles = provider.getStyles(mockMatch);
 
@@ -43,12 +43,12 @@ describe('TeamProvider', () => {
   });
 
   it('should fallback to White and Black if colors are missing from state', () => {
-    vi.spyOn(Math, 'random').mockReturnValue(0);
+    vi.spyOn(provider as any, 'getSecureRandom').mockReturnValue(0);
 
     const minimalistMatch = {
       kickOffTeam: { teamID: 1 },
       secondTeam: { teamID: 2 },
-    } as any;
+    } as MatchDetails;
 
     const styles = provider.getStyles(minimalistMatch);
 

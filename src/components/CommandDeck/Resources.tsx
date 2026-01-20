@@ -11,9 +11,17 @@ export const Resources = ({ store }: { store: StoreType }): null => {
             label: '', // Removes the "External" label next to the buttons
             opts: {
               DEMO: (): Window | null =>
-                window.open('https://github.com/eozgit/footballsim-demo', '_blank'),
+                window.open(
+                  'https://github.com/eozgit/footballsim-demo',
+                  '_blank',
+                  'rel="noopener"',
+                ),
               ENGINE: (): Window | null =>
-                window.open('https://github.com/GallagherAiden/footballSimulationEngine', '_blank'),
+                window.open(
+                  'https://github.com/GallagherAiden/footballSimulationEngine',
+                  '_blank',
+                  'rel="noopener"',
+                ),
             },
           }),
         },

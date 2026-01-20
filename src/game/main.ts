@@ -17,4 +17,4 @@ const StartGame = (parent: string): Game => {
   return new Game({ ...config, parent });
 };
 
-export default StartGame;
+export { StartGame };

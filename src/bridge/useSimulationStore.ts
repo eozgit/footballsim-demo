@@ -12,7 +12,7 @@ export interface KitStyle {
   detail: number;
   gk: number;
 }
-interface SimulationState {
+export interface SimulationState {
   isPlaying: boolean;
   logs: string[];
   showLogs: boolean;

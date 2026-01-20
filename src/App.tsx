@@ -1,11 +1,10 @@
 import * as FlexLayout from 'flexlayout-react';
 import 'flexlayout-react/style/dark.css';
-import type { JSX } from 'react';
-import React, { useCallback, useRef } from 'react';
+import { useCallback, useRef, type JSX } from 'react';
 
 import { CommandDeck } from './components/CommandDeck/CommandDeck';
 import { TerminalLog } from './components/TerminalLog'; // adjust path as needed
-import type { IRefPhaserGame } from './PhaserGame';
+import type { PhaserGameRef } from './PhaserGame';
 import { PhaserGame } from './PhaserGame';
 
 const layoutConfig: FlexLayout.IJsonModel = {
@@ -42,24 +41,35 @@ const layoutConfig: FlexLayout.IJsonModel = {
 const model = FlexLayout.Model.fromJson(layoutConfig);
 
 export const App = (): JSX.Element => {
-  const phaserRef = useRef<IRefPhaserGame | null>(null);
+  const phaserRef = useRef<PhaserGameRef | null>(null);
 
-  const factory = useCallback((node: FlexLayout.TabNode): React.ReactNode => {
+  const factory = useCallback((node: FlexLayout.TabNode): JSX.Element => {
     const component = node.getComponent();
 
     switch (component) {
       case 'phaser_engine':
         return (
-          <div className="phaser-wrapper">
-            <PhaserGame ref={phaserRef} />
-          </div>
+          <>
+            <div className="phaser-wrapper">
+              <PhaserGame ref={phaserRef} />
+            </div>
+          </>
         );
       case 'controls':
-        return <CommandDeck />; // Modularized
+        return (
+          <>
+            <CommandDeck />
+          </>
+        );
       case 'telemetry':
-        return <TerminalLog />;
+        return (
+          <>
+            <TerminalLog />
+          </>
+        );
+      case undefined:
       default:
-        return null;
+        return <></>;
     }
   }, []);
 
@@ -72,5 +82,3 @@ export const App = (): JSX.Element => {
     </div>
   );
 };
-
-export default App;
