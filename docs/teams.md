@@ -1,177 +1,177 @@
 ### Table 1: Team Data
 
-| Team ID | Name                   | Rating | Primary Color | Secondary Color | Away Color | Intent    | Description                                                    |
-| :------ | :--------------------- | :----- | :------------ | :-------------- | :--------- | :-------- | :------------------------------------------------------------- |
-| 1       | Algeria                | 72     | Green         | White           | Red        | balanced  | The Desert Warriors                                            |
-| 2       | Argentina              | 94     | SkyBlue       | White           | Gold       | attacking | La Albiceleste - World Champions                               |
-| 3       | Australia              | 68     | Gold          | Green           | Navy       | defensive | The Socceroos                                                  |
-| 4       | Austria                | 75     | Red           | White           | Black      | attacking | Das Nationalteam                                               |
-| 5       | Belgium                | 82     | Red           | Black           | Gold       | attacking | The Red Devils                                                 |
-| 6       | Bolivia                | 54     | Green         | White           | Red        | defensive | La Verde                                                       |
-| 7       | Brazil                 | 89     | Yellow        | Green           | Blue       | attacking | Canarinho                                                      |
-| 8       | Cabo Verde             | 65     | Blue          | White           | Red        | balanced  | Blue Sharks                                                    |
-| 9       | Canada                 | 70     | Red           | White           | Black      | attacking | Les Rouges                                                     |
-| 10      | Colombia               | 84     | Yellow        | Blue            | Red        | attacking | Los Cafeteros                                                  |
-| 11      | Côte d'Ivoire          | 78     | Orange        | White           | Green      | attacking | The Elephants - AFCON Champions                                |
-| 12      | Croatia                | 81     | Red           | White           | Blue       | balanced  | Kockasti - Vatreni                                             |
-| 13      | Curaçao                | 48     | Blue          | Yellow          | White      | defensive | Blue Wave                                                      |
-| 14      | Denmark                | 76     | Red           | White           | Red        | balanced  | De Rød-Hvide                                                   |
-| 15      | Ecuador                | 79     | Yellow        | Blue            | Red        | attacking | La Tri                                                         |
-| 16      | Egypt                  | 74     | Red           | White           | Black      | attacking | The Pharaohs                                                   |
-| 17      | England                | 91     | White         | Navy            | Red        | attacking | The Three Lions - 2024/25 Elite Squad                          |
-| 18      | France                 | 93     | Blue          | White           | Red        | attacking | Les Bleus - Two-time World Champions                           |
-| 19      | Germany                | 88     | White         | Black           | Magenta    | attacking | Die Mannschaft                                                 |
-| 20      | Ghana                  | 67     | White         | Black           | Red        | balanced  | The Black Stars                                                |
-| 21      | Haiti                  | 52     | Blue          | Red             | White      | balanced  | Les Grenadiers                                                 |
-| 22      | Iceland                | 16     | Blue          | White           | Red        | defensive | 2026 Rebuilding Phase - Returning to natural baseline.         |
-| 23      | Iran                   | 71     | White         | Red             | Green      | defensive | Team Melli                                                     |
-| 24      | Ireland                | 61     | Green         | White           | Orange     | defensive | The Boys in Green                                              |
-| 25      | Italy                  | 86     | Blue          | White           | Gold       | attacking | Gli Azzurri                                                    |
-| 26      | Japan                  | 80     | Blue          | White           | Red        | attacking | Samurai Blue                                                   |
-| 27      | Jordan                 | 64     | White         | Red             | Black      | defensive | The Chivalrous                                                 |
-| 28      | Mexico                 | 73     | Green         | White           | Red        | balanced  | El Tri                                                         |
-| 29      | Morocco                | 83     | Red           | Green           | White      | attacking | The Atlas Lions                                                |
-| 30      | Netherlands            | 85     | Orange        | Blue            | White      | attacking | Oranje                                                         |
-| 31      | New Zealand            | 55     | White         | Black           | Silver     | balanced  | All Whites                                                     |
-| 32      | New Zealand            | 34     | White         | Black           | Silver     | defensive | 2026 Standing - Regional dominance but structural global gaps. |
-| 33      | Norway                 | 74     | Red           | Blue            | White      | attacking | Løvene (The Lions)                                             |
-| 34      | Panama                 | 66     | Red           | White           | Blue       | balanced  | Los Canaleros                                                  |
-| 35      | Paraguay               | 68     | Red           | White           | Blue       | defensive | La Albirroja                                                   |
-| 36      | Poland                 | 69     | Red           | White           | Red        | balanced  | Biało-czerwoni (The White and Reds)                            |
-| 37      | Portugal               | 89     | Red           | Green           | White      | attacking | A Seleção                                                      |
-| 38      | Qatar                  | 67     | Maroon        | White           | Maroon     | defensive | Al-Annabi (The Maroons)                                        |
-| 39      | San Marino             | 12     | Light Blue    | White           | Dark Blue  | defensive | La Serenissima                                                 |
-| 40      | Saudi Arabia           | 69     | Green         | White           | Green      | defensive | Al-Suqour Al-Khodhur (The Green Falcons)                       |
-| 41      | Scotland               | 66     | DarkBlue      | White           | Red        | balanced  | The Tartan Army                                                |
-| 42      | Senegal                | 77     | White         | Green           | Red        | attacking | Les Lions de la Téranga                                        |
-| 43      | South Africa           | 68     | Yellow        | Green           | White      | balanced  | Bafana Bafana                                                  |
-| 44      | South Korea            | 76     | Red           | White           | Black      | attacking | Taegeuk Warriors                                               |
-| 45      | Spain                  | 95     | Red           | Blue            | Yellow     | attacking | La Roja - European Champions                                   |
-| 46      | Sweden                 | 71     | Yellow        | Blue            | White      | balanced  | Blågult (The Blue and Yellow)                                  |
-| 47      | Switzerland            | 79     | Red           | White           | Red        | balanced  | Rossocrociati (Red Crosses)                                    |
-| 48      | Tunisia                | 65     | White         | Red             | White      | defensive | Les Aigles de Carthage                                         |
-| 49      | Turkey                 | 78     | Red           | White           | Red        | attacking | Ay-Yıldızlılar (The Crescent-Stars)                            |
-| 50      | Ukraine                | 73     | Yellow        | Blue            | Yellow     | balanced  | Synyo-Zhovti (The Blue and Yellows)                            |
-| 51      | United States          | 72     | White         | Navy            | Red        | balanced  | The Stars & Stripes                                            |
-| 52      | Uruguay                | 85     | LightBlue     | Black           | White      | attacking | La Celeste                                                     |
-| 53      | Uzbekistan             | 63     | White         | Blue            | White      | defensive | White Wolves                                                   |
-| 54      | Vietnam                | 24     | Red           | Yellow          | White      | balanced  | 2026 Standing - Rising SE Asian power.                         |
-| 55      | Wales                  | 64     | Red           | White           | Green      | defensive | Y Dreigiau (The Dragons)                                       |
-| 101     | AC Milan               | 98     | Red           | Black           | White      | defensive | 1988-1994 Sacchi/Capello 'The Immortals'                       |
-| 102     | Ajax Amsterdam         | 97     | White         | Red             | White      | attacking | 1971-1973 'Total Football' Three-peat                          |
-| 103     | Al-Ahli                | 74     | White         | Green           | Black      | attacking | 2016 Domestic Treble winners                                   |
-| 104     | Al-Ahly                | 82     | Red           | White           | Red        | balanced  | Africa's Club of the Century                                   |
-| 105     | Al-Hilal               | 76     | Blue          | White           | Blue       | balanced  | 2021 AFC Champions League winners                              |
-| 106     | Al-Ittihad             | 75     | Yellow        | Black           | White      | balanced  | 2004-2005 Back-to-back AFC Champions                           |
-| 107     | Al-Nassr               | 71     | Yellow        | Blue            | Yellow     | attacking | The Global Club - Ronaldo Era                                  |
-| 108     | Arsenal FC             | 95     | Red           | White           | Red        | attacking | 2003-2004 'The Invincibles'                                    |
-| 109     | AS Monaco              | 86     | Red           | White           | Red        | attacking | 2016-17 Ligue 1 Champions                                      |
-| 110     | AS Roma                | 85     | DarkRed       | Orange          | White      | balanced  | 2001 Scudetto winners (Totti era)                              |
-| 111     | Aston Villa            | 84     | Claret        | SkyBlue         | White      | balanced  | 1982 European Cup winners                                      |
-| 112     | Atalanta BC            | 84     | Blue          | Black           | White      | attacking | 2024 UEFA Europa League winners                                |
-| 113     | Athletic Bilbao        | 80     | Red           | White           | Black      | balanced  | 2024 Copa del Rey winners                                      |
-| 114     | Atletico Madrid        | 91     | Red           | White           | Blue       | defensive | 2013-14 La Liga title win                                      |
-| 115     | Atletico Mineiro       | 82     | Black         | White           | Black      | attacking | 2013 Copa Libertadores winners                                 |
-| 116     | Barcelona FC           | 99     | Blue          | Red             | Yellow     | attacking | 2008-2009 'The Sextuple' under Guardiola                       |
-| 117     | Bayer Leverkusen       | 94     | Black         | Red             | White      | attacking | 2023-2024 'Neverlusen' Unbeaten Double                         |
-| 118     | Bayern Munich          | 98     | Red           | White           | Red        | attacking | 2019-2020 Sextuple winners                                     |
-| 119     | Benfica                | 92     | Red           | White           | Red        | attacking | 1961-1962 Back-to-back European Cups                           |
-| 120     | Beşiktaş JK            | 77     | Black         | White           | Black      | balanced  | 2016-2018 Back-to-back Super Lig titles                        |
-| 121     | Boca Juniors           | 90     | Blue          | Yellow          | White      | balanced  | 2000-2003 Intercontinental Cup dominance                       |
-| 122     | Borussia Dortmund      | 87     | Yellow        | Black           | White      | attacking | 1997 Champions League winners                                  |
-| 123     | Brighton & Hove Albion | 76     | Blue          | White           | Black      | attacking | 2023-24 First ever European campaign                           |
-| 124     | Bury FC                | 9      | White         | Blue            | Blue       | balanced  | 2025/26 'Phoenix' Rise                                         |
-| 125     | Celtic FC              | 92     | Green         | White           | Green      | attacking | 1967 'Lisbon Lions' European Cup winners                       |
-| 126     | Chelsea FC             | 88     | Blue          | White           | White      | defensive | 2012 First Champions League (Munich)                           |
-| 127     | Chivas Guadalajara     | 74     | Red           | White           | Blue       | balanced  | 2017 Domestic Double                                           |
-| 128     | Club América           | 78     | Yellow        | Blue            | Red        | attacking | 2023-2024 'Bicampeonato'                                       |
-| 129     | Club Nacional          | 81     | White         | Blue            | Red        | balanced  | 1988 Intercontinental Cup winners                              |
-| 130     | Corinthians            | 83     | White         | Black           | White      | defensive | 2012 FIFA Club World Cup winners                               |
-| 131     | Cruz Azul              | 75     | Blue          | White           | Red        | balanced  | 2021 Ending the 23-year 'curse'                                |
-| 132     | Crystal Palace         | 65     | Blue          | Red             | White      | balanced  | 1990 FA Cup Finalists                                          |
-| 133     | Dynamo Kyiv            | 89     | White         | Blue            | White      | balanced  | Lobanovskyi’s Tactical Revolution                              |
-| 134     | Eintracht Frankfurt    | 79     | White         | Black           | Red        | attacking | 2022 Europa League winners                                     |
-| 135     | Everton FC             | 89     | Blue          | White           | White      | balanced  | 1984-1985 Double winners                                       |
-| 136     | Everton FC             | 46     | Blue          | White           | White      | defensive | 2025/26 'Survivalist' Phase                                    |
-| 137     | FC Porto               | 91     | Blue          | White           | Blue       | defensive | 2004 Champions League winners                                  |
-| 138     | FC Schalke 04          | 38     | Blue          | White           | Blue       | balanced  | 2025/26 2. Bundesliga status                                   |
-| 139     | Fenerbahçe SK          | 76     | Yellow        | Blue            | White      | attacking | 2007-2008 UCL Quarter-finalists                                |
-| 140     | Feyenoord              | 88     | Red           | White           | Black      | attacking | 1970 European Cup winners                                      |
-| 141     | Fiorentina             | 77     | Purple        | White           | Purple     | attacking | 2023-2024 Back-to-back UECL finalists                          |
-| 142     | Flamengo               | 89     | Red           | Black           | White      | attacking | 2019 Historic Libertadores & Double                            |
-| 143     | Fluminense             | 82     | Garnet        | Green           | White      | attacking | 2023 First ever Copa Libertadores title                        |
-| 144     | Fulham FC              | 72     | White         | Black           | White      | defensive | 2010 Europa League Finalists                                   |
-| 145     | Galatasaray            | 88     | Red           | Orange          | White      | attacking | 2000 UEFA Cup & Super Cup winners                              |
-| 146     | Grêmio                 | 81     | Blue          | Black           | White      | defensive | 2017 Copa Libertadores winners                                 |
-| 147     | Hashtag United         | 18     | Yellow        | Blue            | White      | attacking | 2025/26 'YouTube' Rise                                         |
-| 148     | Hull City              | 62     | Amber         | Black           | White      | defensive | 2014 FA Cup Finalists                                          |
-| 149     | Independiente          | 91     | Red           | White           | Blue       | balanced  | 'King of Cups' Era                                             |
-| 150     | Inter Miami            | 73     | Pink          | Black           | White      | attacking | 2023 Leagues Cup (Messi Debut)                                 |
-| 151     | Inter Milan            | 96     | Blue          | Black           | White      | defensive | 2009-2010 'The Treble'                                         |
-| 152     | Johor Darul Ta'zim     | 65     | Blue          | Red             | White      | attacking | 2015 AFC Cup winners                                           |
-| 153     | Juventus               | 94     | White         | Black           | White      | defensive | 2011-2019 Nine-title Streak                                    |
-| 154     | Kaizer Chiefs          | 70     | Yellow        | Black           | Yellow     | balanced  | 2001 African Cup Winners' Cup                                  |
-| 155     | LA Galaxy              | 74     | White         | Blue            | Gold       | attacking | 2011-2014 Beckham/Donovan Era                                  |
-| 156     | Lazio                  | 89     | Sky Blue      | White           | Navy       | attacking | 1999-2000 Serie A & Cup Double                                 |
-| 157     | Leeds United           | 90     | White         | White           | Blue       | defensive | 1970s Revie Era dominance                                      |
-| 158     | Leeds United           | 44     | White         | White           | Yellow     | attacking | 2025/26 Premier League Return                                  |
-| 159     | Leicester City         | 88     | Blue          | White           | Blue       | defensive | 2015-2016 5000/1 PL Champions                                  |
-| 160     | Liverpool FC           | 97     | Red           | Red             | Red        | attacking | 2018-2020 UCL & PL Title                                       |
-| 161     | Manchester City        | 98     | Sky Blue      | White           | Sky Blue   | attacking | 2022-2023 The Continental Treble                               |
-| 162     | Manchester United      | 97     | Red           | White           | Black      | attacking | 1998-1999 The Treble                                           |
-| 163     | Monterrey              | 79     | Navy          | White           | Navy       | balanced  | 2011-2013 CCL Three-peat                                       |
-| 164     | Newcastle United       | 82     | Black         | White           | Black      | attacking | 1990s 'The Entertainers'                                       |
-| 165     | Nottingham Forest      | 93     | Red           | White           | White      | defensive | 1979-1980 Back-to-back European Cups                           |
-| 166     | Olympiacos             | 78     | Red           | White           | Red        | balanced  | 2024 UEFA Conference League winners                            |
-| 167     | Olympique Lyonnais     | 89     | White         | Blue            | Red        | attacking | 2002-2008 Seven consecutive titles                             |
-| 168     | Olympique Marseille    | 91     | White         | Sky Blue        | White      | defensive | 1993 Champions League winners                                  |
-| 169     | Orlando Pirates        | 71     | Black         | White           | Black      | attacking | 1995 Champions League winners                                  |
-| 170     | Palmeiras              | 87     | Green         | White           | Green      | defensive | 2020-2021 Back-to-back Libertadores                            |
-| 171     | Paris FC               | 42     | Navy          | White           | Sky Blue   | balanced  | 2025/26 Ligue 1 debutants                                      |
-| 172     | Paris Saint-Germain    | 89     | Navy          | Red             | White      | attacking | 2020 Champions League Finalists                                |
-| 173     | Peñarol                | 90     | Yellow        | Black           | Yellow     | defensive | 5-time Libertadores winners                                    |
-| 174     | Persib Bandung         | 58     | Blue          | White           | Blue       | attacking | 2014 ISL Champions                                             |
-| 175     | PSV Eindhoven          | 89     | Red           | White           | Black      | balanced  | 1988 European Cup winners                                      |
-| 176     | Pumas UNAM             | 74     | Navy          | Gold            | White      | balanced  | 2004 Back-to-back Champions                                    |
-| 177     | Racing Club            | 82     | Sky Blue      | White           | Navy       | defensive | 1967 Intercontinental Cup winners                              |
-| 178     | Raja Casablanca        | 76     | Green         | White           | Green      | attacking | 1999 CAF Champions League                                      |
-| 179     | RB Leipzig             | 83     | White         | Red             | Navy       | attacking | 2022-2023 DFB-Pokal winners                                    |
-| 180     | Real Betis             | 78     | Green         | White           | Black      | attacking | 2022 Copa del Rey winners                                      |
-| 181     | Real Madrid            | 98     | White         | White           | White      | attacking | 2016-2018 UCL Three-peat                                       |
-| 182     | Red Star Belgrade      | 90     | Red           | White           | Red        | attacking | 1991 European Cup winners                                      |
-| 183     | River Plate            | 91     | White         | Red             | White      | balanced  | 2018 Libertadores winners                                      |
-| 184     | Salford City           | 29     | Red           | White           | Black      | balanced  | 2025/26 League Two project                                     |
-| 185     | Sao Paulo FC           | 93     | White         | Red             | Black      | attacking | 1992-1993 World Champions                                      |
-| 186     | Schalke 04             | 82     | Royal Blue    | White           | White      | defensive | 1997 UEFA Cup winners                                          |
-| 187     | Sevilla FC             | 85     | White         | Red             | White      | balanced  | 2023 7th Europa League Title                                   |
-| 188     | Shakhtar Donetsk       | 84     | Orange        | Black           | Orange     | attacking | 2009 UEFA Cup winners                                          |
-| 189     | Sidemen FC             | 28     | Black         | White           | Black      | attacking | Charity Match era                                              |
-| 190     | Sporting CP            | 84     | Green         | White           | Black      | attacking | 2023-2024 Primeira Liga winners                                |
-| 191     | SSC Napoli             | 92     | Sky Blue      | White           | Sky Blue   | attacking | 2022-2023 Serie A Champions                                    |
-| 192     | Steaua Bucuresti       | 88     | Red           | Blue            | Red        | defensive | 1986 European Cup winners                                      |
-| 193     | Sunderland AFC         | 36     | Red           | White           | Black      | balanced  | 2025/26 Championship project                                   |
-| 194     | The Sidemen FC         | 12     | Black         | White           | Black      | attacking | 2026 Charity Shield                                            |
-| 195     | Tigres UANL            | 76     | Yellow        | Blue            | Yellow     | defensive | 2020 CWC Finalists                                             |
-| 196     | Tottenham Hotspur      | 86     | White         | Navy            | White      | attacking | 2019 Champions League Finalists                                |
-| 197     | Valencia CF            | 91     | White         | Black           | Orange     | defensive | 2004 La Liga & UEFA Double                                     |
-| 198     | Vasco da Gama          | 84     | Black         | White           | Black      | attacking | 1998 Libertadores winners                                      |
-| 199     | VfB Stuttgart          | 79     | White         | Red             | White      | balanced  | 2007 Bundesliga Champions                                      |
-| 200     | Villarreal CF          | 82     | Yellow        | Yellow          | Yellow     | balanced  | 2021 Europa League winners                                     |
-| 201     | Vitesse Arnhem         | 7      | Yellow        | Black           | White      | defensive | 2025/26 Rebuild                                                |
-| 202     | West Ham United        | 79     | Claret        | Blue            | White      | balanced  | 2023 Conference League winners                                 |
-| 203     | Wolverhampton          | 86     | Gold          | Black           | Gold       | attacking | 1950s 'Kings of Europe'                                        |
-| 204     | Wrexham AFC            | 27     | Red           | White           | Red        | balanced  | 2025/26 League One growth                                      |
-| 205     | Wydad AC               | 77     | Red           | White           | Red        | balanced  | 2022 CAF Champions League                                      |
-| 206     | Zenit St. Petersburg   | 83     | Sky Blue      | White           | Sky Blue   | attacking | 2008 UEFA Cup winners                                          |
-| 301     | Blackadder & Co.       | 32     | Black         | Red             | Gold       | defensive | The Cunning Plan era                                           |
-| 302     | Harry Potter           | 78     | Maroon        | Gold            | Black      | balanced  | Dumbledore's Army                                              |
-| 303     | League of Legends      | 74     | Blue          | Purple          | Gold       | attacking | Pro Circuit Peak                                               |
-| 304     | Mortal Kombat          | 91     | Black         | Red             | Blood      | attacking | Earthrealm Defenders                                           |
-| 305     | Street Fighter         | 66     | White         | Red             | Blue       | balanced  | World Warriors era                                             |
-| 306     | The Avengers           | 96     | Red           | Gold            | Blue       | attacking | Earth's Mightiest Heroes                                       |
-| 307     | The Clangers           | 18     | Pink          | Blue            | Silver     | defensive | Lunar Division                                                 |
-| 308     | The Wombles            | 44     | Grey          | Yellow          | Green      | balanced  | Common Ground Project                                          |
-| 309     | X-Men                  | 88     | Yellow        | Blue            | Black      | attacking | Xavier Institute                                               |
+| Team ID | Name                   | Rating | Primary Color | Secondary Color | Away Color      | Intent    | Description                                                    |
+| :------ | :--------------------- | :----- | :------------ | :-------------- | :-------------- | :-------- | :------------------------------------------------------------- |
+| 1       | Algeria                | 72     | Green         | White           | Red             | balanced  | The Desert Warriors                                            |
+| 2       | Argentina              | 94     | SkyBlue       | White           | Gold            | attacking | La Albiceleste - World Champions                               |
+| 3       | Australia              | 68     | Gold          | Green           | Navy            | defensive | The Socceroos                                                  |
+| 4       | Austria                | 75     | Red           | White           | Black           | attacking | Das Nationalteam                                               |
+| 5       | Belgium                | 82     | Red           | Black           | Gold            | attacking | The Red Devils                                                 |
+| 6       | Bolivia                | 54     | Green         | White           | Red             | defensive | La Verde                                                       |
+| 7       | Brazil                 | 89     | Yellow        | Green           | Blue            | attacking | Canarinho                                                      |
+| 8       | Cabo Verde             | 65     | Blue          | White           | Red             | balanced  | Blue Sharks                                                    |
+| 9       | Canada                 | 70     | Red           | White           | Black           | attacking | Les Rouges                                                     |
+| 10      | Colombia               | 84     | Yellow        | Blue            | Red             | attacking | Los Cafeteros                                                  |
+| 11      | Côte d'Ivoire          | 78     | Orange        | White           | Green           | attacking | The Elephants - AFCON Champions                                |
+| 12      | Croatia                | 81     | Red           | White           | Blue            | balanced  | Kockasti - Vatreni                                             |
+| 13      | Curaçao                | 48     | Blue          | Yellow          | White           | defensive | Blue Wave                                                      |
+| 14      | Denmark                | 76     | Red           | White           | DarkRed         | balanced  | De Rød-Hvide                                                   |
+| 15      | Ecuador                | 79     | Yellow        | Blue            | Red             | attacking | La Tri                                                         |
+| 16      | Egypt                  | 74     | Red           | White           | Black           | attacking | The Pharaohs                                                   |
+| 17      | England                | 91     | White         | Navy            | Red             | attacking | The Three Lions - 2024/25 Elite Squad                          |
+| 18      | France                 | 93     | Blue          | White           | Red             | attacking | Les Bleus - Two-time World Champions                           |
+| 19      | Germany                | 88     | White         | Black           | Magenta         | attacking | Die Mannschaft                                                 |
+| 20      | Ghana                  | 67     | White         | Black           | Red             | balanced  | The Black Stars                                                |
+| 21      | Haiti                  | 52     | Blue          | Red             | White           | balanced  | Les Grenadiers                                                 |
+| 22      | Iceland                | 16     | Blue          | White           | Red             | defensive | 2026 Rebuilding Phase - Returning to natural baseline.         |
+| 23      | Iran                   | 71     | White         | Red             | Green           | defensive | Team Melli                                                     |
+| 24      | Ireland                | 61     | Green         | White           | Orange          | defensive | The Boys in Green                                              |
+| 25      | Italy                  | 86     | Blue          | White           | Gold            | attacking | Gli Azzurri                                                    |
+| 26      | Japan                  | 80     | Blue          | White           | Red             | attacking | Samurai Blue                                                   |
+| 27      | Jordan                 | 64     | White         | Red             | Black           | defensive | The Chivalrous                                                 |
+| 28      | Mexico                 | 73     | Green         | White           | Red             | balanced  | El Tri                                                         |
+| 29      | Morocco                | 83     | Red           | Green           | White           | attacking | The Atlas Lions                                                |
+| 30      | Netherlands            | 85     | Orange        | Blue            | White           | attacking | Oranje                                                         |
+| 31      | New Zealand            | 55     | White         | Black           | Silver          | balanced  | All Whites                                                     |
+| 32      | New Zealand            | 34     | White         | Black           | Silver          | defensive | 2026 Standing - Regional dominance but structural global gaps. |
+| 33      | Norway                 | 74     | Red           | Blue            | White           | attacking | Løvene (The Lions)                                             |
+| 34      | Panama                 | 66     | Red           | White           | Blue            | balanced  | Los Canaleros                                                  |
+| 35      | Paraguay               | 68     | Red           | White           | Blue            | defensive | La Albirroja                                                   |
+| 36      | Poland                 | 69     | Red           | White           | Silver          | balanced  | Biało-czerwoni (The White and Reds)                            |
+| 37      | Portugal               | 89     | Red           | Green           | White           | attacking | A Seleção                                                      |
+| 38      | Qatar                  | 67     | Maroon        | White           | Tan             | defensive | Al-Annabi (The Maroons)                                        |
+| 39      | San Marino             | 12     | Light Blue    | White           | Dark Blue       | defensive | La Serenissima                                                 |
+| 40      | Saudi Arabia           | 69     | Green         | White           | DarkGreen       | defensive | Al-Suqour Al-Khodhur (The Green Falcons)                       |
+| 41      | Scotland               | 66     | DarkBlue      | White           | Red             | balanced  | The Tartan Army                                                |
+| 42      | Senegal                | 77     | White         | Green           | Red             | attacking | Les Lions de la Téranga                                        |
+| 43      | South Africa           | 68     | Yellow        | Green           | White           | balanced  | Bafana Bafana                                                  |
+| 44      | South Korea            | 76     | Red           | White           | Black           | attacking | Taegeuk Warriors                                               |
+| 45      | Spain                  | 95     | Red           | Blue            | Yellow          | attacking | La Roja - European Champions                                   |
+| 46      | Sweden                 | 71     | Yellow        | Blue            | White           | balanced  | Blågult (The Blue and Yellow)                                  |
+| 47      | Switzerland            | 79     | Red           | White           | GhostWhite      | balanced  | Rossocrociati (Red Crosses)                                    |
+| 48      | Tunisia                | 65     | White         | Red             | Crimson         | defensive | Les Aigles de Carthage                                         |
+| 49      | Turkey                 | 78     | Red           | White           | Turquoise       | attacking | Ay-Yıldızlılar (The Crescent-Stars)                            |
+| 50      | Ukraine                | 73     | Yellow        | Blue            | Gold            | balanced  | Synyo-Zhovti (The Blue and Yellows)                            |
+| 51      | United States          | 72     | White         | Navy            | Red             | balanced  | The Stars & Stripes                                            |
+| 52      | Uruguay                | 85     | LightBlue     | Black           | White           | attacking | La Celeste                                                     |
+| 53      | Uzbekistan             | 63     | White         | Blue            | RoyalBlue       | defensive | White Wolves                                                   |
+| 54      | Vietnam                | 24     | Red           | Yellow          | White           | balanced  | 2026 Standing - Rising SE Asian power.                         |
+| 55      | Wales                  | 64     | Red           | White           | Green           | defensive | Y Dreigiau (The Dragons)                                       |
+| 101     | AC Milan               | 98     | Red           | Black           | White           | defensive | 1988-1994 Sacchi/Capello 'The Immortals'                       |
+| 102     | Ajax Amsterdam         | 97     | White         | Red             | Silver          | attacking | 1971-1973 'Total Football' Three-peat                          |
+| 103     | Al-Ahli                | 74     | White         | Green           | Black           | attacking | 2016 Domestic Treble winners                                   |
+| 104     | Al-Ahly                | 82     | Red           | White           | Black           | balanced  | Africa's Club of the Century                                   |
+| 105     | Al-Hilal               | 76     | Blue          | White           | DeepSkyBlue     | balanced  | 2021 AFC Champions League winners                              |
+| 106     | Al-Ittihad             | 75     | Yellow        | Black           | White           | balanced  | 2004-2005 Back-to-back AFC Champions                           |
+| 107     | Al-Nassr               | 71     | Yellow        | Blue            | Navy            | attacking | The Global Club - Ronaldo Era                                  |
+| 108     | Arsenal FC             | 95     | Red           | White           | MidnightBlue    | attacking | 2003-2004 'The Invincibles'                                    |
+| 109     | AS Monaco              | 86     | Red           | White           | DimGray         | attacking | 2016-17 Ligue 1 Champions                                      |
+| 110     | AS Roma                | 85     | DarkRed       | Orange          | White           | balanced  | 2001 Scudetto winners (Totti era)                              |
+| 111     | Aston Villa            | 84     | Claret        | SkyBlue         | White           | balanced  | 1982 European Cup winners                                      |
+| 112     | Atalanta BC            | 84     | Blue          | Black           | White           | attacking | 2024 UEFA Europa League winners                                |
+| 113     | Athletic Bilbao        | 80     | Red           | White           | Black           | balanced  | 2024 Copa del Rey winners                                      |
+| 114     | Atletico Madrid        | 91     | Red           | White           | Blue            | defensive | 2013-14 La Liga title win                                      |
+| 115     | Atletico Mineiro       | 82     | Black         | White           | Gray            | attacking | 2013 Copa Libertadores winners                                 |
+| 116     | Barcelona FC           | 99     | Blue          | Red             | Yellow          | attacking | 2008-2009 'The Sextuple' under Guardiola                       |
+| 117     | Bayer Leverkusen       | 94     | Black         | Red             | White           | attacking | 2023-2024 'Neverlusen' Unbeaten Double                         |
+| 118     | Bayern Munich          | 98     | Red           | White           | DarkBlue        | attacking | 2019-2020 Sextuple winners                                     |
+| 119     | Benfica                | 92     | Red           | White           | SlateGray       | attacking | 1961-1962 Back-to-back European Cups                           |
+| 120     | Beşiktaş JK            | 77     | Black         | White           | Silver          | balanced  | 2016-2018 Back-to-back Super Lig titles                        |
+| 121     | Boca Juniors           | 90     | Blue          | Yellow          | White           | balanced  | 2000-2003 Intercontinental Cup dominance                       |
+| 122     | Borussia Dortmund      | 87     | Yellow        | Black           | White           | attacking | 1997 Champions League winners                                  |
+| 123     | Brighton & Hove Albion | 76     | Blue          | White           | Black           | attacking | 2023-24 First ever European campaign                           |
+| 124     | Bury FC                | 9      | White         | Blue            | RoyalBlue       | balanced  | 2025/26 'Phoenix' Rise                                         |
+| 125     | Celtic FC              | 92     | Green         | White           | LimeGreen       | attacking | 1967 'Lisbon Lions' European Cup winners                       |
+| 126     | Chelsea FC             | 88     | Blue          | White           | Yellow          | defensive | 2012 First Champions League (Munich)                           |
+| 127     | Chivas Guadalajara     | 74     | Red           | White           | Blue            | balanced  | 2017 Domestic Double                                           |
+| 128     | Club América           | 78     | Yellow        | Blue            | Red             | attacking | 2023-2024 'Bicampeonato'                                       |
+| 129     | Club Nacional          | 81     | White         | Blue            | Red             | balanced  | 1988 Intercontinental Cup winners                              |
+| 130     | Corinthians            | 83     | White         | Black           | Ivory           | defensive | 2012 FIFA Club World Cup winners                               |
+| 131     | Cruz Azul              | 75     | Blue          | White           | Red             | balanced  | 2021 Ending the 23-year 'curse'                                |
+| 132     | Crystal Palace         | 65     | Blue          | Red             | White           | balanced  | 1990 FA Cup Finalists                                          |
+| 133     | Dynamo Kyiv            | 89     | White         | Blue            | Navy            | balanced  | Lobanovskyi’s Tactical Revolution                              |
+| 134     | Eintracht Frankfurt    | 79     | White         | Black           | Red             | attacking | 2022 Europa League winners                                     |
+| 135     | Everton FC             | 89     | Blue          | White           | Amber           | balanced  | 1984-1985 Double winners                                       |
+| 136     | Everton FC             | 46     | Blue          | White           | Yellow          | defensive | 2025/26 'Survivalist' Phase                                    |
+| 137     | FC Porto               | 91     | Blue          | White           | Orange          | defensive | 2004 Champions League winners                                  |
+| 138     | FC Schalke 04          | 38     | Blue          | White           | Navy            | balanced  | 2025/26 2. Bundesliga status                                   |
+| 139     | Fenerbahçe SK          | 76     | Yellow        | Blue            | White           | attacking | 2007-2008 UCL Quarter-finalists                                |
+| 140     | Feyenoord              | 88     | Red           | White           | Black           | attacking | 1970 European Cup winners                                      |
+| 141     | Fiorentina             | 77     | Purple        | White           | MediumSlateBlue | attacking | 2023-2024 Back-to-back UECL finalists                          |
+| 142     | Flamengo               | 89     | Red           | Black           | White           | attacking | 2019 Historic Libertadores & Double                            |
+| 143     | Fluminense             | 82     | Garnet        | Green           | White           | attacking | 2023 First ever Copa Libertadores title                        |
+| 144     | Fulham FC              | 72     | White         | Black           | Silver          | defensive | 2010 Europa League Finalists                                   |
+| 145     | Galatasaray            | 88     | Red           | Orange          | White           | attacking | 2000 UEFA Cup & Super Cup winners                              |
+| 146     | Grêmio                 | 81     | Blue          | Black           | White           | defensive | 2017 Copa Libertadores winners                                 |
+| 147     | Hashtag United         | 18     | Yellow        | Blue            | White           | attacking | 2025/26 'YouTube' Rise                                         |
+| 148     | Hull City              | 62     | Amber         | Black           | White           | defensive | 2014 FA Cup Finalists                                          |
+| 149     | Independiente          | 91     | Red           | White           | Blue            | balanced  | 'King of Cups' Era                                             |
+| 150     | Inter Miami            | 73     | Pink          | Black           | White           | attacking | 2023 Leagues Cup (Messi Debut)                                 |
+| 151     | Inter Milan            | 96     | Blue          | Black           | White           | defensive | 2009-2010 'The Treble'                                         |
+| 152     | Johor Darul Ta'zim     | 65     | Blue          | Red             | White           | attacking | 2015 AFC Cup winners                                           |
+| 153     | Juventus               | 94     | White         | Black           | Pink            | defensive | 2011-2019 Nine-title Streak                                    |
+| 154     | Kaizer Chiefs          | 70     | Yellow        | Black           | Purple          | balanced  | 2001 African Cup Winners' Cup                                  |
+| 155     | LA Galaxy              | 74     | White         | Blue            | Gold            | attacking | 2011-2014 Beckham/Donovan Era                                  |
+| 156     | Lazio                  | 89     | Sky Blue      | White           | Navy            | attacking | 1999-2000 Serie A & Cup Double                                 |
+| 157     | Leeds United           | 90     | White         | Blue            | Yellow          | defensive | 1970s Revie Era dominance                                      |
+| 158     | Leeds United           | 44     | White         | Blue            | Yellow          | attacking | 2025/26 Premier League Return                                  |
+| 159     | Leicester City         | 88     | Blue          | White           | SlateGray       | defensive | 2015-2016 5000/1 PL Champions                                  |
+| 160     | Liverpool FC           | 97     | Red           | Crimson         | White           | attacking | 2018-2020 UCL & PL Title                                       |
+| 161     | Manchester City        | 98     | SkyBlue       | White           | Navy            | attacking | 2022-2023 The Continental Treble                               |
+| 162     | Manchester United      | 97     | Red           | White           | Black           | attacking | 1998-1999 The Treble                                           |
+| 163     | Monterrey              | 79     | Navy          | White           | Silver          | balanced  | 2011-2013 CCL Three-peat                                       |
+| 164     | Newcastle United       | 82     | Black         | White           | Gray            | attacking | 1990s 'The Entertainers'                                       |
+| 165     | Nottingham Forest      | 93     | Red           | White           | Navy            | defensive | 1979-1980 Back-to-back European Cups                           |
+| 166     | Olympiacos             | 78     | Red           | White           | Silver          | balanced  | 2024 UEFA Conference League winners                            |
+| 167     | Olympique Lyonnais     | 89     | White         | Blue            | Red             | attacking | 2002-2008 Seven consecutive titles                             |
+| 168     | Olympique Marseille    | 91     | White         | SkyBlue         | Blue            | defensive | 1993 Champions League winners                                  |
+| 169     | Orlando Pirates        | 71     | Black         | White           | DarkGray        | attacking | 1995 Champions League winners                                  |
+| 170     | Palmeiras              | 87     | Green         | White           | DarkGreen       | defensive | 2020-2021 Back-to-back Libertadores                            |
+| 171     | Paris FC               | 42     | Navy          | White           | Sky Blue        | balanced  | 2025/26 Ligue 1 debutants                                      |
+| 172     | Paris Saint-Germain    | 89     | Navy          | Red             | White           | attacking | 2020 Champions League Finalists                                |
+| 173     | Peñarol                | 90     | Yellow        | Black           | Gold            | defensive | 5-time Libertadores winners                                    |
+| 174     | Persib Bandung         | 58     | Blue          | White           | Navy            | attacking | 2014 ISL Champions                                             |
+| 175     | PSV Eindhoven          | 89     | Red           | White           | Black           | balanced  | 1988 European Cup winners                                      |
+| 176     | Pumas UNAM             | 74     | Navy          | Gold            | White           | balanced  | 2004 Back-to-back Champions                                    |
+| 177     | Racing Club            | 82     | Sky Blue      | White           | Navy            | defensive | 1967 Intercontinental Cup winners                              |
+| 178     | Raja Casablanca        | 76     | Green         | White           | ForestGreen     | attacking | 1999 CAF Champions League                                      |
+| 179     | RB Leipzig             | 83     | White         | Red             | Navy            | attacking | 2022-2023 DFB-Pokal winners                                    |
+| 180     | Real Betis             | 78     | Green         | White           | Black           | attacking | 2022 Copa del Rey winners                                      |
+| 181     | Real Madrid            | 98     | White         | Gold            | Blue            | attacking | 2016-2018 UCL Three-peat                                       |
+| 182     | Red Star Belgrade      | 90     | Red           | White           | Blue            | attacking | 1991 European Cup winners                                      |
+| 183     | River Plate            | 91     | White         | Red             | Black           | balanced  | 2018 Libertadores winners                                      |
+| 184     | Salford City           | 29     | Red           | White           | Black           | balanced  | 2025/26 League Two project                                     |
+| 185     | Sao Paulo FC           | 93     | White         | Red             | Black           | attacking | 1992-1993 World Champions                                      |
+| 186     | Schalke 04             | 82     | RoyalBlue     | White           | Navy            | defensive | 1997 UEFA Cup winners                                          |
+| 187     | Sevilla FC             | 85     | White         | Red             | Silver          | balanced  | 2023 7th Europa League Title                                   |
+| 188     | Shakhtar Donetsk       | 84     | Orange        | Black           | Gray            | attacking | 2009 UEFA Cup winners                                          |
+| 189     | Sidemen FC             | 28     | Black         | White           | Silver          | attacking | Charity Match era                                              |
+| 190     | Sporting CP            | 84     | Green         | White           | Black           | attacking | 2023-2024 Primeira Liga winners                                |
+| 191     | SSC Napoli             | 92     | SkyBlue       | White           | MidnightBlue    | attacking | 2022-2023 Serie A Champions                                    |
+| 192     | Steaua Bucuresti       | 88     | Red           | Blue            | Yellow          | defensive | 1986 European Cup winners                                      |
+| 193     | Sunderland AFC         | 36     | Red           | White           | Black           | balanced  | 2025/26 Championship project                                   |
+| 194     | The Sidemen FC         | 12     | Black         | White           | DimGray         | attacking | 2026 Charity Shield                                            |
+| 195     | Tigres UANL            | 76     | Yellow        | Blue            | Navy            | defensive | 2020 CWC Finalists                                             |
+| 196     | Tottenham Hotspur      | 86     | White         | Navy            | Purple          | attacking | 2019 Champions League Finalists                                |
+| 197     | Valencia CF            | 91     | White         | Black           | Orange          | defensive | 2004 La Liga & UEFA Double                                     |
+| 198     | Vasco da Gama          | 84     | Black         | White           | Silver          | attacking | 1998 Libertadores winners                                      |
+| 199     | VfB Stuttgart          | 79     | White         | Red             | DarkRed         | balanced  | 2007 Bundesliga Champions                                      |
+| 200     | Villarreal CF          | 82     | Yellow        | Navy            | White           | balanced  | 2021 Europa League winners                                     |
+| 201     | Vitesse Arnhem         | 7      | Yellow        | Black           | White           | defensive | 2025/26 Rebuild                                                |
+| 202     | West Ham United        | 79     | Claret        | Blue            | White           | balanced  | 2023 Conference League winners                                 |
+| 203     | Wolverhampton          | 86     | Gold          | Black           | White           | attacking | 1950s 'Kings of Europe'                                        |
+| 204     | Wrexham AFC            | 27     | Red           | White           | Green           | balanced  | 2025/26 League One growth                                      |
+| 205     | Wydad AC               | 77     | Red           | White           | Black           | balanced  | 2022 CAF Champions League                                      |
+| 206     | Zenit St. Petersburg   | 83     | SkyBlue       | White           | Blue            | attacking | 2008 UEFA Cup winners                                          |
+| 301     | Blackadder & Co.       | 32     | Black         | Red             | Gold            | defensive | The Cunning Plan era                                           |
+| 302     | Harry Potter           | 78     | Maroon        | Gold            | Black           | balanced  | Dumbledore's Army                                              |
+| 303     | League of Legends      | 74     | Blue          | Purple          | Gold            | attacking | Pro Circuit Peak                                               |
+| 304     | Mortal Kombat          | 91     | Black         | Red             | Blood           | attacking | Earthrealm Defenders                                           |
+| 305     | Street Fighter         | 66     | White         | Red             | Blue            | balanced  | World Warriors era                                             |
+| 306     | The Avengers           | 96     | Red           | Gold            | Blue            | attacking | Earth's Mightiest Heroes                                       |
+| 307     | The Clangers           | 18     | Pink          | Blue            | Silver          | defensive | Lunar Division                                                 |
+| 308     | The Wombles            | 44     | Grey          | Yellow          | Green           | balanced  | Common Ground Project                                          |
+| 309     | X-Men                  | 88     | Yellow        | Blue            | Black           | attacking | Xavier Institute                                               |
 
 ---
 
