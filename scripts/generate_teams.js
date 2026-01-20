@@ -116,10 +116,11 @@ function run() {
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
   const limit = Math.min(teams.length, MAX_TEAMS_TO_PROCESS);
+  const generatedFiles = []; // Track filenames for list.json
+
   for (let i = 0; i < limit; i++) {
     const team = teams[i];
 
-    // Filter players belonging to this team and add default state fields
     const teamPlayers = players
       .filter(p => p.teamID === team.teamID)
       .map(p => ({
@@ -130,7 +131,6 @@ function run() {
 
     let baseName = slugify(team.name);
 
-    // Uniquify filename if the team name exists elsewhere in the doc
     if (nameMap.get(team.name).length > 1) {
       baseName += `-${slugify(team.description.substring(0, 25))}`;
     }
@@ -149,9 +149,16 @@ function run() {
 
     const finalPath = path.join(OUTPUT_DIR, `${baseName}.json`);
     fs.writeFileSync(finalPath, JSON.stringify(finalData, null, 2));
+
+    // Add the filename (without extension) to our list
+    generatedFiles.push(baseName);
   }
 
-  console.log(`\x1b[32m✔ Success:\x1b[0m Generated ${limit} team files in ${OUTPUT_DIR}`);
+  // Generate the list.json file in the same directory
+  const listPath = path.join(OUTPUT_DIR, 'list.json');
+  fs.writeFileSync(listPath, JSON.stringify({ files: generatedFiles }, null, 2));
+
+  console.log(`\x1b[32m✔ Success:\x1b[0m Generated ${limit} team files and list.json in ${OUTPUT_DIR}`);
 }
 
 run();
