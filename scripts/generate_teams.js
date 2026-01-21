@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 // --- Configuration ---
 const MD_PATH = path.join(__dirname, '../docs/teams.md');
 const OUTPUT_DIR = path.join(__dirname, '../public/assets/teams/');
-const MAX_TEAMS_TO_PROCESS = 2; // Control variable: set to Infinity for full production
+const MAX_TEAMS_TO_PROCESS = 4; // Control variable: set to Infinity for full production
 // ---------------------
 
 const slugify = (text) => text.toString().toLowerCase().trim()
@@ -116,7 +116,8 @@ function run() {
   if (!fs.existsSync(OUTPUT_DIR)) fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 
   const limit = Math.min(teams.length, MAX_TEAMS_TO_PROCESS);
-  const generatedFiles = []; // Track filenames for list.json
+  const generatedFiles = [];
+  const usedFilenames = new Set(); // Track filenames to handle collisions (2, 3...)
 
   for (let i = 0; i < limit; i++) {
     const team = teams[i];
@@ -135,6 +136,15 @@ function run() {
       baseName += `-${slugify(team.description.substring(0, 25))}`;
     }
 
+    // Logic for duplicate filename appending (2, 3, etc.)
+    let finalFileName = baseName;
+    let counter = 2;
+    while (usedFilenames.has(finalFileName)) {
+      finalFileName = `${baseName}-${counter}`;
+      counter++;
+    }
+    usedFilenames.add(finalFileName);
+
     const finalData = {
       name: team.name,
       description: team.description,
@@ -147,18 +157,22 @@ function run() {
       players: teamPlayers
     };
 
-    const finalPath = path.join(OUTPUT_DIR, `${baseName}.json`);
+    const finalPath = path.join(OUTPUT_DIR, `${finalFileName}.json`);
     fs.writeFileSync(finalPath, JSON.stringify(finalData, null, 2));
 
-    // Add the filename (without extension) to our list
-    generatedFiles.push(baseName);
+    // Updated list item structure
+    generatedFiles.push({
+      file: finalFileName,
+      name: team.name,
+      description: team.description
+    });
   }
 
-  // Generate the list.json file in the same directory
+  // Generate the updated list.json file
   const listPath = path.join(OUTPUT_DIR, 'list.json');
-  fs.writeFileSync(listPath, JSON.stringify({ files: generatedFiles }, null, 2));
+  fs.writeFileSync(listPath, JSON.stringify({ teams: generatedFiles }, null, 2));
 
-  console.log(`\x1b[32m✔ Success:\x1b[0m Generated ${limit} team files and list.json in ${OUTPUT_DIR}`);
+  console.log(`\x1b[32m✔ Success:\x1b[0m Generated ${limit} team files and updated list.json in ${OUTPUT_DIR}`);
 }
 
 run();

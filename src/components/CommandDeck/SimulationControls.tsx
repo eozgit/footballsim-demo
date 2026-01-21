@@ -58,6 +58,7 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
           onChange: (v: string) => {
             if (v && v !== useSimulationStore.getState().homeTeam) {
               setHomeTeam(v);
+              window.dispatchEvent(new CustomEvent('reload-simulation'));
             }
           },
         },
@@ -68,6 +69,7 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
           onChange: (v: string) => {
             if (v && v !== useSimulationStore.getState().awayTeam) {
               setAwayTeam(v);
+              window.dispatchEvent(new CustomEvent('reload-simulation'));
             }
           },
         },
