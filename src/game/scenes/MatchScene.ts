@@ -20,19 +20,21 @@ export class MatchScene extends Scene {
   }
 
   preload(): void {
+    const { homeTeam, awayTeam } = useSimulationStore.getState();
+
     this.load.json('colors', 'assets/colors.json');
-    this.load.json('GS2025', 'assets/teams/GS1905.json');
-    this.load.json('GS2000', 'assets/teams/GS_LEGEND_2000.json');
+    this.load.json(homeTeam, `assets/teams/${homeTeam}.json`);
+    this.load.json(awayTeam, `assets/teams/${awayTeam}.json`);
     PITCH_STYLES.forEach((style): void => {
       this.load.image(`pitch-${style}`, `assets/pitch/${style}.webp`);
     });
   }
 
   create(): void {
-    const currentTexture = useSimulationStore.getState().pitchTexture;
+    const { homeTeam, awayTeam, pitchTexture } = useSimulationStore.getState();
 
     this.pitchSprite = this.add
-      .image(525, 340, `pitch-${currentTexture}`)
+      .image(525, 340, `pitch-${pitchTexture}`)
       .setDisplaySize(1050, 680);
 
     this.teamProvider = new TeamProvider(this.cache.json.get('colors') as Record<string, string>);
@@ -47,12 +49,15 @@ export class MatchScene extends Scene {
       this.manager.terminate();
     });
 
-    const teamA = this.cache.json.get('GS2025') as Team;
+    const teamA = this.cache.json.get(homeTeam) as Team;
 
-    const teamB = this.cache.json.get('GS2000') as Team;
+    const teamB = this.cache.json.get(awayTeam) as Team;
 
-    this.manager.initMatch(teamA, teamB);
-    // src/game/scenes/MatchScene.ts
+    if (teamA && teamB) {
+      this.manager.initMatch(teamA, teamB);
+    } else {
+      console.error(`MatchScene: Could not find JSON for ${homeTeam} or ${awayTeam}`);
+    }
 
     // 1. Fog Layer (Stronger Alpha)
     // Increased from 0.15 to 0.4 for a "Blizzard" feel

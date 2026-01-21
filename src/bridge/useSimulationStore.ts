@@ -19,6 +19,8 @@ export interface SimulationState {
   totalLogsSeen: number;
   score: { home: number; away: number };
   teams: { home: string; away: string };
+  homeTeam: string;
+  awayTeam: string;
   setPlaying: (playing: boolean) => void;
   appendLogs: (newLogs: string[]) => void;
   toggleLogs: () => void;
@@ -44,6 +46,10 @@ export const useSimulationStore = create<SimulationState>(
     totalLogsSeen: number;
     score: { home: number; away: number };
     teams: { home: string; away: string };
+    homeTeam: string;
+    awayTeam: string;
+    setHomeTeam: (name: string) => void; // New setter
+    setAwayTeam: (name: string) => void; // New setter
     setPlaying: (playing: boolean) => void;
     toggleLogs: () => void;
     setTeams: (home: string, away: string) => void;
@@ -68,6 +74,11 @@ export const useSimulationStore = create<SimulationState>(
     kitStyles: { home: null, away: null },
     showPlayerNames: false,
     showIntentLine: false,
+
+    homeTeam: 'GS2000',
+    awayTeam: 'GS2025',
+    setHomeTeam: (name) => set({ homeTeam: name }),
+    setAwayTeam: (name) => set({ awayTeam: name }),
     setShowIntentLine: (show): void => set({ showIntentLine: show }),
     setShowPlayerNames: (show): void => set({ showPlayerNames: show }),
     setPitchTexture: (texture): void => set({ pitchTexture: texture }),
