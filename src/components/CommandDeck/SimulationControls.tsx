@@ -1,8 +1,13 @@
 import { useControls, folder, button } from 'leva';
 import type { StoreType } from 'leva/dist/declarations/src/types';
+import { useState, useEffect } from 'react';
 
 import { PITCH_STYLES, useSimulationStore } from '../../bridge/useSimulationStore';
-
+interface TeamListItem {
+  file: string;
+  name: string;
+  description: string;
+}
 export const SimulationControls = ({ store }: { store: StoreType }): null => {
   const {
     isPlaying,
@@ -15,11 +20,57 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
     setShowPlayerNames,
     showIntentLine,
     setShowIntentLine,
+    homeTeam,
+    setHomeTeam,
+    awayTeam,
+    setAwayTeam,
   } = useSimulationStore();
 
+  const [teamOptions, setTeamOptions] = useState<Record<string, string>>({});
+
+  // Fetch the teams list on mount
+  useEffect(() => {
+    fetch('/assets/teams/list.json')
+      .then((res) => res.json())
+      .then((data: { teams: TeamListItem[] }) => {
+        // Map to { [DisplayName]: "filename" } for Leva options
+        const options = data.teams.reduce(
+          (acc, team) => {
+            acc[team.name] = team.file;
+
+            return acc;
+          },
+          {} as Record<string, string>,
+        );
+
+        setTeamOptions(options);
+      })
+      .catch((err) => console.error('Failed to load teams list:', err));
+  }, []);
   useControls(
     {
       SIMULATION: folder({
+        // Team Selection
+        'HOME TEAM': {
+          value: homeTeam,
+          options: teamOptions,
+          label: 'HOME',
+          onChange: (v: string) => {
+            if (v && v !== useSimulationStore.getState().homeTeam) {
+              setHomeTeam(v);
+            }
+          },
+        },
+        'AWAY TEAM': {
+          value: awayTeam,
+          options: teamOptions,
+          label: 'AWAY',
+          onChange: (v: string) => {
+            if (v && v !== useSimulationStore.getState().awayTeam) {
+              setAwayTeam(v);
+            }
+          },
+        },
         RUNNING: {
           value: isPlaying,
           label: 'ACTIVE',
@@ -66,7 +117,7 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
       }),
     },
     { store },
-    [isPlaying, showLogs],
+    [isPlaying, showLogs, teamOptions, homeTeam, awayTeam],
   );
 
   return null;

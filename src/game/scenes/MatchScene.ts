@@ -33,9 +33,7 @@ export class MatchScene extends Scene {
   create(): void {
     const { homeTeam, awayTeam, pitchTexture } = useSimulationStore.getState();
 
-    this.pitchSprite = this.add
-      .image(525, 340, `pitch-${pitchTexture}`)
-      .setDisplaySize(1050, 680);
+    this.pitchSprite = this.add.image(525, 340, `pitch-${pitchTexture}`).setDisplaySize(1050, 680);
 
     this.teamProvider = new TeamProvider(this.cache.json.get('colors') as Record<string, string>);
     this.entities = new FieldEntityManager(this, this.teamProvider);

@@ -21,6 +21,8 @@ export interface SimulationState {
   teams: { home: string; away: string };
   homeTeam: string;
   awayTeam: string;
+  setHomeTeam: (name: string) => void; // New setter
+  setAwayTeam: (name: string) => void; // New setter
   setPlaying: (playing: boolean) => void;
   appendLogs: (newLogs: string[]) => void;
   toggleLogs: () => void;
