@@ -1,0 +1,276 @@
+{
+  "name": "New Zealand",
+  "description": "All Whites",
+  "primaryColour": "White",
+  "secondaryColour": "Black",
+  "awayColour": "Silver",
+  "rating": 55,
+  "teamID": "31",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "3101",
+      "teamID": "31",
+      "name": "Alex Paulsen",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "62",
+      "skill": {
+        "passing": "65",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "64",
+        "agility": "60",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3102",
+      "teamID": "31",
+      "name": "Libby Cacace",
+      "position": "LB",
+      "shirtNumber": 13,
+      "rating": "66",
+      "skill": {
+        "passing": "64",
+        "shooting": "48",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "78",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3103",
+      "teamID": "31",
+      "name": "Michael Boxall",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "60",
+      "skill": {
+        "passing": "52",
+        "shooting": "35",
+        "tackling": "68",
+        "saving": "12",
+        "agility": "52",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3104",
+      "teamID": "31",
+      "name": "Nando Pijnaker",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "58",
+      "skill": {
+        "passing": "50",
+        "shooting": "32",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "55",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "41"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3105",
+      "teamID": "31",
+      "name": "Tim Payne",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "57",
+      "skill": {
+        "passing": "58",
+        "shooting": "45",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "72",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "50"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3106",
+      "teamID": "31",
+      "name": "Joe Bell",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "64",
+      "skill": {
+        "passing": "68",
+        "shooting": "52",
+        "tackling": "66",
+        "saving": "12",
+        "agility": "68",
+        "strength": "74",
+        "jumping": "282",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3107",
+      "teamID": "31",
+      "name": "Marko Stamenic",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "62",
+      "skill": {
+        "passing": "65",
+        "shooting": "55",
+        "tackling": "64",
+        "saving": "10",
+        "agility": "70",
+        "strength": "75",
+        "jumping": "278",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3108",
+      "teamID": "31",
+      "name": "Matthew Garbett",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "61",
+      "skill": {
+        "passing": "62",
+        "shooting": "60",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "75",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3109",
+      "teamID": "31",
+      "name": "Sarpreet Singh",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "63",
+      "skill": {
+        "passing": "70",
+        "shooting": "65",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "78",
+        "strength": "60",
+        "jumping": "265",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3110",
+      "teamID": "31",
+      "name": "Chris Wood",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "74",
+      "skill": {
+        "passing": "62",
+        "shooting": "78",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "58",
+        "strength": "88",
+        "jumping": "302",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3111",
+      "teamID": "31",
+      "name": "Ben Waine",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "58",
+      "skill": {
+        "passing": "52",
+        "shooting": "64",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "76",
+        "strength": "65",
+        "jumping": "274",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

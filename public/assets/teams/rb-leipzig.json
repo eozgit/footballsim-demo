@@ -1,0 +1,276 @@
+{
+  "name": "RB Leipzig",
+  "description": "2022-2023 DFB-Pokal winners",
+  "primaryColour": "White",
+  "secondaryColour": "Red",
+  "awayColour": "Navy",
+  "rating": 83,
+  "teamID": "179",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "17901",
+      "teamID": "179",
+      "name": "Péter Gulácsi",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "84",
+      "skill": {
+        "passing": "76",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "86",
+        "agility": "78",
+        "strength": "75",
+        "jumping": "288",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17902",
+      "teamID": "179",
+      "name": "David Raum",
+      "position": "LB",
+      "shirtNumber": 22,
+      "rating": "80",
+      "skill": {
+        "passing": "88",
+        "shooting": "68",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "88",
+        "strength": "74",
+        "jumping": "282",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17903",
+      "teamID": "179",
+      "name": "Willi Orbán",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "85",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "62",
+        "strength": "92",
+        "jumping": "325",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17904",
+      "teamID": "179",
+      "name": "Joško Gvardiol",
+      "position": "CB",
+      "shirtNumber": 32,
+      "rating": "86",
+      "skill": {
+        "passing": "82",
+        "shooting": "52",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "84",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17905",
+      "teamID": "179",
+      "name": "Benjamin Henrichs",
+      "position": "RB",
+      "shirtNumber": 39,
+      "rating": "79",
+      "skill": {
+        "passing": "80",
+        "shooting": "60",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "85",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17906",
+      "teamID": "179",
+      "name": "Konrad Laimer",
+      "position": "CM",
+      "shirtNumber": 27,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "88",
+        "strength": "86",
+        "jumping": "295",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17907",
+      "teamID": "179",
+      "name": "Dominik Szoboszlai",
+      "position": "CM",
+      "shirtNumber": 17,
+      "rating": "85",
+      "skill": {
+        "passing": "92",
+        "shooting": "84",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "285",
+        "penalty_taking": "91"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17908",
+      "teamID": "179",
+      "name": "Dani Olmo",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "88",
+        "shooting": "82",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "82",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17909",
+      "teamID": "179",
+      "name": "Christopher Nkunku",
+      "position": "RM",
+      "shirtNumber": 18,
+      "rating": "88",
+      "skill": {
+        "passing": "85",
+        "shooting": "90",
+        "tackling": "48",
+        "saving": "10",
+        "agility": "92",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "93"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17910",
+      "teamID": "179",
+      "name": "Timo Werner",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "82",
+      "skill": {
+        "passing": "70",
+        "shooting": "82",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "96",
+        "strength": "74",
+        "jumping": "305",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17911",
+      "teamID": "179",
+      "name": "André Silva",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "80",
+      "skill": {
+        "passing": "72",
+        "shooting": "84",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "318",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

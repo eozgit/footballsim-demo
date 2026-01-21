@@ -1,0 +1,276 @@
+{
+  "name": "Brighton & Hove Albion",
+  "description": "2023-24 First ever European campaign",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 76,
+  "teamID": "123",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "12301",
+      "teamID": "123",
+      "name": "Bart Verbruggen",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "78",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "80",
+        "agility": "72",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12302",
+      "teamID": "123",
+      "name": "Pervis Estupiñán",
+      "position": "LB",
+      "shirtNumber": 30,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "86",
+        "strength": "78",
+        "jumping": "272",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12303",
+      "teamID": "123",
+      "name": "Lewis Dunk",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "82",
+      "skill": {
+        "passing": "76",
+        "shooting": "45",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "58",
+        "strength": "88",
+        "jumping": "310",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12304",
+      "teamID": "123",
+      "name": "Jan Paul van Hecke",
+      "position": "CB",
+      "shirtNumber": 29,
+      "rating": "79",
+      "skill": {
+        "passing": "74",
+        "shooting": "35",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "65",
+        "strength": "82",
+        "jumping": "298",
+        "penalty_taking": "40"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12305",
+      "teamID": "123",
+      "name": "Joël Veltman",
+      "position": "RB",
+      "shirtNumber": 34,
+      "rating": "77",
+      "skill": {
+        "passing": "74",
+        "shooting": "52",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "72",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12306",
+      "teamID": "123",
+      "name": "Pascal Groß",
+      "position": "CM",
+      "shirtNumber": 13,
+      "rating": "82",
+      "skill": {
+        "passing": "88",
+        "shooting": "78",
+        "tackling": "74",
+        "saving": "12",
+        "agility": "68",
+        "strength": "74",
+        "jumping": "282",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12307",
+      "teamID": "123",
+      "name": "Billy Gilmour",
+      "position": "CM",
+      "shirtNumber": 11,
+      "rating": "79",
+      "skill": {
+        "passing": "85",
+        "shooting": "68",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "75",
+        "strength": "62",
+        "jumping": "270",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12308",
+      "teamID": "123",
+      "name": "Kaoru Mitoma",
+      "position": "LM",
+      "shirtNumber": 22,
+      "rating": "83",
+      "skill": {
+        "passing": "78",
+        "shooting": "76",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "92",
+        "strength": "64",
+        "jumping": "265",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12309",
+      "teamID": "123",
+      "name": "Simon Adingra",
+      "position": "RM",
+      "shirtNumber": 24,
+      "rating": "78",
+      "skill": {
+        "passing": "74",
+        "shooting": "75",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "90",
+        "strength": "62",
+        "jumping": "268",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12310",
+      "teamID": "123",
+      "name": "João Pedro",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "82",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "82",
+        "strength": "75",
+        "jumping": "288",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12311",
+      "teamID": "123",
+      "name": "Danny Welbeck",
+      "position": "ST",
+      "shirtNumber": 18,
+      "rating": "77",
+      "skill": {
+        "passing": "72",
+        "shooting": "78",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "78",
+        "strength": "80",
+        "jumping": "302",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

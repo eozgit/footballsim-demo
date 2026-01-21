@@ -1,0 +1,276 @@
+{
+  "name": "Wydad AC",
+  "description": "2022 CAF Champions League",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 77,
+  "teamID": "205",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "20501",
+      "teamID": "205",
+      "name": "Ahmed Reda Tagnaouti",
+      "position": "GK",
+      "shirtNumber": 26,
+      "rating": "78",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "82",
+        "agility": "74",
+        "strength": "72",
+        "jumping": "282",
+        "penalty_taking": "24"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20502",
+      "teamID": "205",
+      "name": "Yahia Attiyat Allah",
+      "position": "LB",
+      "shirtNumber": 14,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "68",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "86",
+        "strength": "74",
+        "jumping": "272",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20503",
+      "teamID": "205",
+      "name": "Achraf Dari",
+      "position": "CB",
+      "shirtNumber": 15,
+      "rating": "80",
+      "skill": {
+        "passing": "68",
+        "shooting": "45",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "76",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20504",
+      "teamID": "205",
+      "name": "Amine Farhane",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "76",
+      "skill": {
+        "passing": "62",
+        "shooting": "35",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "70",
+        "strength": "82",
+        "jumping": "320",
+        "penalty_taking": "42"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20505",
+      "teamID": "205",
+      "name": "Ayoub El Amloud",
+      "position": "RB",
+      "shirtNumber": 22,
+      "rating": "78",
+      "skill": {
+        "passing": "75",
+        "shooting": "62",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "84",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20506",
+      "teamID": "205",
+      "name": "Yahya Jabrane",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "70",
+        "tackling": "86",
+        "saving": "12",
+        "agility": "65",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20507",
+      "teamID": "205",
+      "name": "Jalal Daoudi",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "76",
+      "skill": {
+        "passing": "80",
+        "shooting": "74",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "72",
+        "strength": "78",
+        "jumping": "295",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20508",
+      "teamID": "205",
+      "name": "Aymane El Hassouni",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "80",
+      "skill": {
+        "passing": "85",
+        "shooting": "78",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "285",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20509",
+      "teamID": "205",
+      "name": "Reda Jaadi",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "78",
+      "skill": {
+        "passing": "82",
+        "shooting": "72",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "80",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20510",
+      "teamID": "205",
+      "name": "Guy Mbenza",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "80",
+      "skill": {
+        "passing": "70",
+        "shooting": "84",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "85",
+        "strength": "88",
+        "jumping": "325",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20511",
+      "teamID": "205",
+      "name": "Zouhair El Moutaraji",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "82",
+      "skill": {
+        "passing": "76",
+        "shooting": "82",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "88",
+        "strength": "74",
+        "jumping": "298",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Iceland",
+  "description": "2026 Rebuilding Phase - Returning to natural baseline.",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "Red",
+  "rating": 16,
+  "teamID": "22",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "2201",
+      "teamID": "22",
+      "name": "Elías Ólafsson",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "22",
+      "skill": {
+        "passing": "20",
+        "shooting": "10",
+        "tackling": "15",
+        "saving": "25",
+        "agility": "28",
+        "strength": "35",
+        "jumping": "270",
+        "penalty_taking": "11"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2202",
+      "teamID": "22",
+      "name": "Kolbeinn Finnsson",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "18",
+      "skill": {
+        "passing": "22",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "10",
+        "agility": "30",
+        "strength": "28",
+        "jumping": "265",
+        "penalty_taking": "17"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2203",
+      "teamID": "22",
+      "name": "Sverrir Ingason",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "24",
+      "skill": {
+        "passing": "18",
+        "shooting": "12",
+        "tackling": "28",
+        "saving": "10",
+        "agility": "20",
+        "strength": "45",
+        "jumping": "288",
+        "penalty_taking": "11"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2204",
+      "teamID": "22",
+      "name": "Hjörtur Hermannsson",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "20",
+      "skill": {
+        "passing": "15",
+        "shooting": "10",
+        "tackling": "24",
+        "saving": "10",
+        "agility": "18",
+        "strength": "40",
+        "jumping": "285",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2205",
+      "teamID": "22",
+      "name": "Alfons Sampsted",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "19",
+      "skill": {
+        "passing": "20",
+        "shooting": "15",
+        "tackling": "22",
+        "saving": "10",
+        "agility": "32",
+        "strength": "30",
+        "jumping": "268",
+        "penalty_taking": "18"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2206",
+      "teamID": "22",
+      "name": "Jóhann Guðmundsson",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "21",
+      "skill": {
+        "passing": "28",
+        "shooting": "18",
+        "tackling": "18",
+        "saving": "10",
+        "agility": "25",
+        "strength": "25",
+        "jumping": "262",
+        "penalty_taking": "25"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2207",
+      "teamID": "22",
+      "name": "Arnór Traustason",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "18",
+      "skill": {
+        "passing": "25",
+        "shooting": "15",
+        "tackling": "15",
+        "saving": "10",
+        "agility": "28",
+        "strength": "28",
+        "jumping": "265",
+        "penalty_taking": "20"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2208",
+      "teamID": "22",
+      "name": "Jón Dagur Þorsteinsson",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "20",
+      "skill": {
+        "passing": "22",
+        "shooting": "20",
+        "tackling": "12",
+        "saving": "10",
+        "agility": "35",
+        "strength": "22",
+        "jumping": "260",
+        "penalty_taking": "22"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2209",
+      "teamID": "22",
+      "name": "Mikael Anderson",
+      "position": "RM",
+      "shirtNumber": 17,
+      "rating": "19",
+      "skill": {
+        "passing": "20",
+        "shooting": "18",
+        "tackling": "15",
+        "saving": "10",
+        "agility": "34",
+        "strength": "24",
+        "jumping": "262",
+        "penalty_taking": "21"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2210",
+      "teamID": "22",
+      "name": "Orri Óskarsson",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "22",
+      "skill": {
+        "passing": "18",
+        "shooting": "25",
+        "tackling": "12",
+        "saving": "10",
+        "agility": "30",
+        "strength": "32",
+        "jumping": "278",
+        "penalty_taking": "27"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2211",
+      "teamID": "22",
+      "name": "Andri Guðjohnsen",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "18",
+      "skill": {
+        "passing": "15",
+        "shooting": "22",
+        "tackling": "15",
+        "saving": "10",
+        "agility": "24",
+        "strength": "38",
+        "jumping": "282",
+        "penalty_taking": "18"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

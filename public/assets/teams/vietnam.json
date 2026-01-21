@@ -1,0 +1,276 @@
+{
+  "name": "Vietnam",
+  "description": "2026 Standing - Rising SE Asian power.",
+  "primaryColour": "Red",
+  "secondaryColour": "Yellow",
+  "awayColour": "White",
+  "rating": 24,
+  "teamID": "54",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "5401",
+      "teamID": "54",
+      "name": "Nguyễn Filip",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "38",
+      "skill": {
+        "passing": "36",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "40",
+        "agility": "35",
+        "strength": "45",
+        "jumping": "275",
+        "penalty_taking": "15"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5402",
+      "teamID": "54",
+      "name": "Võ Minh Trọng",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "24",
+      "skill": {
+        "passing": "28",
+        "shooting": "20",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "52",
+        "strength": "40",
+        "jumping": "270",
+        "penalty_taking": "19"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5403",
+      "teamID": "54",
+      "name": "Bùi Hoàng Việt Anh",
+      "position": "CB",
+      "shirtNumber": 20,
+      "rating": "30",
+      "skill": {
+        "passing": "25",
+        "shooting": "22",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "35",
+        "strength": "55",
+        "jumping": "288",
+        "penalty_taking": "19"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5404",
+      "teamID": "54",
+      "name": "Phan Tuấn Tài",
+      "position": "CB",
+      "shirtNumber": 12,
+      "rating": "28",
+      "skill": {
+        "passing": "32",
+        "shooting": "20",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "48",
+        "strength": "42",
+        "jumping": "285",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5405",
+      "teamID": "54",
+      "name": "Phạm Xuân Mạnh",
+      "position": "RB",
+      "shirtNumber": 7,
+      "rating": "26",
+      "skill": {
+        "passing": "30",
+        "shooting": "25",
+        "tackling": "34",
+        "saving": "10",
+        "agility": "50",
+        "strength": "45",
+        "jumping": "272",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5406",
+      "teamID": "54",
+      "name": "Nguyễn Thái Sơn",
+      "position": "CM",
+      "shirtNumber": 16,
+      "rating": "28",
+      "skill": {
+        "passing": "35",
+        "shooting": "28",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "55",
+        "strength": "48",
+        "jumping": "278",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5407",
+      "teamID": "54",
+      "name": "Đỗ Hùng Dũng",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "32",
+      "skill": {
+        "passing": "38",
+        "shooting": "32",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "52",
+        "strength": "50",
+        "jumping": "275",
+        "penalty_taking": "36"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5408",
+      "teamID": "54",
+      "name": "Nguyễn Đình Bắc",
+      "position": "LM",
+      "shirtNumber": 15,
+      "rating": "30",
+      "skill": {
+        "passing": "32",
+        "shooting": "35",
+        "tackling": "22",
+        "saving": "10",
+        "agility": "62",
+        "strength": "40",
+        "jumping": "265",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5409",
+      "teamID": "54",
+      "name": "Nguyễn Quang Hải",
+      "position": "RM",
+      "shirtNumber": 19,
+      "rating": "34",
+      "skill": {
+        "passing": "42",
+        "shooting": "38",
+        "tackling": "25",
+        "saving": "10",
+        "agility": "58",
+        "strength": "38",
+        "jumping": "268",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5410",
+      "teamID": "54",
+      "name": "Phạm Tuấn Hải",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "32",
+      "skill": {
+        "passing": "30",
+        "shooting": "40",
+        "tackling": "22",
+        "saving": "10",
+        "agility": "60",
+        "strength": "45",
+        "jumping": "276",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5411",
+      "teamID": "54",
+      "name": "Nguyễn Văn Toàn",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "30",
+      "skill": {
+        "passing": "28",
+        "shooting": "38",
+        "tackling": "20",
+        "saving": "10",
+        "agility": "68",
+        "strength": "42",
+        "jumping": "272",
+        "penalty_taking": "33"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

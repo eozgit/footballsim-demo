@@ -1,0 +1,276 @@
+{
+  "name": "Panama",
+  "description": "Los Canaleros",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Blue",
+  "rating": 66,
+  "teamID": "34",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "3401",
+      "teamID": "34",
+      "name": "Orlando Mosquera",
+      "position": "GK",
+      "shirtNumber": 22,
+      "rating": "68",
+      "skill": {
+        "passing": "60",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "70",
+        "agility": "65",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3402",
+      "teamID": "34",
+      "name": "Eric Davis",
+      "position": "LB",
+      "shirtNumber": 15,
+      "rating": "62",
+      "skill": {
+        "passing": "68",
+        "shooting": "55",
+        "tackling": "64",
+        "saving": "10",
+        "agility": "75",
+        "strength": "65",
+        "jumping": "270",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3403",
+      "teamID": "34",
+      "name": "José Córdoba",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "68",
+      "skill": {
+        "passing": "62",
+        "shooting": "35",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "68",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "37"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3404",
+      "teamID": "34",
+      "name": "Edgardo Fariña",
+      "position": "CB",
+      "shirtNumber": 24,
+      "rating": "64",
+      "skill": {
+        "passing": "55",
+        "shooting": "30",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "62",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3405",
+      "teamID": "34",
+      "name": "Michael Murillo",
+      "position": "RB",
+      "shirtNumber": 23,
+      "rating": "70",
+      "skill": {
+        "passing": "68",
+        "shooting": "58",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "82",
+        "strength": "74",
+        "jumping": "275",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3406",
+      "teamID": "34",
+      "name": "Adalberto Carrasquilla",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "72",
+      "skill": {
+        "passing": "76",
+        "shooting": "68",
+        "tackling": "65",
+        "saving": "12",
+        "agility": "78",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3407",
+      "teamID": "34",
+      "name": "Aníbal Godoy",
+      "position": "CM",
+      "shirtNumber": 20,
+      "rating": "66",
+      "skill": {
+        "passing": "70",
+        "shooting": "58",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "65",
+        "strength": "75",
+        "jumping": "278",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3408",
+      "teamID": "34",
+      "name": "Yoel Bárcenas",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "68",
+      "skill": {
+        "passing": "70",
+        "shooting": "65",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "80",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3409",
+      "teamID": "34",
+      "name": "José Luis Rodríguez",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "67",
+      "skill": {
+        "passing": "68",
+        "shooting": "64",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "82",
+        "strength": "66",
+        "jumping": "268",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3410",
+      "teamID": "34",
+      "name": "José Fajardo",
+      "position": "ST",
+      "shirtNumber": 17,
+      "rating": "66",
+      "skill": {
+        "passing": "58",
+        "shooting": "72",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "78",
+        "strength": "76",
+        "jumping": "282",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3411",
+      "teamID": "34",
+      "name": "Ismael Díaz",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "68",
+      "skill": {
+        "passing": "65",
+        "shooting": "74",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "80",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Everton FC",
+  "description": "1984-1985 Double winners",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "Amber",
+  "rating": 89,
+  "teamID": "135",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "13501",
+      "teamID": "135",
+      "name": "Neville Southall",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "92",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "95",
+        "agility": "82",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "24"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13502",
+      "teamID": "135",
+      "name": "Pat Van Den Hauwe",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "55",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "282",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13503",
+      "teamID": "135",
+      "name": "Kevin Ratcliffe",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "88",
+      "skill": {
+        "passing": "75",
+        "shooting": "35",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "88",
+        "strength": "90",
+        "jumping": "305",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13504",
+      "teamID": "135",
+      "name": "Derek Mountfield",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "85",
+      "skill": {
+        "passing": "70",
+        "shooting": "65",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "68",
+        "strength": "92",
+        "jumping": "318",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13505",
+      "teamID": "135",
+      "name": "Gary Stevens",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "86",
+      "skill": {
+        "passing": "82",
+        "shooting": "62",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "90",
+        "strength": "84",
+        "jumping": "288",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13506",
+      "teamID": "135",
+      "name": "Peter Reid",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "89",
+      "skill": {
+        "passing": "88",
+        "shooting": "74",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "78",
+        "strength": "92",
+        "jumping": "302",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13507",
+      "teamID": "135",
+      "name": "Paul Bracewell",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "90",
+        "shooting": "72",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "75",
+        "strength": "82",
+        "jumping": "292",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13508",
+      "teamID": "135",
+      "name": "Kevin Sheedy",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "88",
+      "skill": {
+        "passing": "94",
+        "shooting": "85",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "78",
+        "strength": "70",
+        "jumping": "275",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13509",
+      "teamID": "135",
+      "name": "Trevor Steven",
+      "position": "RM",
+      "shirtNumber": 8,
+      "rating": "87",
+      "skill": {
+        "passing": "88",
+        "shooting": "80",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "85",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13510",
+      "teamID": "135",
+      "name": "Graeme Sharp",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "88",
+      "skill": {
+        "passing": "75",
+        "shooting": "92",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "78",
+        "strength": "95",
+        "jumping": "325",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13511",
+      "teamID": "135",
+      "name": "Andy Gray",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "90",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "72",
+        "strength": "96",
+        "jumping": "330",
+        "penalty_taking": "91"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

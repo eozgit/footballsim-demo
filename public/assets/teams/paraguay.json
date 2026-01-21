@@ -1,0 +1,276 @@
+{
+  "name": "Paraguay",
+  "description": "La Albirroja",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Blue",
+  "rating": 68,
+  "teamID": "35",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "3501",
+      "teamID": "35",
+      "name": "Carlos Coronel",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "70",
+      "skill": {
+        "passing": "65",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "72",
+        "agility": "68",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "21"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3502",
+      "teamID": "35",
+      "name": "Matías Espinoza",
+      "position": "LB",
+      "shirtNumber": 4,
+      "rating": "68",
+      "skill": {
+        "passing": "66",
+        "shooting": "52",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3503",
+      "teamID": "35",
+      "name": "Gustavo Gómez",
+      "position": "CB",
+      "shirtNumber": 15,
+      "rating": "76",
+      "skill": {
+        "passing": "65",
+        "shooting": "45",
+        "tackling": "80",
+        "saving": "12",
+        "agility": "52",
+        "strength": "88",
+        "jumping": "298",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3504",
+      "teamID": "35",
+      "name": "Omar Alderete",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "75",
+      "skill": {
+        "passing": "68",
+        "shooting": "40",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "55",
+        "strength": "85",
+        "jumping": "292",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3505",
+      "teamID": "35",
+      "name": "Iván Ramírez",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "67",
+      "skill": {
+        "passing": "65",
+        "shooting": "50",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "76",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3506",
+      "teamID": "35",
+      "name": "Andrés Cubas",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "78",
+        "saving": "12",
+        "agility": "75",
+        "strength": "72",
+        "jumping": "270",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3507",
+      "teamID": "35",
+      "name": "Mathías Villasanti",
+      "position": "CM",
+      "shirtNumber": 23,
+      "rating": "75",
+      "skill": {
+        "passing": "74",
+        "shooting": "62",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "78",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3508",
+      "teamID": "35",
+      "name": "Ramón Sosa",
+      "position": "LM",
+      "shirtNumber": 24,
+      "rating": "76",
+      "skill": {
+        "passing": "70",
+        "shooting": "72",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "90",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3509",
+      "teamID": "35",
+      "name": "Miguel Almirón",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "79",
+      "skill": {
+        "passing": "78",
+        "shooting": "72",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "88",
+        "strength": "65",
+        "jumping": "262",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3510",
+      "teamID": "35",
+      "name": "Adam Bareiro",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "74",
+      "skill": {
+        "passing": "62",
+        "shooting": "76",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "68",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3511",
+      "teamID": "35",
+      "name": "Julio Enciso",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "76",
+      "skill": {
+        "passing": "78",
+        "shooting": "75",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "82",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

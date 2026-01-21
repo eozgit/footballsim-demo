@@ -1,0 +1,276 @@
+{
+  "name": "Cabo Verde",
+  "description": "Blue Sharks",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "Red",
+  "rating": 65,
+  "teamID": "8",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "801",
+      "teamID": "8",
+      "name": "Vozinha",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "68",
+      "skill": {
+        "passing": "60",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "70",
+        "agility": "65",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "21"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "802",
+      "teamID": "8",
+      "name": "Dylan Tavares",
+      "position": "LB",
+      "shirtNumber": 16,
+      "rating": "65",
+      "skill": {
+        "passing": "62",
+        "shooting": "48",
+        "tackling": "64",
+        "saving": "10",
+        "agility": "74",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "803",
+      "teamID": "8",
+      "name": "Logan Costa",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "70",
+      "skill": {
+        "passing": "58",
+        "shooting": "35",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "60",
+        "strength": "82",
+        "jumping": "292",
+        "penalty_taking": "42"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "804",
+      "teamID": "8",
+      "name": "Pico",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "64",
+      "skill": {
+        "passing": "54",
+        "shooting": "32",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "58",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "37"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "805",
+      "teamID": "8",
+      "name": "Steven Moreira",
+      "position": "RB",
+      "shirtNumber": 23,
+      "rating": "66",
+      "skill": {
+        "passing": "64",
+        "shooting": "42",
+        "tackling": "67",
+        "saving": "10",
+        "agility": "72",
+        "strength": "75",
+        "jumping": "275",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "806",
+      "teamID": "8",
+      "name": "Kevin Pina",
+      "position": "CM",
+      "shirtNumber": 26,
+      "rating": "67",
+      "skill": {
+        "passing": "66",
+        "shooting": "55",
+        "tackling": "70",
+        "saving": "12",
+        "agility": "68",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "807",
+      "teamID": "8",
+      "name": "Jamiro Monteiro",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "68",
+      "skill": {
+        "passing": "72",
+        "shooting": "64",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "78",
+        "strength": "65",
+        "jumping": "268",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "808",
+      "teamID": "8",
+      "name": "Jovane Cabral",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "71",
+      "skill": {
+        "passing": "68",
+        "shooting": "72",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "82",
+        "strength": "70",
+        "jumping": "270",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "809",
+      "teamID": "8",
+      "name": "Ryan Mendes",
+      "position": "RM",
+      "shirtNumber": 20,
+      "rating": "70",
+      "skill": {
+        "passing": "66",
+        "shooting": "70",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "80",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "810",
+      "teamID": "8",
+      "name": "Garry Rodrigues",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "69",
+      "skill": {
+        "passing": "64",
+        "shooting": "72",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "84",
+        "strength": "66",
+        "jumping": "274",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "811",
+      "teamID": "8",
+      "name": "Bebé",
+      "position": "ST",
+      "shirtNumber": 21,
+      "rating": "66",
+      "skill": {
+        "passing": "60",
+        "shooting": "75",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "65",
+        "strength": "85",
+        "jumping": "288",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

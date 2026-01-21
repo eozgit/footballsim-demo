@@ -1,0 +1,276 @@
+{
+  "name": "Sunderland AFC",
+  "description": "2025/26 Championship project",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 36,
+  "teamID": "193",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "19301",
+      "teamID": "193",
+      "name": "Anthony Patterson",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "74",
+      "skill": {
+        "passing": "68",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "76",
+        "agility": "72",
+        "strength": "70",
+        "jumping": "288",
+        "penalty_taking": "31"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19302",
+      "teamID": "193",
+      "name": "Dennis Cirkin",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "70",
+      "skill": {
+        "passing": "68",
+        "shooting": "55",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "82",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19303",
+      "teamID": "193",
+      "name": "Luke O'Nien",
+      "position": "CB",
+      "shirtNumber": 13,
+      "rating": "72",
+      "skill": {
+        "passing": "74",
+        "shooting": "52",
+        "tackling": "76",
+        "saving": "12",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "305",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19304",
+      "teamID": "193",
+      "name": "Daniel Ballard",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "75",
+      "skill": {
+        "passing": "60",
+        "shooting": "35",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "68",
+        "strength": "85",
+        "jumping": "315",
+        "penalty_taking": "44"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19305",
+      "teamID": "193",
+      "name": "Trai Hume",
+      "position": "RB",
+      "shirtNumber": 32,
+      "rating": "72",
+      "skill": {
+        "passing": "70",
+        "shooting": "58",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "84",
+        "strength": "75",
+        "jumping": "278",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19306",
+      "teamID": "193",
+      "name": "Dan Neil",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "73",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "74",
+        "strength": "70",
+        "jumping": "290",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19307",
+      "teamID": "193",
+      "name": "Jobe Bellingham",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "72",
+      "skill": {
+        "passing": "74",
+        "shooting": "70",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "76",
+        "strength": "78",
+        "jumping": "310",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19308",
+      "teamID": "193",
+      "name": "Jack Clarke",
+      "position": "LM",
+      "shirtNumber": 20,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "78",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "88",
+        "strength": "62",
+        "jumping": "265",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19309",
+      "teamID": "193",
+      "name": "Patrick Roberts",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "76",
+      "skill": {
+        "passing": "84",
+        "shooting": "72",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "85",
+        "strength": "55",
+        "jumping": "262",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19310",
+      "teamID": "193",
+      "name": "Wilson Isidor",
+      "position": "ST",
+      "shirtNumber": 15,
+      "rating": "72",
+      "skill": {
+        "passing": "68",
+        "shooting": "75",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "305",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19311",
+      "teamID": "193",
+      "name": "Nazariy Rusyn",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "70",
+      "skill": {
+        "passing": "65",
+        "shooting": "72",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "84",
+        "strength": "68",
+        "jumping": "302",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

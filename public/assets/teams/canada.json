@@ -1,0 +1,276 @@
+{
+  "name": "Canada",
+  "description": "Les Rouges",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 70,
+  "teamID": "9",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "901",
+      "teamID": "9",
+      "name": "Maxime Crépeau",
+      "position": "GK",
+      "shirtNumber": 16,
+      "rating": "74",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "18",
+        "saving": "76",
+        "agility": "72",
+        "strength": "75",
+        "jumping": "280",
+        "penalty_taking": "31"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "902",
+      "teamID": "9",
+      "name": "Alphonso Davies",
+      "position": "LB",
+      "shirtNumber": 19,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "70",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "95",
+        "strength": "78",
+        "jumping": "275",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "903",
+      "teamID": "9",
+      "name": "Kamal Miller",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "71",
+      "skill": {
+        "passing": "68",
+        "shooting": "40",
+        "tackling": "73",
+        "saving": "12",
+        "agility": "62",
+        "strength": "80",
+        "jumping": "285",
+        "penalty_taking": "49"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "904",
+      "teamID": "9",
+      "name": "Derek Cornelius",
+      "position": "CB",
+      "shirtNumber": 13,
+      "rating": "70",
+      "skill": {
+        "passing": "62",
+        "shooting": "35",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "58",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "905",
+      "teamID": "9",
+      "name": "Alistair Johnston",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "73",
+      "skill": {
+        "passing": "70",
+        "shooting": "52",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "74",
+        "strength": "78",
+        "jumping": "278",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "906",
+      "teamID": "9",
+      "name": "Stephen Eustáquio",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "78",
+      "skill": {
+        "passing": "82",
+        "shooting": "70",
+        "tackling": "76",
+        "saving": "12",
+        "agility": "76",
+        "strength": "74",
+        "jumping": "270",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "907",
+      "teamID": "9",
+      "name": "Ismaël Koné",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "74",
+      "skill": {
+        "passing": "75",
+        "shooting": "68",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "80",
+        "strength": "76",
+        "jumping": "276",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "908",
+      "teamID": "9",
+      "name": "Jacob Shaffelburg",
+      "position": "LM",
+      "shirtNumber": 14,
+      "rating": "72",
+      "skill": {
+        "passing": "70",
+        "shooting": "68",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "88",
+        "strength": "65",
+        "jumping": "268",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "909",
+      "teamID": "9",
+      "name": "Liam Millar",
+      "position": "RM",
+      "shirtNumber": 23,
+      "rating": "71",
+      "skill": {
+        "passing": "68",
+        "shooting": "65",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "85",
+        "strength": "62",
+        "jumping": "270",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "910",
+      "teamID": "9",
+      "name": "Jonathan David",
+      "position": "ST",
+      "shirtNumber": 20,
+      "rating": "81",
+      "skill": {
+        "passing": "74",
+        "shooting": "83",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "84",
+        "strength": "72",
+        "jumping": "280",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "911",
+      "teamID": "9",
+      "name": "Cyle Larin",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "75",
+      "skill": {
+        "passing": "65",
+        "shooting": "78",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "70",
+        "strength": "85",
+        "jumping": "290",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

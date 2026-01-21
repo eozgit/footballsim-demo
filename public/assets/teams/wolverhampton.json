@@ -1,0 +1,276 @@
+{
+  "name": "Wolverhampton",
+  "description": "1950s 'Kings of Europe'",
+  "primaryColour": "Gold",
+  "secondaryColour": "Black",
+  "awayColour": "White",
+  "rating": 86,
+  "teamID": "203",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "20301",
+      "teamID": "203",
+      "name": "Bert Williams",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "86",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "90",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "31"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20302",
+      "teamID": "203",
+      "name": "Bill Shorthouse",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "82",
+      "skill": {
+        "passing": "72",
+        "shooting": "45",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "80",
+        "strength": "84",
+        "jumping": "275",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20303",
+      "teamID": "203",
+      "name": "Billy Wright",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "92",
+      "skill": {
+        "passing": "85",
+        "shooting": "62",
+        "tackling": "95",
+        "saving": "12",
+        "agility": "78",
+        "strength": "90",
+        "jumping": "315",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20304",
+      "teamID": "203",
+      "name": "Eddie Stuart",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "84",
+      "skill": {
+        "passing": "68",
+        "shooting": "40",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "82",
+        "strength": "88",
+        "jumping": "320",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20305",
+      "teamID": "203",
+      "name": "Jack Mansell",
+      "position": "RB",
+      "shirtNumber": 4,
+      "rating": "80",
+      "skill": {
+        "passing": "74",
+        "shooting": "50",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "78",
+        "strength": "80",
+        "jumping": "282",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20306",
+      "teamID": "203",
+      "name": "Ron Flowers",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "88",
+      "skill": {
+        "passing": "86",
+        "shooting": "84",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "74",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20307",
+      "teamID": "203",
+      "name": "Eddie Clamp",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "70",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "76",
+        "strength": "92",
+        "jumping": "298",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20308",
+      "teamID": "203",
+      "name": "Jimmy Mullen",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "85",
+      "skill": {
+        "passing": "82",
+        "shooting": "80",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "88",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20309",
+      "teamID": "203",
+      "name": "Johnny Hancocks",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "88",
+        "shooting": "85",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "92",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20310",
+      "teamID": "203",
+      "name": "Dennis Wilshaw",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "86",
+      "skill": {
+        "passing": "76",
+        "shooting": "90",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "82",
+        "strength": "82",
+        "jumping": "315",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20311",
+      "teamID": "203",
+      "name": "Roy Swinbourne",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "85",
+      "skill": {
+        "passing": "74",
+        "shooting": "88",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "84",
+        "strength": "86",
+        "jumping": "320",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

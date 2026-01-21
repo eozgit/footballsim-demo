@@ -1,0 +1,276 @@
+{
+  "name": "Club América",
+  "description": "2023-2024 'Bicampeonato'",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Blue",
+  "awayColour": "Red",
+  "rating": 78,
+  "teamID": "128",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "12801",
+      "teamID": "128",
+      "name": "Luis Malagón",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "80",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "82",
+        "agility": "75",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "31"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12802",
+      "teamID": "128",
+      "name": "Cristian Borja",
+      "position": "LB",
+      "shirtNumber": 26,
+      "rating": "76",
+      "skill": {
+        "passing": "75",
+        "shooting": "60",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "88",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12803",
+      "teamID": "128",
+      "name": "Sebastián Cáceres",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "79",
+      "skill": {
+        "passing": "68",
+        "shooting": "35",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "78",
+        "strength": "84",
+        "jumping": "295",
+        "penalty_taking": "40"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12804",
+      "teamID": "128",
+      "name": "Igor Lichnovsky",
+      "position": "CB",
+      "shirtNumber": 31,
+      "rating": "78",
+      "skill": {
+        "passing": "65",
+        "shooting": "32",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "68",
+        "strength": "88",
+        "jumping": "310",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12805",
+      "teamID": "128",
+      "name": "Kevin Álvarez",
+      "position": "RB",
+      "shirtNumber": 5,
+      "rating": "77",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "92",
+        "strength": "70",
+        "jumping": "275",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12806",
+      "teamID": "128",
+      "name": "Jonathan dos Santos",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "81",
+      "skill": {
+        "passing": "86",
+        "shooting": "70",
+        "tackling": "78",
+        "saving": "12",
+        "agility": "72",
+        "strength": "75",
+        "jumping": "288",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12807",
+      "teamID": "128",
+      "name": "Alvaro Fidalgo",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "82",
+      "skill": {
+        "passing": "88",
+        "shooting": "74",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "80",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12808",
+      "teamID": "128",
+      "name": "Julián Quiñones",
+      "position": "LM",
+      "shirtNumber": 33,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "85",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "94",
+        "strength": "86",
+        "jumping": "285",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12809",
+      "teamID": "128",
+      "name": "Alejandro Zendejas",
+      "position": "RM",
+      "shirtNumber": 17,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "78",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "86",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12810",
+      "teamID": "128",
+      "name": "Henry Martín",
+      "position": "ST",
+      "shirtNumber": 21,
+      "rating": "82",
+      "skill": {
+        "passing": "75",
+        "shooting": "86",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "76",
+        "strength": "90",
+        "jumping": "315",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12811",
+      "teamID": "128",
+      "name": "Diego Valdés",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "83",
+      "skill": {
+        "passing": "86",
+        "shooting": "82",
+        "tackling": "48",
+        "saving": "10",
+        "agility": "78",
+        "strength": "78",
+        "jumping": "292",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

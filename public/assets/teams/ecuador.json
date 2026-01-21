@@ -1,0 +1,276 @@
+{
+  "name": "Ecuador",
+  "description": "La Tri",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Blue",
+  "awayColour": "Red",
+  "rating": 79,
+  "teamID": "15",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "1501",
+      "teamID": "15",
+      "name": "Hernán Galíndez",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "75",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "18",
+        "saving": "77",
+        "agility": "70",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "27"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1502",
+      "teamID": "15",
+      "name": "Pervis Estupiñán",
+      "position": "LB",
+      "shirtNumber": 7,
+      "rating": "81",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "79",
+        "saving": "10",
+        "agility": "85",
+        "strength": "76",
+        "jumping": "275",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1503",
+      "teamID": "15",
+      "name": "Piero Hincapié",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "50",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1504",
+      "teamID": "15",
+      "name": "Willian Pacho",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "80",
+      "skill": {
+        "passing": "74",
+        "shooting": "40",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "72",
+        "strength": "85",
+        "jumping": "292",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1505",
+      "teamID": "15",
+      "name": "Ángelo Preciado",
+      "position": "RB",
+      "shirtNumber": 17,
+      "rating": "76",
+      "skill": {
+        "passing": "72",
+        "shooting": "62",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "86",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1506",
+      "teamID": "15",
+      "name": "Moisés Caicedo",
+      "position": "CM",
+      "shirtNumber": 23,
+      "rating": "83",
+      "skill": {
+        "passing": "82",
+        "shooting": "72",
+        "tackling": "85",
+        "saving": "12",
+        "agility": "80",
+        "strength": "84",
+        "jumping": "282",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1507",
+      "teamID": "15",
+      "name": "Kendry Páez",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "75",
+      "skill": {
+        "passing": "80",
+        "shooting": "74",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "88",
+        "strength": "62",
+        "jumping": "268",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1508",
+      "teamID": "15",
+      "name": "Jeremy Sarmiento",
+      "position": "LM",
+      "shirtNumber": 16,
+      "rating": "73",
+      "skill": {
+        "passing": "72",
+        "shooting": "70",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "88",
+        "strength": "65",
+        "jumping": "270",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1509",
+      "teamID": "15",
+      "name": "John Yeboah",
+      "position": "RM",
+      "shirtNumber": 9,
+      "rating": "72",
+      "skill": {
+        "passing": "70",
+        "shooting": "72",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "90",
+        "strength": "64",
+        "jumping": "268",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1510",
+      "teamID": "15",
+      "name": "Enner Valencia",
+      "position": "ST",
+      "shirtNumber": 13,
+      "rating": "78",
+      "skill": {
+        "passing": "68",
+        "shooting": "81",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "76",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1511",
+      "teamID": "15",
+      "name": "Kevin Rodríguez",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "72",
+      "skill": {
+        "passing": "62",
+        "shooting": "74",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "80",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

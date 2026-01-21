@@ -1,0 +1,276 @@
+{
+  "name": "South Korea",
+  "description": "Taegeuk Warriors",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 76,
+  "teamID": "44",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "4401",
+      "teamID": "44",
+      "name": "Jo Hyeon-woo",
+      "position": "GK",
+      "shirtNumber": 21,
+      "rating": "76",
+      "skill": {
+        "passing": "70",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "78",
+        "agility": "75",
+        "strength": "72",
+        "jumping": "282",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4402",
+      "teamID": "44",
+      "name": "Seol Young-woo",
+      "position": "LB",
+      "shirtNumber": 22,
+      "rating": "72",
+      "skill": {
+        "passing": "70",
+        "shooting": "52",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "80",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4403",
+      "teamID": "44",
+      "name": "Kim Min-jae",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "40",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "80",
+        "strength": "88",
+        "jumping": "298",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4404",
+      "teamID": "44",
+      "name": "Kim Young-gwon",
+      "position": "CB",
+      "shirtNumber": 19,
+      "rating": "74",
+      "skill": {
+        "passing": "70",
+        "shooting": "35",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "55",
+        "strength": "80",
+        "jumping": "290",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4405",
+      "teamID": "44",
+      "name": "Kim Tae-hwan",
+      "position": "RB",
+      "shirtNumber": 23,
+      "rating": "70",
+      "skill": {
+        "passing": "68",
+        "shooting": "48",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "82",
+        "strength": "75",
+        "jumping": "275",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4406",
+      "teamID": "44",
+      "name": "Hwang In-beom",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "79",
+      "skill": {
+        "passing": "82",
+        "shooting": "70",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "76",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4407",
+      "teamID": "44",
+      "name": "Park Yong-woo",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "72",
+      "skill": {
+        "passing": "70",
+        "shooting": "55",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "68",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4408",
+      "teamID": "44",
+      "name": "Lee Kang-in",
+      "position": "LM",
+      "shirtNumber": 18,
+      "rating": "81",
+      "skill": {
+        "passing": "85",
+        "shooting": "76",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "84",
+        "strength": "62",
+        "jumping": "268",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4409",
+      "teamID": "44",
+      "name": "Son Heung-min",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "87",
+      "skill": {
+        "passing": "82",
+        "shooting": "88",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "72",
+        "jumping": "270",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4410",
+      "teamID": "44",
+      "name": "Cho Gue-sung",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "75",
+      "skill": {
+        "passing": "64",
+        "shooting": "78",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "68",
+        "strength": "85",
+        "jumping": "305",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4411",
+      "teamID": "44",
+      "name": "Hwang Hee-chan",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "80",
+      "skill": {
+        "passing": "74",
+        "shooting": "81",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "86",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

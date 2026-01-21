@@ -1,0 +1,276 @@
+{
+  "name": "Brazil",
+  "description": "Canarinho",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Green",
+  "awayColour": "Blue",
+  "rating": 89,
+  "teamID": "7",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "701",
+      "teamID": "7",
+      "name": "Alisson",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "89",
+      "skill": {
+        "passing": "85",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "90",
+        "agility": "86",
+        "strength": "84",
+        "jumping": "290",
+        "penalty_taking": "32"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "702",
+      "teamID": "7",
+      "name": "Guilherme Arana",
+      "position": "LB",
+      "shirtNumber": 16,
+      "rating": "82",
+      "skill": {
+        "passing": "84",
+        "shooting": "68",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "82",
+        "strength": "75",
+        "jumping": "275",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "703",
+      "teamID": "7",
+      "name": "Marquinhos",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "87",
+      "skill": {
+        "passing": "82",
+        "shooting": "50",
+        "tackling": "89",
+        "saving": "12",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "294",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "704",
+      "teamID": "7",
+      "name": "Gabriel Magalhães",
+      "position": "CB",
+      "shirtNumber": 14,
+      "rating": "86",
+      "skill": {
+        "passing": "76",
+        "shooting": "45",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "68",
+        "strength": "88",
+        "jumping": "296",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "705",
+      "teamID": "7",
+      "name": "Danilo",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "81",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "74",
+        "strength": "85",
+        "jumping": "285",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "706",
+      "teamID": "7",
+      "name": "Bruno Guimarães",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "87",
+      "skill": {
+        "passing": "90",
+        "shooting": "75",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "80",
+        "strength": "84",
+        "jumping": "278",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "707",
+      "teamID": "7",
+      "name": "Lucas Paquetá",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "85",
+      "skill": {
+        "passing": "88",
+        "shooting": "80",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "85",
+        "strength": "80",
+        "jumping": "280",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "708",
+      "teamID": "7",
+      "name": "Vinícius Júnior",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "91",
+      "skill": {
+        "passing": "82",
+        "shooting": "88",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "96",
+        "strength": "74",
+        "jumping": "272",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "709",
+      "teamID": "7",
+      "name": "Rodrygo",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "88",
+      "skill": {
+        "passing": "84",
+        "shooting": "86",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "92",
+        "strength": "72",
+        "jumping": "270",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "710",
+      "teamID": "7",
+      "name": "Endrick",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "82",
+      "skill": {
+        "passing": "72",
+        "shooting": "84",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "88",
+        "strength": "85",
+        "jumping": "284",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "711",
+      "teamID": "7",
+      "name": "Raphinha",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "85",
+      "skill": {
+        "passing": "84",
+        "shooting": "82",
+        "tackling": "52",
+        "saving": "10",
+        "agility": "90",
+        "strength": "75",
+        "jumping": "276",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

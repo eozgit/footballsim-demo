@@ -1,0 +1,276 @@
+{
+  "name": "Colombia",
+  "description": "Los Cafeteros",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Blue",
+  "awayColour": "Red",
+  "rating": 84,
+  "teamID": "10",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "1001",
+      "teamID": "10",
+      "name": "Camilo Vargas",
+      "position": "GK",
+      "shirtNumber": 12,
+      "rating": "80",
+      "skill": {
+        "passing": "70",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "82",
+        "agility": "75",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1002",
+      "teamID": "10",
+      "name": "Johan Mojica",
+      "position": "LB",
+      "shirtNumber": 17,
+      "rating": "78",
+      "skill": {
+        "passing": "76",
+        "shooting": "62",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "84",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1003",
+      "teamID": "10",
+      "name": "Davinson Sánchez",
+      "position": "CB",
+      "shirtNumber": 23,
+      "rating": "81",
+      "skill": {
+        "passing": "74",
+        "shooting": "50",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "70",
+        "strength": "85",
+        "jumping": "296",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1004",
+      "teamID": "10",
+      "name": "Carlos Cuesta",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "79",
+      "skill": {
+        "passing": "72",
+        "shooting": "40",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "75",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1005",
+      "teamID": "10",
+      "name": "Daniel Muñoz",
+      "position": "RB",
+      "shirtNumber": 21,
+      "rating": "81",
+      "skill": {
+        "passing": "75",
+        "shooting": "65",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "285",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1006",
+      "teamID": "10",
+      "name": "Jefferson Lerma",
+      "position": "CM",
+      "shirtNumber": 16,
+      "rating": "80",
+      "skill": {
+        "passing": "76",
+        "shooting": "72",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "290",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1007",
+      "teamID": "10",
+      "name": "Richard Ríos",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "78",
+      "skill": {
+        "passing": "80",
+        "shooting": "75",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "84",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1008",
+      "teamID": "10",
+      "name": "Luis Díaz",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "78",
+        "shooting": "82",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "94",
+        "strength": "74",
+        "jumping": "276",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1009",
+      "teamID": "10",
+      "name": "James Rodríguez",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "83",
+      "skill": {
+        "passing": "92",
+        "shooting": "85",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "72",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1010",
+      "teamID": "10",
+      "name": "Jhon Córdoba",
+      "position": "ST",
+      "shirtNumber": 24,
+      "rating": "81",
+      "skill": {
+        "passing": "68",
+        "shooting": "82",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "76",
+        "strength": "90",
+        "jumping": "294",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1011",
+      "teamID": "10",
+      "name": "Luis Sinisterra",
+      "position": "ST",
+      "shirtNumber": 18,
+      "rating": "79",
+      "skill": {
+        "passing": "75",
+        "shooting": "80",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "88",
+        "strength": "72",
+        "jumping": "282",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

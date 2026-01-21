@@ -1,0 +1,276 @@
+{
+  "name": "Morocco",
+  "description": "The Atlas Lions",
+  "primaryColour": "Red",
+  "secondaryColour": "Green",
+  "awayColour": "White",
+  "rating": 83,
+  "teamID": "29",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "2901",
+      "teamID": "29",
+      "name": "Yassine Bounou",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "84",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "85",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2902",
+      "teamID": "29",
+      "name": "Yahia Attiyat Allah",
+      "position": "LB",
+      "shirtNumber": 25,
+      "rating": "75",
+      "skill": {
+        "passing": "74",
+        "shooting": "60",
+        "tackling": "73",
+        "saving": "10",
+        "agility": "80",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2903",
+      "teamID": "29",
+      "name": "Nayef Aguerd",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "81",
+      "skill": {
+        "passing": "74",
+        "shooting": "45",
+        "tackling": "83",
+        "saving": "12",
+        "agility": "70",
+        "strength": "85",
+        "jumping": "295",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2904",
+      "teamID": "29",
+      "name": "Romain Saïss",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "50",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "55",
+        "strength": "82",
+        "jumping": "292",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2905",
+      "teamID": "29",
+      "name": "Achraf Hakimi",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "75",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "92",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2906",
+      "teamID": "29",
+      "name": "Sofyan Amrabat",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "80",
+      "skill": {
+        "passing": "76",
+        "shooting": "65",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "290",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2907",
+      "teamID": "29",
+      "name": "Azzedine Ounahi",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "79",
+      "skill": {
+        "passing": "84",
+        "shooting": "72",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "82",
+        "strength": "68",
+        "jumping": "268",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2908",
+      "teamID": "29",
+      "name": "Brahim Díaz",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "83",
+      "skill": {
+        "passing": "82",
+        "shooting": "80",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "88",
+        "strength": "65",
+        "jumping": "270",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2909",
+      "teamID": "29",
+      "name": "Hakim Ziyech",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "81",
+      "skill": {
+        "passing": "88",
+        "shooting": "82",
+        "tackling": "52",
+        "saving": "10",
+        "agility": "78",
+        "strength": "64",
+        "jumping": "272",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2910",
+      "teamID": "29",
+      "name": "Youssef En-Nesyri",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "81",
+      "skill": {
+        "passing": "65",
+        "shooting": "82",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2911",
+      "teamID": "29",
+      "name": "Soufiane Rahimi",
+      "position": "ST",
+      "shirtNumber": 21,
+      "rating": "78",
+      "skill": {
+        "passing": "74",
+        "shooting": "80",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "85",
+        "strength": "72",
+        "jumping": "282",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

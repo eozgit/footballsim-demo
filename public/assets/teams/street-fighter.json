@@ -1,0 +1,276 @@
+{
+  "name": "Street Fighter",
+  "description": "World Warriors era",
+  "primaryColour": "White",
+  "secondaryColour": "Red",
+  "awayColour": "Blue",
+  "rating": 66,
+  "teamID": "305",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "30501",
+      "teamID": "305",
+      "name": "Zangief",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "68",
+      "skill": {
+        "passing": "40",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "85",
+        "agility": "42",
+        "strength": "98",
+        "jumping": "360",
+        "penalty_taking": "25"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30502",
+      "teamID": "305",
+      "name": "Cammy",
+      "position": "LB",
+      "shirtNumber": 7,
+      "rating": "84",
+      "skill": {
+        "passing": "72",
+        "shooting": "70",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "95",
+        "strength": "74",
+        "jumping": "270",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30503",
+      "teamID": "305",
+      "name": "E. Honda",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "60",
+      "skill": {
+        "passing": "45",
+        "shooting": "40",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "68",
+        "strength": "94",
+        "jumping": "335",
+        "penalty_taking": "40"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30504",
+      "teamID": "305",
+      "name": "Guile",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "75",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "72",
+        "strength": "86",
+        "jumping": "320",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30505",
+      "teamID": "305",
+      "name": "Chun-Li",
+      "position": "RB",
+      "shirtNumber": 6,
+      "rating": "86",
+      "skill": {
+        "passing": "80",
+        "shooting": "72",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "96",
+        "strength": "78",
+        "jumping": "275",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30506",
+      "teamID": "305",
+      "name": "Ryu",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "88",
+      "skill": {
+        "passing": "90",
+        "shooting": "88",
+        "tackling": "75",
+        "saving": "12",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "290",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30507",
+      "teamID": "305",
+      "name": "Ken",
+      "position": "CM",
+      "shirtNumber": 11,
+      "rating": "88",
+      "skill": {
+        "passing": "88",
+        "shooting": "90",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "85",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30508",
+      "teamID": "305",
+      "name": "Dhalsim",
+      "position": "LM",
+      "shirtNumber": 8,
+      "rating": "72",
+      "skill": {
+        "passing": "92",
+        "shooting": "74",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "60",
+        "strength": "60",
+        "jumping": "272",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30509",
+      "teamID": "305",
+      "name": "Blanka",
+      "position": "RM",
+      "shirtNumber": 9,
+      "rating": "82",
+      "skill": {
+        "passing": "65",
+        "shooting": "78",
+        "tackling": "58",
+        "saving": "10",
+        "agility": "94",
+        "strength": "88",
+        "jumping": "278",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30510",
+      "teamID": "305",
+      "name": "Sagat",
+      "position": "ST",
+      "shirtNumber": 20,
+      "rating": "85",
+      "skill": {
+        "passing": "82",
+        "shooting": "94",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "72",
+        "strength": "95",
+        "jumping": "340",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30511",
+      "teamID": "305",
+      "name": "M. Bison",
+      "position": "ST",
+      "shirtNumber": 13,
+      "rating": "90",
+      "skill": {
+        "passing": "85",
+        "shooting": "92",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "88",
+        "strength": "92",
+        "jumping": "325",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

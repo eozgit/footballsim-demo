@@ -1,0 +1,276 @@
+{
+  "name": "Eintracht Frankfurt",
+  "description": "2022 Europa League winners",
+  "primaryColour": "White",
+  "secondaryColour": "Black",
+  "awayColour": "Red",
+  "rating": 79,
+  "teamID": "134",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "13401",
+      "teamID": "134",
+      "name": "Kevin Trapp",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "85",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "78",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13402",
+      "teamID": "134",
+      "name": "Filip Kostić",
+      "position": "LB",
+      "shirtNumber": 10,
+      "rating": "86",
+      "skill": {
+        "passing": "90",
+        "shooting": "80",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "88",
+        "strength": "82",
+        "jumping": "275",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13403",
+      "teamID": "134",
+      "name": "Martin Hinteregger",
+      "position": "CB",
+      "shirtNumber": 13,
+      "rating": "82",
+      "skill": {
+        "passing": "70",
+        "shooting": "45",
+        "tackling": "86",
+        "saving": "12",
+        "agility": "68",
+        "strength": "92",
+        "jumping": "320",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13404",
+      "teamID": "134",
+      "name": "Tuta",
+      "position": "CB",
+      "shirtNumber": 35,
+      "rating": "78",
+      "skill": {
+        "passing": "68",
+        "shooting": "35",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "72",
+        "strength": "82",
+        "jumping": "302",
+        "penalty_taking": "44"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13405",
+      "teamID": "134",
+      "name": "Almamy Touré",
+      "position": "RB",
+      "shirtNumber": 18,
+      "rating": "76",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "85",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13406",
+      "teamID": "134",
+      "name": "Djibril Sow",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "68",
+        "tackling": "78",
+        "saving": "12",
+        "agility": "80",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13407",
+      "teamID": "134",
+      "name": "Sebastian Rode",
+      "position": "CM",
+      "shirtNumber": 17,
+      "rating": "81",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "74",
+        "strength": "86",
+        "jumping": "295",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13408",
+      "teamID": "134",
+      "name": "Daichi Kamada",
+      "position": "LM",
+      "shirtNumber": 15,
+      "rating": "83",
+      "skill": {
+        "passing": "86",
+        "shooting": "78",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "78",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13409",
+      "teamID": "134",
+      "name": "Jesper Lindstrøm",
+      "position": "RM",
+      "shirtNumber": 29,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "75",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "90",
+        "strength": "65",
+        "jumping": "268",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13410",
+      "teamID": "134",
+      "name": "Rafael Borré",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "82",
+      "skill": {
+        "passing": "74",
+        "shooting": "84",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "84",
+        "strength": "78",
+        "jumping": "290",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13411",
+      "teamID": "134",
+      "name": "Ansgar Knauff",
+      "position": "ST",
+      "shirtNumber": 36,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "74",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "92",
+        "strength": "68",
+        "jumping": "275",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

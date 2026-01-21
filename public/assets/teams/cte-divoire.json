@@ -1,0 +1,276 @@
+{
+  "name": "Côte d'Ivoire",
+  "description": "The Elephants - AFCON Champions",
+  "primaryColour": "Orange",
+  "secondaryColour": "White",
+  "awayColour": "Green",
+  "rating": 78,
+  "teamID": "11",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "1101",
+      "teamID": "11",
+      "name": "Yahia Fofana",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "77",
+      "skill": {
+        "passing": "62",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "79",
+        "agility": "74",
+        "strength": "80",
+        "jumping": "282",
+        "penalty_taking": "21"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1102",
+      "teamID": "11",
+      "name": "Ghislain Konan",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "76",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "80",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1103",
+      "teamID": "11",
+      "name": "Evan Ndicka",
+      "position": "CB",
+      "shirtNumber": 21,
+      "rating": "80",
+      "skill": {
+        "passing": "70",
+        "shooting": "45",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "68",
+        "strength": "86",
+        "jumping": "294",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1104",
+      "teamID": "11",
+      "name": "Ousmane Diomande",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "79",
+      "skill": {
+        "passing": "74",
+        "shooting": "40",
+        "tackling": "81",
+        "saving": "10",
+        "agility": "70",
+        "strength": "88",
+        "jumping": "292",
+        "penalty_taking": "50"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1105",
+      "teamID": "11",
+      "name": "Wilfried Singo",
+      "position": "RB",
+      "shirtNumber": 5,
+      "rating": "78",
+      "skill": {
+        "passing": "70",
+        "shooting": "58",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "84",
+        "strength": "85",
+        "jumping": "290",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1106",
+      "teamID": "11",
+      "name": "Franck Kessié",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "78",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "72",
+        "strength": "90",
+        "jumping": "285",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1107",
+      "teamID": "11",
+      "name": "Seko Fofana",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "76",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "282",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1108",
+      "teamID": "11",
+      "name": "Simon Adingra",
+      "position": "LM",
+      "shirtNumber": 24,
+      "rating": "77",
+      "skill": {
+        "passing": "74",
+        "shooting": "72",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "90",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1109",
+      "teamID": "11",
+      "name": "Nicolas Pépé",
+      "position": "RM",
+      "shirtNumber": 19,
+      "rating": "76",
+      "skill": {
+        "passing": "75",
+        "shooting": "78",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "86",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1110",
+      "teamID": "11",
+      "name": "Sébastien Haller",
+      "position": "ST",
+      "shirtNumber": 22,
+      "rating": "81",
+      "skill": {
+        "passing": "68",
+        "shooting": "82",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "62",
+        "strength": "92",
+        "jumping": "305",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1111",
+      "teamID": "11",
+      "name": "Oumar Diakité",
+      "position": "ST",
+      "shirtNumber": 75,
+      "rating": "72",
+      "skill": {
+        "passing": "64",
+        "shooting": "74",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "82",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

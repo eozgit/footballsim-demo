@@ -1,0 +1,276 @@
+{
+  "name": "Japan",
+  "description": "Samurai Blue",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "Red",
+  "rating": 80,
+  "teamID": "26",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "2601",
+      "teamID": "26",
+      "name": "Zion Suzuki",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "74",
+      "skill": {
+        "passing": "68",
+        "shooting": "15",
+        "tackling": "18",
+        "saving": "76",
+        "agility": "74",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2602",
+      "teamID": "26",
+      "name": "Hiroki Ito",
+      "position": "LB",
+      "shirtNumber": 21,
+      "rating": "78",
+      "skill": {
+        "passing": "75",
+        "shooting": "55",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "72",
+        "strength": "78",
+        "jumping": "275",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2603",
+      "teamID": "26",
+      "name": "Ko Itakura",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "80",
+      "skill": {
+        "passing": "72",
+        "shooting": "42",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "68",
+        "strength": "84",
+        "jumping": "294",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2604",
+      "teamID": "26",
+      "name": "Shogo Taniguchi",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "76",
+      "skill": {
+        "passing": "70",
+        "shooting": "38",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "60",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2605",
+      "teamID": "26",
+      "name": "Yukinari Sugawara",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "77",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "82",
+        "strength": "70",
+        "jumping": "270",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2606",
+      "teamID": "26",
+      "name": "Wataru Endo",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "68",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "72",
+        "strength": "80",
+        "jumping": "282",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2607",
+      "teamID": "26",
+      "name": "Hidemasa Morita",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "80",
+      "skill": {
+        "passing": "80",
+        "shooting": "72",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "74",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2608",
+      "teamID": "26",
+      "name": "Kaoru Mitoma",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "76",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "92",
+        "strength": "68",
+        "jumping": "265",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2609",
+      "teamID": "26",
+      "name": "Takefusa Kubo",
+      "position": "RM",
+      "shirtNumber": 20,
+      "rating": "81",
+      "skill": {
+        "passing": "84",
+        "shooting": "78",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "88",
+        "strength": "62",
+        "jumping": "262",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2610",
+      "teamID": "26",
+      "name": "Ayase Ueda",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "76",
+      "skill": {
+        "passing": "65",
+        "shooting": "80",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "78",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2611",
+      "teamID": "26",
+      "name": "Takumi Minamino",
+      "position": "ST",
+      "shirtNumber": 8,
+      "rating": "77",
+      "skill": {
+        "passing": "78",
+        "shooting": "78",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "76",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

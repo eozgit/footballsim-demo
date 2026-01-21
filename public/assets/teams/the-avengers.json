@@ -1,0 +1,276 @@
+{
+  "name": "The Avengers",
+  "description": "Earth's Mightiest Heroes",
+  "primaryColour": "Red",
+  "secondaryColour": "Gold",
+  "awayColour": "Blue",
+  "rating": 96,
+  "teamID": "306",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "30601",
+      "teamID": "306",
+      "name": "Thor",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "98",
+      "skill": {
+        "passing": "85",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "96",
+        "agility": "90",
+        "strength": "99",
+        "jumping": "380",
+        "penalty_taking": "32"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30602",
+      "teamID": "306",
+      "name": "Black Widow",
+      "position": "LB",
+      "shirtNumber": 22,
+      "rating": "92",
+      "skill": {
+        "passing": "88",
+        "shooting": "84",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "96",
+        "strength": "78",
+        "jumping": "270",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30603",
+      "teamID": "306",
+      "name": "Hulk",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "94",
+      "skill": {
+        "passing": "40",
+        "shooting": "35",
+        "tackling": "98",
+        "saving": "12",
+        "agility": "85",
+        "strength": "99",
+        "jumping": "390",
+        "penalty_taking": "36"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30604",
+      "teamID": "306",
+      "name": "Captain America",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "96",
+      "skill": {
+        "passing": "82",
+        "shooting": "70",
+        "tackling": "99",
+        "saving": "10",
+        "agility": "88",
+        "strength": "94",
+        "jumping": "325",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30605",
+      "teamID": "306",
+      "name": "Black Panther",
+      "position": "RB",
+      "shirtNumber": 6,
+      "rating": "94",
+      "skill": {
+        "passing": "80",
+        "shooting": "78",
+        "tackling": "92",
+        "saving": "10",
+        "agility": "98",
+        "strength": "90",
+        "jumping": "282",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30606",
+      "teamID": "306",
+      "name": "Vision",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "98",
+      "skill": {
+        "passing": "99",
+        "shooting": "88",
+        "tackling": "94",
+        "saving": "12",
+        "agility": "92",
+        "strength": "88",
+        "jumping": "310",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30607",
+      "teamID": "306",
+      "name": "Doctor Strange",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "94",
+      "skill": {
+        "passing": "99",
+        "shooting": "92",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "75",
+        "strength": "70",
+        "jumping": "290",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30608",
+      "teamID": "306",
+      "name": "Scarlet Witch",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "92",
+      "skill": {
+        "passing": "98",
+        "shooting": "96",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "82",
+        "strength": "68",
+        "jumping": "275",
+        "penalty_taking": "96"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30609",
+      "teamID": "306",
+      "name": "Iron Man",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "95",
+      "skill": {
+        "passing": "96",
+        "shooting": "94",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "94",
+        "strength": "84",
+        "jumping": "285",
+        "penalty_taking": "96"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30610",
+      "teamID": "306",
+      "name": "Spider-Man",
+      "position": "ST",
+      "shirtNumber": 15,
+      "rating": "96",
+      "skill": {
+        "passing": "88",
+        "shooting": "90",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "99",
+        "strength": "82",
+        "jumping": "305",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30611",
+      "teamID": "306",
+      "name": "Hawkeye",
+      "position": "ST",
+      "shirtNumber": 8,
+      "rating": "88",
+      "skill": {
+        "passing": "98",
+        "shooting": "96",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "86",
+        "strength": "72",
+        "jumping": "295",
+        "penalty_taking": "99"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Mortal Kombat",
+  "description": "Earthrealm Defenders",
+  "primaryColour": "Black",
+  "secondaryColour": "Red",
+  "awayColour": "Blood",
+  "rating": 91,
+  "teamID": "304",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "30401",
+      "teamID": "304",
+      "name": "Shao Kahn",
+      "position": "GK",
+      "shirtNumber": 99,
+      "rating": "95",
+      "skill": {
+        "passing": "70",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "92",
+        "agility": "65",
+        "strength": "99",
+        "jumping": "360",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30402",
+      "teamID": "304",
+      "name": "Kitana",
+      "position": "LB",
+      "shirtNumber": 10,
+      "rating": "88",
+      "skill": {
+        "passing": "86",
+        "shooting": "82",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "92",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30403",
+      "teamID": "304",
+      "name": "Sub-Zero",
+      "position": "CB",
+      "shirtNumber": 0,
+      "rating": "92",
+      "skill": {
+        "passing": "82",
+        "shooting": "78",
+        "tackling": "94",
+        "saving": "12",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "320",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30404",
+      "teamID": "304",
+      "name": "Scorpion",
+      "position": "CB",
+      "shirtNumber": 1,
+      "rating": "92",
+      "skill": {
+        "passing": "80",
+        "shooting": "85",
+        "tackling": "92",
+        "saving": "10",
+        "agility": "88",
+        "strength": "86",
+        "jumping": "325",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30405",
+      "teamID": "304",
+      "name": "Jax",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "90",
+      "skill": {
+        "passing": "75",
+        "shooting": "82",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "82",
+        "strength": "96",
+        "jumping": "330",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30406",
+      "teamID": "304",
+      "name": "Raiden",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "96",
+      "skill": {
+        "passing": "98",
+        "shooting": "94",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "95",
+        "strength": "92",
+        "jumping": "305",
+        "penalty_taking": "96"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30407",
+      "teamID": "304",
+      "name": "Liu Kang",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "94",
+      "skill": {
+        "passing": "88",
+        "shooting": "96",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "96",
+        "strength": "88",
+        "jumping": "292",
+        "penalty_taking": "94"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30408",
+      "teamID": "304",
+      "name": "Mileena",
+      "position": "LM",
+      "shirtNumber": 20,
+      "rating": "86",
+      "skill": {
+        "passing": "74",
+        "shooting": "90",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "94",
+        "strength": "72",
+        "jumping": "270",
+        "penalty_taking": "91"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30409",
+      "teamID": "304",
+      "name": "Johnny Cage",
+      "position": "RM",
+      "shirtNumber": 5,
+      "rating": "88",
+      "skill": {
+        "passing": "82",
+        "shooting": "86",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "88",
+        "strength": "84",
+        "jumping": "285",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30410",
+      "teamID": "304",
+      "name": "Goro",
+      "position": "ST",
+      "shirtNumber": 4,
+      "rating": "94",
+      "skill": {
+        "passing": "55",
+        "shooting": "98",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "72",
+        "strength": "99",
+        "jumping": "380",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30411",
+      "teamID": "304",
+      "name": "Sonya Blade",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "88",
+      "skill": {
+        "passing": "82",
+        "shooting": "88",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "92",
+        "strength": "82",
+        "jumping": "298",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

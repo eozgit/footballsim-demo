@@ -1,0 +1,276 @@
+{
+  "name": "Atletico Madrid",
+  "description": "2013-14 La Liga title win",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Blue",
+  "rating": 91,
+  "teamID": "114",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "11401",
+      "teamID": "114",
+      "name": "Thibaut Courtois",
+      "position": "GK",
+      "shirtNumber": 13,
+      "rating": "90",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "94",
+        "agility": "82",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11402",
+      "teamID": "114",
+      "name": "Filipe Luís",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "88",
+      "skill": {
+        "passing": "85",
+        "shooting": "65",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "84",
+        "strength": "78",
+        "jumping": "275",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11403",
+      "teamID": "114",
+      "name": "Diego Godín",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "92",
+      "skill": {
+        "passing": "72",
+        "shooting": "45",
+        "tackling": "95",
+        "saving": "12",
+        "agility": "65",
+        "strength": "92",
+        "jumping": "312",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11404",
+      "teamID": "114",
+      "name": "Miranda",
+      "position": "CB",
+      "shirtNumber": 23,
+      "rating": "89",
+      "skill": {
+        "passing": "74",
+        "shooting": "40",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "70",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11405",
+      "teamID": "114",
+      "name": "Juanfran",
+      "position": "RB",
+      "shirtNumber": 20,
+      "rating": "87",
+      "skill": {
+        "passing": "82",
+        "shooting": "60",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "88",
+        "strength": "82",
+        "jumping": "278",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11406",
+      "teamID": "114",
+      "name": "Gabi",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "88",
+      "skill": {
+        "passing": "86",
+        "shooting": "75",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "78",
+        "strength": "85",
+        "jumping": "290",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11407",
+      "teamID": "114",
+      "name": "Tiago",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "86",
+      "skill": {
+        "passing": "85",
+        "shooting": "72",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "70",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11408",
+      "teamID": "114",
+      "name": "Koke",
+      "position": "LM",
+      "shirtNumber": 6,
+      "rating": "87",
+      "skill": {
+        "passing": "92",
+        "shooting": "78",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "76",
+        "strength": "78",
+        "jumping": "272",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11409",
+      "teamID": "114",
+      "name": "Arda Turan",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "88",
+      "skill": {
+        "passing": "90",
+        "shooting": "80",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "82",
+        "strength": "76",
+        "jumping": "280",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11410",
+      "teamID": "114",
+      "name": "Diego Costa",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "91",
+      "skill": {
+        "passing": "72",
+        "shooting": "92",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "85",
+        "strength": "94",
+        "jumping": "320",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11411",
+      "teamID": "114",
+      "name": "David Villa",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "88",
+      "skill": {
+        "passing": "85",
+        "shooting": "90",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

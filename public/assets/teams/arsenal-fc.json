@@ -1,0 +1,276 @@
+{
+  "name": "Arsenal FC",
+  "description": "2003-2004 'The Invincibles'",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "MidnightBlue",
+  "rating": 95,
+  "teamID": "108",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "10801",
+      "teamID": "108",
+      "name": "Jens Lehmann",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "88",
+      "skill": {
+        "passing": "78",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "90",
+        "agility": "75",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "26"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10802",
+      "teamID": "108",
+      "name": "Ashley Cole",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "92",
+      "skill": {
+        "passing": "85",
+        "shooting": "65",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "92",
+        "strength": "78",
+        "jumping": "275",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10803",
+      "teamID": "108",
+      "name": "Sol Campbell",
+      "position": "CB",
+      "shirtNumber": 23,
+      "rating": "94",
+      "skill": {
+        "passing": "70",
+        "shooting": "40",
+        "tackling": "96",
+        "saving": "12",
+        "agility": "78",
+        "strength": "95",
+        "jumping": "320",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10804",
+      "teamID": "108",
+      "name": "Kolo Touré",
+      "position": "CB",
+      "shirtNumber": 28,
+      "rating": "88",
+      "skill": {
+        "passing": "75",
+        "shooting": "45",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "85",
+        "strength": "86",
+        "jumping": "298",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10805",
+      "teamID": "108",
+      "name": "Lauren",
+      "position": "RB",
+      "shirtNumber": 12,
+      "rating": "87",
+      "skill": {
+        "passing": "80",
+        "shooting": "55",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "82",
+        "strength": "85",
+        "jumping": "292",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10806",
+      "teamID": "108",
+      "name": "Patrick Vieira",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "96",
+      "skill": {
+        "passing": "88",
+        "shooting": "78",
+        "tackling": "94",
+        "saving": "15",
+        "agility": "82",
+        "strength": "95",
+        "jumping": "315",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10807",
+      "teamID": "108",
+      "name": "Gilberto Silva",
+      "position": "CM",
+      "shirtNumber": 19,
+      "rating": "89",
+      "skill": {
+        "passing": "84",
+        "shooting": "68",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "75",
+        "strength": "84",
+        "jumping": "295",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10808",
+      "teamID": "108",
+      "name": "Robert Pires",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "93",
+      "skill": {
+        "passing": "92",
+        "shooting": "86",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "86",
+        "strength": "74",
+        "jumping": "282",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10809",
+      "teamID": "108",
+      "name": "Freddie Ljungberg",
+      "position": "RM",
+      "shirtNumber": 8,
+      "rating": "90",
+      "skill": {
+        "passing": "84",
+        "shooting": "82",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "90",
+        "strength": "78",
+        "jumping": "278",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10810",
+      "teamID": "108",
+      "name": "Thierry Henry",
+      "position": "ST",
+      "shirtNumber": 14,
+      "rating": "98",
+      "skill": {
+        "passing": "92",
+        "shooting": "97",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "96",
+        "strength": "82",
+        "jumping": "305",
+        "penalty_taking": "96"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10811",
+      "teamID": "108",
+      "name": "Dennis Bergkamp",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "94",
+      "skill": {
+        "passing": "98",
+        "shooting": "88",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "78",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

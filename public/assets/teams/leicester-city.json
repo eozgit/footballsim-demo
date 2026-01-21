@@ -1,0 +1,276 @@
+{
+  "name": "Leicester City",
+  "description": "2015-2016 5000/1 PL Champions",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "SlateGray",
+  "rating": 88,
+  "teamID": "159",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "15901",
+      "teamID": "159",
+      "name": "Kasper Schmeichel",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "85",
+        "strength": "80",
+        "jumping": "290",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15902",
+      "teamID": "159",
+      "name": "Christian Fuchs",
+      "position": "LB",
+      "shirtNumber": 28,
+      "rating": "80",
+      "skill": {
+        "passing": "85",
+        "shooting": "72",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "72",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15903",
+      "teamID": "159",
+      "name": "Wes Morgan",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "82",
+      "skill": {
+        "passing": "62",
+        "shooting": "40",
+        "tackling": "86",
+        "saving": "12",
+        "agility": "52",
+        "strength": "94",
+        "jumping": "325",
+        "penalty_taking": "49"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15904",
+      "teamID": "159",
+      "name": "Robert Huth",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "82",
+      "skill": {
+        "passing": "60",
+        "shooting": "45",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "48",
+        "strength": "95",
+        "jumping": "330",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15905",
+      "teamID": "159",
+      "name": "Danny Simpson",
+      "position": "RB",
+      "shirtNumber": 17,
+      "rating": "78",
+      "skill": {
+        "passing": "70",
+        "shooting": "50",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "278",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15906",
+      "teamID": "159",
+      "name": "N'Golo Kanté",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "88",
+      "skill": {
+        "passing": "80",
+        "shooting": "68",
+        "tackling": "94",
+        "saving": "12",
+        "agility": "88",
+        "strength": "86",
+        "jumping": "295",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15907",
+      "teamID": "159",
+      "name": "Danny Drinkwater",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "82",
+      "skill": {
+        "passing": "86",
+        "shooting": "75",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "74",
+        "strength": "80",
+        "jumping": "292",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15908",
+      "teamID": "159",
+      "name": "Marc Albrighton",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "78",
+      "skill": {
+        "passing": "88",
+        "shooting": "74",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "82",
+        "strength": "76",
+        "jumping": "288",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15909",
+      "teamID": "159",
+      "name": "Riyad Mahrez",
+      "position": "RM",
+      "shirtNumber": 26,
+      "rating": "89",
+      "skill": {
+        "passing": "92",
+        "shooting": "86",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15910",
+      "teamID": "159",
+      "name": "Jamie Vardy",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "88",
+      "skill": {
+        "passing": "74",
+        "shooting": "92",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "96",
+        "strength": "82",
+        "jumping": "298",
+        "penalty_taking": "93"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15911",
+      "teamID": "159",
+      "name": "Shinji Okazaki",
+      "position": "ST",
+      "shirtNumber": 20,
+      "rating": "80",
+      "skill": {
+        "passing": "75",
+        "shooting": "78",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "84",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

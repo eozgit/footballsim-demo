@@ -1,0 +1,276 @@
+{
+  "name": "Galatasaray",
+  "description": "2000 UEFA Cup & Super Cup winners",
+  "primaryColour": "Red",
+  "secondaryColour": "Orange",
+  "awayColour": "White",
+  "rating": 88,
+  "teamID": "145",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "14501",
+      "teamID": "145",
+      "name": "Claudio Taffarel",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "88",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "90",
+        "agility": "80",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "25"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14502",
+      "teamID": "145",
+      "name": "Ergün Penbe",
+      "position": "LB",
+      "shirtNumber": 67,
+      "rating": "84",
+      "skill": {
+        "passing": "86",
+        "shooting": "70",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "82",
+        "strength": "75",
+        "jumping": "275",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14503",
+      "teamID": "145",
+      "name": "Bülent Korkmaz",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "90",
+      "skill": {
+        "passing": "70",
+        "shooting": "35",
+        "tackling": "94",
+        "saving": "12",
+        "agility": "68",
+        "strength": "92",
+        "jumping": "315",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14504",
+      "teamID": "145",
+      "name": "Gheorghe Popescu",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "88",
+      "skill": {
+        "passing": "85",
+        "shooting": "60",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "75",
+        "strength": "88",
+        "jumping": "310",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14505",
+      "teamID": "145",
+      "name": "Capone",
+      "position": "RB",
+      "shirtNumber": 35,
+      "rating": "82",
+      "skill": {
+        "passing": "76",
+        "shooting": "55",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "84",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14506",
+      "teamID": "145",
+      "name": "Okan Buruk",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "85",
+      "skill": {
+        "passing": "82",
+        "shooting": "72",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "90",
+        "strength": "85",
+        "jumping": "292",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14507",
+      "teamID": "145",
+      "name": "Suat Kaya",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "68",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "78",
+        "strength": "84",
+        "jumping": "295",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14508",
+      "teamID": "145",
+      "name": "Gheorghe Hagi",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "96",
+      "skill": {
+        "passing": "99",
+        "shooting": "94",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "96"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14509",
+      "teamID": "145",
+      "name": "Ümit Davala",
+      "position": "RM",
+      "shirtNumber": 22,
+      "rating": "85",
+      "skill": {
+        "passing": "84",
+        "shooting": "82",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "85",
+        "strength": "86",
+        "jumping": "290",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14510",
+      "teamID": "145",
+      "name": "Hakan Şükür",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "90",
+      "skill": {
+        "passing": "74",
+        "shooting": "92",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "82",
+        "strength": "95",
+        "jumping": "328",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14511",
+      "teamID": "145",
+      "name": "Arif Erdem",
+      "position": "ST",
+      "shirtNumber": 6,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "85",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "88",
+        "strength": "76",
+        "jumping": "285",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

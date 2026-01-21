@@ -1,0 +1,276 @@
+{
+  "name": "Australia",
+  "description": "The Socceroos",
+  "primaryColour": "Gold",
+  "secondaryColour": "Green",
+  "awayColour": "Navy",
+  "rating": 68,
+  "teamID": "3",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "301",
+      "teamID": "3",
+      "name": "Mat Ryan",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "73",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "18",
+        "saving": "74",
+        "agility": "75",
+        "strength": "74",
+        "jumping": "282",
+        "penalty_taking": "31"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "302",
+      "teamID": "3",
+      "name": "Aziz Behich",
+      "position": "LB",
+      "shirtNumber": 16,
+      "rating": "68",
+      "skill": {
+        "passing": "65",
+        "shooting": "50",
+        "tackling": "69",
+        "saving": "10",
+        "agility": "72",
+        "strength": "70",
+        "jumping": "270",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "303",
+      "teamID": "3",
+      "name": "Harry Souttar",
+      "position": "CB",
+      "shirtNumber": 19,
+      "rating": "72",
+      "skill": {
+        "passing": "60",
+        "shooting": "48",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "45",
+        "strength": "92",
+        "jumping": "310",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "304",
+      "teamID": "3",
+      "name": "Kye Rowles",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "67",
+      "skill": {
+        "passing": "58",
+        "shooting": "35",
+        "tackling": "70",
+        "saving": "12",
+        "agility": "62",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "305",
+      "teamID": "3",
+      "name": "Gethin Jones",
+      "position": "RB",
+      "shirtNumber": 25,
+      "rating": "66",
+      "skill": {
+        "passing": "62",
+        "shooting": "42",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "70",
+        "strength": "75",
+        "jumping": "278",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "306",
+      "teamID": "3",
+      "name": "Jackson Irvine",
+      "position": "CM",
+      "shirtNumber": 22,
+      "rating": "70",
+      "skill": {
+        "passing": "68",
+        "shooting": "65",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "68",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "307",
+      "teamID": "3",
+      "name": "Keanu Baccus",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "66",
+      "skill": {
+        "passing": "64",
+        "shooting": "52",
+        "tackling": "68",
+        "saving": "12",
+        "agility": "74",
+        "strength": "70",
+        "jumping": "274",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "308",
+      "teamID": "3",
+      "name": "Craig Goodwin",
+      "position": "LM",
+      "shirtNumber": 23,
+      "rating": "71",
+      "skill": {
+        "passing": "75",
+        "shooting": "72",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "76",
+        "strength": "66",
+        "jumping": "270",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "309",
+      "teamID": "3",
+      "name": "Martin Boyle",
+      "position": "RM",
+      "shirtNumber": 6,
+      "rating": "70",
+      "skill": {
+        "passing": "67",
+        "shooting": "68",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "85",
+        "strength": "65",
+        "jumping": "268",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "310",
+      "teamID": "3",
+      "name": "Mitchell Duke",
+      "position": "ST",
+      "shirtNumber": 15,
+      "rating": "67",
+      "skill": {
+        "passing": "55",
+        "shooting": "70",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "62",
+        "strength": "84",
+        "jumping": "295",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "311",
+      "teamID": "3",
+      "name": "Kusini Yengi",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "65",
+      "skill": {
+        "passing": "58",
+        "shooting": "68",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "72",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

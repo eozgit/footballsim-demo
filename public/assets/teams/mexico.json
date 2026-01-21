@@ -1,0 +1,276 @@
+{
+  "name": "Mexico",
+  "description": "El Tri",
+  "primaryColour": "Green",
+  "secondaryColour": "White",
+  "awayColour": "Red",
+  "rating": 73,
+  "teamID": "28",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "2801",
+      "teamID": "28",
+      "name": "Luis Malagón",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "80",
+        "agility": "74",
+        "strength": "76",
+        "jumping": "282",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2802",
+      "teamID": "28",
+      "name": "Gerardo Arteaga",
+      "position": "LB",
+      "shirtNumber": 6,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "58",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "80",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2803",
+      "teamID": "28",
+      "name": "Johan Vásquez",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "76",
+      "skill": {
+        "passing": "68",
+        "shooting": "40",
+        "tackling": "78",
+        "saving": "12",
+        "agility": "65",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2804",
+      "teamID": "28",
+      "name": "Cesar Montes",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "77",
+      "skill": {
+        "passing": "65",
+        "shooting": "35",
+        "tackling": "79",
+        "saving": "10",
+        "agility": "58",
+        "strength": "85",
+        "jumping": "295",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2805",
+      "teamID": "28",
+      "name": "Jorge Sánchez",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "74",
+      "skill": {
+        "passing": "70",
+        "shooting": "52",
+        "tackling": "73",
+        "saving": "10",
+        "agility": "78",
+        "strength": "75",
+        "jumping": "278",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2806",
+      "teamID": "28",
+      "name": "Edson Álvarez",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "81",
+      "skill": {
+        "passing": "75",
+        "shooting": "65",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "68",
+        "strength": "86",
+        "jumping": "292",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2807",
+      "teamID": "28",
+      "name": "Luis Chávez",
+      "position": "CM",
+      "shirtNumber": 24,
+      "rating": "78",
+      "skill": {
+        "passing": "82",
+        "shooting": "76",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "72",
+        "strength": "74",
+        "jumping": "274",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2808",
+      "teamID": "28",
+      "name": "Julián Quiñones",
+      "position": "LM",
+      "shirtNumber": 16,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "80",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2809",
+      "teamID": "28",
+      "name": "Orbelín Pineda",
+      "position": "RM",
+      "shirtNumber": 17,
+      "rating": "77",
+      "skill": {
+        "passing": "78",
+        "shooting": "74",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "80",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2810",
+      "teamID": "28",
+      "name": "Santiago Giménez",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "79",
+      "skill": {
+        "passing": "68",
+        "shooting": "82",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "76",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2811",
+      "teamID": "28",
+      "name": "Henry Martín",
+      "position": "ST",
+      "shirtNumber": 20,
+      "rating": "77",
+      "skill": {
+        "passing": "70",
+        "shooting": "79",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "68",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

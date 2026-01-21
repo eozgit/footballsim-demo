@@ -1,0 +1,276 @@
+{
+  "name": "Inter Milan",
+  "description": "2009-2010 'The Treble'",
+  "primaryColour": "Blue",
+  "secondaryColour": "Black",
+  "awayColour": "White",
+  "rating": 96,
+  "teamID": "151",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "15101",
+      "teamID": "151",
+      "name": "Júlio César",
+      "position": "GK",
+      "shirtNumber": 12,
+      "rating": "90",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "92",
+        "agility": "84",
+        "strength": "85",
+        "jumping": "290",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15102",
+      "teamID": "151",
+      "name": "Cristian Chivu",
+      "position": "LB",
+      "shirtNumber": 26,
+      "rating": "85",
+      "skill": {
+        "passing": "82",
+        "shooting": "60",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "78",
+        "strength": "80",
+        "jumping": "278",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15103",
+      "teamID": "151",
+      "name": "Lúcio",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "90",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "82",
+        "strength": "94",
+        "jumping": "320",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15104",
+      "teamID": "151",
+      "name": "Walter Samuel",
+      "position": "CB",
+      "shirtNumber": 25,
+      "rating": "88",
+      "skill": {
+        "passing": "68",
+        "shooting": "35",
+        "tackling": "94",
+        "saving": "10",
+        "agility": "65",
+        "strength": "92",
+        "jumping": "315",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15105",
+      "teamID": "151",
+      "name": "Maicon",
+      "position": "RB",
+      "shirtNumber": 13,
+      "rating": "92",
+      "skill": {
+        "passing": "86",
+        "shooting": "78",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "90",
+        "strength": "92",
+        "jumping": "288",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15106",
+      "teamID": "151",
+      "name": "Javier Zanetti",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "92",
+      "skill": {
+        "passing": "88",
+        "shooting": "65",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "85",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15107",
+      "teamID": "151",
+      "name": "Esteban Cambiasso",
+      "position": "CM",
+      "shirtNumber": 19,
+      "rating": "90",
+      "skill": {
+        "passing": "85",
+        "shooting": "74",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "75",
+        "strength": "86",
+        "jumping": "302",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15108",
+      "teamID": "151",
+      "name": "Wesley Sneijder",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "94",
+      "skill": {
+        "passing": "98",
+        "shooting": "90",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "80",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15109",
+      "teamID": "151",
+      "name": "Samuel Eto'o",
+      "position": "RM",
+      "shirtNumber": 9,
+      "rating": "92",
+      "skill": {
+        "passing": "82",
+        "shooting": "94",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "96",
+        "strength": "84",
+        "jumping": "282",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15110",
+      "teamID": "151",
+      "name": "Diego Milito",
+      "position": "ST",
+      "shirtNumber": 22,
+      "rating": "94",
+      "skill": {
+        "passing": "78",
+        "shooting": "96",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "85",
+        "strength": "88",
+        "jumping": "325",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15111",
+      "teamID": "151",
+      "name": "Goran Pandev",
+      "position": "ST",
+      "shirtNumber": 27,
+      "rating": "86",
+      "skill": {
+        "passing": "84",
+        "shooting": "82",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "82",
+        "strength": "78",
+        "jumping": "298",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

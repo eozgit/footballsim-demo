@@ -77,8 +77,8 @@ export const useSimulationStore = create<SimulationState>(
     showPlayerNames: false,
     showIntentLine: false,
 
-    homeTeam: 'GS2000',
-    awayTeam: 'GS2025',
+    homeTeam: 'england',
+    awayTeam: 'argentina',
     setHomeTeam: (name) => set({ homeTeam: name }),
     setAwayTeam: (name) => set({ awayTeam: name }),
     setShowIntentLine: (show): void => set({ showIntentLine: show }),

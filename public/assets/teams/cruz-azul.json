@@ -1,0 +1,276 @@
+{
+  "name": "Cruz Azul",
+  "description": "2021 Ending the 23-year 'curse'",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "Red",
+  "rating": 75,
+  "teamID": "131",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "13101",
+      "teamID": "131",
+      "name": "José de Jesús Corona",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "78",
+      "skill": {
+        "passing": "70",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "82",
+        "agility": "72",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "31"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13102",
+      "teamID": "131",
+      "name": "Ignacio Rivero",
+      "position": "LB",
+      "shirtNumber": 15,
+      "rating": "76",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "84",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13103",
+      "teamID": "131",
+      "name": "Pablo Aguilar",
+      "position": "CB",
+      "shirtNumber": 23,
+      "rating": "78",
+      "skill": {
+        "passing": "65",
+        "shooting": "40",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "58",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13104",
+      "teamID": "131",
+      "name": "Julio César Domínguez",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "75",
+      "skill": {
+        "passing": "68",
+        "shooting": "32",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "65",
+        "strength": "82",
+        "jumping": "302",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13105",
+      "teamID": "131",
+      "name": "Juan Escobar",
+      "position": "RB",
+      "shirtNumber": 24,
+      "rating": "77",
+      "skill": {
+        "passing": "74",
+        "shooting": "58",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "86",
+        "strength": "80",
+        "jumping": "285",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13106",
+      "teamID": "131",
+      "name": "Luis Romo",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "80",
+      "skill": {
+        "passing": "84",
+        "shooting": "72",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "78",
+        "strength": "85",
+        "jumping": "290",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13107",
+      "teamID": "131",
+      "name": "Rafael Baca",
+      "position": "CM",
+      "shirtNumber": 22,
+      "rating": "74",
+      "skill": {
+        "passing": "78",
+        "shooting": "60",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "75",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13108",
+      "teamID": "131",
+      "name": "Orbelín Pineda",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "79",
+      "skill": {
+        "passing": "82",
+        "shooting": "75",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "85",
+        "strength": "70",
+        "jumping": "275",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13109",
+      "teamID": "131",
+      "name": "Roberto Alvarado",
+      "position": "RM",
+      "shirtNumber": 25,
+      "rating": "77",
+      "skill": {
+        "passing": "80",
+        "shooting": "74",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "88",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13110",
+      "teamID": "131",
+      "name": "Jonathan Rodríguez",
+      "position": "ST",
+      "shirtNumber": 21,
+      "rating": "82",
+      "skill": {
+        "passing": "75",
+        "shooting": "86",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "92",
+        "strength": "82",
+        "jumping": "312",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13111",
+      "teamID": "131",
+      "name": "Santiago Giménez",
+      "position": "ST",
+      "shirtNumber": 29,
+      "rating": "76",
+      "skill": {
+        "passing": "68",
+        "shooting": "78",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "78",
+        "strength": "84",
+        "jumping": "305",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

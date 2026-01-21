@@ -1,0 +1,276 @@
+{
+  "name": "Ireland",
+  "description": "The Boys in Green",
+  "primaryColour": "Green",
+  "secondaryColour": "White",
+  "awayColour": "Orange",
+  "rating": 61,
+  "teamID": "24",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "2401",
+      "teamID": "24",
+      "name": "Caoimhin Kelleher",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "75",
+      "skill": {
+        "passing": "76",
+        "shooting": "12",
+        "tackling": "18",
+        "saving": "77",
+        "agility": "72",
+        "strength": "74",
+        "jumping": "284",
+        "penalty_taking": "31"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2402",
+      "teamID": "24",
+      "name": "Robbie Brady",
+      "position": "LB",
+      "shirtNumber": 11,
+      "rating": "62",
+      "skill": {
+        "passing": "72",
+        "shooting": "58",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "70",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2403",
+      "teamID": "24",
+      "name": "Nathan Collins",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "68",
+      "skill": {
+        "passing": "60",
+        "shooting": "35",
+        "tackling": "74",
+        "saving": "12",
+        "agility": "62",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "44"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2404",
+      "teamID": "24",
+      "name": "Dara O'Shea",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "66",
+      "skill": {
+        "passing": "58",
+        "shooting": "32",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "64",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "41"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2405",
+      "teamID": "24",
+      "name": "Seamus Coleman",
+      "position": "RB",
+      "shirtNumber": 15,
+      "rating": "65",
+      "skill": {
+        "passing": "68",
+        "shooting": "48",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "72",
+        "strength": "75",
+        "jumping": "275",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2406",
+      "teamID": "24",
+      "name": "Josh Cullen",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "68",
+      "skill": {
+        "passing": "74",
+        "shooting": "52",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "70",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2407",
+      "teamID": "24",
+      "name": "Jason Knight",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "64",
+      "skill": {
+        "passing": "68",
+        "shooting": "58",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "78",
+        "strength": "74",
+        "jumping": "274",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2408",
+      "teamID": "24",
+      "name": "Sammie Szmodics",
+      "position": "LM",
+      "shirtNumber": 21,
+      "rating": "67",
+      "skill": {
+        "passing": "70",
+        "shooting": "74",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "80",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2409",
+      "teamID": "24",
+      "name": "Chiedozie Ogbene",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "68",
+      "skill": {
+        "passing": "66",
+        "shooting": "65",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "92",
+        "strength": "72",
+        "jumping": "270",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2410",
+      "teamID": "24",
+      "name": "Evan Ferguson",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "71",
+      "skill": {
+        "passing": "64",
+        "shooting": "76",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "68",
+        "strength": "85",
+        "jumping": "290",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2411",
+      "teamID": "24",
+      "name": "Adam Idah",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "66",
+      "skill": {
+        "passing": "60",
+        "shooting": "70",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "72",
+        "strength": "84",
+        "jumping": "294",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

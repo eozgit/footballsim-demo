@@ -1,0 +1,276 @@
+{
+  "name": "Red Star Belgrade",
+  "description": "1991 European Cup winners",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Blue",
+  "rating": 90,
+  "teamID": "182",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "18201",
+      "teamID": "182",
+      "name": "Stevan Stojanović",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "85",
+      "skill": {
+        "passing": "68",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "74",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18202",
+      "teamID": "182",
+      "name": "Slobodan Marović",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "82",
+      "skill": {
+        "passing": "75",
+        "shooting": "58",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "84",
+        "strength": "78",
+        "jumping": "275",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18203",
+      "teamID": "182",
+      "name": "Miodrag Belodedici",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "90",
+      "skill": {
+        "passing": "82",
+        "shooting": "55",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "76",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18204",
+      "teamID": "182",
+      "name": "Ilija Najdoski",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "84",
+      "skill": {
+        "passing": "65",
+        "shooting": "40",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "72",
+        "strength": "94",
+        "jumping": "325",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18205",
+      "teamID": "182",
+      "name": "Vladimir Jugović",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "88",
+      "skill": {
+        "passing": "85",
+        "shooting": "78",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "82",
+        "strength": "86",
+        "jumping": "292",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18206",
+      "teamID": "182",
+      "name": "Robert Prosinečki",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "92",
+      "skill": {
+        "passing": "96",
+        "shooting": "88",
+        "tackling": "65",
+        "saving": "12",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "285",
+        "penalty_taking": "93"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18207",
+      "teamID": "182",
+      "name": "Siniša Mihajlović",
+      "position": "CM",
+      "shirtNumber": 11,
+      "rating": "88",
+      "skill": {
+        "passing": "98",
+        "shooting": "92",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "74",
+        "strength": "84",
+        "jumping": "310",
+        "penalty_taking": "97"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18208",
+      "teamID": "182",
+      "name": "Dejan Savićević",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "93",
+      "skill": {
+        "passing": "94",
+        "shooting": "86",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "93"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18209",
+      "teamID": "182",
+      "name": "Refik Šabanadžović",
+      "position": "RM",
+      "shirtNumber": 6,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "80",
+        "strength": "84",
+        "jumping": "282",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18210",
+      "teamID": "182",
+      "name": "Darko Pančev",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "90",
+      "skill": {
+        "passing": "70",
+        "shooting": "95",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "85",
+        "strength": "80",
+        "jumping": "320",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18211",
+      "teamID": "182",
+      "name": "Dragiša Binić",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "84",
+      "skill": {
+        "passing": "72",
+        "shooting": "82",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "98",
+        "strength": "75",
+        "jumping": "290",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

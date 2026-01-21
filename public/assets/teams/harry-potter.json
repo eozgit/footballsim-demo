@@ -1,0 +1,276 @@
+{
+  "name": "Harry Potter",
+  "description": "Dumbledore's Army",
+  "primaryColour": "Maroon",
+  "secondaryColour": "Gold",
+  "awayColour": "Black",
+  "rating": 78,
+  "teamID": "302",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "30201",
+      "teamID": "302",
+      "name": "Ron Weasley",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "75",
+      "skill": {
+        "passing": "62",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "70",
+        "strength": "68",
+        "jumping": "282",
+        "penalty_taking": "24"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30202",
+      "teamID": "302",
+      "name": "Luna Lovegood",
+      "position": "LB",
+      "shirtNumber": 14,
+      "rating": "72",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "74",
+        "strength": "55",
+        "jumping": "268",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30203",
+      "teamID": "302",
+      "name": "Neville Longbottom",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "78",
+      "skill": {
+        "passing": "60",
+        "shooting": "45",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "58",
+        "strength": "85",
+        "jumping": "325",
+        "penalty_taking": "50"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30204",
+      "teamID": "302",
+      "name": "Cedric Diggory",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "72",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "82",
+        "strength": "86",
+        "jumping": "320",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30205",
+      "teamID": "302",
+      "name": "Ginny Weasley",
+      "position": "RB",
+      "shirtNumber": 6,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "78",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "92",
+        "strength": "70",
+        "jumping": "278",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30206",
+      "teamID": "302",
+      "name": "Fred Weasley",
+      "position": "CM",
+      "shirtNumber": 13,
+      "rating": "80",
+      "skill": {
+        "passing": "84",
+        "shooting": "75",
+        "tackling": "65",
+        "saving": "12",
+        "agility": "86",
+        "strength": "72",
+        "jumping": "285",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30207",
+      "teamID": "302",
+      "name": "George Weasley",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "80",
+      "skill": {
+        "passing": "84",
+        "shooting": "75",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "86",
+        "strength": "72",
+        "jumping": "285",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30208",
+      "teamID": "302",
+      "name": "Hermione Granger",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "92",
+      "skill": {
+        "passing": "99",
+        "shooting": "82",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "78",
+        "strength": "70",
+        "jumping": "280",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30209",
+      "teamID": "302",
+      "name": "Harry Potter",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "90",
+      "skill": {
+        "passing": "88",
+        "shooting": "84",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "95",
+        "strength": "74",
+        "jumping": "272",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30210",
+      "teamID": "302",
+      "name": "Viktor Krum",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "94",
+      "skill": {
+        "passing": "70",
+        "shooting": "96",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "92",
+        "strength": "95",
+        "jumping": "320",
+        "penalty_taking": "95"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30211",
+      "teamID": "302",
+      "name": "Cho Chang",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "78",
+      "skill": {
+        "passing": "80",
+        "shooting": "76",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "88",
+        "strength": "60",
+        "jumping": "302",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

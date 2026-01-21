@@ -1,0 +1,276 @@
+{
+  "name": "Curaçao",
+  "description": "Blue Wave",
+  "primaryColour": "Blue",
+  "secondaryColour": "Yellow",
+  "awayColour": "White",
+  "rating": 48,
+  "teamID": "13",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "1301",
+      "teamID": "13",
+      "name": "Eloy Room",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "65",
+      "skill": {
+        "passing": "60",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "68",
+        "agility": "62",
+        "strength": "75",
+        "jumping": "280",
+        "penalty_taking": "25"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1302",
+      "teamID": "13",
+      "name": "Sherel Floranus",
+      "position": "LB",
+      "shirtNumber": 2,
+      "rating": "60",
+      "skill": {
+        "passing": "58",
+        "shooting": "40",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "75",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1303",
+      "teamID": "13",
+      "name": "Leandro Bacuna",
+      "position": "CB",
+      "shirtNumber": 7,
+      "rating": "66",
+      "skill": {
+        "passing": "68",
+        "shooting": "60",
+        "tackling": "65",
+        "saving": "12",
+        "agility": "72",
+        "strength": "78",
+        "jumping": "278",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1304",
+      "teamID": "13",
+      "name": "Jurien Gaari",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "58",
+      "skill": {
+        "passing": "52",
+        "shooting": "32",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "64",
+        "strength": "76",
+        "jumping": "285",
+        "penalty_taking": "36"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1305",
+      "teamID": "13",
+      "name": "Roshon van Eijma",
+      "position": "RB",
+      "shirtNumber": 3,
+      "rating": "55",
+      "skill": {
+        "passing": "50",
+        "shooting": "35",
+        "tackling": "58",
+        "saving": "10",
+        "agility": "60",
+        "strength": "74",
+        "jumping": "282",
+        "penalty_taking": "37"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1306",
+      "teamID": "13",
+      "name": "Vurnon Anita",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "62",
+      "skill": {
+        "passing": "68",
+        "shooting": "52",
+        "tackling": "65",
+        "saving": "12",
+        "agility": "70",
+        "strength": "65",
+        "jumping": "265",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1307",
+      "teamID": "13",
+      "name": "Godfried Roemeratoe",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "58",
+      "skill": {
+        "passing": "60",
+        "shooting": "48",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "68",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1308",
+      "teamID": "13",
+      "name": "Brandley Kuwas",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "64",
+      "skill": {
+        "passing": "65",
+        "shooting": "66",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "80",
+        "strength": "62",
+        "jumping": "268",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1309",
+      "teamID": "13",
+      "name": "Kenji Gorré",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "63",
+      "skill": {
+        "passing": "62",
+        "shooting": "64",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "82",
+        "strength": "60",
+        "jumping": "270",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1310",
+      "teamID": "13",
+      "name": "Rangelo Janga",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "60",
+      "skill": {
+        "passing": "52",
+        "shooting": "66",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "58",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1311",
+      "teamID": "13",
+      "name": "Juninho Bacuna",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "67",
+      "skill": {
+        "passing": "72",
+        "shooting": "70",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "78",
+        "strength": "74",
+        "jumping": "276",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

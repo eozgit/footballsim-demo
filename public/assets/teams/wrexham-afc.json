@@ -1,0 +1,276 @@
+{
+  "name": "Wrexham AFC",
+  "description": "2025/26 League One growth",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Green",
+  "rating": 27,
+  "teamID": "204",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "20401",
+      "teamID": "204",
+      "name": "Arthur Okonkwo",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "72",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "76",
+        "agility": "70",
+        "strength": "75",
+        "jumping": "285",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20402",
+      "teamID": "204",
+      "name": "James McClean",
+      "position": "LB",
+      "shirtNumber": 10,
+      "rating": "70",
+      "skill": {
+        "passing": "75",
+        "shooting": "68",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "82",
+        "strength": "78",
+        "jumping": "278",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20403",
+      "teamID": "204",
+      "name": "Eoghan O'Connell",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "68",
+      "skill": {
+        "passing": "66",
+        "shooting": "45",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "62",
+        "strength": "78",
+        "jumping": "320",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20404",
+      "teamID": "204",
+      "name": "Max Cleworth",
+      "position": "CB",
+      "shirtNumber": 32,
+      "rating": "67",
+      "skill": {
+        "passing": "62",
+        "shooting": "38",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "72",
+        "strength": "74",
+        "jumping": "315",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20405",
+      "teamID": "204",
+      "name": "Ryan Barnett",
+      "position": "RB",
+      "shirtNumber": 29,
+      "rating": "68",
+      "skill": {
+        "passing": "74",
+        "shooting": "60",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "86",
+        "strength": "68",
+        "jumping": "280",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20406",
+      "teamID": "204",
+      "name": "George Dobson",
+      "position": "CM",
+      "shirtNumber": 30,
+      "rating": "70",
+      "skill": {
+        "passing": "72",
+        "shooting": "62",
+        "tackling": "74",
+        "saving": "12",
+        "agility": "75",
+        "strength": "76",
+        "jumping": "295",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20407",
+      "teamID": "204",
+      "name": "Elliot Lee",
+      "position": "CM",
+      "shirtNumber": 38,
+      "rating": "72",
+      "skill": {
+        "passing": "76",
+        "shooting": "74",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "72",
+        "strength": "68",
+        "jumping": "285",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20408",
+      "teamID": "204",
+      "name": "Sebastian Revan",
+      "position": "LM",
+      "shirtNumber": 3,
+      "rating": "66",
+      "skill": {
+        "passing": "68",
+        "shooting": "62",
+        "tackling": "64",
+        "saving": "10",
+        "agility": "84",
+        "strength": "65",
+        "jumping": "272",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20409",
+      "teamID": "204",
+      "name": "Andy Cannon",
+      "position": "RM",
+      "shirtNumber": 20,
+      "rating": "68",
+      "skill": {
+        "passing": "72",
+        "shooting": "65",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "78",
+        "strength": "70",
+        "jumping": "278",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20410",
+      "teamID": "204",
+      "name": "Paul Mullin",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "74",
+      "skill": {
+        "passing": "68",
+        "shooting": "80",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "80",
+        "strength": "76",
+        "jumping": "315",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20411",
+      "teamID": "204",
+      "name": "Ollie Palmer",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "68",
+      "skill": {
+        "passing": "62",
+        "shooting": "72",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "65",
+        "strength": "92",
+        "jumping": "340",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

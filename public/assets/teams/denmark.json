@@ -1,0 +1,276 @@
+{
+  "name": "Denmark",
+  "description": "De Rød-Hvide",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "DarkRed",
+  "rating": 76,
+  "teamID": "14",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "1401",
+      "teamID": "14",
+      "name": "Kasper Schmeichel",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "77",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "78",
+        "agility": "70",
+        "strength": "78",
+        "jumping": "284",
+        "penalty_taking": "31"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1402",
+      "teamID": "14",
+      "name": "Victor Kristiansen",
+      "position": "LB",
+      "shirtNumber": 17,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "52",
+        "tackling": "73",
+        "saving": "10",
+        "agility": "78",
+        "strength": "74",
+        "jumping": "276",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1403",
+      "teamID": "14",
+      "name": "Andreas Christensen",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "45",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "72",
+        "strength": "80",
+        "jumping": "290",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1404",
+      "teamID": "14",
+      "name": "Joachim Andersen",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "55",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "65",
+        "strength": "86",
+        "jumping": "292",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1405",
+      "teamID": "14",
+      "name": "Alexander Bah",
+      "position": "RB",
+      "shirtNumber": 18,
+      "rating": "76",
+      "skill": {
+        "passing": "74",
+        "shooting": "60",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "82",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1406",
+      "teamID": "14",
+      "name": "Pierre-Emile Højbjerg",
+      "position": "CM",
+      "shirtNumber": 23,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "70",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "74",
+        "strength": "85",
+        "jumping": "285",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1407",
+      "teamID": "14",
+      "name": "Christian Eriksen",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "79",
+      "skill": {
+        "passing": "88",
+        "shooting": "78",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "72",
+        "strength": "65",
+        "jumping": "268",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1408",
+      "teamID": "14",
+      "name": "Rasmus Højlund",
+      "position": "LM",
+      "shirtNumber": 9,
+      "rating": "78",
+      "skill": {
+        "passing": "68",
+        "shooting": "80",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "84",
+        "strength": "88",
+        "jumping": "288",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1409",
+      "teamID": "14",
+      "name": "Andreas Skov Olsen",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "77",
+      "skill": {
+        "passing": "76",
+        "shooting": "78",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "85",
+        "strength": "72",
+        "jumping": "274",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1410",
+      "teamID": "14",
+      "name": "Jonas Wind",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "76",
+      "skill": {
+        "passing": "78",
+        "shooting": "77",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "68",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1411",
+      "teamID": "14",
+      "name": "Yussuf Poulsen",
+      "position": "ST",
+      "shirtNumber": 20,
+      "rating": "74",
+      "skill": {
+        "passing": "70",
+        "shooting": "72",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "72",
+        "strength": "87",
+        "jumping": "302",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

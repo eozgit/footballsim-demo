@@ -1,0 +1,276 @@
+{
+  "name": "Barcelona FC",
+  "description": "2008-2009 'The Sextuple' under Guardiola",
+  "primaryColour": "Blue",
+  "secondaryColour": "Red",
+  "awayColour": "Yellow",
+  "rating": 99,
+  "teamID": "116",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "11601",
+      "teamID": "116",
+      "name": "Víctor Valdés",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "88",
+      "skill": {
+        "passing": "80",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "90",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "288",
+        "penalty_taking": "26"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11602",
+      "teamID": "116",
+      "name": "Eric Abidal",
+      "position": "LB",
+      "shirtNumber": 22,
+      "rating": "90",
+      "skill": {
+        "passing": "85",
+        "shooting": "60",
+        "tackling": "92",
+        "saving": "10",
+        "agility": "84",
+        "strength": "86",
+        "jumping": "280",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11603",
+      "teamID": "116",
+      "name": "Carles Puyol",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "96",
+      "skill": {
+        "passing": "75",
+        "shooting": "45",
+        "tackling": "98",
+        "saving": "12",
+        "agility": "80",
+        "strength": "92",
+        "jumping": "318",
+        "penalty_taking": "49"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11604",
+      "teamID": "116",
+      "name": "Gerard Piqué",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "94",
+      "skill": {
+        "passing": "88",
+        "shooting": "55",
+        "tackling": "94",
+        "saving": "10",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11605",
+      "teamID": "116",
+      "name": "Dani Alves",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "95",
+      "skill": {
+        "passing": "92",
+        "shooting": "75",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "92",
+        "strength": "82",
+        "jumping": "282",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11606",
+      "teamID": "116",
+      "name": "Sergio Busquets",
+      "position": "CM",
+      "shirtNumber": 16,
+      "rating": "94",
+      "skill": {
+        "passing": "95",
+        "shooting": "65",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "70",
+        "strength": "85",
+        "jumping": "290",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11607",
+      "teamID": "116",
+      "name": "Xavi",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "98",
+      "skill": {
+        "passing": "99",
+        "shooting": "82",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11608",
+      "teamID": "116",
+      "name": "Andrés Iniesta",
+      "position": "LM",
+      "shirtNumber": 8,
+      "rating": "98",
+      "skill": {
+        "passing": "97",
+        "shooting": "85",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "88",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11609",
+      "teamID": "116",
+      "name": "Thierry Henry",
+      "position": "RM",
+      "shirtNumber": 14,
+      "rating": "95",
+      "skill": {
+        "passing": "88",
+        "shooting": "94",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "92",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "96"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11610",
+      "teamID": "116",
+      "name": "Lionel Messi",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "99",
+      "skill": {
+        "passing": "98",
+        "shooting": "97",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "96",
+        "strength": "75",
+        "jumping": "312",
+        "penalty_taking": "93"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11611",
+      "teamID": "116",
+      "name": "Samuel Eto'o",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "94",
+      "skill": {
+        "passing": "82",
+        "shooting": "96",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "95",
+        "strength": "88",
+        "jumping": "298",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

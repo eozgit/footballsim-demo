@@ -1,0 +1,276 @@
+{
+  "name": "Belgium",
+  "description": "The Red Devils",
+  "primaryColour": "Red",
+  "secondaryColour": "Black",
+  "awayColour": "Gold",
+  "rating": 82,
+  "teamID": "5",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "501",
+      "teamID": "5",
+      "name": "Koen Casteels",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "83",
+      "skill": {
+        "passing": "74",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "84",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "502",
+      "teamID": "5",
+      "name": "Maxim De Cuyper",
+      "position": "LB",
+      "shirtNumber": 25,
+      "rating": "76",
+      "skill": {
+        "passing": "80",
+        "shooting": "68",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "82",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "503",
+      "teamID": "5",
+      "name": "Wout Faes",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "79",
+      "skill": {
+        "passing": "70",
+        "shooting": "45",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "68",
+        "strength": "84",
+        "jumping": "290",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "504",
+      "teamID": "5",
+      "name": "Timothy Castagne",
+      "position": "CB",
+      "shirtNumber": 21,
+      "rating": "79",
+      "skill": {
+        "passing": "75",
+        "shooting": "60",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "78",
+        "strength": "77",
+        "jumping": "282",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "505",
+      "teamID": "5",
+      "name": "Zeno Debast",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "77",
+      "skill": {
+        "passing": "78",
+        "shooting": "52",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "72",
+        "strength": "80",
+        "jumping": "285",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "506",
+      "teamID": "5",
+      "name": "Amadou Onana",
+      "position": "CM",
+      "shirtNumber": 24,
+      "rating": "81",
+      "skill": {
+        "passing": "74",
+        "shooting": "65",
+        "tackling": "85",
+        "saving": "12",
+        "agility": "74",
+        "strength": "90",
+        "jumping": "296",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "507",
+      "teamID": "5",
+      "name": "Youri Tielemans",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "82",
+      "skill": {
+        "passing": "88",
+        "shooting": "82",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "76",
+        "strength": "74",
+        "jumping": "274",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "508",
+      "teamID": "5",
+      "name": "Jeremy Doku",
+      "position": "LM",
+      "shirtNumber": 22,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "76",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "95",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "509",
+      "teamID": "5",
+      "name": "Leandro Trossard",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "83",
+      "skill": {
+        "passing": "82",
+        "shooting": "84",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "510",
+      "teamID": "5",
+      "name": "Romelu Lukaku",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "84",
+      "skill": {
+        "passing": "72",
+        "shooting": "86",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "68",
+        "strength": "95",
+        "jumping": "292",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "511",
+      "teamID": "5",
+      "name": "Lois Openda",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "82",
+      "skill": {
+        "passing": "70",
+        "shooting": "83",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "90",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

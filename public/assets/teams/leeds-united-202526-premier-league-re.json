@@ -1,0 +1,276 @@
+{
+  "name": "Leeds United",
+  "description": "2025/26 Premier League Return",
+  "primaryColour": "White",
+  "secondaryColour": "Blue",
+  "awayColour": "Yellow",
+  "rating": 44,
+  "teamID": "158",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "15801",
+      "teamID": "158",
+      "name": "Illan Meslier",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "78",
+      "skill": {
+        "passing": "74",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "82",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "282",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15802",
+      "teamID": "158",
+      "name": "Junior Firpo",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "65",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "85",
+        "strength": "70",
+        "jumping": "275",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15803",
+      "teamID": "158",
+      "name": "Pascal Struijk",
+      "position": "CB",
+      "shirtNumber": 21,
+      "rating": "77",
+      "skill": {
+        "passing": "75",
+        "shooting": "45",
+        "tackling": "78",
+        "saving": "12",
+        "agility": "68",
+        "strength": "82",
+        "jumping": "312",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15804",
+      "teamID": "158",
+      "name": "Joe Rodon",
+      "position": "CB",
+      "shirtNumber": 14,
+      "rating": "76",
+      "skill": {
+        "passing": "68",
+        "shooting": "35",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "72",
+        "strength": "84",
+        "jumping": "308",
+        "penalty_taking": "38"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15805",
+      "teamID": "158",
+      "name": "Jayden Bogle",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "75",
+      "skill": {
+        "passing": "74",
+        "shooting": "62",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "88",
+        "strength": "68",
+        "jumping": "278",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15806",
+      "teamID": "158",
+      "name": "Ethan Ampadu",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "78",
+      "skill": {
+        "passing": "76",
+        "shooting": "58",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "75",
+        "strength": "80",
+        "jumping": "290",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15807",
+      "teamID": "158",
+      "name": "Ilia Gruev",
+      "position": "CM",
+      "shirtNumber": 44,
+      "rating": "75",
+      "skill": {
+        "passing": "80",
+        "shooting": "62",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "74",
+        "strength": "72",
+        "jumping": "288",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15808",
+      "teamID": "158",
+      "name": "Manor Solomon",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "77",
+      "skill": {
+        "passing": "78",
+        "shooting": "74",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "88",
+        "strength": "62",
+        "jumping": "265",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15809",
+      "teamID": "158",
+      "name": "Dan James",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "76",
+      "skill": {
+        "passing": "72",
+        "shooting": "70",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "96",
+        "strength": "65",
+        "jumping": "268",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15810",
+      "teamID": "158",
+      "name": "Mateo Joseph",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "74",
+      "skill": {
+        "passing": "68",
+        "shooting": "76",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "82",
+        "strength": "75",
+        "jumping": "305",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15811",
+      "teamID": "158",
+      "name": "Brenden Aaronson",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "75",
+      "skill": {
+        "passing": "78",
+        "shooting": "72",
+        "tackling": "52",
+        "saving": "10",
+        "agility": "85",
+        "strength": "68",
+        "jumping": "282",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Austria",
+  "description": "Das Nationalteam",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 75,
+  "teamID": "4",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "401",
+      "teamID": "4",
+      "name": "Patrick Pentz",
+      "position": "GK",
+      "shirtNumber": 13,
+      "rating": "74",
+      "skill": {
+        "passing": "68",
+        "shooting": "15",
+        "tackling": "18",
+        "saving": "76",
+        "agility": "74",
+        "strength": "72",
+        "jumping": "282",
+        "penalty_taking": "23"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "402",
+      "teamID": "4",
+      "name": "Phillipp Mwene",
+      "position": "LB",
+      "shirtNumber": 16,
+      "rating": "73",
+      "skill": {
+        "passing": "70",
+        "shooting": "58",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "80",
+        "strength": "74",
+        "jumping": "275",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "403",
+      "teamID": "4",
+      "name": "Kevin Danso",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "78",
+      "skill": {
+        "passing": "65",
+        "shooting": "42",
+        "tackling": "80",
+        "saving": "12",
+        "agility": "68",
+        "strength": "86",
+        "jumping": "294",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "404",
+      "teamID": "4",
+      "name": "Maximilian Wöber",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "75",
+      "skill": {
+        "passing": "72",
+        "shooting": "48",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "65",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "405",
+      "teamID": "4",
+      "name": "Stefan Lainer",
+      "position": "RB",
+      "shirtNumber": 21,
+      "rating": "74",
+      "skill": {
+        "passing": "68",
+        "shooting": "55",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "76",
+        "strength": "78",
+        "jumping": "276",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "406",
+      "teamID": "4",
+      "name": "Nicolas Seiwald",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "76",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "78",
+        "saving": "12",
+        "agility": "82",
+        "strength": "74",
+        "jumping": "272",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "407",
+      "teamID": "4",
+      "name": "Konrad Laimer",
+      "position": "CM",
+      "shirtNumber": 20,
+      "rating": "81",
+      "skill": {
+        "passing": "76",
+        "shooting": "70",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "88",
+        "strength": "80",
+        "jumping": "280",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "408",
+      "teamID": "4",
+      "name": "Marcel Sabitzer",
+      "position": "LM",
+      "shirtNumber": 9,
+      "rating": "82",
+      "skill": {
+        "passing": "84",
+        "shooting": "82",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "80",
+        "strength": "78",
+        "jumping": "274",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "409",
+      "teamID": "4",
+      "name": "Christoph Baumgartner",
+      "position": "RM",
+      "shirtNumber": 19,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "79",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "84",
+        "strength": "70",
+        "jumping": "270",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "410",
+      "teamID": "4",
+      "name": "Michael Gregoritsch",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "77",
+      "skill": {
+        "passing": "70",
+        "shooting": "80",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "64",
+        "strength": "85",
+        "jumping": "295",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "411",
+      "teamID": "4",
+      "name": "Marko Arnautovic",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "78",
+      "skill": {
+        "passing": "75",
+        "shooting": "81",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "288",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

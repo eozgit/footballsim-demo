@@ -1,0 +1,276 @@
+{
+  "name": "Palmeiras",
+  "description": "2020-2021 Back-to-back Libertadores",
+  "primaryColour": "Green",
+  "secondaryColour": "White",
+  "awayColour": "DarkGreen",
+  "rating": 87,
+  "teamID": "170",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "17001",
+      "teamID": "170",
+      "name": "Weverton",
+      "position": "GK",
+      "shirtNumber": 21,
+      "rating": "85",
+      "skill": {
+        "passing": "78",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "86",
+        "agility": "74",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "32"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17002",
+      "teamID": "170",
+      "name": "Joaquín Piquerez",
+      "position": "LB",
+      "shirtNumber": 22,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "65",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "82",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17003",
+      "teamID": "170",
+      "name": "Gustavo Gómez",
+      "position": "CB",
+      "shirtNumber": 15,
+      "rating": "85",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "68",
+        "strength": "92",
+        "jumping": "320",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17004",
+      "teamID": "170",
+      "name": "Murilo",
+      "position": "CB",
+      "shirtNumber": 26,
+      "rating": "81",
+      "skill": {
+        "passing": "68",
+        "shooting": "45",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "70",
+        "strength": "86",
+        "jumping": "315",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17005",
+      "teamID": "170",
+      "name": "Marcos Rocha",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "78",
+      "skill": {
+        "passing": "78",
+        "shooting": "60",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "76",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17006",
+      "teamID": "170",
+      "name": "Zé Rafael",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "75",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "75",
+        "strength": "86",
+        "jumping": "302",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17007",
+      "teamID": "170",
+      "name": "Raphael Veiga",
+      "position": "CM",
+      "shirtNumber": 23,
+      "rating": "85",
+      "skill": {
+        "passing": "88",
+        "shooting": "85",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "285",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17008",
+      "teamID": "170",
+      "name": "Dudu",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "84",
+      "skill": {
+        "passing": "86",
+        "shooting": "78",
+        "tackling": "48",
+        "saving": "10",
+        "agility": "92",
+        "strength": "65",
+        "jumping": "265",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17009",
+      "teamID": "170",
+      "name": "Estêvão",
+      "position": "RM",
+      "shirtNumber": 41,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "78",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "92",
+        "strength": "60",
+        "jumping": "262",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17010",
+      "teamID": "170",
+      "name": "Endrick",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "82",
+      "skill": {
+        "passing": "75",
+        "shooting": "84",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "94",
+        "strength": "82",
+        "jumping": "310",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17011",
+      "teamID": "170",
+      "name": "Rony",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "80",
+      "skill": {
+        "passing": "72",
+        "shooting": "78",
+        "tackling": "58",
+        "saving": "10",
+        "agility": "95",
+        "strength": "74",
+        "jumping": "290",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

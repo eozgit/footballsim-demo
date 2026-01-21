@@ -1,0 +1,276 @@
+{
+  "name": "Haiti",
+  "description": "Les Grenadiers",
+  "primaryColour": "Blue",
+  "secondaryColour": "Red",
+  "awayColour": "White",
+  "rating": 52,
+  "teamID": "21",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "2101",
+      "teamID": "21",
+      "name": "Johny Placide",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "58",
+      "skill": {
+        "passing": "50",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "62",
+        "agility": "60",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "18"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2102",
+      "teamID": "21",
+      "name": "Alex Junior",
+      "position": "LB",
+      "shirtNumber": 2,
+      "rating": "54",
+      "skill": {
+        "passing": "52",
+        "shooting": "40",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "74",
+        "strength": "65",
+        "jumping": "270",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2103",
+      "teamID": "21",
+      "name": "Ricardo Adé",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "60",
+      "skill": {
+        "passing": "48",
+        "shooting": "35",
+        "tackling": "65",
+        "saving": "12",
+        "agility": "52",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "33"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2104",
+      "teamID": "21",
+      "name": "Garven Metusala",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "55",
+      "skill": {
+        "passing": "45",
+        "shooting": "30",
+        "tackling": "58",
+        "saving": "10",
+        "agility": "50",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "36"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2105",
+      "teamID": "21",
+      "name": "Carlens Arcus",
+      "position": "RB",
+      "shirtNumber": 5,
+      "rating": "56",
+      "skill": {
+        "passing": "55",
+        "shooting": "42",
+        "tackling": "57",
+        "saving": "10",
+        "agility": "72",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2106",
+      "teamID": "21",
+      "name": "Carl-Fred Sainté",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "52",
+      "skill": {
+        "passing": "58",
+        "shooting": "45",
+        "tackling": "54",
+        "saving": "12",
+        "agility": "65",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "44"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2107",
+      "teamID": "21",
+      "name": "Danley Jean Jacques",
+      "position": "CM",
+      "shirtNumber": 17,
+      "rating": "55",
+      "skill": {
+        "passing": "60",
+        "shooting": "48",
+        "tackling": "56",
+        "saving": "10",
+        "agility": "68",
+        "strength": "75",
+        "jumping": "278",
+        "penalty_taking": "50"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2108",
+      "teamID": "21",
+      "name": "Derrick Etienne",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "58",
+      "skill": {
+        "passing": "62",
+        "shooting": "58",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "80",
+        "strength": "60",
+        "jumping": "265",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2109",
+      "teamID": "21",
+      "name": "Fafà Picault",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "57",
+      "skill": {
+        "passing": "60",
+        "shooting": "60",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "82",
+        "strength": "62",
+        "jumping": "268",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2110",
+      "teamID": "21",
+      "name": "Duckens Nazon",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "59",
+      "skill": {
+        "passing": "50",
+        "shooting": "68",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "68",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2111",
+      "teamID": "21",
+      "name": "Frantzdy Pierrot",
+      "position": "ST",
+      "shirtNumber": 20,
+      "rating": "60",
+      "skill": {
+        "passing": "45",
+        "shooting": "70",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "55",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

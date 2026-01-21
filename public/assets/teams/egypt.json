@@ -1,0 +1,276 @@
+{
+  "name": "Egypt",
+  "description": "The Pharaohs",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 74,
+  "teamID": "16",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "1601",
+      "teamID": "16",
+      "name": "Mohamed El Shenawy",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "75",
+      "skill": {
+        "passing": "62",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "77",
+        "agility": "68",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "26"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1602",
+      "teamID": "16",
+      "name": "Mohamed Hamdy",
+      "position": "LB",
+      "shirtNumber": 12,
+      "rating": "70",
+      "skill": {
+        "passing": "68",
+        "shooting": "45",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "75",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "49"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1603",
+      "teamID": "16",
+      "name": "Ahmed Hegazi",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "74",
+      "skill": {
+        "passing": "60",
+        "shooting": "40",
+        "tackling": "76",
+        "saving": "12",
+        "agility": "52",
+        "strength": "90",
+        "jumping": "295",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1604",
+      "teamID": "16",
+      "name": "Mohamed Abdelmonem",
+      "position": "CB",
+      "shirtNumber": 24,
+      "rating": "76",
+      "skill": {
+        "passing": "65",
+        "shooting": "35",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "70",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "38"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1605",
+      "teamID": "16",
+      "name": "Mohamed Hany",
+      "position": "RB",
+      "shirtNumber": 3,
+      "rating": "71",
+      "skill": {
+        "passing": "68",
+        "shooting": "48",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "78",
+        "strength": "74",
+        "jumping": "275",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1606",
+      "teamID": "16",
+      "name": "Marwan Attia",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "72",
+      "skill": {
+        "passing": "74",
+        "shooting": "55",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "76",
+        "strength": "72",
+        "jumping": "270",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1607",
+      "teamID": "16",
+      "name": "Mohamed Elneny",
+      "position": "CM",
+      "shirtNumber": 17,
+      "rating": "75",
+      "skill": {
+        "passing": "80",
+        "shooting": "65",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "72",
+        "strength": "75",
+        "jumping": "274",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1608",
+      "teamID": "16",
+      "name": "Mahmoud Trezeguet",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "76",
+      "skill": {
+        "passing": "72",
+        "shooting": "75",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "84",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1609",
+      "teamID": "16",
+      "name": "Mohamed Salah",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "89",
+      "skill": {
+        "passing": "82",
+        "shooting": "88",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "92",
+        "strength": "75",
+        "jumping": "270",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1610",
+      "teamID": "16",
+      "name": "Mostafa Mohamed",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "77",
+      "skill": {
+        "passing": "64",
+        "shooting": "80",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "70",
+        "strength": "88",
+        "jumping": "302",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1611",
+      "teamID": "16",
+      "name": "Omar Marmoush",
+      "position": "ST",
+      "shirtNumber": 22,
+      "rating": "78",
+      "skill": {
+        "passing": "75",
+        "shooting": "79",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "85",
+        "strength": "74",
+        "jumping": "276",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

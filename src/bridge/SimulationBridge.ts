@@ -22,8 +22,11 @@ export class SimulationBridge {
     const engineAway = state.secondTeam?.name;
 
     // Update only if names have changed or are missing
-    if (engineHome && engineAway &&
-      (engineHome !== store.teams.home || engineAway !== store.teams.away)) {
+    if (
+      engineHome &&
+      engineAway &&
+      (engineHome !== store.teams.home || engineAway !== store.teams.away)
+    ) {
       store.setTeams(engineHome, engineAway);
     }
   }

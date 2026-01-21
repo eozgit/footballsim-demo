@@ -1,0 +1,276 @@
+{
+  "name": "Steaua Bucuresti",
+  "description": "1986 European Cup winners",
+  "primaryColour": "Red",
+  "secondaryColour": "Blue",
+  "awayColour": "Yellow",
+  "rating": 88,
+  "teamID": "192",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "19201",
+      "teamID": "192",
+      "name": "Helmuth Duckadam",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "90",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "99",
+        "agility": "75",
+        "strength": "72",
+        "jumping": "285",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19202",
+      "teamID": "192",
+      "name": "Ilie Bărbulescu",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "58",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "278",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19203",
+      "teamID": "192",
+      "name": "Miodrag Belodedici",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "92",
+      "skill": {
+        "passing": "85",
+        "shooting": "60",
+        "tackling": "94",
+        "saving": "12",
+        "agility": "78",
+        "strength": "90",
+        "jumping": "320",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19204",
+      "teamID": "192",
+      "name": "Adrian Bumbescu",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "85",
+      "skill": {
+        "passing": "62",
+        "shooting": "40",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "65",
+        "strength": "96",
+        "jumping": "325",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19205",
+      "teamID": "192",
+      "name": "Ștefan Iovan",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "84",
+      "skill": {
+        "passing": "76",
+        "shooting": "55",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "84",
+        "strength": "88",
+        "jumping": "282",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19206",
+      "teamID": "192",
+      "name": "Lucian Bălan",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "65",
+        "tackling": "85",
+        "saving": "12",
+        "agility": "76",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19207",
+      "teamID": "192",
+      "name": "Ladislau Bölöni",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "88",
+      "skill": {
+        "passing": "88",
+        "shooting": "82",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "72",
+        "strength": "85",
+        "jumping": "305",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19208",
+      "teamID": "192",
+      "name": "Mihail Majearu",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "84",
+      "skill": {
+        "passing": "86",
+        "shooting": "78",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "80",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19209",
+      "teamID": "192",
+      "name": "Tudorel Stoica",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "85",
+      "skill": {
+        "passing": "84",
+        "shooting": "72",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "75",
+        "strength": "88",
+        "jumping": "278",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19210",
+      "teamID": "192",
+      "name": "Victor Pițurcă",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "90",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "315",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19211",
+      "teamID": "192",
+      "name": "Marius Lăcătuș",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "88",
+      "skill": {
+        "passing": "82",
+        "shooting": "86",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "92",
+        "strength": "82",
+        "jumping": "305",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

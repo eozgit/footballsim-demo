@@ -1,0 +1,276 @@
+{
+  "name": "LA Galaxy",
+  "description": "2011-2014 Beckham/Donovan Era",
+  "primaryColour": "White",
+  "secondaryColour": "Blue",
+  "awayColour": "Gold",
+  "rating": 74,
+  "teamID": "155",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "15501",
+      "teamID": "155",
+      "name": "Josh Saunders",
+      "position": "GK",
+      "shirtNumber": 12,
+      "rating": "72",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "75",
+        "agility": "70",
+        "strength": "74",
+        "jumping": "282",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15502",
+      "teamID": "155",
+      "name": "Todd Dunivant",
+      "position": "LB",
+      "shirtNumber": 2,
+      "rating": "72",
+      "skill": {
+        "passing": "74",
+        "shooting": "58",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "76",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15503",
+      "teamID": "155",
+      "name": "Omar Gonzalez",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "78",
+      "skill": {
+        "passing": "65",
+        "shooting": "42",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "58",
+        "strength": "88",
+        "jumping": "320",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15504",
+      "teamID": "155",
+      "name": "A.J. DeLaGarza",
+      "position": "CB",
+      "shirtNumber": 20,
+      "rating": "74",
+      "skill": {
+        "passing": "68",
+        "shooting": "32",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "80",
+        "strength": "74",
+        "jumping": "292",
+        "penalty_taking": "42"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15505",
+      "teamID": "155",
+      "name": "Sean Franklin",
+      "position": "RB",
+      "shirtNumber": 5,
+      "rating": "72",
+      "skill": {
+        "passing": "70",
+        "shooting": "55",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "86",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15506",
+      "teamID": "155",
+      "name": "Juninho",
+      "position": "CM",
+      "shirtNumber": 19,
+      "rating": "76",
+      "skill": {
+        "passing": "82",
+        "shooting": "74",
+        "tackling": "75",
+        "saving": "12",
+        "agility": "72",
+        "strength": "74",
+        "jumping": "288",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15507",
+      "teamID": "155",
+      "name": "David Beckham",
+      "position": "CM",
+      "shirtNumber": 23,
+      "rating": "82",
+      "skill": {
+        "passing": "96",
+        "shooting": "80",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "68",
+        "strength": "72",
+        "jumping": "285",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15508",
+      "teamID": "155",
+      "name": "Landon Donovan",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "84",
+      "skill": {
+        "passing": "88",
+        "shooting": "86",
+        "tackling": "52",
+        "saving": "10",
+        "agility": "88",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15509",
+      "teamID": "155",
+      "name": "Mike Magee",
+      "position": "RM",
+      "shirtNumber": 18,
+      "rating": "75",
+      "skill": {
+        "passing": "76",
+        "shooting": "78",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "280",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15510",
+      "teamID": "155",
+      "name": "Robbie Keane",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "88",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "82",
+        "strength": "74",
+        "jumping": "292",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15511",
+      "teamID": "155",
+      "name": "Edson Buddle",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "78",
+      "skill": {
+        "passing": "70",
+        "shooting": "82",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "75",
+        "strength": "85",
+        "jumping": "315",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

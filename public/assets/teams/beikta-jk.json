@@ -1,0 +1,276 @@
+{
+  "name": "Beşiktaş JK",
+  "description": "2016-2018 Back-to-back Super Lig titles",
+  "primaryColour": "Black",
+  "secondaryColour": "White",
+  "awayColour": "Silver",
+  "rating": 77,
+  "teamID": "120",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "12001",
+      "teamID": "120",
+      "name": "Fabri",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "80",
+        "agility": "75",
+        "strength": "74",
+        "jumping": "282",
+        "penalty_taking": "32"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12002",
+      "teamID": "120",
+      "name": "Adriano",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "76",
+      "skill": {
+        "passing": "78",
+        "shooting": "68",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "82",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12003",
+      "teamID": "120",
+      "name": "Pepe",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "84",
+      "skill": {
+        "passing": "72",
+        "shooting": "45",
+        "tackling": "86",
+        "saving": "12",
+        "agility": "78",
+        "strength": "90",
+        "jumping": "310",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12004",
+      "teamID": "120",
+      "name": "Duško Tošić",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "76",
+      "skill": {
+        "passing": "68",
+        "shooting": "40",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "65",
+        "strength": "84",
+        "jumping": "298",
+        "penalty_taking": "49"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12005",
+      "teamID": "120",
+      "name": "Gökhan Gönül",
+      "position": "RB",
+      "shirtNumber": 77,
+      "rating": "78",
+      "skill": {
+        "passing": "76",
+        "shooting": "60",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "84",
+        "strength": "76",
+        "jumping": "275",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12006",
+      "teamID": "120",
+      "name": "Atiba Hutchinson",
+      "position": "CM",
+      "shirtNumber": 13,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "68",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "75",
+        "strength": "85",
+        "jumping": "290",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12007",
+      "teamID": "120",
+      "name": "Oğuzhan Özyakup",
+      "position": "CM",
+      "shirtNumber": 15,
+      "rating": "79",
+      "skill": {
+        "passing": "86",
+        "shooting": "74",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "78",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12008",
+      "teamID": "120",
+      "name": "Ryan Babel",
+      "position": "LM",
+      "shirtNumber": 8,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "80",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "85",
+        "strength": "82",
+        "jumping": "278",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12009",
+      "teamID": "120",
+      "name": "Ricardo Quaresma",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "82",
+      "skill": {
+        "passing": "88",
+        "shooting": "78",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "82",
+        "strength": "65",
+        "jumping": "265",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12010",
+      "teamID": "120",
+      "name": "Cenk Tosun",
+      "position": "ST",
+      "shirtNumber": 23,
+      "rating": "81",
+      "skill": {
+        "passing": "72",
+        "shooting": "85",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "75",
+        "strength": "84",
+        "jumping": "315",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12011",
+      "teamID": "120",
+      "name": "Vincent Aboubakar",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "82",
+      "skill": {
+        "passing": "74",
+        "shooting": "84",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "86",
+        "strength": "88",
+        "jumping": "308",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Atletico Mineiro",
+  "description": "2013 Copa Libertadores winners",
+  "primaryColour": "Black",
+  "secondaryColour": "White",
+  "awayColour": "Gray",
+  "rating": 82,
+  "teamID": "115",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "11501",
+      "teamID": "115",
+      "name": "Victor",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "82",
+      "skill": {
+        "passing": "68",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "84",
+        "agility": "75",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "24"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11502",
+      "teamID": "115",
+      "name": "Junior Cesar",
+      "position": "LB",
+      "shirtNumber": 6,
+      "rating": "76",
+      "skill": {
+        "passing": "74",
+        "shooting": "55",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "85",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11503",
+      "teamID": "115",
+      "name": "Leonardo Silva",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "80",
+      "skill": {
+        "passing": "62",
+        "shooting": "45",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "52",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11504",
+      "teamID": "115",
+      "name": "Réver",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "81",
+      "skill": {
+        "passing": "65",
+        "shooting": "42",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "58",
+        "strength": "86",
+        "jumping": "298",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11505",
+      "teamID": "115",
+      "name": "Marcos Rocha",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "78",
+      "skill": {
+        "passing": "80",
+        "shooting": "58",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "274",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11506",
+      "teamID": "115",
+      "name": "Pierre",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "79",
+      "skill": {
+        "passing": "72",
+        "shooting": "52",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "74",
+        "strength": "86",
+        "jumping": "290",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11507",
+      "teamID": "115",
+      "name": "Josué",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "65",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "72",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11508",
+      "teamID": "115",
+      "name": "Bernard",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "76",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "92",
+        "strength": "62",
+        "jumping": "265",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11509",
+      "teamID": "115",
+      "name": "Ronaldinho",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "88",
+      "skill": {
+        "passing": "94",
+        "shooting": "85",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "84",
+        "strength": "75",
+        "jumping": "272",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11510",
+      "teamID": "115",
+      "name": "Jô",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "81",
+      "skill": {
+        "passing": "70",
+        "shooting": "84",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "312",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11511",
+      "teamID": "115",
+      "name": "Diego Tardelli",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "82",
+      "skill": {
+        "passing": "76",
+        "shooting": "82",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "88",
+        "strength": "74",
+        "jumping": "285",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

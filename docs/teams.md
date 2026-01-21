@@ -116,7 +116,7 @@
 | 157     | Leeds United           | 90     | White         | Blue            | Yellow          | defensive | 1970s Revie Era dominance                                      |
 | 158     | Leeds United           | 44     | White         | Blue            | Yellow          | attacking | 2025/26 Premier League Return                                  |
 | 159     | Leicester City         | 88     | Blue          | White           | SlateGray       | defensive | 2015-2016 5000/1 PL Champions                                  |
-| 160     | Liverpool FC           | 97     | Red           | Crimson         | White           | attacking | 2018-2020 UCL & PL Title                                       |
+| 160     | Liverpool FC           | 97     | Red           | White           | Black           | attacking | 2018-2020 UCL & PL Title                                       |
 | 161     | Manchester City        | 98     | SkyBlue       | White           | Navy            | attacking | 2022-2023 The Continental Treble                               |
 | 162     | Manchester United      | 97     | Red           | White           | Black           | attacking | 1998-1999 The Treble                                           |
 | 163     | Monterrey              | 79     | Navy          | White           | Silver          | balanced  | 2011-2013 CCL Three-peat                                       |
@@ -172,6 +172,7 @@
 | 307     | The Clangers           | 18     | Pink          | Blue            | Silver          | defensive | Lunar Division                                                 |
 | 308     | The Wombles            | 44     | Grey          | Yellow          | Green           | balanced  | Common Ground Project                                          |
 | 309     | X-Men                  | 88     | Yellow        | Blue            | Black           | attacking | Xavier Institute                                               |
+| 310     | LOTR                   | 95     | Gold          | White           | DarkGrey        | balanced  | Middle Earth FC                                                |
 
 ---
 
@@ -2049,3 +2050,14 @@
 | 30909     | 309     | Gambit                     | RM       | 8       | 86     | 92      | 88       | 55       | 10     | 94      | 78       | 278     | 580 | 650  |
 | 30910     | 309     | Cyclops                    | ST       | 9       | 88     | 96      | 99       | 50       | 10     | 82      | 84       | 315     | 340 | 520  |
 | 30911     | 309     | Rogue                      | ST       | 12      | 84     | 80      | 85       | 82       | 10     | 88      | 88       | 305     | 440 | 540  |
+| 31001     | 310     | Gandalf                    | GK       | 1       | 90     | 99      | 40       | 30       | 98     | 85      | 88       | 300     | 340 | 1000 |
+| 31002     | 310     | Aragorn                    | CB       | 87      | 85     | 92      | 88       | 94       | 10     | 95      | 85       | 265     | 260 | 850  |
+| 31003     | 310     | Boromir                    | CB       | 4       | 70     | 75      | 72       | 96       | 10     | 98      | 70       | 275     | 420 | 880  |
+| 31004     | 310     | Gimli                      | LB       | 5       | 65     | 70      | 60       | 98       | 10     | 99      | 60       | 150     | 100 | 800  |
+| 31005     | 310     | Legolas                    | RB       | 6       | 92     | 96      | 99       | 85       | 10     | 75      | 99       | 260     | 580 | 800  |
+| 31006     | 310     | Samwise                    | CM       | 8       | 88     | 85      | 60       | 80       | 10     | 92      | 75       | 125     | 420 | 600  |
+| 31007     | 310     | Frodo                      | CM       | 10      | 82     | 94      | 65       | 50       | 10     | 60      | 92       | 125     | 360 | 600  |
+| 31008     | 310     | Pippin                     | LM       | 7       | 84     | 82      | 70       | 45       | 10     | 55      | 94       | 125     | 100 | 650  |
+| 31009     | 310     | Merry                      | RM       | 11      | 84     | 82      | 70       | 45       | 10     | 55      | 94       | 125     | 580 | 650  |
+| 31010     | 310     | Faramir                    | ST       | 9       | 80     | 88      | 90       | 70       | 10     | 82      | 84       | 270     | 340 | 520  |
+| 31011     | 310     | Eowyn                      | ST       | 22      | 75     | 85      | 92       | 75       | 10     | 80      | 88       | 250     | 440 | 540  |

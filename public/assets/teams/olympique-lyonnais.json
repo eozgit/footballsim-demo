@@ -1,0 +1,276 @@
+{
+  "name": "Olympique Lyonnais",
+  "description": "2002-2008 Seven consecutive titles",
+  "primaryColour": "White",
+  "secondaryColour": "Blue",
+  "awayColour": "Red",
+  "rating": 89,
+  "teamID": "167",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "16701",
+      "teamID": "167",
+      "name": "Grégory Coupet",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "88",
+      "skill": {
+        "passing": "76",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "90",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "288",
+        "penalty_taking": "25"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16702",
+      "teamID": "167",
+      "name": "Eric Abidal",
+      "position": "LB",
+      "shirtNumber": 20,
+      "rating": "86",
+      "skill": {
+        "passing": "80",
+        "shooting": "60",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "88",
+        "strength": "82",
+        "jumping": "275",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16703",
+      "teamID": "167",
+      "name": "Cris",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "87",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "72",
+        "strength": "90",
+        "jumping": "315",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16704",
+      "teamID": "167",
+      "name": "Claudio Caçapa",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "82",
+      "skill": {
+        "passing": "70",
+        "shooting": "40",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "68",
+        "strength": "85",
+        "jumping": "310",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16705",
+      "teamID": "167",
+      "name": "Anthony Réveillère",
+      "position": "RB",
+      "shirtNumber": 15,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "58",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "85",
+        "strength": "78",
+        "jumping": "278",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16706",
+      "teamID": "167",
+      "name": "Mahamadou Diarra",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "78",
+        "shooting": "70",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "78",
+        "strength": "92",
+        "jumping": "295",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16707",
+      "teamID": "167",
+      "name": "Michael Essien",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "88",
+      "skill": {
+        "passing": "82",
+        "shooting": "78",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "84",
+        "strength": "92",
+        "jumping": "305",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16708",
+      "teamID": "167",
+      "name": "Florent Malouda",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "86",
+      "skill": {
+        "passing": "84",
+        "shooting": "80",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "86",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16709",
+      "teamID": "167",
+      "name": "Juninho Pernambucano",
+      "position": "RM",
+      "shirtNumber": 8,
+      "rating": "90",
+      "skill": {
+        "passing": "99",
+        "shooting": "88",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "72",
+        "strength": "74",
+        "jumping": "282",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16710",
+      "teamID": "167",
+      "name": "Karim Benzema",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "85",
+      "skill": {
+        "passing": "82",
+        "shooting": "84",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "84",
+        "strength": "78",
+        "jumping": "295",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16711",
+      "teamID": "167",
+      "name": "Sylvain Wiltord",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "82",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "76",
+        "jumping": "288",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

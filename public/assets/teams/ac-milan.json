@@ -1,0 +1,276 @@
+{
+  "name": "AC Milan",
+  "description": "1988-1994 Sacchi/Capello 'The Immortals'",
+  "primaryColour": "Red",
+  "secondaryColour": "Black",
+  "awayColour": "White",
+  "rating": 98,
+  "teamID": "101",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "10101",
+      "teamID": "101",
+      "name": "Sebastiano Rossi",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "88",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "92",
+        "agility": "78",
+        "strength": "85",
+        "jumping": "310",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10102",
+      "teamID": "101",
+      "name": "Paolo Maldini",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "96",
+      "skill": {
+        "passing": "88",
+        "shooting": "65",
+        "tackling": "98",
+        "saving": "12",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "305",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10103",
+      "teamID": "101",
+      "name": "Franco Baresi",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "97",
+      "skill": {
+        "passing": "90",
+        "shooting": "45",
+        "tackling": "99",
+        "saving": "15",
+        "agility": "80",
+        "strength": "80",
+        "jumping": "315",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10104",
+      "teamID": "101",
+      "name": "Alessandro Costacurta",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "92",
+      "skill": {
+        "passing": "82",
+        "shooting": "35",
+        "tackling": "94",
+        "saving": "12",
+        "agility": "75",
+        "strength": "82",
+        "jumping": "302",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10105",
+      "teamID": "101",
+      "name": "Mauro Tassotti",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "89",
+      "skill": {
+        "passing": "84",
+        "shooting": "55",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "78",
+        "strength": "85",
+        "jumping": "298",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10106",
+      "teamID": "101",
+      "name": "Frank Rijkaard",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "94",
+      "skill": {
+        "passing": "92",
+        "shooting": "78",
+        "tackling": "92",
+        "saving": "15",
+        "agility": "80",
+        "strength": "94",
+        "jumping": "312",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10107",
+      "teamID": "101",
+      "name": "Demetrio Albertini",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "88",
+      "skill": {
+        "passing": "94",
+        "shooting": "75",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "72",
+        "strength": "78",
+        "jumping": "295",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10108",
+      "teamID": "101",
+      "name": "Roberto Donadoni",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "90",
+      "skill": {
+        "passing": "92",
+        "shooting": "80",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "86",
+        "strength": "72",
+        "jumping": "288",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10109",
+      "teamID": "101",
+      "name": "Ruud Gullit",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "95",
+      "skill": {
+        "passing": "90",
+        "shooting": "88",
+        "tackling": "75",
+        "saving": "12",
+        "agility": "88",
+        "strength": "95",
+        "jumping": "320",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10110",
+      "teamID": "101",
+      "name": "Marco van Basten",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "98",
+      "skill": {
+        "passing": "85",
+        "shooting": "99",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "82",
+        "strength": "88",
+        "jumping": "325",
+        "penalty_taking": "97"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10111",
+      "teamID": "101",
+      "name": "Daniele Massaro",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "85",
+      "skill": {
+        "passing": "78",
+        "shooting": "86",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "84",
+        "strength": "80",
+        "jumping": "292",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Vitesse Arnhem",
+  "description": "2025/26 Rebuild",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Black",
+  "awayColour": "White",
+  "rating": 7,
+  "teamID": "201",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "20101",
+      "teamID": "201",
+      "name": "Tom Bramel",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "62",
+      "skill": {
+        "passing": "58",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "65",
+        "agility": "60",
+        "strength": "64",
+        "jumping": "282",
+        "penalty_taking": "22"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20102",
+      "teamID": "201",
+      "name": "Alexander Büttner",
+      "position": "LB",
+      "shirtNumber": 28,
+      "rating": "65",
+      "skill": {
+        "passing": "72",
+        "shooting": "64",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "74",
+        "strength": "62",
+        "jumping": "275",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20103",
+      "teamID": "201",
+      "name": "Giovanni van Zwam",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "60",
+      "skill": {
+        "passing": "54",
+        "shooting": "32",
+        "tackling": "65",
+        "saving": "12",
+        "agility": "68",
+        "strength": "66",
+        "jumping": "320",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20104",
+      "teamID": "201",
+      "name": "Mees Kreekels",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "62",
+      "skill": {
+        "passing": "52",
+        "shooting": "30",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "60",
+        "strength": "70",
+        "jumping": "315",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20105",
+      "teamID": "201",
+      "name": "Justin Bakker",
+      "position": "RB",
+      "shirtNumber": 5,
+      "rating": "63",
+      "skill": {
+        "passing": "60",
+        "shooting": "45",
+        "tackling": "64",
+        "saving": "10",
+        "agility": "62",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "50"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20106",
+      "teamID": "201",
+      "name": "Mathijs Tielemans",
+      "position": "CM",
+      "shirtNumber": 20,
+      "rating": "66",
+      "skill": {
+        "passing": "68",
+        "shooting": "58",
+        "tackling": "62",
+        "saving": "12",
+        "agility": "65",
+        "strength": "64",
+        "jumping": "292",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20107",
+      "teamID": "201",
+      "name": "Angelos Tsingaras",
+      "position": "CM",
+      "shirtNumber": 17,
+      "rating": "68",
+      "skill": {
+        "passing": "65",
+        "shooting": "52",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "68",
+        "strength": "72",
+        "jumping": "295",
+        "penalty_taking": "50"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20108",
+      "teamID": "201",
+      "name": "Miliano Jonathans",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "64",
+      "skill": {
+        "passing": "66",
+        "shooting": "62",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "82",
+        "strength": "55",
+        "jumping": "268",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20109",
+      "teamID": "201",
+      "name": "Gyan de Regt",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "63",
+      "skill": {
+        "passing": "62",
+        "shooting": "58",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "80",
+        "strength": "52",
+        "jumping": "270",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20110",
+      "teamID": "201",
+      "name": "Irakli Yegoian",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "64",
+      "skill": {
+        "passing": "65",
+        "shooting": "66",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "72",
+        "strength": "64",
+        "jumping": "318",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20111",
+      "teamID": "201",
+      "name": "Andy Visser",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "62",
+      "skill": {
+        "passing": "55",
+        "shooting": "68",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "70",
+        "strength": "76",
+        "jumping": "310",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Corinthians",
+  "description": "2012 FIFA Club World Cup winners",
+  "primaryColour": "White",
+  "secondaryColour": "Black",
+  "awayColour": "Ivory",
+  "rating": 83,
+  "teamID": "130",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "13001",
+      "teamID": "130",
+      "name": "Cássio",
+      "position": "GK",
+      "shirtNumber": 12,
+      "rating": "88",
+      "skill": {
+        "passing": "70",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "92",
+        "agility": "75",
+        "strength": "85",
+        "jumping": "295",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13002",
+      "teamID": "130",
+      "name": "Fábio Santos",
+      "position": "LB",
+      "shirtNumber": 6,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "65",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "78",
+        "strength": "74",
+        "jumping": "275",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13003",
+      "teamID": "130",
+      "name": "Paulo André",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "84",
+      "skill": {
+        "passing": "72",
+        "shooting": "35",
+        "tackling": "86",
+        "saving": "12",
+        "agility": "64",
+        "strength": "88",
+        "jumping": "308",
+        "penalty_taking": "42"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13004",
+      "teamID": "130",
+      "name": "Chicão",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "85",
+      "skill": {
+        "passing": "75",
+        "shooting": "75",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "62",
+        "strength": "86",
+        "jumping": "312",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13005",
+      "teamID": "130",
+      "name": "Alessandro",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "80",
+      "skill": {
+        "passing": "76",
+        "shooting": "52",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "82",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13006",
+      "teamID": "130",
+      "name": "Ralf",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "86",
+      "skill": {
+        "passing": "75",
+        "shooting": "58",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "74",
+        "strength": "88",
+        "jumping": "290",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13007",
+      "teamID": "130",
+      "name": "Paulinho",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "88",
+      "skill": {
+        "passing": "84",
+        "shooting": "84",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "85",
+        "strength": "92",
+        "jumping": "305",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13008",
+      "teamID": "130",
+      "name": "Danilo",
+      "position": "LM",
+      "shirtNumber": 20,
+      "rating": "85",
+      "skill": {
+        "passing": "90",
+        "shooting": "80",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "72",
+        "strength": "75",
+        "jumping": "275",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13009",
+      "teamID": "130",
+      "name": "Jorge Henrique",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "74",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "92",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13010",
+      "teamID": "130",
+      "name": "Paolo Guerrero",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "86",
+      "skill": {
+        "passing": "74",
+        "shooting": "88",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "80",
+        "strength": "92",
+        "jumping": "318",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13011",
+      "teamID": "130",
+      "name": "Emerson Sheik",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "82",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "90",
+        "strength": "76",
+        "jumping": "282",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

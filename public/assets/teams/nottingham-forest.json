@@ -1,0 +1,276 @@
+{
+  "name": "Nottingham Forest",
+  "description": "1979-1980 Back-to-back European Cups",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Navy",
+  "rating": 93,
+  "teamID": "165",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "16501",
+      "teamID": "165",
+      "name": "Peter Shilton",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "94",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "95",
+        "agility": "82",
+        "strength": "88",
+        "jumping": "290",
+        "penalty_taking": "25"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16502",
+      "teamID": "165",
+      "name": "Frank Clark",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "55",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "278",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16503",
+      "teamID": "165",
+      "name": "Kenny Burns",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "88",
+      "skill": {
+        "passing": "75",
+        "shooting": "65",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "74",
+        "strength": "94",
+        "jumping": "315",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16504",
+      "teamID": "165",
+      "name": "Larry Lloyd",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "87",
+      "skill": {
+        "passing": "68",
+        "shooting": "45",
+        "tackling": "94",
+        "saving": "10",
+        "agility": "62",
+        "strength": "96",
+        "jumping": "325",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16505",
+      "teamID": "165",
+      "name": "Viv Anderson",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "88",
+      "skill": {
+        "passing": "80",
+        "shooting": "62",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "92",
+        "strength": "88",
+        "jumping": "285",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16506",
+      "teamID": "165",
+      "name": "Ian Bowyer",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "85",
+      "skill": {
+        "passing": "82",
+        "shooting": "74",
+        "tackling": "85",
+        "saving": "12",
+        "agility": "78",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16507",
+      "teamID": "165",
+      "name": "Martin O'Neill",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "84",
+      "skill": {
+        "passing": "85",
+        "shooting": "78",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "80",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16508",
+      "teamID": "165",
+      "name": "John Robertson",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "92",
+      "skill": {
+        "passing": "98",
+        "shooting": "86",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "76",
+        "strength": "70",
+        "jumping": "275",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16509",
+      "teamID": "165",
+      "name": "Trevor Francis",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "90",
+      "skill": {
+        "passing": "84",
+        "shooting": "88",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "94",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16510",
+      "teamID": "165",
+      "name": "Garry Birtles",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "88",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "85",
+        "strength": "86",
+        "jumping": "320",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16511",
+      "teamID": "165",
+      "name": "Tony Woodcock",
+      "position": "ST",
+      "shirtNumber": 16,
+      "rating": "85",
+      "skill": {
+        "passing": "78",
+        "shooting": "86",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "88",
+        "strength": "80",
+        "jumping": "305",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

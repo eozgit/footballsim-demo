@@ -1,0 +1,276 @@
+{
+  "name": "Fluminense",
+  "description": "2023 First ever Copa Libertadores title",
+  "primaryColour": "Garnet",
+  "secondaryColour": "Green",
+  "awayColour": "White",
+  "rating": 82,
+  "teamID": "143",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "14301",
+      "teamID": "143",
+      "name": "Fábio",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "82",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "85",
+        "agility": "70",
+        "strength": "78",
+        "jumping": "290",
+        "penalty_taking": "25"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14302",
+      "teamID": "143",
+      "name": "Marcelo",
+      "position": "LB",
+      "shirtNumber": 12,
+      "rating": "88",
+      "skill": {
+        "passing": "92",
+        "shooting": "80",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "74",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14303",
+      "teamID": "143",
+      "name": "Nino",
+      "position": "CB",
+      "shirtNumber": 33,
+      "rating": "83",
+      "skill": {
+        "passing": "78",
+        "shooting": "45",
+        "tackling": "85",
+        "saving": "12",
+        "agility": "72",
+        "strength": "86",
+        "jumping": "315",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14304",
+      "teamID": "143",
+      "name": "Felipe Melo",
+      "position": "CB",
+      "shirtNumber": 30,
+      "rating": "80",
+      "skill": {
+        "passing": "74",
+        "shooting": "55",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "58",
+        "strength": "92",
+        "jumping": "318",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14305",
+      "teamID": "143",
+      "name": "Samuel Xavier",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "78",
+      "skill": {
+        "passing": "76",
+        "shooting": "62",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "84",
+        "strength": "76",
+        "jumping": "280",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14306",
+      "teamID": "143",
+      "name": "André",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "85",
+      "skill": {
+        "passing": "88",
+        "shooting": "65",
+        "tackling": "86",
+        "saving": "12",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14307",
+      "teamID": "143",
+      "name": "Ganso",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "84",
+      "skill": {
+        "passing": "94",
+        "shooting": "75",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "60",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14308",
+      "teamID": "143",
+      "name": "Jhon Arias",
+      "position": "LM",
+      "shirtNumber": 21,
+      "rating": "82",
+      "skill": {
+        "passing": "84",
+        "shooting": "78",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "90",
+        "strength": "68",
+        "jumping": "268",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14309",
+      "teamID": "143",
+      "name": "Keno",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "76",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "88",
+        "strength": "65",
+        "jumping": "270",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14310",
+      "teamID": "143",
+      "name": "Germán Cano",
+      "position": "ST",
+      "shirtNumber": 14,
+      "rating": "86",
+      "skill": {
+        "passing": "68",
+        "shooting": "95",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "72",
+        "strength": "84",
+        "jumping": "325",
+        "penalty_taking": "91"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14311",
+      "teamID": "143",
+      "name": "John Kennedy",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "80",
+      "skill": {
+        "passing": "72",
+        "shooting": "84",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "86",
+        "strength": "82",
+        "jumping": "310",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

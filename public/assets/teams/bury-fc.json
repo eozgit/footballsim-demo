@@ -1,0 +1,276 @@
+{
+  "name": "Bury FC",
+  "description": "2025/26 'Phoenix' Rise",
+  "primaryColour": "White",
+  "secondaryColour": "Blue",
+  "awayColour": "RoyalBlue",
+  "rating": 9,
+  "teamID": "124",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "12401",
+      "teamID": "124",
+      "name": "Local Talent A",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "12",
+      "skill": {
+        "passing": "10",
+        "shooting": "5",
+        "tackling": "8",
+        "saving": "15",
+        "agility": "12",
+        "strength": "18",
+        "jumping": "265",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12402",
+      "teamID": "124",
+      "name": "Local Talent B",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "8",
+      "skill": {
+        "passing": "10",
+        "shooting": "8",
+        "tackling": "12",
+        "saving": "5",
+        "agility": "22",
+        "strength": "14",
+        "jumping": "258",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12403",
+      "teamID": "124",
+      "name": "Local Talent C",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "10",
+      "skill": {
+        "passing": "8",
+        "shooting": "5",
+        "tackling": "15",
+        "saving": "6",
+        "agility": "15",
+        "strength": "24",
+        "jumping": "282",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12404",
+      "teamID": "124",
+      "name": "Local Talent D",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "9",
+      "skill": {
+        "passing": "7",
+        "shooting": "4",
+        "tackling": "14",
+        "saving": "5",
+        "agility": "14",
+        "strength": "22",
+        "jumping": "280",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12405",
+      "teamID": "124",
+      "name": "Local Talent E",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "8",
+      "skill": {
+        "passing": "9",
+        "shooting": "10",
+        "tackling": "11",
+        "saving": "5",
+        "agility": "20",
+        "strength": "15",
+        "jumping": "262",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12406",
+      "teamID": "124",
+      "name": "Local Talent F",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "10",
+      "skill": {
+        "passing": "12",
+        "shooting": "10",
+        "tackling": "10",
+        "saving": "6",
+        "agility": "18",
+        "strength": "16",
+        "jumping": "268",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12407",
+      "teamID": "124",
+      "name": "Local Talent G",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "11",
+      "skill": {
+        "passing": "14",
+        "shooting": "11",
+        "tackling": "8",
+        "saving": "5",
+        "agility": "16",
+        "strength": "14",
+        "jumping": "265",
+        "penalty_taking": "13"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12408",
+      "teamID": "124",
+      "name": "Local Talent H",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "9",
+      "skill": {
+        "passing": "10",
+        "shooting": "12",
+        "tackling": "6",
+        "saving": "5",
+        "agility": "25",
+        "strength": "12",
+        "jumping": "255",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12409",
+      "teamID": "124",
+      "name": "Local Talent I",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "10",
+      "skill": {
+        "passing": "11",
+        "shooting": "13",
+        "tackling": "5",
+        "saving": "5",
+        "agility": "24",
+        "strength": "11",
+        "jumping": "258",
+        "penalty_taking": "11"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12410",
+      "teamID": "124",
+      "name": "Local Talent J",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "9",
+      "skill": {
+        "passing": "8",
+        "shooting": "15",
+        "tackling": "4",
+        "saving": "5",
+        "agility": "20",
+        "strength": "18",
+        "jumping": "272",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12411",
+      "teamID": "124",
+      "name": "Local Talent K",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "10",
+      "skill": {
+        "passing": "9",
+        "shooting": "14",
+        "tackling": "5",
+        "saving": "5",
+        "agility": "22",
+        "strength": "16",
+        "jumping": "270",
+        "penalty_taking": "11"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

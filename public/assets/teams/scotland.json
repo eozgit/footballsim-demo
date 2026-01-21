@@ -1,0 +1,276 @@
+{
+  "name": "Scotland",
+  "description": "The Tartan Army",
+  "primaryColour": "DarkBlue",
+  "secondaryColour": "White",
+  "awayColour": "Red",
+  "rating": 66,
+  "teamID": "41",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "4101",
+      "teamID": "41",
+      "name": "Angus Gunn",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "72",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "74",
+        "agility": "68",
+        "strength": "75",
+        "jumping": "280",
+        "penalty_taking": "23"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4102",
+      "teamID": "41",
+      "name": "Andrew Robertson",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "62",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "85",
+        "strength": "74",
+        "jumping": "272",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4103",
+      "teamID": "41",
+      "name": "Jack Hendry",
+      "position": "CB",
+      "shirtNumber": 13,
+      "rating": "70",
+      "skill": {
+        "passing": "62",
+        "shooting": "35",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "60",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4104",
+      "teamID": "41",
+      "name": "Grant Hanley",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "68",
+      "skill": {
+        "passing": "55",
+        "shooting": "30",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "52",
+        "strength": "85",
+        "jumping": "295",
+        "penalty_taking": "32"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4105",
+      "teamID": "41",
+      "name": "Anthony Ralston",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "66",
+      "skill": {
+        "passing": "64",
+        "shooting": "48",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "75",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "49"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4106",
+      "teamID": "41",
+      "name": "Billy Gilmour",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "75",
+      "skill": {
+        "passing": "82",
+        "shooting": "65",
+        "tackling": "68",
+        "saving": "12",
+        "agility": "72",
+        "strength": "62",
+        "jumping": "265",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4107",
+      "teamID": "41",
+      "name": "Callum McGregor",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "77",
+      "skill": {
+        "passing": "78",
+        "shooting": "70",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "70",
+        "strength": "74",
+        "jumping": "274",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4108",
+      "teamID": "41",
+      "name": "John McGinn",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "79",
+      "skill": {
+        "passing": "76",
+        "shooting": "78",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "72",
+        "strength": "84",
+        "jumping": "285",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4109",
+      "teamID": "41",
+      "name": "Scott McTominay",
+      "position": "RM",
+      "shirtNumber": 4,
+      "rating": "80",
+      "skill": {
+        "passing": "74",
+        "shooting": "82",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "74",
+        "strength": "86",
+        "jumping": "292",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4110",
+      "teamID": "41",
+      "name": "Ché Adams",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "72",
+      "skill": {
+        "passing": "65",
+        "shooting": "75",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "78",
+        "strength": "76",
+        "jumping": "282",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4111",
+      "teamID": "41",
+      "name": "Lawrence Shankland",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "70",
+      "skill": {
+        "passing": "62",
+        "shooting": "78",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "64",
+        "strength": "72",
+        "jumping": "294",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "X-Men",
+  "description": "Xavier Institute",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Blue",
+  "awayColour": "Black",
+  "rating": 88,
+  "teamID": "309",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "30901",
+      "teamID": "309",
+      "name": "Colossus",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "82",
+      "skill": {
+        "passing": "45",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "50",
+        "strength": "99",
+        "jumping": "365",
+        "penalty_taking": "26"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30902",
+      "teamID": "309",
+      "name": "Nightcrawler",
+      "position": "LB",
+      "shirtNumber": 13,
+      "rating": "86",
+      "skill": {
+        "passing": "78",
+        "shooting": "70",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "99",
+        "strength": "62",
+        "jumping": "265",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30903",
+      "teamID": "309",
+      "name": "Wolverine",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "92",
+      "skill": {
+        "passing": "65",
+        "shooting": "80",
+        "tackling": "95",
+        "saving": "12",
+        "agility": "90",
+        "strength": "96",
+        "jumping": "325",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30904",
+      "teamID": "309",
+      "name": "Beast",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "88",
+      "skill": {
+        "passing": "92",
+        "shooting": "74",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "88",
+        "strength": "92",
+        "jumping": "330",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30905",
+      "teamID": "309",
+      "name": "Storm",
+      "position": "RB",
+      "shirtNumber": 6,
+      "rating": "90",
+      "skill": {
+        "passing": "96",
+        "shooting": "88",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "92",
+        "strength": "75",
+        "jumping": "280",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30906",
+      "teamID": "309",
+      "name": "Professor X",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "60",
+      "skill": {
+        "passing": "99",
+        "shooting": "10",
+        "tackling": "25",
+        "saving": "12",
+        "agility": "10",
+        "strength": "30",
+        "jumping": "310",
+        "penalty_taking": "37"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30907",
+      "teamID": "309",
+      "name": "Jean Grey",
+      "position": "CM",
+      "shirtNumber": 11,
+      "rating": "94",
+      "skill": {
+        "passing": "98",
+        "shooting": "95",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "84",
+        "strength": "68",
+        "jumping": "292",
+        "penalty_taking": "99"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30908",
+      "teamID": "309",
+      "name": "Iceman",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "85",
+      "skill": {
+        "passing": "88",
+        "shooting": "80",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "88",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30909",
+      "teamID": "309",
+      "name": "Gambit",
+      "position": "RM",
+      "shirtNumber": 8,
+      "rating": "86",
+      "skill": {
+        "passing": "92",
+        "shooting": "88",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "94",
+        "strength": "78",
+        "jumping": "278",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30910",
+      "teamID": "309",
+      "name": "Cyclops",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "88",
+      "skill": {
+        "passing": "96",
+        "shooting": "99",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "315",
+        "penalty_taking": "99"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30911",
+      "teamID": "309",
+      "name": "Rogue",
+      "position": "ST",
+      "shirtNumber": 12,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "85",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "88",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

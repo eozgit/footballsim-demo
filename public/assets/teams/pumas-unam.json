@@ -1,0 +1,276 @@
+{
+  "name": "Pumas UNAM",
+  "description": "2004 Back-to-back Champions",
+  "primaryColour": "Navy",
+  "secondaryColour": "Gold",
+  "awayColour": "White",
+  "rating": 74,
+  "teamID": "176",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "17601",
+      "teamID": "176",
+      "name": "Sergio Bernal",
+      "position": "GK",
+      "shirtNumber": 12,
+      "rating": "75",
+      "skill": {
+        "passing": "68",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "80",
+        "agility": "72",
+        "strength": "70",
+        "jumping": "288",
+        "penalty_taking": "27"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17602",
+      "teamID": "176",
+      "name": "Gonzalo Pineda",
+      "position": "LB",
+      "shirtNumber": 15,
+      "rating": "74",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "78",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17603",
+      "teamID": "176",
+      "name": "Joaquín Beltrán",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "78",
+      "skill": {
+        "passing": "65",
+        "shooting": "40",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "62",
+        "strength": "86",
+        "jumping": "320",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17604",
+      "teamID": "176",
+      "name": "Darío Verón",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "82",
+      "skill": {
+        "passing": "68",
+        "shooting": "45",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "76",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17605",
+      "teamID": "176",
+      "name": "Israel Castro",
+      "position": "RB",
+      "shirtNumber": 5,
+      "rating": "76",
+      "skill": {
+        "passing": "74",
+        "shooting": "58",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "82",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17606",
+      "teamID": "176",
+      "name": "Gerardo Galindo",
+      "position": "CM",
+      "shirtNumber": 16,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "60",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "75",
+        "strength": "84",
+        "jumping": "295",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17607",
+      "teamID": "176",
+      "name": "Leandro Augusto",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "78",
+      "skill": {
+        "passing": "84",
+        "shooting": "74",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "285",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17608",
+      "teamID": "176",
+      "name": "Jaime Lozano",
+      "position": "LM",
+      "shirtNumber": 21,
+      "rating": "75",
+      "skill": {
+        "passing": "86",
+        "shooting": "78",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "80",
+        "strength": "70",
+        "jumping": "275",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17609",
+      "teamID": "176",
+      "name": "José Luis López",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "74",
+      "skill": {
+        "passing": "76",
+        "shooting": "72",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "85",
+        "strength": "68",
+        "jumping": "278",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17610",
+      "teamID": "176",
+      "name": "Bruno Marioni",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "82",
+      "skill": {
+        "passing": "72",
+        "shooting": "88",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "84",
+        "strength": "82",
+        "jumping": "310",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17611",
+      "teamID": "176",
+      "name": "Francisco Fonseca",
+      "position": "ST",
+      "shirtNumber": 26,
+      "rating": "80",
+      "skill": {
+        "passing": "70",
+        "shooting": "84",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "82",
+        "strength": "88",
+        "jumping": "318",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

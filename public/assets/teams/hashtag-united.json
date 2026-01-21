@@ -1,0 +1,276 @@
+{
+  "name": "Hashtag United",
+  "description": "2025/26 'YouTube' Rise",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Blue",
+  "awayColour": "White",
+  "rating": 18,
+  "teamID": "147",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "14701",
+      "teamID": "147",
+      "name": "Jack Giddens",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "22",
+      "skill": {
+        "passing": "18",
+        "shooting": "5",
+        "tackling": "10",
+        "saving": "25",
+        "agility": "20",
+        "strength": "22",
+        "jumping": "280",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14702",
+      "teamID": "147",
+      "name": "Nathan Smith",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "18",
+      "skill": {
+        "passing": "20",
+        "shooting": "15",
+        "tackling": "22",
+        "saving": "5",
+        "agility": "28",
+        "strength": "20",
+        "jumping": "265",
+        "penalty_taking": "16"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14703",
+      "teamID": "147",
+      "name": "Harry Haysom",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "17",
+      "skill": {
+        "passing": "15",
+        "shooting": "10",
+        "tackling": "25",
+        "saving": "8",
+        "agility": "22",
+        "strength": "28",
+        "jumping": "295",
+        "penalty_taking": "15"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14704",
+      "teamID": "147",
+      "name": "Matthew Wooldridge",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "18",
+      "skill": {
+        "passing": "16",
+        "shooting": "12",
+        "tackling": "24",
+        "saving": "5",
+        "agility": "20",
+        "strength": "26",
+        "jumping": "290",
+        "penalty_taking": "11"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14705",
+      "teamID": "147",
+      "name": "Samuel Higgins",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "19",
+      "skill": {
+        "passing": "18",
+        "shooting": "14",
+        "tackling": "20",
+        "saving": "5",
+        "agility": "30",
+        "strength": "18",
+        "jumping": "262",
+        "penalty_taking": "15"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14706",
+      "teamID": "147",
+      "name": "Misha Djemaili",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "20",
+      "skill": {
+        "passing": "24",
+        "shooting": "18",
+        "tackling": "18",
+        "saving": "8",
+        "agility": "25",
+        "strength": "17",
+        "jumping": "270",
+        "penalty_taking": "18"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14707",
+      "teamID": "147",
+      "name": "Max Cornhill",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "18",
+      "skill": {
+        "passing": "22",
+        "shooting": "20",
+        "tackling": "20",
+        "saving": "5",
+        "agility": "22",
+        "strength": "21",
+        "jumping": "282",
+        "penalty_taking": "19"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14708",
+      "teamID": "147",
+      "name": "Toby Aromolaran",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "22",
+      "skill": {
+        "passing": "25",
+        "shooting": "24",
+        "tackling": "12",
+        "saving": "5",
+        "agility": "35",
+        "strength": "14",
+        "jumping": "255",
+        "penalty_taking": "25"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14709",
+      "teamID": "147",
+      "name": "Jermaine Francis",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "21",
+      "skill": {
+        "passing": "22",
+        "shooting": "22",
+        "tackling": "10",
+        "saving": "5",
+        "agility": "34",
+        "strength": "15",
+        "jumping": "258",
+        "penalty_taking": "17"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14710",
+      "teamID": "147",
+      "name": "Alex Teniola",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "19",
+      "skill": {
+        "passing": "18",
+        "shooting": "28",
+        "tackling": "8",
+        "saving": "5",
+        "agility": "28",
+        "strength": "30",
+        "jumping": "310",
+        "penalty_taking": "22"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14711",
+      "teamID": "147",
+      "name": "Pedro Carvalho",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "20",
+      "skill": {
+        "passing": "24",
+        "shooting": "26",
+        "tackling": "10",
+        "saving": "5",
+        "agility": "32",
+        "strength": "18",
+        "jumping": "272",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

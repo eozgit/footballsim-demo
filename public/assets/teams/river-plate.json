@@ -1,0 +1,276 @@
+{
+  "name": "River Plate",
+  "description": "2018 Libertadores winners",
+  "primaryColour": "White",
+  "secondaryColour": "Red",
+  "awayColour": "Black",
+  "rating": 91,
+  "teamID": "183",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "18301",
+      "teamID": "183",
+      "name": "Franco Armani",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "74",
+        "strength": "80",
+        "jumping": "285",
+        "penalty_taking": "26"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18302",
+      "teamID": "183",
+      "name": "Milton Casco",
+      "position": "LB",
+      "shirtNumber": 20,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "85",
+        "strength": "74",
+        "jumping": "272",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18303",
+      "teamID": "183",
+      "name": "Jonatan Maidana",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "84",
+      "skill": {
+        "passing": "68",
+        "shooting": "40",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "62",
+        "strength": "92",
+        "jumping": "325",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18304",
+      "teamID": "183",
+      "name": "Javier Pinola",
+      "position": "CB",
+      "shirtNumber": 22,
+      "rating": "83",
+      "skill": {
+        "passing": "74",
+        "shooting": "45",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "70",
+        "strength": "88",
+        "jumping": "320",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18305",
+      "teamID": "183",
+      "name": "Gonzalo Montiel",
+      "position": "RB",
+      "shirtNumber": 29,
+      "rating": "82",
+      "skill": {
+        "passing": "75",
+        "shooting": "58",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "86",
+        "strength": "80",
+        "jumping": "280",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18306",
+      "teamID": "183",
+      "name": "Leonardo Ponzio",
+      "position": "CM",
+      "shirtNumber": 23,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "68",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "70",
+        "strength": "92",
+        "jumping": "298",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18307",
+      "teamID": "183",
+      "name": "Enzo Pérez",
+      "position": "CM",
+      "shirtNumber": 24,
+      "rating": "85",
+      "skill": {
+        "passing": "84",
+        "shooting": "72",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "76",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18308",
+      "teamID": "183",
+      "name": "Pity Martínez",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "86",
+      "skill": {
+        "passing": "88",
+        "shooting": "84",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "92",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18309",
+      "teamID": "183",
+      "name": "Juan Quintero",
+      "position": "RM",
+      "shirtNumber": 8,
+      "rating": "85",
+      "skill": {
+        "passing": "95",
+        "shooting": "86",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "72",
+        "strength": "64",
+        "jumping": "272",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18310",
+      "teamID": "183",
+      "name": "Lucas Pratto",
+      "position": "ST",
+      "shirtNumber": 27,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "88",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "78",
+        "strength": "92",
+        "jumping": "335",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18311",
+      "teamID": "183",
+      "name": "Rafael Borré",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "82",
+      "skill": {
+        "passing": "72",
+        "shooting": "85",
+        "tackling": "52",
+        "saving": "10",
+        "agility": "88",
+        "strength": "80",
+        "jumping": "305",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

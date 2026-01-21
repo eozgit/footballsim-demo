@@ -1,0 +1,276 @@
+{
+  "name": "San Marino",
+  "description": "La Serenissima",
+  "primaryColour": "Light Blue",
+  "secondaryColour": "White",
+  "awayColour": "Dark Blue",
+  "rating": 12,
+  "teamID": "39",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "3901",
+      "teamID": "39",
+      "name": "Edoardo Colombo",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "48",
+      "skill": {
+        "passing": "42",
+        "shooting": "10",
+        "tackling": "12",
+        "saving": "50",
+        "agility": "45",
+        "strength": "55",
+        "jumping": "275",
+        "penalty_taking": "15"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3902",
+      "teamID": "39",
+      "name": "Alessandro Tosi",
+      "position": "LB",
+      "shirtNumber": 12,
+      "rating": "42",
+      "skill": {
+        "passing": "40",
+        "shooting": "32",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "58",
+        "strength": "48",
+        "jumping": "270",
+        "penalty_taking": "38"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3903",
+      "teamID": "39",
+      "name": "Michele Cevoli",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "40",
+      "skill": {
+        "passing": "35",
+        "shooting": "25",
+        "tackling": "48",
+        "saving": "10",
+        "agility": "38",
+        "strength": "60",
+        "jumping": "288",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3904",
+      "teamID": "39",
+      "name": "Filippo Fabbri",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "42",
+      "skill": {
+        "passing": "32",
+        "shooting": "22",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "35",
+        "strength": "62",
+        "jumping": "285",
+        "penalty_taking": "21"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3905",
+      "teamID": "39",
+      "name": "Giacomo Benvenuti",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "38",
+      "skill": {
+        "passing": "36",
+        "shooting": "28",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "55",
+        "strength": "50",
+        "jumping": "272",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3906",
+      "teamID": "39",
+      "name": "Alessandro Golinucci",
+      "position": "CM",
+      "shirtNumber": 17,
+      "rating": "44",
+      "skill": {
+        "passing": "45",
+        "shooting": "38",
+        "tackling": "48",
+        "saving": "10",
+        "agility": "48",
+        "strength": "55",
+        "jumping": "278",
+        "penalty_taking": "36"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3907",
+      "teamID": "39",
+      "name": "Marcello Mularoni",
+      "position": "CM",
+      "shirtNumber": 22,
+      "rating": "42",
+      "skill": {
+        "passing": "40",
+        "shooting": "35",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "50",
+        "strength": "52",
+        "jumping": "275",
+        "penalty_taking": "38"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3908",
+      "teamID": "39",
+      "name": "Lorenzo Lazzari",
+      "position": "LM",
+      "shirtNumber": 21,
+      "rating": "45",
+      "skill": {
+        "passing": "44",
+        "shooting": "42",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "62",
+        "strength": "45",
+        "jumping": "265",
+        "penalty_taking": "42"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3909",
+      "teamID": "39",
+      "name": "Samuele Zannoni",
+      "position": "RM",
+      "shirtNumber": 18,
+      "rating": "40",
+      "skill": {
+        "passing": "42",
+        "shooting": "40",
+        "tackling": "25",
+        "saving": "10",
+        "agility": "60",
+        "strength": "42",
+        "jumping": "268",
+        "penalty_taking": "42"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3910",
+      "teamID": "39",
+      "name": "Nicola Nanni",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "48",
+      "skill": {
+        "passing": "40",
+        "shooting": "52",
+        "tackling": "22",
+        "saving": "10",
+        "agility": "55",
+        "strength": "65",
+        "jumping": "292",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3911",
+      "teamID": "39",
+      "name": "Filippo Berardi",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "46",
+      "skill": {
+        "passing": "45",
+        "shooting": "48",
+        "tackling": "25",
+        "saving": "10",
+        "agility": "68",
+        "strength": "48",
+        "jumping": "276",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

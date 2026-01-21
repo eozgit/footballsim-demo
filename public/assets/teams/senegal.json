@@ -1,0 +1,276 @@
+{
+  "name": "Senegal",
+  "description": "Les Lions de la Téranga",
+  "primaryColour": "White",
+  "secondaryColour": "Green",
+  "awayColour": "Red",
+  "rating": 77,
+  "teamID": "42",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "4201",
+      "teamID": "42",
+      "name": "Edouard Mendy",
+      "position": "GK",
+      "shirtNumber": 16,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "80",
+        "agility": "68",
+        "strength": "84",
+        "jumping": "290",
+        "penalty_taking": "32"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4202",
+      "teamID": "42",
+      "name": "Ismail Jakobs",
+      "position": "LB",
+      "shirtNumber": 14,
+      "rating": "74",
+      "skill": {
+        "passing": "70",
+        "shooting": "55",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4203",
+      "teamID": "42",
+      "name": "Kalidou Koulibaly",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "82",
+      "skill": {
+        "passing": "68",
+        "shooting": "45",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "62",
+        "strength": "90",
+        "jumping": "302",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4204",
+      "teamID": "42",
+      "name": "Abdou Diallo",
+      "position": "CB",
+      "shirtNumber": 22,
+      "rating": "76",
+      "skill": {
+        "passing": "72",
+        "shooting": "40",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "70",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4205",
+      "teamID": "42",
+      "name": "Formose Mendy",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "72",
+      "skill": {
+        "passing": "65",
+        "shooting": "42",
+        "tackling": "73",
+        "saving": "10",
+        "agility": "78",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4206",
+      "teamID": "42",
+      "name": "Pape Matar Sarr",
+      "position": "CM",
+      "shirtNumber": 17,
+      "rating": "78",
+      "skill": {
+        "passing": "76",
+        "shooting": "72",
+        "tackling": "75",
+        "saving": "12",
+        "agility": "74",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4207",
+      "teamID": "42",
+      "name": "Idrissa Gueye",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "76",
+      "skill": {
+        "passing": "74",
+        "shooting": "65",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "70",
+        "strength": "74",
+        "jumping": "272",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4208",
+      "teamID": "42",
+      "name": "Sadio Mané",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "83",
+      "skill": {
+        "passing": "78",
+        "shooting": "82",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "86",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4209",
+      "teamID": "42",
+      "name": "Ismaïla Sarr",
+      "position": "RM",
+      "shirtNumber": 18,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "76",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "92",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4210",
+      "teamID": "42",
+      "name": "Nicolas Jackson",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "79",
+      "skill": {
+        "passing": "68",
+        "shooting": "80",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "84",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4211",
+      "teamID": "42",
+      "name": "Habib Diallo",
+      "position": "ST",
+      "shirtNumber": 20,
+      "rating": "75",
+      "skill": {
+        "passing": "62",
+        "shooting": "78",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "70",
+        "strength": "82",
+        "jumping": "298",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

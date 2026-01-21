@@ -1,0 +1,276 @@
+{
+  "name": "Fenerbahçe SK",
+  "description": "2007-2008 UCL Quarter-finalists",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Blue",
+  "awayColour": "White",
+  "rating": 76,
+  "teamID": "139",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "13901",
+      "teamID": "139",
+      "name": "Volkan Demirel",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "84",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "86",
+        "agility": "78",
+        "strength": "85",
+        "jumping": "295",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13902",
+      "teamID": "139",
+      "name": "Gökçek Vederson",
+      "position": "LB",
+      "shirtNumber": 6,
+      "rating": "78",
+      "skill": {
+        "passing": "82",
+        "shooting": "76",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "84",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13903",
+      "teamID": "139",
+      "name": "Diego Lugano",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "86",
+      "skill": {
+        "passing": "62",
+        "shooting": "45",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "55",
+        "strength": "92",
+        "jumping": "320",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13904",
+      "teamID": "139",
+      "name": "Edu Dracena",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "82",
+      "skill": {
+        "passing": "68",
+        "shooting": "38",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "62",
+        "strength": "86",
+        "jumping": "312",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13905",
+      "teamID": "139",
+      "name": "Gökhan Gönül",
+      "position": "RB",
+      "shirtNumber": 77,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "65",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "90",
+        "strength": "82",
+        "jumping": "282",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13906",
+      "teamID": "139",
+      "name": "Mehmet Aurélio",
+      "position": "CM",
+      "shirtNumber": 15,
+      "rating": "85",
+      "skill": {
+        "passing": "82",
+        "shooting": "72",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "80",
+        "strength": "86",
+        "jumping": "292",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13907",
+      "teamID": "139",
+      "name": "Emre Belözoğlu",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "86",
+      "skill": {
+        "passing": "90",
+        "shooting": "78",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "76",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13908",
+      "teamID": "139",
+      "name": "Uğur Boral",
+      "position": "LM",
+      "shirtNumber": 25,
+      "rating": "79",
+      "skill": {
+        "passing": "80",
+        "shooting": "74",
+        "tackling": "52",
+        "saving": "10",
+        "agility": "88",
+        "strength": "68",
+        "jumping": "268",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13909",
+      "teamID": "139",
+      "name": "Alex",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "92",
+      "skill": {
+        "passing": "98",
+        "shooting": "88",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "70",
+        "strength": "74",
+        "jumping": "272",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13910",
+      "teamID": "139",
+      "name": "Semih Şentürk",
+      "position": "ST",
+      "shirtNumber": 23,
+      "rating": "82",
+      "skill": {
+        "passing": "75",
+        "shooting": "86",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "75",
+        "strength": "84",
+        "jumping": "315",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13911",
+      "teamID": "139",
+      "name": "Deivid",
+      "position": "ST",
+      "shirtNumber": 99,
+      "rating": "83",
+      "skill": {
+        "passing": "78",
+        "shooting": "84",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "80",
+        "strength": "82",
+        "jumping": "308",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

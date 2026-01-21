@@ -1,0 +1,276 @@
+{
+  "name": "Olympique Marseille",
+  "description": "1993 Champions League winners",
+  "primaryColour": "White",
+  "secondaryColour": "SkyBlue",
+  "awayColour": "Blue",
+  "rating": 91,
+  "teamID": "168",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "16801",
+      "teamID": "168",
+      "name": "Fabien Barthez",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "90",
+      "skill": {
+        "passing": "82",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "94",
+        "agility": "88",
+        "strength": "75",
+        "jumping": "292",
+        "penalty_taking": "36"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16802",
+      "teamID": "168",
+      "name": "Éric Di Meco",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "84",
+      "skill": {
+        "passing": "75",
+        "shooting": "50",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "80",
+        "strength": "84",
+        "jumping": "278",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16803",
+      "teamID": "168",
+      "name": "Basile Boli",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "89",
+      "skill": {
+        "passing": "68",
+        "shooting": "65",
+        "tackling": "94",
+        "saving": "12",
+        "agility": "74",
+        "strength": "96",
+        "jumping": "325",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16804",
+      "teamID": "168",
+      "name": "Carlos Mozer",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "88",
+      "skill": {
+        "passing": "72",
+        "shooting": "45",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "78",
+        "strength": "92",
+        "jumping": "315",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16805",
+      "teamID": "168",
+      "name": "Jocelyn Angloma",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "86",
+      "skill": {
+        "passing": "82",
+        "shooting": "62",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "92",
+        "strength": "85",
+        "jumping": "285",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16806",
+      "teamID": "168",
+      "name": "Didier Deschamps",
+      "position": "CM",
+      "shirtNumber": 11,
+      "rating": "90",
+      "skill": {
+        "passing": "85",
+        "shooting": "68",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "76",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16807",
+      "teamID": "168",
+      "name": "Franck Sauzée",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "86",
+      "skill": {
+        "passing": "88",
+        "shooting": "92",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "72",
+        "strength": "85",
+        "jumping": "302",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16808",
+      "teamID": "168",
+      "name": "Chris Waddle",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "90",
+      "skill": {
+        "passing": "94",
+        "shooting": "84",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "85",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16809",
+      "teamID": "168",
+      "name": "Abedi Pele",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "92",
+      "skill": {
+        "passing": "90",
+        "shooting": "86",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "92",
+        "strength": "70",
+        "jumping": "275",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16810",
+      "teamID": "168",
+      "name": "Jean-Pierre Papin",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "94",
+      "skill": {
+        "passing": "82",
+        "shooting": "98",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "88",
+        "strength": "84",
+        "jumping": "310",
+        "penalty_taking": "98"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16811",
+      "teamID": "168",
+      "name": "Alen Bokšić",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "88",
+      "skill": {
+        "passing": "78",
+        "shooting": "86",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "94",
+        "strength": "88",
+        "jumping": "318",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

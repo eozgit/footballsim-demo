@@ -1,0 +1,276 @@
+{
+  "name": "Al-Nassr",
+  "description": "The Global Club - Ronaldo Era",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Blue",
+  "awayColour": "Navy",
+  "rating": 71,
+  "teamID": "107",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "10701",
+      "teamID": "107",
+      "name": "Nawaf Al-Aqidi",
+      "position": "GK",
+      "shirtNumber": 44,
+      "rating": "72",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "74",
+        "agility": "70",
+        "strength": "72",
+        "jumping": "282",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10702",
+      "teamID": "107",
+      "name": "Alex Telles",
+      "position": "LB",
+      "shirtNumber": 15,
+      "rating": "78",
+      "skill": {
+        "passing": "82",
+        "shooting": "68",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "75",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10703",
+      "teamID": "107",
+      "name": "Aymeric Laporte",
+      "position": "CB",
+      "shirtNumber": 27,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "50",
+        "tackling": "85",
+        "saving": "12",
+        "agility": "62",
+        "strength": "82",
+        "jumping": "295",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10704",
+      "teamID": "107",
+      "name": "Ali Lajami",
+      "position": "CB",
+      "shirtNumber": 78,
+      "rating": "70",
+      "skill": {
+        "passing": "58",
+        "shooting": "32",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "70",
+        "strength": "78",
+        "jumping": "290",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10705",
+      "teamID": "107",
+      "name": "Sultan Al-Ghannam",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "75",
+      "skill": {
+        "passing": "76",
+        "shooting": "58",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "84",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10706",
+      "teamID": "107",
+      "name": "Marcelo Brozović",
+      "position": "CM",
+      "shirtNumber": 77,
+      "rating": "83",
+      "skill": {
+        "passing": "85",
+        "shooting": "72",
+        "tackling": "80",
+        "saving": "12",
+        "agility": "74",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10707",
+      "teamID": "107",
+      "name": "Otávio",
+      "position": "CM",
+      "shirtNumber": 25,
+      "rating": "82",
+      "skill": {
+        "passing": "84",
+        "shooting": "75",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "80",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10708",
+      "teamID": "107",
+      "name": "Sadio Mané",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "82",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "88",
+        "strength": "75",
+        "jumping": "278",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10709",
+      "teamID": "107",
+      "name": "Anderson Talisca",
+      "position": "RM",
+      "shirtNumber": 94,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "85",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "76",
+        "strength": "80",
+        "jumping": "305",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10710",
+      "teamID": "107",
+      "name": "Cristiano Ronaldo",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "78",
+        "shooting": "90",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "312",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10711",
+      "teamID": "107",
+      "name": "Abdulrahman Ghareeb",
+      "position": "ST",
+      "shirtNumber": 29,
+      "rating": "76",
+      "skill": {
+        "passing": "74",
+        "shooting": "70",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "88",
+        "strength": "60",
+        "jumping": "265",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Ghana",
+  "description": "The Black Stars",
+  "primaryColour": "White",
+  "secondaryColour": "Black",
+  "awayColour": "Red",
+  "rating": 67,
+  "teamID": "20",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "2001",
+      "teamID": "20",
+      "name": "Lawrence Ati-Zigi",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "70",
+      "skill": {
+        "passing": "62",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "72",
+        "agility": "74",
+        "strength": "75",
+        "jumping": "280",
+        "penalty_taking": "22"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2002",
+      "teamID": "20",
+      "name": "Gideon Mensah",
+      "position": "LB",
+      "shirtNumber": 14,
+      "rating": "67",
+      "skill": {
+        "passing": "64",
+        "shooting": "48",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "80",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2003",
+      "teamID": "20",
+      "name": "Mohammed Salisu",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "72",
+      "skill": {
+        "passing": "60",
+        "shooting": "35",
+        "tackling": "74",
+        "saving": "12",
+        "agility": "62",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "41"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2004",
+      "teamID": "20",
+      "name": "Alexander Djiku",
+      "position": "CB",
+      "shirtNumber": 23,
+      "rating": "71",
+      "skill": {
+        "passing": "62",
+        "shooting": "32",
+        "tackling": "73",
+        "saving": "10",
+        "agility": "64",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2005",
+      "teamID": "20",
+      "name": "Alidu Seidu",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "69",
+      "skill": {
+        "passing": "64",
+        "shooting": "40",
+        "tackling": "71",
+        "saving": "10",
+        "agility": "82",
+        "strength": "76",
+        "jumping": "275",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2006",
+      "teamID": "20",
+      "name": "Thomas Partey",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "78",
+      "skill": {
+        "passing": "80",
+        "shooting": "72",
+        "tackling": "79",
+        "saving": "12",
+        "agility": "72",
+        "strength": "85",
+        "jumping": "282",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2007",
+      "teamID": "20",
+      "name": "Salis Abdul Samed",
+      "position": "CM",
+      "shirtNumber": 21,
+      "rating": "70",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "75",
+        "strength": "74",
+        "jumping": "274",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2008",
+      "teamID": "20",
+      "name": "Jordan Ayew",
+      "position": "LM",
+      "shirtNumber": 9,
+      "rating": "71",
+      "skill": {
+        "passing": "70",
+        "shooting": "72",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "76",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2009",
+      "teamID": "20",
+      "name": "Mohammed Kudus",
+      "position": "RM",
+      "shirtNumber": 20,
+      "rating": "81",
+      "skill": {
+        "passing": "78",
+        "shooting": "82",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "90",
+        "strength": "80",
+        "jumping": "276",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2010",
+      "teamID": "20",
+      "name": "Iñaki Williams",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "74",
+      "skill": {
+        "passing": "68",
+        "shooting": "76",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "88",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2011",
+      "teamID": "20",
+      "name": "Antoine Semenyo",
+      "position": "ST",
+      "shirtNumber": 25,
+      "rating": "70",
+      "skill": {
+        "passing": "62",
+        "shooting": "74",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "288",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

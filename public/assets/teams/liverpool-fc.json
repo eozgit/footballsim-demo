@@ -1,0 +1,276 @@
+{
+  "name": "Liverpool FC",
+  "description": "2018-2020 UCL & PL Title",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 97,
+  "teamID": "160",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "16001",
+      "teamID": "160",
+      "name": "Alisson Becker",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "92",
+      "skill": {
+        "passing": "85",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "94",
+        "agility": "88",
+        "strength": "85",
+        "jumping": "295",
+        "penalty_taking": "32"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16002",
+      "teamID": "160",
+      "name": "Andrew Robertson",
+      "position": "LB",
+      "shirtNumber": 26,
+      "rating": "87",
+      "skill": {
+        "passing": "88",
+        "shooting": "65",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "88",
+        "strength": "82",
+        "jumping": "282",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16003",
+      "teamID": "160",
+      "name": "Virgil van Dijk",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "95",
+      "skill": {
+        "passing": "82",
+        "shooting": "62",
+        "tackling": "96",
+        "saving": "12",
+        "agility": "78",
+        "strength": "95",
+        "jumping": "330",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16004",
+      "teamID": "160",
+      "name": "Joe Gomez",
+      "position": "CB",
+      "shirtNumber": 12,
+      "rating": "83",
+      "skill": {
+        "passing": "75",
+        "shooting": "35",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "90",
+        "strength": "84",
+        "jumping": "315",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16005",
+      "teamID": "160",
+      "name": "Trent Alexander-Arnold",
+      "position": "RB",
+      "shirtNumber": 66,
+      "rating": "88",
+      "skill": {
+        "passing": "96",
+        "shooting": "78",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "82",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16006",
+      "teamID": "160",
+      "name": "Fabinho",
+      "position": "CM",
+      "shirtNumber": 3,
+      "rating": "89",
+      "skill": {
+        "passing": "82",
+        "shooting": "68",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16007",
+      "teamID": "160",
+      "name": "Jordan Henderson",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "86",
+      "skill": {
+        "passing": "85",
+        "shooting": "72",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "82",
+        "strength": "86",
+        "jumping": "295",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16008",
+      "teamID": "160",
+      "name": "Sadio Mané",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "92",
+      "skill": {
+        "passing": "84",
+        "shooting": "90",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "96",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16009",
+      "teamID": "160",
+      "name": "Mohamed Salah",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "94",
+      "skill": {
+        "passing": "88",
+        "shooting": "95",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "95",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16010",
+      "teamID": "160",
+      "name": "Roberto Firmino",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "88",
+      "skill": {
+        "passing": "90",
+        "shooting": "85",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "82",
+        "strength": "78",
+        "jumping": "292",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16011",
+      "teamID": "160",
+      "name": "Georginio Wijnaldum",
+      "position": "ST",
+      "shirtNumber": 5,
+      "rating": "86",
+      "skill": {
+        "passing": "84",
+        "shooting": "82",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "84",
+        "strength": "85",
+        "jumping": "295",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

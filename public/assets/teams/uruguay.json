@@ -1,0 +1,276 @@
+{
+  "name": "Uruguay",
+  "description": "La Celeste",
+  "primaryColour": "LightBlue",
+  "secondaryColour": "Black",
+  "awayColour": "White",
+  "rating": 85,
+  "teamID": "52",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "5201",
+      "teamID": "52",
+      "name": "Sergio Rochet",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "80",
+      "skill": {
+        "passing": "74",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "82",
+        "agility": "75",
+        "strength": "78",
+        "jumping": "284",
+        "penalty_taking": "27"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5202",
+      "teamID": "52",
+      "name": "Mathías Olivera",
+      "position": "LB",
+      "shirtNumber": 16,
+      "rating": "79",
+      "skill": {
+        "passing": "74",
+        "shooting": "58",
+        "tackling": "79",
+        "saving": "10",
+        "agility": "80",
+        "strength": "78",
+        "jumping": "275",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5203",
+      "teamID": "52",
+      "name": "José Giménez",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "83",
+      "skill": {
+        "passing": "68",
+        "shooting": "45",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "62",
+        "strength": "88",
+        "jumping": "298",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5204",
+      "teamID": "52",
+      "name": "Ronald Araújo",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "48",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "82",
+        "strength": "90",
+        "jumping": "302",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5205",
+      "teamID": "52",
+      "name": "Nahitan Nández",
+      "position": "RB",
+      "shirtNumber": 8,
+      "rating": "78",
+      "skill": {
+        "passing": "75",
+        "shooting": "62",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "85",
+        "strength": "82",
+        "jumping": "278",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5206",
+      "teamID": "52",
+      "name": "Manuel Ugarte",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "82",
+      "skill": {
+        "passing": "76",
+        "shooting": "60",
+        "tackling": "85",
+        "saving": "12",
+        "agility": "74",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5207",
+      "teamID": "52",
+      "name": "Federico Valverde",
+      "position": "CM",
+      "shirtNumber": 15,
+      "rating": "88",
+      "skill": {
+        "passing": "85",
+        "shooting": "82",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "88",
+        "strength": "85",
+        "jumping": "282",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5208",
+      "teamID": "52",
+      "name": "Maximiliano Araújo",
+      "position": "LM",
+      "shirtNumber": 20,
+      "rating": "78",
+      "skill": {
+        "passing": "76",
+        "shooting": "74",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "86",
+        "strength": "74",
+        "jumping": "265",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5209",
+      "teamID": "52",
+      "name": "Facundo Pellistri",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "77",
+      "skill": {
+        "passing": "74",
+        "shooting": "70",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "62",
+        "jumping": "262",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5210",
+      "teamID": "52",
+      "name": "Darwin Núñez",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "82",
+      "skill": {
+        "passing": "72",
+        "shooting": "84",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "91",
+        "strength": "86",
+        "jumping": "305",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5211",
+      "teamID": "52",
+      "name": "Luis Suárez",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "86",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "62",
+        "strength": "78",
+        "jumping": "312",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

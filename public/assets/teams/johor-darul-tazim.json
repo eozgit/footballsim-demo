@@ -1,0 +1,276 @@
+{
+  "name": "Johor Darul Ta'zim",
+  "description": "2015 AFC Cup winners",
+  "primaryColour": "Blue",
+  "secondaryColour": "Red",
+  "awayColour": "White",
+  "rating": 65,
+  "teamID": "152",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "15201",
+      "teamID": "152",
+      "name": "Farizal Marlias",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "68",
+      "skill": {
+        "passing": "62",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "72",
+        "agility": "65",
+        "strength": "70",
+        "jumping": "282",
+        "penalty_taking": "27"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15202",
+      "teamID": "152",
+      "name": "Fazly Mazlan",
+      "position": "LB",
+      "shirtNumber": 12,
+      "rating": "62",
+      "skill": {
+        "passing": "60",
+        "shooting": "48",
+        "tackling": "64",
+        "saving": "10",
+        "agility": "78",
+        "strength": "62",
+        "jumping": "270",
+        "penalty_taking": "50"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15203",
+      "teamID": "152",
+      "name": "Marcos Antônio",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "68",
+      "skill": {
+        "passing": "62",
+        "shooting": "35",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "60",
+        "strength": "75",
+        "jumping": "310",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15204",
+      "teamID": "152",
+      "name": "Aidil Zafuan",
+      "position": "CB",
+      "shirtNumber": 7,
+      "rating": "66",
+      "skill": {
+        "passing": "58",
+        "shooting": "32",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "64",
+        "strength": "74",
+        "jumping": "305",
+        "penalty_taking": "37"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15205",
+      "teamID": "152",
+      "name": "S. Kunanlan",
+      "position": "RB",
+      "shirtNumber": 22,
+      "rating": "64",
+      "skill": {
+        "passing": "65",
+        "shooting": "50",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "86",
+        "strength": "60",
+        "jumping": "275",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15206",
+      "teamID": "152",
+      "name": "Hariss Harun",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "70",
+      "skill": {
+        "passing": "68",
+        "shooting": "55",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "72",
+        "strength": "75",
+        "jumping": "290",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15207",
+      "teamID": "152",
+      "name": "Safiq Rahim",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "72",
+      "skill": {
+        "passing": "78",
+        "shooting": "70",
+        "tackling": "58",
+        "saving": "10",
+        "agility": "68",
+        "strength": "65",
+        "jumping": "285",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15208",
+      "teamID": "152",
+      "name": "Leandro Velázquez",
+      "position": "LM",
+      "shirtNumber": 20,
+      "rating": "68",
+      "skill": {
+        "passing": "72",
+        "shooting": "68",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "78",
+        "strength": "62",
+        "jumping": "272",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15209",
+      "teamID": "152",
+      "name": "Mahali Jasuli",
+      "position": "RM",
+      "shirtNumber": 18,
+      "rating": "65",
+      "skill": {
+        "passing": "66",
+        "shooting": "60",
+        "tackling": "58",
+        "saving": "10",
+        "agility": "82",
+        "strength": "64",
+        "jumping": "278",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15210",
+      "teamID": "152",
+      "name": "Luciano Figueroa",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "74",
+      "skill": {
+        "passing": "68",
+        "shooting": "78",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "70",
+        "strength": "82",
+        "jumping": "318",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15211",
+      "teamID": "152",
+      "name": "Jorge Pereyra Díaz",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "72",
+      "skill": {
+        "passing": "70",
+        "shooting": "75",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "84",
+        "strength": "70",
+        "jumping": "295",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

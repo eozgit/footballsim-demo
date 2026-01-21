@@ -1,0 +1,276 @@
+{
+  "name": "Athletic Bilbao",
+  "description": "2024 Copa del Rey winners",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 80,
+  "teamID": "113",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "11301",
+      "teamID": "113",
+      "name": "Julen Agirrezabala",
+      "position": "GK",
+      "shirtNumber": 13,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "80",
+        "agility": "76",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "24"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11302",
+      "teamID": "113",
+      "name": "Yuri Berchiche",
+      "position": "LB",
+      "shirtNumber": 17,
+      "rating": "80",
+      "skill": {
+        "passing": "76",
+        "shooting": "62",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "275",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11303",
+      "teamID": "113",
+      "name": "Dani Vivian",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "82",
+      "skill": {
+        "passing": "68",
+        "shooting": "35",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "72",
+        "strength": "86",
+        "jumping": "295",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11304",
+      "teamID": "113",
+      "name": "Aitor Paredes",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "79",
+      "skill": {
+        "passing": "65",
+        "shooting": "30",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "68",
+        "strength": "82",
+        "jumping": "292",
+        "penalty_taking": "38"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11305",
+      "teamID": "113",
+      "name": "Oscar de Marcos",
+      "position": "RB",
+      "shirtNumber": 18,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "60",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "84",
+        "strength": "75",
+        "jumping": "278",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11306",
+      "teamID": "113",
+      "name": "Iñigo Ruiz de Galarreta",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "80",
+      "skill": {
+        "passing": "84",
+        "shooting": "68",
+        "tackling": "75",
+        "saving": "12",
+        "agility": "74",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11307",
+      "teamID": "113",
+      "name": "Beñat Prados",
+      "position": "CM",
+      "shirtNumber": 24,
+      "rating": "78",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11308",
+      "teamID": "113",
+      "name": "Nico Williams",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "86",
+      "skill": {
+        "passing": "80",
+        "shooting": "78",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "95",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11309",
+      "teamID": "113",
+      "name": "Iñaki Williams",
+      "position": "RM",
+      "shirtNumber": 9,
+      "rating": "84",
+      "skill": {
+        "passing": "76",
+        "shooting": "80",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "94",
+        "strength": "85",
+        "jumping": "288",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11310",
+      "teamID": "113",
+      "name": "Gorka Guruzeta",
+      "position": "ST",
+      "shirtNumber": 12,
+      "rating": "81",
+      "skill": {
+        "passing": "72",
+        "shooting": "84",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "76",
+        "strength": "80",
+        "jumping": "302",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11311",
+      "teamID": "113",
+      "name": "Oihan Sancet",
+      "position": "ST",
+      "shirtNumber": 8,
+      "rating": "82",
+      "skill": {
+        "passing": "84",
+        "shooting": "80",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "78",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

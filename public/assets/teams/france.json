@@ -1,0 +1,276 @@
+{
+  "name": "France",
+  "description": "Les Bleus - Two-time World Champions",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "Red",
+  "rating": 93,
+  "teamID": "18",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "1801",
+      "teamID": "18",
+      "name": "Mike Maignan",
+      "position": "GK",
+      "shirtNumber": 16,
+      "rating": "87",
+      "skill": {
+        "passing": "85",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "89",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "288",
+        "penalty_taking": "38"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1802",
+      "teamID": "18",
+      "name": "Theo Hernández",
+      "position": "LB",
+      "shirtNumber": 22,
+      "rating": "86",
+      "skill": {
+        "passing": "81",
+        "shooting": "72",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "90",
+        "strength": "82",
+        "jumping": "275",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1803",
+      "teamID": "18",
+      "name": "William Saliba",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "88",
+      "skill": {
+        "passing": "79",
+        "shooting": "40",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "74",
+        "strength": "86",
+        "jumping": "294",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1804",
+      "teamID": "18",
+      "name": "Dayot Upamecano",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "85",
+      "skill": {
+        "passing": "74",
+        "shooting": "35",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "70",
+        "strength": "89",
+        "jumping": "296",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1805",
+      "teamID": "18",
+      "name": "Jules Koundé",
+      "position": "RB",
+      "shirtNumber": 5,
+      "rating": "85",
+      "skill": {
+        "passing": "80",
+        "shooting": "50",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "84",
+        "strength": "78",
+        "jumping": "298",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1806",
+      "teamID": "18",
+      "name": "Aurélien Tchouaméni",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "87",
+      "skill": {
+        "passing": "84",
+        "shooting": "75",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "290",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1807",
+      "teamID": "18",
+      "name": "Eduardo Camavinga",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "85",
+      "skill": {
+        "passing": "86",
+        "shooting": "70",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "88",
+        "strength": "80",
+        "jumping": "278",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1808",
+      "teamID": "18",
+      "name": "Ousmane Dembélé",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "86",
+      "skill": {
+        "passing": "84",
+        "shooting": "78",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "94",
+        "strength": "65",
+        "jumping": "270",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1809",
+      "teamID": "18",
+      "name": "Antoine Griezmann",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "88",
+      "skill": {
+        "passing": "91",
+        "shooting": "85",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "82",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1810",
+      "teamID": "18",
+      "name": "Kylian Mbappé",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "94",
+      "skill": {
+        "passing": "82",
+        "shooting": "92",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "97",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "1811",
+      "teamID": "18",
+      "name": "Marcus Thuram",
+      "position": "ST",
+      "shirtNumber": 15,
+      "rating": "83",
+      "skill": {
+        "passing": "75",
+        "shooting": "81",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "84",
+        "strength": "86",
+        "jumping": "292",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

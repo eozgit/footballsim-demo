@@ -1,0 +1,276 @@
+{
+  "name": "Tunisia",
+  "description": "Les Aigles de Carthage",
+  "primaryColour": "White",
+  "secondaryColour": "Red",
+  "awayColour": "Crimson",
+  "rating": 65,
+  "teamID": "48",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "4801",
+      "teamID": "48",
+      "name": "Aymen Dahmen",
+      "position": "GK",
+      "shirtNumber": 16,
+      "rating": "70",
+      "skill": {
+        "passing": "62",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "72",
+        "agility": "68",
+        "strength": "70",
+        "jumping": "278",
+        "penalty_taking": "22"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4802",
+      "teamID": "48",
+      "name": "Ali Abdi",
+      "position": "LB",
+      "shirtNumber": 2,
+      "rating": "68",
+      "skill": {
+        "passing": "65",
+        "shooting": "52",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "78",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4803",
+      "teamID": "48",
+      "name": "Montassar Talbi",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "72",
+      "skill": {
+        "passing": "60",
+        "shooting": "35",
+        "tackling": "74",
+        "saving": "12",
+        "agility": "58",
+        "strength": "82",
+        "jumping": "292",
+        "penalty_taking": "36"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4804",
+      "teamID": "48",
+      "name": "Dylan Bronn",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "70",
+      "skill": {
+        "passing": "58",
+        "shooting": "32",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "55",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4805",
+      "teamID": "48",
+      "name": "Yan Valery",
+      "position": "RB",
+      "shirtNumber": 20,
+      "rating": "68",
+      "skill": {
+        "passing": "64",
+        "shooting": "50",
+        "tackling": "66",
+        "saving": "10",
+        "agility": "80",
+        "strength": "74",
+        "jumping": "275",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4806",
+      "teamID": "48",
+      "name": "Ellyes Skhiri",
+      "position": "CM",
+      "shirtNumber": 17,
+      "rating": "76",
+      "skill": {
+        "passing": "75",
+        "shooting": "62",
+        "tackling": "78",
+        "saving": "12",
+        "agility": "72",
+        "strength": "84",
+        "jumping": "288",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4807",
+      "teamID": "48",
+      "name": "Aïssa Laïdouni",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "58",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "70",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4808",
+      "teamID": "48",
+      "name": "Elias Achouri",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "72",
+      "skill": {
+        "passing": "70",
+        "shooting": "68",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "84",
+        "strength": "62",
+        "jumping": "265",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4809",
+      "teamID": "48",
+      "name": "Sayfallah Ltaief",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "70",
+      "skill": {
+        "passing": "68",
+        "shooting": "65",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "86",
+        "strength": "60",
+        "jumping": "268",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4810",
+      "teamID": "48",
+      "name": "Youssef Msakni",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "75",
+      "skill": {
+        "passing": "78",
+        "shooting": "76",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "74",
+        "strength": "68",
+        "jumping": "274",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4811",
+      "teamID": "48",
+      "name": "Seifeddine Jaziri",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "70",
+      "skill": {
+        "passing": "60",
+        "shooting": "74",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "78",
+        "strength": "75",
+        "jumping": "285",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

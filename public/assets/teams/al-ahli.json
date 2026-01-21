@@ -1,0 +1,276 @@
+{
+  "name": "Al-Ahli",
+  "description": "2016 Domestic Treble winners",
+  "primaryColour": "White",
+  "secondaryColour": "Green",
+  "awayColour": "Black",
+  "rating": 74,
+  "teamID": "103",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "10301",
+      "teamID": "103",
+      "name": "Yasser Al-Mosailem",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "70",
+      "skill": {
+        "passing": "62",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "72",
+        "agility": "65",
+        "strength": "68",
+        "jumping": "278",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10302",
+      "teamID": "103",
+      "name": "Mohamed Abdel-Shafy",
+      "position": "LB",
+      "shirtNumber": 13,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "78",
+        "strength": "66",
+        "jumping": "270",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10303",
+      "teamID": "103",
+      "name": "Osama Hawsawi",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "75",
+      "skill": {
+        "passing": "60",
+        "shooting": "35",
+        "tackling": "78",
+        "saving": "12",
+        "agility": "55",
+        "strength": "84",
+        "jumping": "295",
+        "penalty_taking": "37"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10304",
+      "teamID": "103",
+      "name": "Motaz Hawsawi",
+      "position": "CB",
+      "shirtNumber": 25,
+      "rating": "72",
+      "skill": {
+        "passing": "58",
+        "shooting": "30",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "60",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "42"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10305",
+      "teamID": "103",
+      "name": "Ali Al-Zubaidi",
+      "position": "RB",
+      "shirtNumber": 21,
+      "rating": "68",
+      "skill": {
+        "passing": "65",
+        "shooting": "45",
+        "tackling": "66",
+        "saving": "10",
+        "agility": "80",
+        "strength": "68",
+        "jumping": "275",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10306",
+      "teamID": "103",
+      "name": "Taisir Al-Jassim",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "76",
+      "skill": {
+        "passing": "78",
+        "shooting": "70",
+        "tackling": "68",
+        "saving": "12",
+        "agility": "75",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10307",
+      "teamID": "103",
+      "name": "Housain Al-Mogahwi",
+      "position": "CM",
+      "shirtNumber": 11,
+      "rating": "72",
+      "skill": {
+        "passing": "74",
+        "shooting": "65",
+        "tackling": "66",
+        "saving": "10",
+        "agility": "72",
+        "strength": "70",
+        "jumping": "274",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10308",
+      "teamID": "103",
+      "name": "Salman Al-Moasher",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "68",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "86",
+        "strength": "60",
+        "jumping": "265",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10309",
+      "teamID": "103",
+      "name": "Giannis Fetfatzidis",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "76",
+      "skill": {
+        "passing": "82",
+        "shooting": "72",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "88",
+        "strength": "58",
+        "jumping": "260",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10310",
+      "teamID": "103",
+      "name": "Omar Al-Somah",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "82",
+      "skill": {
+        "passing": "68",
+        "shooting": "88",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "312",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10311",
+      "teamID": "103",
+      "name": "Islam Seraj",
+      "position": "ST",
+      "shirtNumber": 14,
+      "rating": "68",
+      "skill": {
+        "passing": "62",
+        "shooting": "72",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "78",
+        "strength": "74",
+        "jumping": "282",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

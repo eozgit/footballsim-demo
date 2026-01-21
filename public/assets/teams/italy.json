@@ -1,0 +1,276 @@
+{
+  "name": "Italy",
+  "description": "Gli Azzurri",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "Gold",
+  "rating": 86,
+  "teamID": "25",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "2501",
+      "teamID": "25",
+      "name": "Gianluigi Donnarumma",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "88",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "89",
+        "agility": "80",
+        "strength": "85",
+        "jumping": "295",
+        "penalty_taking": "32"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2502",
+      "teamID": "25",
+      "name": "Federico Dimarco",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "84",
+      "skill": {
+        "passing": "88",
+        "shooting": "78",
+        "tackling": "79",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2503",
+      "teamID": "25",
+      "name": "Alessandro Bastoni",
+      "position": "CB",
+      "shirtNumber": 23,
+      "rating": "86",
+      "skill": {
+        "passing": "82",
+        "shooting": "50",
+        "tackling": "87",
+        "saving": "12",
+        "agility": "70",
+        "strength": "84",
+        "jumping": "294",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2504",
+      "teamID": "25",
+      "name": "Riccardo Calafiori",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "83",
+      "skill": {
+        "passing": "78",
+        "shooting": "45",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "76",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2505",
+      "teamID": "25",
+      "name": "Giovanni Di Lorenzo",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "81",
+      "skill": {
+        "passing": "76",
+        "shooting": "60",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "78",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2506",
+      "teamID": "25",
+      "name": "Nicolò Barella",
+      "position": "CM",
+      "shirtNumber": 18,
+      "rating": "87",
+      "skill": {
+        "passing": "86",
+        "shooting": "78",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "88",
+        "strength": "76",
+        "jumping": "275",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2507",
+      "teamID": "25",
+      "name": "Davide Frattesi",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "80",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "84",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2508",
+      "teamID": "25",
+      "name": "Federico Chiesa",
+      "position": "LM",
+      "shirtNumber": 14,
+      "rating": "83",
+      "skill": {
+        "passing": "78",
+        "shooting": "82",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "90",
+        "strength": "72",
+        "jumping": "270",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2509",
+      "teamID": "25",
+      "name": "Lorenzo Pellegrini",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "82",
+      "skill": {
+        "passing": "85",
+        "shooting": "78",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "80",
+        "strength": "74",
+        "jumping": "274",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2510",
+      "teamID": "25",
+      "name": "Gianluca Scamacca",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "81",
+      "skill": {
+        "passing": "72",
+        "shooting": "85",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "68",
+        "strength": "90",
+        "jumping": "302",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "2511",
+      "teamID": "25",
+      "name": "Mateo Retegui",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "79",
+      "skill": {
+        "passing": "68",
+        "shooting": "82",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "74",
+        "strength": "84",
+        "jumping": "288",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

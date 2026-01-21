@@ -1,0 +1,276 @@
+{
+  "name": "League of Legends",
+  "description": "Pro Circuit Peak",
+  "primaryColour": "Blue",
+  "secondaryColour": "Purple",
+  "awayColour": "Gold",
+  "rating": 74,
+  "teamID": "303",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "30301",
+      "teamID": "303",
+      "name": "Braum",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "88",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "82",
+        "agility": "60",
+        "strength": "96",
+        "jumping": "330",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30302",
+      "teamID": "303",
+      "name": "Lulu",
+      "position": "LB",
+      "shirtNumber": 2,
+      "rating": "78",
+      "skill": {
+        "passing": "92",
+        "shooting": "64",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "72",
+        "strength": "54",
+        "jumping": "265",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30303",
+      "teamID": "303",
+      "name": "Shen",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "86",
+      "skill": {
+        "passing": "74",
+        "shooting": "45",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "325",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30304",
+      "teamID": "303",
+      "name": "Ornn",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "85",
+      "skill": {
+        "passing": "68",
+        "shooting": "40",
+        "tackling": "95",
+        "saving": "10",
+        "agility": "55",
+        "strength": "98",
+        "jumping": "340",
+        "penalty_taking": "44"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30305",
+      "teamID": "303",
+      "name": "Thresh",
+      "position": "RB",
+      "shirtNumber": 3,
+      "rating": "84",
+      "skill": {
+        "passing": "90",
+        "shooting": "55",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "68",
+        "strength": "82",
+        "jumping": "305",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30306",
+      "teamID": "303",
+      "name": "Orianna",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "90",
+      "skill": {
+        "passing": "96",
+        "shooting": "84",
+        "tackling": "65",
+        "saving": "12",
+        "agility": "70",
+        "strength": "68",
+        "jumping": "288",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30307",
+      "teamID": "303",
+      "name": "Ryze",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "88",
+      "skill": {
+        "passing": "94",
+        "shooting": "88",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "74",
+        "strength": "75",
+        "jumping": "290",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30308",
+      "teamID": "303",
+      "name": "Yasuo",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "78",
+        "shooting": "88",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "94",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "91"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30309",
+      "teamID": "303",
+      "name": "Lee Sin",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "88",
+      "skill": {
+        "passing": "80",
+        "shooting": "82",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "96",
+        "strength": "84",
+        "jumping": "285",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30310",
+      "teamID": "303",
+      "name": "Jinx",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "92",
+      "skill": {
+        "passing": "74",
+        "shooting": "98",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "94",
+        "strength": "60",
+        "jumping": "310",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30311",
+      "teamID": "303",
+      "name": "Ezreal",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "85",
+      "skill": {
+        "passing": "88",
+        "shooting": "92",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "92",
+        "strength": "64",
+        "jumping": "295",
+        "penalty_taking": "94"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

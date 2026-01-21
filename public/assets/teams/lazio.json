@@ -1,0 +1,276 @@
+{
+  "name": "Lazio",
+  "description": "1999-2000 Serie A & Cup Double",
+  "primaryColour": "Sky Blue",
+  "secondaryColour": "White",
+  "awayColour": "Navy",
+  "rating": 89,
+  "teamID": "156",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "15601",
+      "teamID": "156",
+      "name": "Luca Marchegiani",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "78",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "27"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15602",
+      "teamID": "156",
+      "name": "Giuseppe Pancaro",
+      "position": "LB",
+      "shirtNumber": 15,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "65",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "82",
+        "strength": "78",
+        "jumping": "275",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15603",
+      "teamID": "156",
+      "name": "Alessandro Nesta",
+      "position": "CB",
+      "shirtNumber": 13,
+      "rating": "94",
+      "skill": {
+        "passing": "82",
+        "shooting": "40",
+        "tackling": "96",
+        "saving": "12",
+        "agility": "84",
+        "strength": "90",
+        "jumping": "315",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15604",
+      "teamID": "156",
+      "name": "Siniša Mihajlović",
+      "position": "CB",
+      "shirtNumber": 11,
+      "rating": "88",
+      "skill": {
+        "passing": "96",
+        "shooting": "85",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "72",
+        "strength": "84",
+        "jumping": "312",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15605",
+      "teamID": "156",
+      "name": "Giuseppe Favalli",
+      "position": "RB",
+      "shirtNumber": 5,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "60",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "85",
+        "strength": "80",
+        "jumping": "280",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15606",
+      "teamID": "156",
+      "name": "Diego Simeone",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "87",
+      "skill": {
+        "passing": "82",
+        "shooting": "78",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "78",
+        "strength": "94",
+        "jumping": "298",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15607",
+      "teamID": "156",
+      "name": "Juan Sebastián Verón",
+      "position": "CM",
+      "shirtNumber": 23,
+      "rating": "92",
+      "skill": {
+        "passing": "98",
+        "shooting": "85",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "76",
+        "strength": "82",
+        "jumping": "295",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15608",
+      "teamID": "156",
+      "name": "Pavel Nedvěd",
+      "position": "LM",
+      "shirtNumber": 18,
+      "rating": "91",
+      "skill": {
+        "passing": "90",
+        "shooting": "88",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "88",
+        "strength": "84",
+        "jumping": "282",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15609",
+      "teamID": "156",
+      "name": "Sérgio Conceição",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "88",
+        "shooting": "80",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "92",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15610",
+      "teamID": "156",
+      "name": "Marcelo Salas",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "90",
+      "skill": {
+        "passing": "78",
+        "shooting": "92",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "85",
+        "strength": "88",
+        "jumping": "320",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15611",
+      "teamID": "156",
+      "name": "Roberto Mancini",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "88",
+      "skill": {
+        "passing": "95",
+        "shooting": "86",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "74",
+        "strength": "82",
+        "jumping": "305",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

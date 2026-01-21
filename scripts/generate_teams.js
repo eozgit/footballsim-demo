@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 // --- Configuration ---
 const MD_PATH = path.join(__dirname, '../docs/teams.md');
 const OUTPUT_DIR = path.join(__dirname, '../public/assets/teams/');
-const MAX_TEAMS_TO_PROCESS = 4; // Control variable: set to Infinity for full production
+const MAX_TEAMS_TO_PROCESS = 200; // Control variable: set to Infinity for full production
 // ---------------------
 
 const slugify = (text) => text.toString().toLowerCase().trim()

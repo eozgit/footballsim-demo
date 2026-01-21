@@ -1,0 +1,859 @@
+{
+  "teams": [
+    {
+      "file": "algeria",
+      "name": "Algeria",
+      "description": "The Desert Warriors"
+    },
+    {
+      "file": "argentina",
+      "name": "Argentina",
+      "description": "La Albiceleste - World Champions"
+    },
+    {
+      "file": "australia",
+      "name": "Australia",
+      "description": "The Socceroos"
+    },
+    {
+      "file": "austria",
+      "name": "Austria",
+      "description": "Das Nationalteam"
+    },
+    {
+      "file": "belgium",
+      "name": "Belgium",
+      "description": "The Red Devils"
+    },
+    {
+      "file": "bolivia",
+      "name": "Bolivia",
+      "description": "La Verde"
+    },
+    {
+      "file": "brazil",
+      "name": "Brazil",
+      "description": "Canarinho"
+    },
+    {
+      "file": "cabo-verde",
+      "name": "Cabo Verde",
+      "description": "Blue Sharks"
+    },
+    {
+      "file": "canada",
+      "name": "Canada",
+      "description": "Les Rouges"
+    },
+    {
+      "file": "colombia",
+      "name": "Colombia",
+      "description": "Los Cafeteros"
+    },
+    {
+      "file": "cte-divoire",
+      "name": "Côte d'Ivoire",
+      "description": "The Elephants - AFCON Champions"
+    },
+    {
+      "file": "croatia",
+      "name": "Croatia",
+      "description": "Kockasti - Vatreni"
+    },
+    {
+      "file": "curaao",
+      "name": "Curaçao",
+      "description": "Blue Wave"
+    },
+    {
+      "file": "denmark",
+      "name": "Denmark",
+      "description": "De Rød-Hvide"
+    },
+    {
+      "file": "ecuador",
+      "name": "Ecuador",
+      "description": "La Tri"
+    },
+    {
+      "file": "egypt",
+      "name": "Egypt",
+      "description": "The Pharaohs"
+    },
+    {
+      "file": "england",
+      "name": "England",
+      "description": "The Three Lions - 2024/25 Elite Squad"
+    },
+    {
+      "file": "france",
+      "name": "France",
+      "description": "Les Bleus - Two-time World Champions"
+    },
+    {
+      "file": "germany",
+      "name": "Germany",
+      "description": "Die Mannschaft"
+    },
+    {
+      "file": "ghana",
+      "name": "Ghana",
+      "description": "The Black Stars"
+    },
+    {
+      "file": "haiti",
+      "name": "Haiti",
+      "description": "Les Grenadiers"
+    },
+    {
+      "file": "iceland",
+      "name": "Iceland",
+      "description": "2026 Rebuilding Phase - Returning to natural baseline."
+    },
+    {
+      "file": "iran",
+      "name": "Iran",
+      "description": "Team Melli"
+    },
+    {
+      "file": "ireland",
+      "name": "Ireland",
+      "description": "The Boys in Green"
+    },
+    {
+      "file": "italy",
+      "name": "Italy",
+      "description": "Gli Azzurri"
+    },
+    {
+      "file": "japan",
+      "name": "Japan",
+      "description": "Samurai Blue"
+    },
+    {
+      "file": "jordan",
+      "name": "Jordan",
+      "description": "The Chivalrous"
+    },
+    {
+      "file": "mexico",
+      "name": "Mexico",
+      "description": "El Tri"
+    },
+    {
+      "file": "morocco",
+      "name": "Morocco",
+      "description": "The Atlas Lions"
+    },
+    {
+      "file": "netherlands",
+      "name": "Netherlands",
+      "description": "Oranje"
+    },
+    {
+      "file": "new-zealand-all-whites",
+      "name": "New Zealand",
+      "description": "All Whites"
+    },
+    {
+      "file": "new-zealand-2026-standing-regional",
+      "name": "New Zealand",
+      "description": "2026 Standing - Regional dominance but structural global gaps."
+    },
+    {
+      "file": "norway",
+      "name": "Norway",
+      "description": "Løvene (The Lions)"
+    },
+    {
+      "file": "panama",
+      "name": "Panama",
+      "description": "Los Canaleros"
+    },
+    {
+      "file": "paraguay",
+      "name": "Paraguay",
+      "description": "La Albirroja"
+    },
+    {
+      "file": "poland",
+      "name": "Poland",
+      "description": "Biało-czerwoni (The White and Reds)"
+    },
+    {
+      "file": "portugal",
+      "name": "Portugal",
+      "description": "A Seleção"
+    },
+    {
+      "file": "qatar",
+      "name": "Qatar",
+      "description": "Al-Annabi (The Maroons)"
+    },
+    {
+      "file": "san-marino",
+      "name": "San Marino",
+      "description": "La Serenissima"
+    },
+    {
+      "file": "saudi-arabia",
+      "name": "Saudi Arabia",
+      "description": "Al-Suqour Al-Khodhur (The Green Falcons)"
+    },
+    {
+      "file": "scotland",
+      "name": "Scotland",
+      "description": "The Tartan Army"
+    },
+    {
+      "file": "senegal",
+      "name": "Senegal",
+      "description": "Les Lions de la Téranga"
+    },
+    {
+      "file": "south-africa",
+      "name": "South Africa",
+      "description": "Bafana Bafana"
+    },
+    {
+      "file": "south-korea",
+      "name": "South Korea",
+      "description": "Taegeuk Warriors"
+    },
+    {
+      "file": "spain",
+      "name": "Spain",
+      "description": "La Roja - European Champions"
+    },
+    {
+      "file": "sweden",
+      "name": "Sweden",
+      "description": "Blågult (The Blue and Yellow)"
+    },
+    {
+      "file": "switzerland",
+      "name": "Switzerland",
+      "description": "Rossocrociati (Red Crosses)"
+    },
+    {
+      "file": "tunisia",
+      "name": "Tunisia",
+      "description": "Les Aigles de Carthage"
+    },
+    {
+      "file": "turkey",
+      "name": "Turkey",
+      "description": "Ay-Yıldızlılar (The Crescent-Stars)"
+    },
+    {
+      "file": "ukraine",
+      "name": "Ukraine",
+      "description": "Synyo-Zhovti (The Blue and Yellows)"
+    },
+    {
+      "file": "united-states",
+      "name": "United States",
+      "description": "The Stars & Stripes"
+    },
+    {
+      "file": "uruguay",
+      "name": "Uruguay",
+      "description": "La Celeste"
+    },
+    {
+      "file": "uzbekistan",
+      "name": "Uzbekistan",
+      "description": "White Wolves"
+    },
+    {
+      "file": "vietnam",
+      "name": "Vietnam",
+      "description": "2026 Standing - Rising SE Asian power."
+    },
+    {
+      "file": "wales",
+      "name": "Wales",
+      "description": "Y Dreigiau (The Dragons)"
+    },
+    {
+      "file": "ac-milan",
+      "name": "AC Milan",
+      "description": "1988-1994 Sacchi/Capello 'The Immortals'"
+    },
+    {
+      "file": "ajax-amsterdam",
+      "name": "Ajax Amsterdam",
+      "description": "1971-1973 'Total Football' Three-peat"
+    },
+    {
+      "file": "al-ahli",
+      "name": "Al-Ahli",
+      "description": "2016 Domestic Treble winners"
+    },
+    {
+      "file": "al-ahly",
+      "name": "Al-Ahly",
+      "description": "Africa's Club of the Century"
+    },
+    {
+      "file": "al-hilal",
+      "name": "Al-Hilal",
+      "description": "2021 AFC Champions League winners"
+    },
+    {
+      "file": "al-ittihad",
+      "name": "Al-Ittihad",
+      "description": "2004-2005 Back-to-back AFC Champions"
+    },
+    {
+      "file": "al-nassr",
+      "name": "Al-Nassr",
+      "description": "The Global Club - Ronaldo Era"
+    },
+    {
+      "file": "arsenal-fc",
+      "name": "Arsenal FC",
+      "description": "2003-2004 'The Invincibles'"
+    },
+    {
+      "file": "as-monaco",
+      "name": "AS Monaco",
+      "description": "2016-17 Ligue 1 Champions"
+    },
+    {
+      "file": "as-roma",
+      "name": "AS Roma",
+      "description": "2001 Scudetto winners (Totti era)"
+    },
+    {
+      "file": "aston-villa",
+      "name": "Aston Villa",
+      "description": "1982 European Cup winners"
+    },
+    {
+      "file": "atalanta-bc",
+      "name": "Atalanta BC",
+      "description": "2024 UEFA Europa League winners"
+    },
+    {
+      "file": "athletic-bilbao",
+      "name": "Athletic Bilbao",
+      "description": "2024 Copa del Rey winners"
+    },
+    {
+      "file": "atletico-madrid",
+      "name": "Atletico Madrid",
+      "description": "2013-14 La Liga title win"
+    },
+    {
+      "file": "atletico-mineiro",
+      "name": "Atletico Mineiro",
+      "description": "2013 Copa Libertadores winners"
+    },
+    {
+      "file": "barcelona-fc",
+      "name": "Barcelona FC",
+      "description": "2008-2009 'The Sextuple' under Guardiola"
+    },
+    {
+      "file": "bayer-leverkusen",
+      "name": "Bayer Leverkusen",
+      "description": "2023-2024 'Neverlusen' Unbeaten Double"
+    },
+    {
+      "file": "bayern-munich",
+      "name": "Bayern Munich",
+      "description": "2019-2020 Sextuple winners"
+    },
+    {
+      "file": "benfica",
+      "name": "Benfica",
+      "description": "1961-1962 Back-to-back European Cups"
+    },
+    {
+      "file": "beikta-jk",
+      "name": "Beşiktaş JK",
+      "description": "2016-2018 Back-to-back Super Lig titles"
+    },
+    {
+      "file": "boca-juniors",
+      "name": "Boca Juniors",
+      "description": "2000-2003 Intercontinental Cup dominance"
+    },
+    {
+      "file": "borussia-dortmund",
+      "name": "Borussia Dortmund",
+      "description": "1997 Champions League winners"
+    },
+    {
+      "file": "brighton-hove-albion",
+      "name": "Brighton & Hove Albion",
+      "description": "2023-24 First ever European campaign"
+    },
+    {
+      "file": "bury-fc",
+      "name": "Bury FC",
+      "description": "2025/26 'Phoenix' Rise"
+    },
+    {
+      "file": "celtic-fc",
+      "name": "Celtic FC",
+      "description": "1967 'Lisbon Lions' European Cup winners"
+    },
+    {
+      "file": "chelsea-fc",
+      "name": "Chelsea FC",
+      "description": "2012 First Champions League (Munich)"
+    },
+    {
+      "file": "chivas-guadalajara",
+      "name": "Chivas Guadalajara",
+      "description": "2017 Domestic Double"
+    },
+    {
+      "file": "club-amrica",
+      "name": "Club América",
+      "description": "2023-2024 'Bicampeonato'"
+    },
+    {
+      "file": "club-nacional",
+      "name": "Club Nacional",
+      "description": "1988 Intercontinental Cup winners"
+    },
+    {
+      "file": "corinthians",
+      "name": "Corinthians",
+      "description": "2012 FIFA Club World Cup winners"
+    },
+    {
+      "file": "cruz-azul",
+      "name": "Cruz Azul",
+      "description": "2021 Ending the 23-year 'curse'"
+    },
+    {
+      "file": "crystal-palace",
+      "name": "Crystal Palace",
+      "description": "1990 FA Cup Finalists"
+    },
+    {
+      "file": "dynamo-kyiv",
+      "name": "Dynamo Kyiv",
+      "description": "Lobanovskyi’s Tactical Revolution"
+    },
+    {
+      "file": "eintracht-frankfurt",
+      "name": "Eintracht Frankfurt",
+      "description": "2022 Europa League winners"
+    },
+    {
+      "file": "everton-fc-1984-1985-double-winners",
+      "name": "Everton FC",
+      "description": "1984-1985 Double winners"
+    },
+    {
+      "file": "everton-fc-202526-survivalist-pha",
+      "name": "Everton FC",
+      "description": "2025/26 'Survivalist' Phase"
+    },
+    {
+      "file": "fc-porto",
+      "name": "FC Porto",
+      "description": "2004 Champions League winners"
+    },
+    {
+      "file": "fc-schalke-04",
+      "name": "FC Schalke 04",
+      "description": "2025/26 2. Bundesliga status"
+    },
+    {
+      "file": "fenerbahe-sk",
+      "name": "Fenerbahçe SK",
+      "description": "2007-2008 UCL Quarter-finalists"
+    },
+    {
+      "file": "feyenoord",
+      "name": "Feyenoord",
+      "description": "1970 European Cup winners"
+    },
+    {
+      "file": "fiorentina",
+      "name": "Fiorentina",
+      "description": "2023-2024 Back-to-back UECL finalists"
+    },
+    {
+      "file": "flamengo",
+      "name": "Flamengo",
+      "description": "2019 Historic Libertadores & Double"
+    },
+    {
+      "file": "fluminense",
+      "name": "Fluminense",
+      "description": "2023 First ever Copa Libertadores title"
+    },
+    {
+      "file": "fulham-fc",
+      "name": "Fulham FC",
+      "description": "2010 Europa League Finalists"
+    },
+    {
+      "file": "galatasaray",
+      "name": "Galatasaray",
+      "description": "2000 UEFA Cup & Super Cup winners"
+    },
+    {
+      "file": "grmio",
+      "name": "Grêmio",
+      "description": "2017 Copa Libertadores winners"
+    },
+    {
+      "file": "hashtag-united",
+      "name": "Hashtag United",
+      "description": "2025/26 'YouTube' Rise"
+    },
+    {
+      "file": "hull-city",
+      "name": "Hull City",
+      "description": "2014 FA Cup Finalists"
+    },
+    {
+      "file": "independiente",
+      "name": "Independiente",
+      "description": "'King of Cups' Era"
+    },
+    {
+      "file": "inter-miami",
+      "name": "Inter Miami",
+      "description": "2023 Leagues Cup (Messi Debut)"
+    },
+    {
+      "file": "inter-milan",
+      "name": "Inter Milan",
+      "description": "2009-2010 'The Treble'"
+    },
+    {
+      "file": "johor-darul-tazim",
+      "name": "Johor Darul Ta'zim",
+      "description": "2015 AFC Cup winners"
+    },
+    {
+      "file": "juventus",
+      "name": "Juventus",
+      "description": "2011-2019 Nine-title Streak"
+    },
+    {
+      "file": "kaizer-chiefs",
+      "name": "Kaizer Chiefs",
+      "description": "2001 African Cup Winners' Cup"
+    },
+    {
+      "file": "la-galaxy",
+      "name": "LA Galaxy",
+      "description": "2011-2014 Beckham/Donovan Era"
+    },
+    {
+      "file": "lazio",
+      "name": "Lazio",
+      "description": "1999-2000 Serie A & Cup Double"
+    },
+    {
+      "file": "leeds-united-1970s-revie-era-dominance",
+      "name": "Leeds United",
+      "description": "1970s Revie Era dominance"
+    },
+    {
+      "file": "leeds-united-202526-premier-league-re",
+      "name": "Leeds United",
+      "description": "2025/26 Premier League Return"
+    },
+    {
+      "file": "leicester-city",
+      "name": "Leicester City",
+      "description": "2015-2016 5000/1 PL Champions"
+    },
+    {
+      "file": "liverpool-fc",
+      "name": "Liverpool FC",
+      "description": "2018-2020 UCL & PL Title"
+    },
+    {
+      "file": "manchester-city",
+      "name": "Manchester City",
+      "description": "2022-2023 The Continental Treble"
+    },
+    {
+      "file": "manchester-united",
+      "name": "Manchester United",
+      "description": "1998-1999 The Treble"
+    },
+    {
+      "file": "monterrey",
+      "name": "Monterrey",
+      "description": "2011-2013 CCL Three-peat"
+    },
+    {
+      "file": "newcastle-united",
+      "name": "Newcastle United",
+      "description": "1990s 'The Entertainers'"
+    },
+    {
+      "file": "nottingham-forest",
+      "name": "Nottingham Forest",
+      "description": "1979-1980 Back-to-back European Cups"
+    },
+    {
+      "file": "olympiacos",
+      "name": "Olympiacos",
+      "description": "2024 UEFA Conference League winners"
+    },
+    {
+      "file": "olympique-lyonnais",
+      "name": "Olympique Lyonnais",
+      "description": "2002-2008 Seven consecutive titles"
+    },
+    {
+      "file": "olympique-marseille",
+      "name": "Olympique Marseille",
+      "description": "1993 Champions League winners"
+    },
+    {
+      "file": "orlando-pirates",
+      "name": "Orlando Pirates",
+      "description": "1995 Champions League winners"
+    },
+    {
+      "file": "palmeiras",
+      "name": "Palmeiras",
+      "description": "2020-2021 Back-to-back Libertadores"
+    },
+    {
+      "file": "paris-fc",
+      "name": "Paris FC",
+      "description": "2025/26 Ligue 1 debutants"
+    },
+    {
+      "file": "paris-saint-germain",
+      "name": "Paris Saint-Germain",
+      "description": "2020 Champions League Finalists"
+    },
+    {
+      "file": "pearol",
+      "name": "Peñarol",
+      "description": "5-time Libertadores winners"
+    },
+    {
+      "file": "persib-bandung",
+      "name": "Persib Bandung",
+      "description": "2014 ISL Champions"
+    },
+    {
+      "file": "psv-eindhoven",
+      "name": "PSV Eindhoven",
+      "description": "1988 European Cup winners"
+    },
+    {
+      "file": "pumas-unam",
+      "name": "Pumas UNAM",
+      "description": "2004 Back-to-back Champions"
+    },
+    {
+      "file": "racing-club",
+      "name": "Racing Club",
+      "description": "1967 Intercontinental Cup winners"
+    },
+    {
+      "file": "raja-casablanca",
+      "name": "Raja Casablanca",
+      "description": "1999 CAF Champions League"
+    },
+    {
+      "file": "rb-leipzig",
+      "name": "RB Leipzig",
+      "description": "2022-2023 DFB-Pokal winners"
+    },
+    {
+      "file": "real-betis",
+      "name": "Real Betis",
+      "description": "2022 Copa del Rey winners"
+    },
+    {
+      "file": "real-madrid",
+      "name": "Real Madrid",
+      "description": "2016-2018 UCL Three-peat"
+    },
+    {
+      "file": "red-star-belgrade",
+      "name": "Red Star Belgrade",
+      "description": "1991 European Cup winners"
+    },
+    {
+      "file": "river-plate",
+      "name": "River Plate",
+      "description": "2018 Libertadores winners"
+    },
+    {
+      "file": "salford-city",
+      "name": "Salford City",
+      "description": "2025/26 League Two project"
+    },
+    {
+      "file": "sao-paulo-fc",
+      "name": "Sao Paulo FC",
+      "description": "1992-1993 World Champions"
+    },
+    {
+      "file": "schalke-04",
+      "name": "Schalke 04",
+      "description": "1997 UEFA Cup winners"
+    },
+    {
+      "file": "sevilla-fc",
+      "name": "Sevilla FC",
+      "description": "2023 7th Europa League Title"
+    },
+    {
+      "file": "shakhtar-donetsk",
+      "name": "Shakhtar Donetsk",
+      "description": "2009 UEFA Cup winners"
+    },
+    {
+      "file": "sidemen-fc",
+      "name": "Sidemen FC",
+      "description": "Charity Match era"
+    },
+    {
+      "file": "sporting-cp",
+      "name": "Sporting CP",
+      "description": "2023-2024 Primeira Liga winners"
+    },
+    {
+      "file": "ssc-napoli",
+      "name": "SSC Napoli",
+      "description": "2022-2023 Serie A Champions"
+    },
+    {
+      "file": "steaua-bucuresti",
+      "name": "Steaua Bucuresti",
+      "description": "1986 European Cup winners"
+    },
+    {
+      "file": "sunderland-afc",
+      "name": "Sunderland AFC",
+      "description": "2025/26 Championship project"
+    },
+    {
+      "file": "the-sidemen-fc",
+      "name": "The Sidemen FC",
+      "description": "2026 Charity Shield"
+    },
+    {
+      "file": "tigres-uanl",
+      "name": "Tigres UANL",
+      "description": "2020 CWC Finalists"
+    },
+    {
+      "file": "tottenham-hotspur",
+      "name": "Tottenham Hotspur",
+      "description": "2019 Champions League Finalists"
+    },
+    {
+      "file": "valencia-cf",
+      "name": "Valencia CF",
+      "description": "2004 La Liga & UEFA Double"
+    },
+    {
+      "file": "vasco-da-gama",
+      "name": "Vasco da Gama",
+      "description": "1998 Libertadores winners"
+    },
+    {
+      "file": "vfb-stuttgart",
+      "name": "VfB Stuttgart",
+      "description": "2007 Bundesliga Champions"
+    },
+    {
+      "file": "villarreal-cf",
+      "name": "Villarreal CF",
+      "description": "2021 Europa League winners"
+    },
+    {
+      "file": "vitesse-arnhem",
+      "name": "Vitesse Arnhem",
+      "description": "2025/26 Rebuild"
+    },
+    {
+      "file": "west-ham-united",
+      "name": "West Ham United",
+      "description": "2023 Conference League winners"
+    },
+    {
+      "file": "wolverhampton",
+      "name": "Wolverhampton",
+      "description": "1950s 'Kings of Europe'"
+    },
+    {
+      "file": "wrexham-afc",
+      "name": "Wrexham AFC",
+      "description": "2025/26 League One growth"
+    },
+    {
+      "file": "wydad-ac",
+      "name": "Wydad AC",
+      "description": "2022 CAF Champions League"
+    },
+    {
+      "file": "zenit-st-petersburg",
+      "name": "Zenit St. Petersburg",
+      "description": "2008 UEFA Cup winners"
+    },
+    {
+      "file": "blackadder-co",
+      "name": "Blackadder & Co.",
+      "description": "The Cunning Plan era"
+    },
+    {
+      "file": "harry-potter",
+      "name": "Harry Potter",
+      "description": "Dumbledore's Army"
+    },
+    {
+      "file": "league-of-legends",
+      "name": "League of Legends",
+      "description": "Pro Circuit Peak"
+    },
+    {
+      "file": "mortal-kombat",
+      "name": "Mortal Kombat",
+      "description": "Earthrealm Defenders"
+    },
+    {
+      "file": "street-fighter",
+      "name": "Street Fighter",
+      "description": "World Warriors era"
+    },
+    {
+      "file": "the-avengers",
+      "name": "The Avengers",
+      "description": "Earth's Mightiest Heroes"
+    },
+    {
+      "file": "the-clangers",
+      "name": "The Clangers",
+      "description": "Lunar Division"
+    },
+    {
+      "file": "the-wombles",
+      "name": "The Wombles",
+      "description": "Common Ground Project"
+    },
+    {
+      "file": "x-men",
+      "name": "X-Men",
+      "description": "Xavier Institute"
+    },
+    {
+      "file": "lotr",
+      "name": "LOTR",
+      "description": "Middle Earth FC"
+    }
+  ]
+}

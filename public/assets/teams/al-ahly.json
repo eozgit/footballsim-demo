@@ -1,0 +1,276 @@
+{
+  "name": "Al-Ahly",
+  "description": "Africa's Club of the Century",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 82,
+  "teamID": "104",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "10401",
+      "teamID": "104",
+      "name": "Essam El-Hadary",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "85",
+      "skill": {
+        "passing": "70",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "72",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10402",
+      "teamID": "104",
+      "name": "Gilberto",
+      "position": "LB",
+      "shirtNumber": 15,
+      "rating": "78",
+      "skill": {
+        "passing": "80",
+        "shooting": "65",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "82",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10403",
+      "teamID": "104",
+      "name": "Wael Gomaa",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "84",
+      "skill": {
+        "passing": "62",
+        "shooting": "35",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "58",
+        "strength": "92",
+        "jumping": "310",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10404",
+      "teamID": "104",
+      "name": "Shady Mohamed",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "78",
+      "skill": {
+        "passing": "65",
+        "shooting": "32",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "62",
+        "strength": "84",
+        "jumping": "298",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10405",
+      "teamID": "104",
+      "name": "Islam El-Shater",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "76",
+      "skill": {
+        "passing": "74",
+        "shooting": "52",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "80",
+        "strength": "74",
+        "jumping": "275",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10406",
+      "teamID": "104",
+      "name": "Mohamed Shawky",
+      "position": "CM",
+      "shirtNumber": 17,
+      "rating": "79",
+      "skill": {
+        "passing": "75",
+        "shooting": "68",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "74",
+        "strength": "86",
+        "jumping": "295",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10407",
+      "teamID": "104",
+      "name": "Hossam Ashour",
+      "position": "CM",
+      "shirtNumber": 25,
+      "rating": "77",
+      "skill": {
+        "passing": "78",
+        "shooting": "60",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "72",
+        "strength": "82",
+        "jumping": "282",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10408",
+      "teamID": "104",
+      "name": "Mohamed Barakat",
+      "position": "LM",
+      "shirtNumber": 8,
+      "rating": "82",
+      "skill": {
+        "passing": "84",
+        "shooting": "78",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "88",
+        "strength": "70",
+        "jumping": "270",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10409",
+      "teamID": "104",
+      "name": "Mohamed Aboutrika",
+      "position": "RM",
+      "shirtNumber": 22,
+      "rating": "88",
+      "skill": {
+        "passing": "92",
+        "shooting": "85",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10410",
+      "teamID": "104",
+      "name": "Emad Moteab",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "80",
+      "skill": {
+        "passing": "70",
+        "shooting": "86",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "75",
+        "strength": "82",
+        "jumping": "292",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10411",
+      "teamID": "104",
+      "name": "Flávio Amado",
+      "position": "ST",
+      "shirtNumber": 23,
+      "rating": "79",
+      "skill": {
+        "passing": "68",
+        "shooting": "84",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

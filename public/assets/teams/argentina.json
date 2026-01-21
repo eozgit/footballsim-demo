@@ -1,0 +1,276 @@
+{
+  "name": "Argentina",
+  "description": "La Albiceleste - World Champions",
+  "primaryColour": "SkyBlue",
+  "secondaryColour": "White",
+  "awayColour": "Gold",
+  "rating": 94,
+  "teamID": "2",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "201",
+      "teamID": "2",
+      "name": "Emiliano Martínez",
+      "position": "GK",
+      "shirtNumber": 23,
+      "rating": "87",
+      "skill": {
+        "passing": "75",
+        "shooting": "20",
+        "tackling": "22",
+        "saving": "88",
+        "agility": "80",
+        "strength": "85",
+        "jumping": "292",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "202",
+      "teamID": "2",
+      "name": "Nicolas Tagliafico",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "55",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "80",
+        "strength": "76",
+        "jumping": "282",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "203",
+      "teamID": "2",
+      "name": "Cristian Romero",
+      "position": "CB",
+      "shirtNumber": 13,
+      "rating": "89",
+      "skill": {
+        "passing": "76",
+        "shooting": "45",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "74",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "204",
+      "teamID": "2",
+      "name": "Nicolás Otamendi",
+      "position": "CB",
+      "shirtNumber": 19,
+      "rating": "84",
+      "skill": {
+        "passing": "72",
+        "shooting": "50",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "62",
+        "strength": "86",
+        "jumping": "298",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "205",
+      "teamID": "2",
+      "name": "Nahuel Molina",
+      "position": "RB",
+      "shirtNumber": 26,
+      "rating": "82",
+      "skill": {
+        "passing": "79",
+        "shooting": "65",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "84",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "206",
+      "teamID": "2",
+      "name": "Alexis Mac Allister",
+      "position": "CM",
+      "shirtNumber": 20,
+      "rating": "88",
+      "skill": {
+        "passing": "90",
+        "shooting": "82",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "82",
+        "strength": "77",
+        "jumping": "275",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "207",
+      "teamID": "2",
+      "name": "Enzo Fernández",
+      "position": "CM",
+      "shirtNumber": 24,
+      "rating": "87",
+      "skill": {
+        "passing": "92",
+        "shooting": "78",
+        "tackling": "80",
+        "saving": "12",
+        "agility": "78",
+        "strength": "80",
+        "jumping": "276",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "208",
+      "teamID": "2",
+      "name": "Rodrigo De Paul",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "85",
+        "shooting": "74",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "80",
+        "strength": "84",
+        "jumping": "280",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "209",
+      "teamID": "2",
+      "name": "Lionel Messi",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "95",
+      "skill": {
+        "passing": "96",
+        "shooting": "94",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "91",
+        "strength": "68",
+        "jumping": "265",
+        "penalty_taking": "96"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "210",
+      "teamID": "2",
+      "name": "Julián Álvarez",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "88",
+      "skill": {
+        "passing": "80",
+        "shooting": "89",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "211",
+      "teamID": "2",
+      "name": "Lautaro Martínez",
+      "position": "ST",
+      "shirtNumber": 22,
+      "rating": "89",
+      "skill": {
+        "passing": "74",
+        "shooting": "91",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "82",
+        "strength": "85",
+        "jumping": "288",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

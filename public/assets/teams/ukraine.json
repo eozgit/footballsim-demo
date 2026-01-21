@@ -1,0 +1,276 @@
+{
+  "name": "Ukraine",
+  "description": "Synyo-Zhovti (The Blue and Yellows)",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Blue",
+  "awayColour": "Gold",
+  "rating": 73,
+  "teamID": "50",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "5001",
+      "teamID": "50",
+      "name": "Andriy Lunin",
+      "position": "GK",
+      "shirtNumber": 13,
+      "rating": "81",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "82",
+        "agility": "78",
+        "strength": "74",
+        "jumping": "285",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5002",
+      "teamID": "50",
+      "name": "Vitaliy Mykolenko",
+      "position": "LB",
+      "shirtNumber": 16,
+      "rating": "78",
+      "skill": {
+        "passing": "74",
+        "shooting": "52",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "80",
+        "strength": "75",
+        "jumping": "272",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5003",
+      "teamID": "50",
+      "name": "Ilya Zabarnyi",
+      "position": "CB",
+      "shirtNumber": 13,
+      "rating": "80",
+      "skill": {
+        "passing": "68",
+        "shooting": "35",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "72",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5004",
+      "teamID": "50",
+      "name": "Mykola Matviyenko",
+      "position": "CB",
+      "shirtNumber": 22,
+      "rating": "79",
+      "skill": {
+        "passing": "72",
+        "shooting": "40",
+        "tackling": "79",
+        "saving": "10",
+        "agility": "68",
+        "strength": "80",
+        "jumping": "290",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5005",
+      "teamID": "50",
+      "name": "Yukhym Konoplya",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5006",
+      "teamID": "50",
+      "name": "Georgiy Sudakov",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "80",
+      "skill": {
+        "passing": "84",
+        "shooting": "75",
+        "tackling": "68",
+        "saving": "12",
+        "agility": "82",
+        "strength": "65",
+        "jumping": "268",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5007",
+      "teamID": "50",
+      "name": "Oleksandr Zinchenko",
+      "position": "CM",
+      "shirtNumber": 17,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "68",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "75",
+        "strength": "70",
+        "jumping": "274",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5008",
+      "teamID": "50",
+      "name": "Mykhailo Mudryk",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "80",
+      "skill": {
+        "passing": "75",
+        "shooting": "74",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "96",
+        "strength": "68",
+        "jumping": "265",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5009",
+      "teamID": "50",
+      "name": "Viktor Tsygankov",
+      "position": "RM",
+      "shirtNumber": 15,
+      "rating": "82",
+      "skill": {
+        "passing": "82",
+        "shooting": "78",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "84",
+        "strength": "66",
+        "jumping": "270",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5010",
+      "teamID": "50",
+      "name": "Artem Dovbyk",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "83",
+      "skill": {
+        "passing": "68",
+        "shooting": "84",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "302",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5011",
+      "teamID": "50",
+      "name": "Roman Yaremchuk",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "77",
+      "skill": {
+        "passing": "70",
+        "shooting": "79",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "74",
+        "strength": "82",
+        "jumping": "295",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

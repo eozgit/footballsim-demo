@@ -1,0 +1,276 @@
+{
+  "name": "Manchester United",
+  "description": "1998-1999 The Treble",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 97,
+  "teamID": "162",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "16201",
+      "teamID": "162",
+      "name": "Peter Schmeichel",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "96",
+      "skill": {
+        "passing": "80",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "98",
+        "agility": "88",
+        "strength": "95",
+        "jumping": "290",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16202",
+      "teamID": "162",
+      "name": "Denis Irwin",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "88",
+      "skill": {
+        "passing": "90",
+        "shooting": "78",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "278",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16203",
+      "teamID": "162",
+      "name": "Jaap Stam",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "94",
+      "skill": {
+        "passing": "75",
+        "shooting": "45",
+        "tackling": "96",
+        "saving": "12",
+        "agility": "85",
+        "strength": "95",
+        "jumping": "325",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16204",
+      "teamID": "162",
+      "name": "Ronny Johnsen",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "35",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "82",
+        "strength": "86",
+        "jumping": "315",
+        "penalty_taking": "41"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16205",
+      "teamID": "162",
+      "name": "Gary Neville",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "86",
+      "skill": {
+        "passing": "82",
+        "shooting": "55",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "78",
+        "strength": "84",
+        "jumping": "285",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16206",
+      "teamID": "162",
+      "name": "Roy Keane",
+      "position": "CM",
+      "shirtNumber": 16,
+      "rating": "94",
+      "skill": {
+        "passing": "88",
+        "shooting": "80",
+        "tackling": "95",
+        "saving": "12",
+        "agility": "80",
+        "strength": "96",
+        "jumping": "298",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16207",
+      "teamID": "162",
+      "name": "Paul Scholes",
+      "position": "CM",
+      "shirtNumber": 18,
+      "rating": "92",
+      "skill": {
+        "passing": "98",
+        "shooting": "88",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "72",
+        "strength": "78",
+        "jumping": "292",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16208",
+      "teamID": "162",
+      "name": "Ryan Giggs",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "92",
+      "skill": {
+        "passing": "92",
+        "shooting": "84",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "94",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16209",
+      "teamID": "162",
+      "name": "David Beckham",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "92",
+      "skill": {
+        "passing": "99",
+        "shooting": "82",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "80",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16210",
+      "teamID": "162",
+      "name": "Andy Cole",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "89",
+      "skill": {
+        "passing": "75",
+        "shooting": "92",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "90",
+        "strength": "82",
+        "jumping": "312",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16211",
+      "teamID": "162",
+      "name": "Dwight Yorke",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "89",
+      "skill": {
+        "passing": "84",
+        "shooting": "92",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "86",
+        "strength": "84",
+        "jumping": "308",
+        "penalty_taking": "95"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

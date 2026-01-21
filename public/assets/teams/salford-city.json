@@ -1,0 +1,276 @@
+{
+  "name": "Salford City",
+  "description": "2025/26 League Two project",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Black",
+  "rating": 29,
+  "teamID": "184",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "18401",
+      "teamID": "184",
+      "name": "Jamie Jones",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "68",
+      "skill": {
+        "passing": "62",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "72",
+        "agility": "65",
+        "strength": "68",
+        "jumping": "282",
+        "penalty_taking": "26"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18402",
+      "teamID": "184",
+      "name": "Luke Garbutt",
+      "position": "LB",
+      "shirtNumber": 29,
+      "rating": "66",
+      "skill": {
+        "passing": "72",
+        "shooting": "64",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "74",
+        "strength": "64",
+        "jumping": "275",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18403",
+      "teamID": "184",
+      "name": "Curtis Tilt",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "67",
+      "skill": {
+        "passing": "55",
+        "shooting": "35",
+        "tackling": "74",
+        "saving": "12",
+        "agility": "62",
+        "strength": "82",
+        "jumping": "320",
+        "penalty_taking": "37"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18404",
+      "teamID": "184",
+      "name": "Stephan Negru",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "65",
+      "skill": {
+        "passing": "52",
+        "shooting": "32",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "65",
+        "strength": "78",
+        "jumping": "315",
+        "penalty_taking": "41"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18405",
+      "teamID": "184",
+      "name": "Tom Edwards",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "66",
+      "skill": {
+        "passing": "68",
+        "shooting": "58",
+        "tackling": "64",
+        "saving": "10",
+        "agility": "76",
+        "strength": "68",
+        "jumping": "280",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18406",
+      "teamID": "184",
+      "name": "Ossama Ashley",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "64",
+      "skill": {
+        "passing": "65",
+        "shooting": "55",
+        "tackling": "68",
+        "saving": "12",
+        "agility": "74",
+        "strength": "72",
+        "jumping": "292",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18407",
+      "teamID": "184",
+      "name": "Tyrese Fornah",
+      "position": "CM",
+      "shirtNumber": 18,
+      "rating": "65",
+      "skill": {
+        "passing": "68",
+        "shooting": "52",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "72",
+        "strength": "75",
+        "jumping": "295",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18408",
+      "teamID": "184",
+      "name": "Jon Taylor",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "64",
+      "skill": {
+        "passing": "65",
+        "shooting": "62",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "84",
+        "strength": "55",
+        "jumping": "268",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18409",
+      "teamID": "184",
+      "name": "Dan Chesters",
+      "position": "RM",
+      "shirtNumber": 22,
+      "rating": "63",
+      "skill": {
+        "passing": "66",
+        "shooting": "60",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "82",
+        "strength": "58",
+        "jumping": "270",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18410",
+      "teamID": "184",
+      "name": "Cole Stockton",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "68",
+      "skill": {
+        "passing": "60",
+        "shooting": "74",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "68",
+        "strength": "84",
+        "jumping": "318",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18411",
+      "teamID": "184",
+      "name": "Kylian Kouassi",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "65",
+      "skill": {
+        "passing": "58",
+        "shooting": "70",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "78",
+        "strength": "76",
+        "jumping": "310",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

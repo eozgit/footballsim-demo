@@ -1,0 +1,276 @@
+{
+  "name": "Uzbekistan",
+  "description": "White Wolves",
+  "primaryColour": "White",
+  "secondaryColour": "Blue",
+  "awayColour": "RoyalBlue",
+  "rating": 63,
+  "teamID": "53",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "5301",
+      "teamID": "53",
+      "name": "Utkir Yusupov",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "68",
+      "skill": {
+        "passing": "62",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "70",
+        "agility": "65",
+        "strength": "68",
+        "jumping": "278",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5302",
+      "teamID": "53",
+      "name": "Sherzod Nasrullaev",
+      "position": "LB",
+      "shirtNumber": 4,
+      "rating": "62",
+      "skill": {
+        "passing": "64",
+        "shooting": "50",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "76",
+        "strength": "62",
+        "jumping": "270",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5303",
+      "teamID": "53",
+      "name": "Abdukodir Khusanov",
+      "position": "CB",
+      "shirtNumber": 15,
+      "rating": "72",
+      "skill": {
+        "passing": "58",
+        "shooting": "35",
+        "tackling": "74",
+        "saving": "12",
+        "agility": "68",
+        "strength": "80",
+        "jumping": "290",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5304",
+      "teamID": "53",
+      "name": "Rustam Ashurmatov",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "65",
+      "skill": {
+        "passing": "52",
+        "shooting": "30",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "55",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5305",
+      "teamID": "53",
+      "name": "Khojiakbar Alijonov",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "64",
+      "skill": {
+        "passing": "65",
+        "shooting": "45",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "78",
+        "strength": "68",
+        "jumping": "275",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5306",
+      "teamID": "53",
+      "name": "Odiljon Hamrobekov",
+      "position": "CM",
+      "shirtNumber": 9,
+      "rating": "66",
+      "skill": {
+        "passing": "68",
+        "shooting": "55",
+        "tackling": "68",
+        "saving": "12",
+        "agility": "70",
+        "strength": "72",
+        "jumping": "282",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5307",
+      "teamID": "53",
+      "name": "Otabek Shukurov",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "68",
+      "skill": {
+        "passing": "72",
+        "shooting": "62",
+        "tackling": "66",
+        "saving": "10",
+        "agility": "72",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5308",
+      "teamID": "53",
+      "name": "Abbosbek Fayzullaev",
+      "position": "LM",
+      "shirtNumber": 22,
+      "rating": "74",
+      "skill": {
+        "passing": "76",
+        "shooting": "70",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "84",
+        "strength": "58",
+        "jumping": "262",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5309",
+      "teamID": "53",
+      "name": "Azizbek Turgunboev",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "67",
+      "skill": {
+        "passing": "68",
+        "shooting": "65",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "80",
+        "strength": "64",
+        "jumping": "268",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5310",
+      "teamID": "53",
+      "name": "Eldor Shomurodov",
+      "position": "ST",
+      "shirtNumber": 14,
+      "rating": "74",
+      "skill": {
+        "passing": "65",
+        "shooting": "78",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "80",
+        "strength": "82",
+        "jumping": "302",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "5311",
+      "teamID": "53",
+      "name": "Igor Sergeev",
+      "position": "ST",
+      "shirtNumber": 21,
+      "rating": "66",
+      "skill": {
+        "passing": "58",
+        "shooting": "72",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "65",
+        "strength": "80",
+        "jumping": "295",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

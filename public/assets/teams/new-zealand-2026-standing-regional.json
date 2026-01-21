@@ -1,0 +1,276 @@
+{
+  "name": "New Zealand",
+  "description": "2026 Standing - Regional dominance but structural global gaps.",
+  "primaryColour": "White",
+  "secondaryColour": "Black",
+  "awayColour": "Silver",
+  "rating": 34,
+  "teamID": "32",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "3201",
+      "teamID": "32",
+      "name": "Max Crocombe",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "42",
+      "skill": {
+        "passing": "40",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "45",
+        "agility": "44",
+        "strength": "55",
+        "jumping": "275",
+        "penalty_taking": "20"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3202",
+      "teamID": "32",
+      "name": "Dalton Wilkins",
+      "position": "LB",
+      "shirtNumber": 15,
+      "rating": "34",
+      "skill": {
+        "passing": "36",
+        "shooting": "28",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "52",
+        "strength": "48",
+        "jumping": "270",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3203",
+      "teamID": "32",
+      "name": "Finn Surman",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "38",
+      "skill": {
+        "passing": "32",
+        "shooting": "22",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "35",
+        "strength": "58",
+        "jumping": "288",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3204",
+      "teamID": "32",
+      "name": "Tyler Bindon",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "36",
+      "skill": {
+        "passing": "30",
+        "shooting": "20",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "32",
+        "strength": "55",
+        "jumping": "285",
+        "penalty_taking": "22"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3205",
+      "teamID": "32",
+      "name": "Dane Ingham",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "35",
+      "skill": {
+        "passing": "38",
+        "shooting": "25",
+        "tackling": "36",
+        "saving": "10",
+        "agility": "55",
+        "strength": "45",
+        "jumping": "272",
+        "penalty_taking": "26"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3206",
+      "teamID": "32",
+      "name": "Alex Rufer",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "38",
+      "skill": {
+        "passing": "42",
+        "shooting": "32",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "45",
+        "strength": "52",
+        "jumping": "278",
+        "penalty_taking": "31"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3207",
+      "teamID": "32",
+      "name": "Cameron Howieson",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "36",
+      "skill": {
+        "passing": "45",
+        "shooting": "35",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "48",
+        "strength": "48",
+        "jumping": "275",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3208",
+      "teamID": "32",
+      "name": "Elijah Just",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "40",
+      "skill": {
+        "passing": "42",
+        "shooting": "42",
+        "tackling": "25",
+        "saving": "10",
+        "agility": "62",
+        "strength": "42",
+        "jumping": "265",
+        "penalty_taking": "37"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3209",
+      "teamID": "32",
+      "name": "Callum McCowatt",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "38",
+      "skill": {
+        "passing": "40",
+        "shooting": "40",
+        "tackling": "22",
+        "saving": "10",
+        "agility": "60",
+        "strength": "40",
+        "jumping": "268",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3210",
+      "teamID": "32",
+      "name": "Kosta Barbarouses",
+      "position": "ST",
+      "shirtNumber": 14,
+      "rating": "42",
+      "skill": {
+        "passing": "38",
+        "shooting": "45",
+        "tackling": "25",
+        "saving": "10",
+        "agility": "65",
+        "strength": "48",
+        "jumping": "276",
+        "penalty_taking": "42"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3211",
+      "teamID": "32",
+      "name": "Logan Rogerson",
+      "position": "ST",
+      "shirtNumber": 17,
+      "rating": "35",
+      "skill": {
+        "passing": "32",
+        "shooting": "40",
+        "tackling": "20",
+        "saving": "10",
+        "agility": "68",
+        "strength": "45",
+        "jumping": "272",
+        "penalty_taking": "36"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Saudi Arabia",
+  "description": "Al-Suqour Al-Khodhur (The Green Falcons)",
+  "primaryColour": "Green",
+  "secondaryColour": "White",
+  "awayColour": "DarkGreen",
+  "rating": 69,
+  "teamID": "40",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "4001",
+      "teamID": "40",
+      "name": "Nawaf Al-Aqidi",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "72",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "74",
+        "agility": "70",
+        "strength": "72",
+        "jumping": "282",
+        "penalty_taking": "27"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4002",
+      "teamID": "40",
+      "name": "Nasser Al-Dawsari",
+      "position": "LB",
+      "shirtNumber": 24,
+      "rating": "70",
+      "skill": {
+        "passing": "68",
+        "shooting": "55",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4003",
+      "teamID": "40",
+      "name": "Hassan Al-Tambakti",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "74",
+      "skill": {
+        "passing": "60",
+        "shooting": "40",
+        "tackling": "76",
+        "saving": "12",
+        "agility": "62",
+        "strength": "82",
+        "jumping": "294",
+        "penalty_taking": "44"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4004",
+      "teamID": "40",
+      "name": "Abdulelah Al-Amri",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "72",
+      "skill": {
+        "passing": "55",
+        "shooting": "35",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "58",
+        "strength": "84",
+        "jumping": "290",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4005",
+      "teamID": "40",
+      "name": "Nawaf Bu Washl",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "68",
+      "skill": {
+        "passing": "65",
+        "shooting": "50",
+        "tackling": "66",
+        "saving": "10",
+        "agility": "80",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "50"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4006",
+      "teamID": "40",
+      "name": "Abdullah Al-Khaibari",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "70",
+      "skill": {
+        "passing": "68",
+        "shooting": "55",
+        "tackling": "75",
+        "saving": "12",
+        "agility": "68",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4007",
+      "teamID": "40",
+      "name": "Mohamed Kanno",
+      "position": "CM",
+      "shirtNumber": 16,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "65",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "65",
+        "strength": "85",
+        "jumping": "288",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4008",
+      "teamID": "40",
+      "name": "Salem Al-Dawsari",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "79",
+      "skill": {
+        "passing": "82",
+        "shooting": "76",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "68",
+        "jumping": "268",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4009",
+      "teamID": "40",
+      "name": "Aiman Yahya",
+      "position": "RM",
+      "shirtNumber": 23,
+      "rating": "70",
+      "skill": {
+        "passing": "74",
+        "shooting": "68",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "84",
+        "strength": "64",
+        "jumping": "270",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4010",
+      "teamID": "40",
+      "name": "Firas Al-Buraikan",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "74",
+      "skill": {
+        "passing": "62",
+        "shooting": "78",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "78",
+        "strength": "76",
+        "jumping": "282",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4011",
+      "teamID": "40",
+      "name": "Saleh Al-Shehri",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "72",
+      "skill": {
+        "passing": "60",
+        "shooting": "75",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "68",
+        "strength": "82",
+        "jumping": "302",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Crystal Palace",
+  "description": "1990 FA Cup Finalists",
+  "primaryColour": "Blue",
+  "secondaryColour": "Red",
+  "awayColour": "White",
+  "rating": 65,
+  "teamID": "132",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "13201",
+      "teamID": "132",
+      "name": "Nigel Martyn",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "82",
+      "skill": {
+        "passing": "68",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "84",
+        "agility": "74",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "31"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13202",
+      "teamID": "132",
+      "name": "Richard Shaw",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "70",
+      "skill": {
+        "passing": "65",
+        "shooting": "45",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "270",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13203",
+      "teamID": "132",
+      "name": "Gary O'Reilly",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "72",
+      "skill": {
+        "passing": "62",
+        "shooting": "40",
+        "tackling": "76",
+        "saving": "12",
+        "agility": "55",
+        "strength": "84",
+        "jumping": "310",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13204",
+      "teamID": "132",
+      "name": "Andy Thorn",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "74",
+      "skill": {
+        "passing": "60",
+        "shooting": "35",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "52",
+        "strength": "82",
+        "jumping": "305",
+        "penalty_taking": "37"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13205",
+      "teamID": "132",
+      "name": "John Humphrey",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "71",
+      "skill": {
+        "passing": "68",
+        "shooting": "50",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "82",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "50"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13206",
+      "teamID": "132",
+      "name": "Geoff Thomas",
+      "position": "CM",
+      "shirtNumber": 4,
+      "rating": "78",
+      "skill": {
+        "passing": "76",
+        "shooting": "70",
+        "tackling": "78",
+        "saving": "12",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "295",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13207",
+      "teamID": "132",
+      "name": "Andy Gray",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "75",
+      "skill": {
+        "passing": "78",
+        "shooting": "68",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "76",
+        "strength": "75",
+        "jumping": "288",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13208",
+      "teamID": "132",
+      "name": "Alan Pardew",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "74",
+      "skill": {
+        "passing": "75",
+        "shooting": "72",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "74",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13209",
+      "teamID": "132",
+      "name": "Eddie McGoldrick",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "72",
+      "skill": {
+        "passing": "74",
+        "shooting": "68",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "84",
+        "strength": "70",
+        "jumping": "275",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13210",
+      "teamID": "132",
+      "name": "Mark Bright",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "78",
+      "skill": {
+        "passing": "68",
+        "shooting": "84",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "318",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13211",
+      "teamID": "132",
+      "name": "Ian Wright",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "85",
+      "skill": {
+        "passing": "75",
+        "shooting": "90",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "92",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

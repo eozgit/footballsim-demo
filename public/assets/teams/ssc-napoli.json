@@ -1,0 +1,276 @@
+{
+  "name": "SSC Napoli",
+  "description": "2022-2023 Serie A Champions",
+  "primaryColour": "SkyBlue",
+  "secondaryColour": "White",
+  "awayColour": "MidnightBlue",
+  "rating": 92,
+  "teamID": "191",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "19101",
+      "teamID": "191",
+      "name": "Alex Meret",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "84",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "85",
+        "agility": "80",
+        "strength": "74",
+        "jumping": "288",
+        "penalty_taking": "24"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19102",
+      "teamID": "191",
+      "name": "Mário Rui",
+      "position": "LB",
+      "shirtNumber": 6,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "65",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "78",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19103",
+      "teamID": "191",
+      "name": "Kim Min-jae",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "89",
+      "skill": {
+        "passing": "75",
+        "shooting": "45",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "86",
+        "strength": "94",
+        "jumping": "325",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19104",
+      "teamID": "191",
+      "name": "Amir Rrahmani",
+      "position": "CB",
+      "shirtNumber": 13,
+      "rating": "84",
+      "skill": {
+        "passing": "70",
+        "shooting": "38",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "42"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19105",
+      "teamID": "191",
+      "name": "Giovanni Di Lorenzo",
+      "position": "RB",
+      "shirtNumber": 22,
+      "rating": "86",
+      "skill": {
+        "passing": "84",
+        "shooting": "68",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "85",
+        "strength": "84",
+        "jumping": "282",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19106",
+      "teamID": "191",
+      "name": "Stanislav Lobotka",
+      "position": "CM",
+      "shirtNumber": 68,
+      "rating": "87",
+      "skill": {
+        "passing": "88",
+        "shooting": "62",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "76",
+        "strength": "80",
+        "jumping": "290",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19107",
+      "teamID": "191",
+      "name": "André-Frank Zambo Anguissa",
+      "position": "CM",
+      "shirtNumber": 99,
+      "rating": "85",
+      "skill": {
+        "passing": "82",
+        "shooting": "74",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "80",
+        "strength": "92",
+        "jumping": "305",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19108",
+      "teamID": "191",
+      "name": "Piotr Zieliński",
+      "position": "CM",
+      "shirtNumber": 20,
+      "rating": "86",
+      "skill": {
+        "passing": "90",
+        "shooting": "82",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "78",
+        "strength": "72",
+        "jumping": "288",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19109",
+      "teamID": "191",
+      "name": "Khvicha Kvaratskhelia",
+      "position": "RM",
+      "shirtNumber": 77,
+      "rating": "90",
+      "skill": {
+        "passing": "92",
+        "shooting": "85",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "74",
+        "jumping": "275",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19110",
+      "teamID": "191",
+      "name": "Victor Osimhen",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "92",
+      "skill": {
+        "passing": "72",
+        "shooting": "94",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "96",
+        "strength": "92",
+        "jumping": "330",
+        "penalty_taking": "93"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19111",
+      "teamID": "191",
+      "name": "Hirving Lozano",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "80",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "94",
+        "strength": "68",
+        "jumping": "290",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

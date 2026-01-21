@@ -1,0 +1,276 @@
+{
+  "name": "Inter Miami",
+  "description": "2023 Leagues Cup (Messi Debut)",
+  "primaryColour": "Pink",
+  "secondaryColour": "Black",
+  "awayColour": "White",
+  "rating": 73,
+  "teamID": "150",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "15001",
+      "teamID": "150",
+      "name": "Drake Callender",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "76",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "80",
+        "agility": "70",
+        "strength": "74",
+        "jumping": "285",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15002",
+      "teamID": "150",
+      "name": "Jordi Alba",
+      "position": "LB",
+      "shirtNumber": 18,
+      "rating": "83",
+      "skill": {
+        "passing": "85",
+        "shooting": "72",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "86",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15003",
+      "teamID": "150",
+      "name": "Tomás Avilés",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "75",
+      "skill": {
+        "passing": "72",
+        "shooting": "35",
+        "tackling": "76",
+        "saving": "12",
+        "agility": "78",
+        "strength": "78",
+        "jumping": "302",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15004",
+      "teamID": "150",
+      "name": "Serhiy Kryvtsov",
+      "position": "CB",
+      "shirtNumber": 27,
+      "rating": "74",
+      "skill": {
+        "passing": "65",
+        "shooting": "38",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "58",
+        "strength": "82",
+        "jumping": "308",
+        "penalty_taking": "50"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15005",
+      "teamID": "150",
+      "name": "Marcelo Weigandt",
+      "position": "RB",
+      "shirtNumber": 57,
+      "rating": "73",
+      "skill": {
+        "passing": "70",
+        "shooting": "50",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "82",
+        "strength": "76",
+        "jumping": "285",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15006",
+      "teamID": "150",
+      "name": "Sergio Busquets",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "86",
+      "skill": {
+        "passing": "92",
+        "shooting": "65",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "45",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15007",
+      "teamID": "150",
+      "name": "Federico Redondo",
+      "position": "CM",
+      "shirtNumber": 55,
+      "rating": "78",
+      "skill": {
+        "passing": "84",
+        "shooting": "62",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "72",
+        "strength": "75",
+        "jumping": "292",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15008",
+      "teamID": "150",
+      "name": "Robert Taylor",
+      "position": "LM",
+      "shirtNumber": 16,
+      "rating": "74",
+      "skill": {
+        "passing": "76",
+        "shooting": "74",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "84",
+        "strength": "68",
+        "jumping": "275",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15009",
+      "teamID": "150",
+      "name": "Lionel Messi",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "94",
+      "skill": {
+        "passing": "99",
+        "shooting": "92",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "82",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "97"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15010",
+      "teamID": "150",
+      "name": "Luis Suárez",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "90",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "68",
+        "strength": "85",
+        "jumping": "315",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15011",
+      "teamID": "150",
+      "name": "Leonardo Campana",
+      "position": "ST",
+      "shirtNumber": 8,
+      "rating": "76",
+      "skill": {
+        "passing": "68",
+        "shooting": "80",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "75",
+        "strength": "86",
+        "jumping": "312",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

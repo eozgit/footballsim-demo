@@ -1,0 +1,276 @@
+{
+  "name": "Al-Hilal",
+  "description": "2021 AFC Champions League winners",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "DeepSkyBlue",
+  "rating": 76,
+  "teamID": "105",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "10501",
+      "teamID": "105",
+      "name": "Abdullah Al-Mayouf",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "74",
+      "skill": {
+        "passing": "68",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "76",
+        "agility": "70",
+        "strength": "75",
+        "jumping": "282",
+        "penalty_taking": "25"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10502",
+      "teamID": "105",
+      "name": "Yasser Al-Shahrani",
+      "position": "LB",
+      "shirtNumber": 12,
+      "rating": "77",
+      "skill": {
+        "passing": "74",
+        "shooting": "58",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "85",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10503",
+      "teamID": "105",
+      "name": "Jang Hyun-soo",
+      "position": "CB",
+      "shirtNumber": 20,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "40",
+        "tackling": "80",
+        "saving": "12",
+        "agility": "74",
+        "strength": "82",
+        "jumping": "292",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10504",
+      "teamID": "105",
+      "name": "Ali Al-Bulaihi",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "75",
+      "skill": {
+        "passing": "60",
+        "shooting": "35",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "62",
+        "strength": "85",
+        "jumping": "298",
+        "penalty_taking": "41"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10505",
+      "teamID": "105",
+      "name": "Mohammed Al-Breik",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "76",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "274",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10506",
+      "teamID": "105",
+      "name": "Salman Al-Faraj",
+      "position": "CM",
+      "shirtNumber": 7,
+      "rating": "81",
+      "skill": {
+        "passing": "86",
+        "shooting": "74",
+        "tackling": "70",
+        "saving": "12",
+        "agility": "75",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10507",
+      "teamID": "105",
+      "name": "Mohamed Kanno",
+      "position": "CM",
+      "shirtNumber": 28,
+      "rating": "77",
+      "skill": {
+        "passing": "75",
+        "shooting": "68",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "70",
+        "strength": "85",
+        "jumping": "290",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10508",
+      "teamID": "105",
+      "name": "Salem Al-Dawsari",
+      "position": "LM",
+      "shirtNumber": 29,
+      "rating": "82",
+      "skill": {
+        "passing": "84",
+        "shooting": "78",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "68",
+        "jumping": "268",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10509",
+      "teamID": "105",
+      "name": "Matheus Pereira",
+      "position": "RM",
+      "shirtNumber": 15,
+      "rating": "80",
+      "skill": {
+        "passing": "85",
+        "shooting": "76",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "80",
+        "strength": "65",
+        "jumping": "265",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10510",
+      "teamID": "105",
+      "name": "Bafétimbi Gomis",
+      "position": "ST",
+      "shirtNumber": 18,
+      "rating": "81",
+      "skill": {
+        "passing": "68",
+        "shooting": "86",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "68",
+        "strength": "90",
+        "jumping": "315",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10511",
+      "teamID": "105",
+      "name": "Moussa Marega",
+      "position": "ST",
+      "shirtNumber": 17,
+      "rating": "79",
+      "skill": {
+        "passing": "72",
+        "shooting": "82",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "86",
+        "strength": "88",
+        "jumping": "308",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

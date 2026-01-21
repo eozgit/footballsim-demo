@@ -1,0 +1,276 @@
+{
+  "name": "Turkey",
+  "description": "Ay-Yıldızlılar (The Crescent-Stars)",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Turquoise",
+  "rating": 78,
+  "teamID": "49",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "4901",
+      "teamID": "49",
+      "name": "Mert Günok",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "80",
+        "agility": "70",
+        "strength": "75",
+        "jumping": "282",
+        "penalty_taking": "24"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4902",
+      "teamID": "49",
+      "name": "Ferdi Kadıoğlu",
+      "position": "LB",
+      "shirtNumber": 20,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "68",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "86",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4903",
+      "teamID": "49",
+      "name": "Abdülkerim Bardakcı",
+      "position": "CB",
+      "shirtNumber": 14,
+      "rating": "79",
+      "skill": {
+        "passing": "70",
+        "shooting": "45",
+        "tackling": "81",
+        "saving": "12",
+        "agility": "55",
+        "strength": "88",
+        "jumping": "298",
+        "penalty_taking": "49"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4904",
+      "teamID": "49",
+      "name": "Samet Akaydin",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "74",
+      "skill": {
+        "passing": "60",
+        "shooting": "35",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "52",
+        "strength": "85",
+        "jumping": "295",
+        "penalty_taking": "37"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4905",
+      "teamID": "49",
+      "name": "Mert Müldür",
+      "position": "RB",
+      "shirtNumber": 18,
+      "rating": "76",
+      "skill": {
+        "passing": "74",
+        "shooting": "55",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4906",
+      "teamID": "49",
+      "name": "Hakan Çalhanoğlu",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "86",
+      "skill": {
+        "passing": "92",
+        "shooting": "82",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "72",
+        "strength": "70",
+        "jumping": "270",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4907",
+      "teamID": "49",
+      "name": "İsmail Yüksek",
+      "position": "CM",
+      "shirtNumber": 16,
+      "rating": "78",
+      "skill": {
+        "passing": "75",
+        "shooting": "62",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "78",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4908",
+      "teamID": "49",
+      "name": "Kenan Yıldız",
+      "position": "LM",
+      "shirtNumber": 19,
+      "rating": "79",
+      "skill": {
+        "passing": "78",
+        "shooting": "76",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "88",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4909",
+      "teamID": "49",
+      "name": "Arda Güler",
+      "position": "RM",
+      "shirtNumber": 8,
+      "rating": "81",
+      "skill": {
+        "passing": "86",
+        "shooting": "78",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "82",
+        "strength": "62",
+        "jumping": "265",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4910",
+      "teamID": "49",
+      "name": "Barış Alper Yılmaz",
+      "position": "ST",
+      "shirtNumber": 21,
+      "rating": "80",
+      "skill": {
+        "passing": "74",
+        "shooting": "78",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "92",
+        "strength": "84",
+        "jumping": "288",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4911",
+      "teamID": "49",
+      "name": "Kerem Aktürkoğlu",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "81",
+      "skill": {
+        "passing": "76",
+        "shooting": "80",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "90",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Club Nacional",
+  "description": "1988 Intercontinental Cup winners",
+  "primaryColour": "White",
+  "secondaryColour": "Blue",
+  "awayColour": "Red",
+  "rating": 81,
+  "teamID": "129",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "12901",
+      "teamID": "129",
+      "name": "Jorge Seré",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "84",
+      "skill": {
+        "passing": "65",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "86",
+        "agility": "78",
+        "strength": "80",
+        "jumping": "285",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12902",
+      "teamID": "129",
+      "name": "José Pintos Saldanha",
+      "position": "LB",
+      "shirtNumber": 4,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "50",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "84",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12903",
+      "teamID": "129",
+      "name": "Hugo De León",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "88",
+      "skill": {
+        "passing": "80",
+        "shooting": "45",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "68",
+        "strength": "90",
+        "jumping": "315",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12904",
+      "teamID": "129",
+      "name": "Daniel Revelez",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "84",
+      "skill": {
+        "passing": "68",
+        "shooting": "35",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "62",
+        "strength": "88",
+        "jumping": "308",
+        "penalty_taking": "40"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12905",
+      "teamID": "129",
+      "name": "Tony Gómez",
+      "position": "RB",
+      "shirtNumber": 14,
+      "rating": "80",
+      "skill": {
+        "passing": "75",
+        "shooting": "55",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "282",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12906",
+      "teamID": "129",
+      "name": "Santiago Ostolaza",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "85",
+      "skill": {
+        "passing": "78",
+        "shooting": "78",
+        "tackling": "88",
+        "saving": "12",
+        "agility": "72",
+        "strength": "92",
+        "jumping": "305",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12907",
+      "teamID": "129",
+      "name": "Yubert Lemos",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "82",
+      "skill": {
+        "passing": "85",
+        "shooting": "74",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "78",
+        "strength": "78",
+        "jumping": "288",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12908",
+      "teamID": "129",
+      "name": "William Castro",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "83",
+      "skill": {
+        "passing": "82",
+        "shooting": "76",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "86",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12909",
+      "teamID": "129",
+      "name": "Ernesto Vargas",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "81",
+      "skill": {
+        "passing": "78",
+        "shooting": "80",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "282",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12910",
+      "teamID": "129",
+      "name": "Juan Carlos de Lima",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "84",
+      "skill": {
+        "passing": "72",
+        "shooting": "88",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "85",
+        "strength": "86",
+        "jumping": "312",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "12911",
+      "teamID": "129",
+      "name": "Sergio Olivera",
+      "position": "ST",
+      "shirtNumber": 15,
+      "rating": "78",
+      "skill": {
+        "passing": "70",
+        "shooting": "82",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "80",
+        "strength": "82",
+        "jumping": "302",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

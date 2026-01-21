@@ -1,0 +1,276 @@
+{
+  "name": "Sao Paulo FC",
+  "description": "1992-1993 World Champions",
+  "primaryColour": "White",
+  "secondaryColour": "Red",
+  "awayColour": "Black",
+  "rating": 93,
+  "teamID": "185",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "18501",
+      "teamID": "185",
+      "name": "Zetti",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "88",
+      "skill": {
+        "passing": "70",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "92",
+        "agility": "80",
+        "strength": "82",
+        "jumping": "288",
+        "penalty_taking": "24"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18502",
+      "teamID": "185",
+      "name": "Ronaldo Luiz",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "84",
+        "strength": "76",
+        "jumping": "275",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18503",
+      "teamID": "185",
+      "name": "Ronaldão",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "86",
+      "skill": {
+        "passing": "68",
+        "shooting": "40",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "70",
+        "strength": "94",
+        "jumping": "330",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18504",
+      "teamID": "185",
+      "name": "Adilson",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "84",
+      "skill": {
+        "passing": "72",
+        "shooting": "35",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "48"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18505",
+      "teamID": "185",
+      "name": "Vítor",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "62",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "88",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18506",
+      "teamID": "185",
+      "name": "Pintado",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "85",
+      "skill": {
+        "passing": "75",
+        "shooting": "60",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "78",
+        "strength": "90",
+        "jumping": "298",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18507",
+      "teamID": "185",
+      "name": "Toninho Cerezo",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "90",
+      "skill": {
+        "passing": "92",
+        "shooting": "82",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "76",
+        "strength": "84",
+        "jumping": "305",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18508",
+      "teamID": "185",
+      "name": "Raí",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "94",
+      "skill": {
+        "passing": "95",
+        "shooting": "92",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "80",
+        "strength": "92",
+        "jumping": "325",
+        "penalty_taking": "91"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18509",
+      "teamID": "185",
+      "name": "Cafu",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "93",
+      "skill": {
+        "passing": "85",
+        "shooting": "78",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "96",
+        "strength": "94",
+        "jumping": "295",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18510",
+      "teamID": "185",
+      "name": "Müller",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "89",
+      "skill": {
+        "passing": "86",
+        "shooting": "88",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "92",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "18511",
+      "teamID": "185",
+      "name": "Palhinha",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "86",
+      "skill": {
+        "passing": "82",
+        "shooting": "86",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "88",
+        "strength": "74",
+        "jumping": "292",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

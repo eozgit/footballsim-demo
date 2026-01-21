@@ -1,0 +1,276 @@
+{
+  "name": "Spain",
+  "description": "La Roja - European Champions",
+  "primaryColour": "Red",
+  "secondaryColour": "Blue",
+  "awayColour": "Yellow",
+  "rating": 95,
+  "teamID": "45",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "4501",
+      "teamID": "45",
+      "name": "Unai Simón",
+      "position": "GK",
+      "shirtNumber": 23,
+      "rating": "87",
+      "skill": {
+        "passing": "80",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "76",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "33"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4502",
+      "teamID": "45",
+      "name": "Marc Cucurella",
+      "position": "LB",
+      "shirtNumber": 24,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "60",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "82",
+        "strength": "75",
+        "jumping": "274",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4503",
+      "teamID": "45",
+      "name": "Robin Le Normand",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "85",
+      "skill": {
+        "passing": "74",
+        "shooting": "45",
+        "tackling": "86",
+        "saving": "12",
+        "agility": "68",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4504",
+      "teamID": "45",
+      "name": "Aymeric Laporte",
+      "position": "CB",
+      "shirtNumber": 14,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "50",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "62",
+        "strength": "82",
+        "jumping": "295",
+        "penalty_taking": "55"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4505",
+      "teamID": "45",
+      "name": "Dani Carvajal",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "86",
+      "skill": {
+        "passing": "82",
+        "shooting": "65",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "80",
+        "strength": "82",
+        "jumping": "280",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4506",
+      "teamID": "45",
+      "name": "Rodri",
+      "position": "CM",
+      "shirtNumber": 16,
+      "rating": "91",
+      "skill": {
+        "passing": "88",
+        "shooting": "78",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "68",
+        "strength": "88",
+        "jumping": "298",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4507",
+      "teamID": "45",
+      "name": "Fabián Ruiz",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "85",
+      "skill": {
+        "passing": "86",
+        "shooting": "82",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "72",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4508",
+      "teamID": "45",
+      "name": "Nico Williams",
+      "position": "LM",
+      "shirtNumber": 17,
+      "rating": "86",
+      "skill": {
+        "passing": "80",
+        "shooting": "78",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "95",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4509",
+      "teamID": "45",
+      "name": "Lamine Yamal",
+      "position": "RM",
+      "shirtNumber": 19,
+      "rating": "85",
+      "skill": {
+        "passing": "84",
+        "shooting": "76",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "92",
+        "strength": "62",
+        "jumping": "262",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4510",
+      "teamID": "45",
+      "name": "Álvaro Morata",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "83",
+      "skill": {
+        "passing": "74",
+        "shooting": "84",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "302",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "4511",
+      "teamID": "45",
+      "name": "Dani Olmo",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "84",
+      "skill": {
+        "passing": "86",
+        "shooting": "82",
+        "tackling": "48",
+        "saving": "10",
+        "agility": "80",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

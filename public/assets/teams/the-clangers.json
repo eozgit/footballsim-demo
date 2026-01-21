@@ -1,0 +1,276 @@
+{
+  "name": "The Clangers",
+  "description": "Lunar Division",
+  "primaryColour": "Pink",
+  "secondaryColour": "Blue",
+  "awayColour": "Silver",
+  "rating": 18,
+  "teamID": "307",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "30701",
+      "teamID": "307",
+      "name": "Major Clanger",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "25",
+      "skill": {
+        "passing": "20",
+        "shooting": "1",
+        "tackling": "1",
+        "saving": "40",
+        "agility": "35",
+        "strength": "45",
+        "jumping": "300",
+        "penalty_taking": "10"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30702",
+      "teamID": "307",
+      "name": "Tiny Clanger",
+      "position": "LB",
+      "shirtNumber": 2,
+      "rating": "15",
+      "skill": {
+        "passing": "22",
+        "shooting": "10",
+        "tackling": "15",
+        "saving": "10",
+        "agility": "48",
+        "strength": "12",
+        "jumping": "260",
+        "penalty_taking": "13"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30703",
+      "teamID": "307",
+      "name": "Mother Clanger",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "20",
+      "skill": {
+        "passing": "25",
+        "shooting": "12",
+        "tackling": "30",
+        "saving": "12",
+        "agility": "32",
+        "strength": "35",
+        "jumping": "315",
+        "penalty_taking": "13"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30704",
+      "teamID": "307",
+      "name": "Granny Clanger",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "18",
+      "skill": {
+        "passing": "28",
+        "shooting": "10",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "25",
+        "strength": "30",
+        "jumping": "320",
+        "penalty_taking": "12"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30705",
+      "teamID": "307",
+      "name": "Small Clanger",
+      "position": "RB",
+      "shirtNumber": 5,
+      "rating": "16",
+      "skill": {
+        "passing": "24",
+        "shooting": "12",
+        "tackling": "18",
+        "saving": "10",
+        "agility": "52",
+        "strength": "15",
+        "jumping": "265",
+        "penalty_taking": "13"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30706",
+      "teamID": "307",
+      "name": "Soup Dragon",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "35",
+      "skill": {
+        "passing": "30",
+        "shooting": "40",
+        "tackling": "45",
+        "saving": "12",
+        "agility": "42",
+        "strength": "68",
+        "jumping": "290",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30707",
+      "teamID": "307",
+      "name": "Iron Chicken",
+      "position": "CM",
+      "shirtNumber": 9,
+      "rating": "42",
+      "skill": {
+        "passing": "38",
+        "shooting": "35",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "78",
+        "strength": "40",
+        "jumping": "270",
+        "penalty_taking": "33"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30708",
+      "teamID": "307",
+      "name": "Baby Soup Dragon",
+      "position": "LM",
+      "shirtNumber": 6,
+      "rating": "22",
+      "skill": {
+        "passing": "26",
+        "shooting": "20",
+        "tackling": "15",
+        "saving": "10",
+        "agility": "55",
+        "strength": "22",
+        "jumping": "262",
+        "penalty_taking": "21"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30709",
+      "teamID": "307",
+      "name": "Froglet Blue",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "28",
+      "skill": {
+        "passing": "32",
+        "shooting": "25",
+        "tackling": "20",
+        "saving": "10",
+        "agility": "65",
+        "strength": "28",
+        "jumping": "268",
+        "penalty_taking": "25"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30710",
+      "teamID": "307",
+      "name": "Froglet Red",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "28",
+      "skill": {
+        "passing": "32",
+        "shooting": "25",
+        "tackling": "20",
+        "saving": "10",
+        "agility": "65",
+        "strength": "28",
+        "jumping": "305",
+        "penalty_taking": "24"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "30711",
+      "teamID": "307",
+      "name": "Froglet Orange",
+      "position": "ST",
+      "shirtNumber": 12,
+      "rating": "28",
+      "skill": {
+        "passing": "32",
+        "shooting": "25",
+        "tackling": "20",
+        "saving": "10",
+        "agility": "65",
+        "strength": "28",
+        "jumping": "305",
+        "penalty_taking": "23"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

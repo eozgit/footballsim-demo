@@ -1,0 +1,276 @@
+{
+  "name": "Dynamo Kyiv",
+  "description": "Lobanovskyi’s Tactical Revolution",
+  "primaryColour": "White",
+  "secondaryColour": "Blue",
+  "awayColour": "Navy",
+  "rating": 89,
+  "teamID": "133",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "13301",
+      "teamID": "133",
+      "name": "Yevhen Rudakov",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "88",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "90",
+        "agility": "75",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13302",
+      "teamID": "133",
+      "name": "Viktor Matviyenko",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "60",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "88",
+        "strength": "82",
+        "jumping": "278",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13303",
+      "teamID": "133",
+      "name": "Mykhaylo Fomenko",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "86",
+      "skill": {
+        "passing": "78",
+        "shooting": "40",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "72",
+        "strength": "90",
+        "jumping": "312",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13304",
+      "teamID": "133",
+      "name": "Stefan Reshko",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "85",
+      "skill": {
+        "passing": "70",
+        "shooting": "35",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "70",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "40"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13305",
+      "teamID": "133",
+      "name": "Volodymyr Troshkin",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "58",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "92",
+        "strength": "85",
+        "jumping": "282",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13306",
+      "teamID": "133",
+      "name": "Volodymyr Muntyan",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "90",
+      "skill": {
+        "passing": "94",
+        "shooting": "82",
+        "tackling": "80",
+        "saving": "12",
+        "agility": "82",
+        "strength": "78",
+        "jumping": "290",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13307",
+      "teamID": "133",
+      "name": "Viktor Kolotov",
+      "position": "CM",
+      "shirtNumber": 9,
+      "rating": "92",
+      "skill": {
+        "passing": "88",
+        "shooting": "85",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "86",
+        "strength": "94",
+        "jumping": "302",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13308",
+      "teamID": "133",
+      "name": "Leonid Buryak",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "88",
+      "skill": {
+        "passing": "92",
+        "shooting": "80",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "84",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13309",
+      "teamID": "133",
+      "name": "Anatoliy Konkov",
+      "position": "RM",
+      "shirtNumber": 8,
+      "rating": "86",
+      "skill": {
+        "passing": "85",
+        "shooting": "76",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "82",
+        "strength": "86",
+        "jumping": "292",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13310",
+      "teamID": "133",
+      "name": "Oleg Blokhin",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "96",
+      "skill": {
+        "passing": "88",
+        "shooting": "95",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "98",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "98"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13311",
+      "teamID": "133",
+      "name": "Volodymyr Onyshchenko",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "86",
+      "skill": {
+        "passing": "80",
+        "shooting": "88",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "88",
+        "strength": "80",
+        "jumping": "295",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

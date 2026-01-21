@@ -1,0 +1,276 @@
+{
+  "name": "West Ham United",
+  "description": "2023 Conference League winners",
+  "primaryColour": "Claret",
+  "secondaryColour": "Blue",
+  "awayColour": "White",
+  "rating": 79,
+  "teamID": "202",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "20201",
+      "teamID": "202",
+      "name": "Alphonse Areola",
+      "position": "GK",
+      "shirtNumber": 23,
+      "rating": "82",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "85",
+        "agility": "82",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "34"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20202",
+      "teamID": "202",
+      "name": "Emerson",
+      "position": "LB",
+      "shirtNumber": 33,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "66",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "84",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20203",
+      "teamID": "202",
+      "name": "Kurt Zouma",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "82",
+      "skill": {
+        "passing": "65",
+        "shooting": "45",
+        "tackling": "86",
+        "saving": "12",
+        "agility": "68",
+        "strength": "92",
+        "jumping": "325",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20204",
+      "teamID": "202",
+      "name": "Nayef Aguerd",
+      "position": "CB",
+      "shirtNumber": 27,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "50",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "74",
+        "strength": "85",
+        "jumping": "318",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20205",
+      "teamID": "202",
+      "name": "Vladimir Coufal",
+      "position": "RB",
+      "shirtNumber": 5,
+      "rating": "79",
+      "skill": {
+        "passing": "76",
+        "shooting": "58",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "80",
+        "strength": "84",
+        "jumping": "280",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20206",
+      "teamID": "202",
+      "name": "Declan Rice",
+      "position": "CM",
+      "shirtNumber": 41,
+      "rating": "88",
+      "skill": {
+        "passing": "84",
+        "shooting": "72",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20207",
+      "teamID": "202",
+      "name": "Tomáš Souček",
+      "position": "CM",
+      "shirtNumber": 28,
+      "rating": "82",
+      "skill": {
+        "passing": "74",
+        "shooting": "78",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "65",
+        "strength": "92",
+        "jumping": "315",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20208",
+      "teamID": "202",
+      "name": "Lucas Paquetá",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "85",
+      "skill": {
+        "passing": "88",
+        "shooting": "80",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20209",
+      "teamID": "202",
+      "name": "Jarrod Bowen",
+      "position": "RM",
+      "shirtNumber": 20,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "84",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "88",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20210",
+      "teamID": "202",
+      "name": "Michail Antonio",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "80",
+      "skill": {
+        "passing": "72",
+        "shooting": "82",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "86",
+        "strength": "94",
+        "jumping": "335",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "20211",
+      "teamID": "202",
+      "name": "Saïd Benrahma",
+      "position": "ST",
+      "shirtNumber": 22,
+      "rating": "80",
+      "skill": {
+        "passing": "84",
+        "shooting": "78",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "84",
+        "strength": "65",
+        "jumping": "288",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

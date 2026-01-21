@@ -1,0 +1,276 @@
+{
+  "name": "Paris Saint-Germain",
+  "description": "2020 Champions League Finalists",
+  "primaryColour": "Navy",
+  "secondaryColour": "Red",
+  "awayColour": "White",
+  "rating": 89,
+  "teamID": "172",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "17201",
+      "teamID": "172",
+      "name": "Keylor Navas",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "90",
+      "skill": {
+        "passing": "78",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "92",
+        "agility": "88",
+        "strength": "75",
+        "jumping": "285",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17202",
+      "teamID": "172",
+      "name": "Juan Bernat",
+      "position": "LB",
+      "shirtNumber": 14,
+      "rating": "82",
+      "skill": {
+        "passing": "80",
+        "shooting": "68",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17203",
+      "teamID": "172",
+      "name": "Marquinhos",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "88",
+      "skill": {
+        "passing": "78",
+        "shooting": "55",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "82",
+        "strength": "86",
+        "jumping": "310",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17204",
+      "teamID": "172",
+      "name": "Presnel Kimpembe",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "40",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "80",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17205",
+      "teamID": "172",
+      "name": "Thilo Kehrer",
+      "position": "RB",
+      "shirtNumber": 4,
+      "rating": "80",
+      "skill": {
+        "passing": "75",
+        "shooting": "52",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "84",
+        "strength": "82",
+        "jumping": "282",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17206",
+      "teamID": "172",
+      "name": "Marquinhos",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "88",
+      "skill": {
+        "passing": "82",
+        "shooting": "65",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "80",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17207",
+      "teamID": "172",
+      "name": "Leandro Paredes",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "84",
+      "skill": {
+        "passing": "88",
+        "shooting": "75",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "68",
+        "strength": "84",
+        "jumping": "292",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17208",
+      "teamID": "172",
+      "name": "Angel Di Maria",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "90",
+      "skill": {
+        "passing": "95",
+        "shooting": "86",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "86",
+        "strength": "70",
+        "jumping": "275",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17209",
+      "teamID": "172",
+      "name": "Kylian Mbappé",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "94",
+      "skill": {
+        "passing": "85",
+        "shooting": "95",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "99",
+        "strength": "80",
+        "jumping": "280",
+        "penalty_taking": "93"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17210",
+      "teamID": "172",
+      "name": "Neymar Jr",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "92",
+      "skill": {
+        "passing": "98",
+        "shooting": "90",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "88",
+        "strength": "72",
+        "jumping": "288",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17211",
+      "teamID": "172",
+      "name": "Mauro Icardi",
+      "position": "ST",
+      "shirtNumber": 18,
+      "rating": "85",
+      "skill": {
+        "passing": "72",
+        "shooting": "92",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "78",
+        "strength": "85",
+        "jumping": "325",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

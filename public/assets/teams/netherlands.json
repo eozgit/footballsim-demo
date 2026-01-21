@@ -1,0 +1,276 @@
+{
+  "name": "Netherlands",
+  "description": "Oranje",
+  "primaryColour": "Orange",
+  "secondaryColour": "Blue",
+  "awayColour": "White",
+  "rating": 85,
+  "teamID": "30",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "3001",
+      "teamID": "30",
+      "name": "Bart Verbruggen",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "79",
+      "skill": {
+        "passing": "78",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "80",
+        "agility": "75",
+        "strength": "74",
+        "jumping": "280",
+        "penalty_taking": "27"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3002",
+      "teamID": "30",
+      "name": "Nathan Aké",
+      "position": "LB",
+      "shirtNumber": 5,
+      "rating": "84",
+      "skill": {
+        "passing": "78",
+        "shooting": "55",
+        "tackling": "85",
+        "saving": "12",
+        "agility": "72",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3003",
+      "teamID": "30",
+      "name": "Virgil van Dijk",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "89",
+      "skill": {
+        "passing": "80",
+        "shooting": "60",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "75",
+        "strength": "92",
+        "jumping": "302",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3004",
+      "teamID": "30",
+      "name": "Stefan de Vrij",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "83",
+      "skill": {
+        "passing": "74",
+        "shooting": "45",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "62",
+        "strength": "84",
+        "jumping": "295",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3005",
+      "teamID": "30",
+      "name": "Denzel Dumfries",
+      "position": "RB",
+      "shirtNumber": 22,
+      "rating": "81",
+      "skill": {
+        "passing": "75",
+        "shooting": "68",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "86",
+        "strength": "88",
+        "jumping": "290",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3006",
+      "teamID": "30",
+      "name": "Jerdy Schouten",
+      "position": "CM",
+      "shirtNumber": 24,
+      "rating": "80",
+      "skill": {
+        "passing": "82",
+        "shooting": "65",
+        "tackling": "80",
+        "saving": "12",
+        "agility": "74",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "65"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3007",
+      "teamID": "30",
+      "name": "Tijjani Reijnders",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "81",
+      "skill": {
+        "passing": "84",
+        "shooting": "75",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "82",
+        "strength": "74",
+        "jumping": "275",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3008",
+      "teamID": "30",
+      "name": "Cody Gakpo",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "83",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "78",
+        "jumping": "280",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3009",
+      "teamID": "30",
+      "name": "Xavi Simons",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "84",
+      "skill": {
+        "passing": "85",
+        "shooting": "80",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "90",
+        "strength": "68",
+        "jumping": "270",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3010",
+      "teamID": "30",
+      "name": "Memphis Depay",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "83",
+      "skill": {
+        "passing": "84",
+        "shooting": "84",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "80",
+        "strength": "78",
+        "jumping": "278",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3011",
+      "teamID": "30",
+      "name": "Wout Weghorst",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "80",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "55",
+        "strength": "92",
+        "jumping": "308",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

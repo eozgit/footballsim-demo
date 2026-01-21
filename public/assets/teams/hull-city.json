@@ -1,0 +1,276 @@
+{
+  "name": "Hull City",
+  "description": "2014 FA Cup Finalists",
+  "primaryColour": "Amber",
+  "secondaryColour": "Black",
+  "awayColour": "White",
+  "rating": 62,
+  "teamID": "148",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "14801",
+      "teamID": "148",
+      "name": "Allan McGregor",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "80",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "82",
+        "agility": "75",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "32"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14802",
+      "teamID": "148",
+      "name": "Liam Rosenior",
+      "position": "LB",
+      "shirtNumber": 2,
+      "rating": "72",
+      "skill": {
+        "passing": "74",
+        "shooting": "52",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "78",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14803",
+      "teamID": "148",
+      "name": "Curtis Davies",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "78",
+      "skill": {
+        "passing": "65",
+        "shooting": "45",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "60",
+        "strength": "85",
+        "jumping": "315",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14804",
+      "teamID": "148",
+      "name": "James Chester",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "76",
+      "skill": {
+        "passing": "62",
+        "shooting": "40",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "65",
+        "strength": "80",
+        "jumping": "305",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14805",
+      "teamID": "148",
+      "name": "Ahmed Elmohamady",
+      "position": "RB",
+      "shirtNumber": 27,
+      "rating": "75",
+      "skill": {
+        "passing": "78",
+        "shooting": "60",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "85",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14806",
+      "teamID": "148",
+      "name": "Tom Huddlestone",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "81",
+      "skill": {
+        "passing": "88",
+        "shooting": "72",
+        "tackling": "72",
+        "saving": "12",
+        "agility": "52",
+        "strength": "78",
+        "jumping": "295",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14807",
+      "teamID": "148",
+      "name": "Jake Livermore",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "77",
+      "skill": {
+        "passing": "76",
+        "shooting": "68",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14808",
+      "teamID": "148",
+      "name": "David Meyler",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "65",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "75",
+        "strength": "80",
+        "jumping": "285",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14809",
+      "teamID": "148",
+      "name": "Robert Koren",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "76",
+      "skill": {
+        "passing": "80",
+        "shooting": "74",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "76",
+        "strength": "70",
+        "jumping": "278",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14810",
+      "teamID": "148",
+      "name": "Shane Long",
+      "position": "ST",
+      "shirtNumber": 21,
+      "rating": "78",
+      "skill": {
+        "passing": "70",
+        "shooting": "76",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "92",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14811",
+      "teamID": "148",
+      "name": "Nikica Jelavić",
+      "position": "ST",
+      "shirtNumber": 18,
+      "rating": "77",
+      "skill": {
+        "passing": "68",
+        "shooting": "82",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "72",
+        "strength": "88",
+        "jumping": "320",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

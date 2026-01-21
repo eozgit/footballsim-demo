@@ -1,0 +1,276 @@
+{
+  "name": "Manchester City",
+  "description": "2022-2023 The Continental Treble",
+  "primaryColour": "SkyBlue",
+  "secondaryColour": "White",
+  "awayColour": "Navy",
+  "rating": 98,
+  "teamID": "161",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "16101",
+      "teamID": "161",
+      "name": "Ederson",
+      "position": "GK",
+      "shirtNumber": 31,
+      "rating": "90",
+      "skill": {
+        "passing": "94",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "86",
+        "strength": "82",
+        "jumping": "295",
+        "penalty_taking": "33"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16102",
+      "teamID": "161",
+      "name": "Nathan Aké",
+      "position": "LB",
+      "shirtNumber": 6,
+      "rating": "86",
+      "skill": {
+        "passing": "80",
+        "shooting": "55",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "278",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16103",
+      "teamID": "161",
+      "name": "Rúben Dias",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "92",
+      "skill": {
+        "passing": "82",
+        "shooting": "40",
+        "tackling": "94",
+        "saving": "12",
+        "agility": "65",
+        "strength": "92",
+        "jumping": "320",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16104",
+      "teamID": "161",
+      "name": "Manuel Akanji",
+      "position": "CB",
+      "shirtNumber": 25,
+      "rating": "88",
+      "skill": {
+        "passing": "84",
+        "shooting": "45",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "85",
+        "strength": "86",
+        "jumping": "315",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16105",
+      "teamID": "161",
+      "name": "Kyle Walker",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "88",
+      "skill": {
+        "passing": "78",
+        "shooting": "58",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "96",
+        "strength": "90",
+        "jumping": "282",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16106",
+      "teamID": "161",
+      "name": "Rodri",
+      "position": "CM",
+      "shirtNumber": 16,
+      "rating": "94",
+      "skill": {
+        "passing": "92",
+        "shooting": "80",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "74",
+        "strength": "92",
+        "jumping": "305",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16107",
+      "teamID": "161",
+      "name": "John Stones",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "89",
+      "skill": {
+        "passing": "90",
+        "shooting": "65",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "78",
+        "strength": "84",
+        "jumping": "298",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16108",
+      "teamID": "161",
+      "name": "Jack Grealish",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "88",
+      "skill": {
+        "passing": "90",
+        "shooting": "82",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "82",
+        "strength": "76",
+        "jumping": "272",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16109",
+      "teamID": "161",
+      "name": "Bernardo Silva",
+      "position": "RM",
+      "shirtNumber": 20,
+      "rating": "92",
+      "skill": {
+        "passing": "94",
+        "shooting": "84",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "85",
+        "strength": "72",
+        "jumping": "278",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16110",
+      "teamID": "161",
+      "name": "Erling Haaland",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "96",
+      "skill": {
+        "passing": "72",
+        "shooting": "98",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "94",
+        "strength": "96",
+        "jumping": "335",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "16111",
+      "teamID": "161",
+      "name": "Kevin De Bruyne",
+      "position": "ST",
+      "shirtNumber": 17,
+      "rating": "94",
+      "skill": {
+        "passing": "99",
+        "shooting": "92",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "302",
+        "penalty_taking": "93"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

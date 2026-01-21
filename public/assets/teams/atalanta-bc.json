@@ -1,0 +1,276 @@
+{
+  "name": "Atalanta BC",
+  "description": "2024 UEFA Europa League winners",
+  "primaryColour": "Blue",
+  "secondaryColour": "Black",
+  "awayColour": "White",
+  "rating": 84,
+  "teamID": "112",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "11201",
+      "teamID": "112",
+      "name": "Juan Musso",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "82",
+      "skill": {
+        "passing": "72",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "84",
+        "agility": "75",
+        "strength": "78",
+        "jumping": "284",
+        "penalty_taking": "28"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11202",
+      "teamID": "112",
+      "name": "Matteo Ruggeri",
+      "position": "LB",
+      "shirtNumber": 22,
+      "rating": "79",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "82",
+        "strength": "74",
+        "jumping": "275",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11203",
+      "teamID": "112",
+      "name": "Berat Djimsiti",
+      "position": "CB",
+      "shirtNumber": 19,
+      "rating": "81",
+      "skill": {
+        "passing": "70",
+        "shooting": "35",
+        "tackling": "82",
+        "saving": "12",
+        "agility": "68",
+        "strength": "85",
+        "jumping": "298",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11204",
+      "teamID": "112",
+      "name": "Isak Hien",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "82",
+      "skill": {
+        "passing": "65",
+        "shooting": "32",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "75",
+        "strength": "88",
+        "jumping": "302",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11205",
+      "teamID": "112",
+      "name": "Davide Zappacosta",
+      "position": "RB",
+      "shirtNumber": 77,
+      "rating": "80",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "76",
+        "saving": "10",
+        "agility": "84",
+        "strength": "75",
+        "jumping": "278",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11206",
+      "teamID": "112",
+      "name": "Ederson",
+      "position": "CM",
+      "shirtNumber": 13,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "74",
+        "tackling": "80",
+        "saving": "12",
+        "agility": "80",
+        "strength": "84",
+        "jumping": "288",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11207",
+      "teamID": "112",
+      "name": "Marten de Roon",
+      "position": "CM",
+      "shirtNumber": 15,
+      "rating": "83",
+      "skill": {
+        "passing": "80",
+        "shooting": "68",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "72",
+        "strength": "82",
+        "jumping": "292",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11208",
+      "teamID": "112",
+      "name": "Ademola Lookman",
+      "position": "LM",
+      "shirtNumber": 11,
+      "rating": "86",
+      "skill": {
+        "passing": "82",
+        "shooting": "85",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "92",
+        "strength": "70",
+        "jumping": "268",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11209",
+      "teamID": "112",
+      "name": "Charles De Ketelaere",
+      "position": "RM",
+      "shirtNumber": 17,
+      "rating": "83",
+      "skill": {
+        "passing": "85",
+        "shooting": "78",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "78",
+        "strength": "78",
+        "jumping": "275",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11210",
+      "teamID": "112",
+      "name": "Gianluca Scamacca",
+      "position": "ST",
+      "shirtNumber": 90,
+      "rating": "82",
+      "skill": {
+        "passing": "74",
+        "shooting": "85",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "72",
+        "strength": "90",
+        "jumping": "320",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "11211",
+      "teamID": "112",
+      "name": "Teun Koopmeiners",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "85",
+      "skill": {
+        "passing": "88",
+        "shooting": "82",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "76",
+        "strength": "80",
+        "jumping": "282",
+        "penalty_taking": "89"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

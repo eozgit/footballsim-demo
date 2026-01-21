@@ -1,0 +1,276 @@
+{
+  "name": "Juventus",
+  "description": "2011-2019 Nine-title Streak",
+  "primaryColour": "White",
+  "secondaryColour": "Black",
+  "awayColour": "Pink",
+  "rating": 94,
+  "teamID": "153",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "15301",
+      "teamID": "153",
+      "name": "Gianluigi Buffon",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "94",
+      "skill": {
+        "passing": "75",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "96",
+        "agility": "80",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "30"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15302",
+      "teamID": "153",
+      "name": "Giorgio Chiellini",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "92",
+      "skill": {
+        "passing": "72",
+        "shooting": "45",
+        "tackling": "95",
+        "saving": "10",
+        "agility": "78",
+        "strength": "94",
+        "jumping": "310",
+        "penalty_taking": "49"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15303",
+      "teamID": "153",
+      "name": "Leonardo Bonucci",
+      "position": "CB",
+      "shirtNumber": 19,
+      "rating": "90",
+      "skill": {
+        "passing": "86",
+        "shooting": "55",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "68",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "67"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15304",
+      "teamID": "153",
+      "name": "Andrea Barzagli",
+      "position": "CB",
+      "shirtNumber": 15,
+      "rating": "89",
+      "skill": {
+        "passing": "74",
+        "shooting": "32",
+        "tackling": "94",
+        "saving": "10",
+        "agility": "72",
+        "strength": "90",
+        "jumping": "308",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15305",
+      "teamID": "153",
+      "name": "Stephan Lichtsteiner",
+      "position": "RB",
+      "shirtNumber": 26,
+      "rating": "85",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "88",
+        "strength": "84",
+        "jumping": "285",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15306",
+      "teamID": "153",
+      "name": "Andrea Pirlo",
+      "position": "CM",
+      "shirtNumber": 21,
+      "rating": "92",
+      "skill": {
+        "passing": "99",
+        "shooting": "80",
+        "tackling": "65",
+        "saving": "12",
+        "agility": "50",
+        "strength": "70",
+        "jumping": "288",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15307",
+      "teamID": "153",
+      "name": "Arturo Vidal",
+      "position": "CM",
+      "shirtNumber": 23,
+      "rating": "88",
+      "skill": {
+        "passing": "82",
+        "shooting": "84",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "82",
+        "strength": "90",
+        "jumping": "302",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15308",
+      "teamID": "153",
+      "name": "Paul Pogba",
+      "position": "LM",
+      "shirtNumber": 6,
+      "rating": "88",
+      "skill": {
+        "passing": "88",
+        "shooting": "85",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "82",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15309",
+      "teamID": "153",
+      "name": "Claudio Marchisio",
+      "position": "RM",
+      "shirtNumber": 8,
+      "rating": "86",
+      "skill": {
+        "passing": "85",
+        "shooting": "78",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "80",
+        "strength": "80",
+        "jumping": "290",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15310",
+      "teamID": "153",
+      "name": "Paulo Dybala",
+      "position": "ST",
+      "shirtNumber": 10,
+      "rating": "88",
+      "skill": {
+        "passing": "90",
+        "shooting": "86",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "86",
+        "strength": "72",
+        "jumping": "280",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "15311",
+      "teamID": "153",
+      "name": "Gonzalo Higuaín",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "88",
+      "skill": {
+        "passing": "75",
+        "shooting": "92",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "80",
+        "strength": "86",
+        "jumping": "320",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

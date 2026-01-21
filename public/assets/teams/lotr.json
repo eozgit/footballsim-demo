@@ -1,0 +1,276 @@
+{
+  "name": "LOTR",
+  "description": "Middle Earth FC",
+  "primaryColour": "Gold",
+  "secondaryColour": "White",
+  "awayColour": "DarkGrey",
+  "rating": 95,
+  "teamID": "310",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "31001",
+      "teamID": "310",
+      "name": "Gandalf",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "90",
+      "skill": {
+        "passing": "99",
+        "shooting": "40",
+        "tackling": "30",
+        "saving": "98",
+        "agility": "85",
+        "strength": "88",
+        "jumping": "300",
+        "penalty_taking": "60"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "31002",
+      "teamID": "310",
+      "name": "Aragorn",
+      "position": "CB",
+      "shirtNumber": 87,
+      "rating": "85",
+      "skill": {
+        "passing": "92",
+        "shooting": "88",
+        "tackling": "94",
+        "saving": "10",
+        "agility": "95",
+        "strength": "85",
+        "jumping": "265",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "31003",
+      "teamID": "310",
+      "name": "Boromir",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "70",
+      "skill": {
+        "passing": "75",
+        "shooting": "72",
+        "tackling": "96",
+        "saving": "10",
+        "agility": "98",
+        "strength": "70",
+        "jumping": "275",
+        "penalty_taking": "72"
+      },
+      "currentPOS": [
+        420,
+        880
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "31004",
+      "teamID": "310",
+      "name": "Gimli",
+      "position": "LB",
+      "shirtNumber": 5,
+      "rating": "65",
+      "skill": {
+        "passing": "70",
+        "shooting": "60",
+        "tackling": "98",
+        "saving": "10",
+        "agility": "99",
+        "strength": "60",
+        "jumping": "150",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "31005",
+      "teamID": "310",
+      "name": "Legolas",
+      "position": "RB",
+      "shirtNumber": 6,
+      "rating": "92",
+      "skill": {
+        "passing": "96",
+        "shooting": "99",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "75",
+        "strength": "99",
+        "jumping": "260",
+        "penalty_taking": "99"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "31006",
+      "teamID": "310",
+      "name": "Samwise",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "88",
+      "skill": {
+        "passing": "85",
+        "shooting": "60",
+        "tackling": "80",
+        "saving": "10",
+        "agility": "92",
+        "strength": "75",
+        "jumping": "125",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "31007",
+      "teamID": "310",
+      "name": "Frodo",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "82",
+      "skill": {
+        "passing": "94",
+        "shooting": "65",
+        "tackling": "50",
+        "saving": "10",
+        "agility": "60",
+        "strength": "92",
+        "jumping": "125",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        360,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "31008",
+      "teamID": "310",
+      "name": "Pippin",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "70",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "55",
+        "strength": "94",
+        "jumping": "125",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "31009",
+      "teamID": "310",
+      "name": "Merry",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "70",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "55",
+        "strength": "94",
+        "jumping": "125",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "31010",
+      "teamID": "310",
+      "name": "Faramir",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "80",
+      "skill": {
+        "passing": "88",
+        "shooting": "90",
+        "tackling": "70",
+        "saving": "10",
+        "agility": "82",
+        "strength": "84",
+        "jumping": "270",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "31011",
+      "teamID": "310",
+      "name": "Eowyn",
+      "position": "ST",
+      "shirtNumber": 22,
+      "rating": "75",
+      "skill": {
+        "passing": "85",
+        "shooting": "92",
+        "tackling": "75",
+        "saving": "10",
+        "agility": "80",
+        "strength": "88",
+        "jumping": "250",
+        "penalty_taking": "92"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Bolivia",
+  "description": "La Verde",
+  "primaryColour": "Green",
+  "secondaryColour": "White",
+  "awayColour": "Red",
+  "rating": 54,
+  "teamID": "6",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "601",
+      "teamID": "6",
+      "name": "Guillermo Viscarra",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "62",
+      "skill": {
+        "passing": "55",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "65",
+        "agility": "60",
+        "strength": "70",
+        "jumping": "278",
+        "penalty_taking": "20"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "602",
+      "teamID": "6",
+      "name": "Roberto Fernández",
+      "position": "LB",
+      "shirtNumber": 17,
+      "rating": "56",
+      "skill": {
+        "passing": "58",
+        "shooting": "45",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "72",
+        "strength": "65",
+        "jumping": "270",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "603",
+      "teamID": "6",
+      "name": "Luis Haquin",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "58",
+      "skill": {
+        "passing": "50",
+        "shooting": "35",
+        "tackling": "62",
+        "saving": "12",
+        "agility": "55",
+        "strength": "78",
+        "jumping": "285",
+        "penalty_taking": "40"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "604",
+      "teamID": "6",
+      "name": "José Sagredo",
+      "position": "CB",
+      "shirtNumber": 21,
+      "rating": "55",
+      "skill": {
+        "passing": "48",
+        "shooting": "32",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "52",
+        "strength": "75",
+        "jumping": "282",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "605",
+      "teamID": "6",
+      "name": "Diego Medina",
+      "position": "RB",
+      "shirtNumber": 3,
+      "rating": "54",
+      "skill": {
+        "passing": "52",
+        "shooting": "38",
+        "tackling": "58",
+        "saving": "10",
+        "agility": "75",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "606",
+      "teamID": "6",
+      "name": "Gabriel Villamíl",
+      "position": "CM",
+      "shirtNumber": 15,
+      "rating": "57",
+      "skill": {
+        "passing": "62",
+        "shooting": "55",
+        "tackling": "56",
+        "saving": "12",
+        "agility": "68",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "52"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "607",
+      "teamID": "6",
+      "name": "Boris Céspedes",
+      "position": "CM",
+      "shirtNumber": 16,
+      "rating": "56",
+      "skill": {
+        "passing": "60",
+        "shooting": "52",
+        "tackling": "54",
+        "saving": "10",
+        "agility": "64",
+        "strength": "70",
+        "jumping": "274",
+        "penalty_taking": "49"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "608",
+      "teamID": "6",
+      "name": "Ramiro Vaca",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "60",
+      "skill": {
+        "passing": "68",
+        "shooting": "64",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "78",
+        "strength": "60",
+        "jumping": "265",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "609",
+      "teamID": "6",
+      "name": "Miguel Terceros",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "58",
+      "skill": {
+        "passing": "62",
+        "shooting": "60",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "82",
+        "strength": "58",
+        "jumping": "268",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "610",
+      "teamID": "6",
+      "name": "Carmelo Algarañaz",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "55",
+      "skill": {
+        "passing": "45",
+        "shooting": "62",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "65",
+        "strength": "75",
+        "jumping": "288",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "611",
+      "teamID": "6",
+      "name": "Bruno Miranda",
+      "position": "ST",
+      "shirtNumber": 19,
+      "rating": "53",
+      "skill": {
+        "passing": "42",
+        "shooting": "58",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "68",
+        "strength": "72",
+        "jumping": "280",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "name": "Everton FC",
+  "description": "2025/26 'Survivalist' Phase",
+  "primaryColour": "Blue",
+  "secondaryColour": "White",
+  "awayColour": "Yellow",
+  "rating": 46,
+  "teamID": "136",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "13601",
+      "teamID": "136",
+      "name": "Jordan Pickford",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "83",
+      "skill": {
+        "passing": "78",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "85",
+        "agility": "88",
+        "strength": "76",
+        "jumping": "285",
+        "penalty_taking": "27"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13602",
+      "teamID": "136",
+      "name": "Vitaliy Mykolenko",
+      "position": "LB",
+      "shirtNumber": 19,
+      "rating": "76",
+      "skill": {
+        "passing": "70",
+        "shooting": "52",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "80",
+        "strength": "75",
+        "jumping": "272",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13603",
+      "teamID": "136",
+      "name": "James Tarkowski",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "80",
+      "skill": {
+        "passing": "65",
+        "shooting": "42",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "55",
+        "strength": "88",
+        "jumping": "315",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13604",
+      "teamID": "136",
+      "name": "Jarrad Branthwaite",
+      "position": "CB",
+      "shirtNumber": 32,
+      "rating": "82",
+      "skill": {
+        "passing": "72",
+        "shooting": "38",
+        "tackling": "85",
+        "saving": "10",
+        "agility": "78",
+        "strength": "84",
+        "jumping": "305",
+        "penalty_taking": "42"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13605",
+      "teamID": "136",
+      "name": "Ashley Young",
+      "position": "RB",
+      "shirtNumber": 18,
+      "rating": "74",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "72",
+        "saving": "10",
+        "agility": "75",
+        "strength": "68",
+        "jumping": "275",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13606",
+      "teamID": "136",
+      "name": "Idrissa Gueye",
+      "position": "CM",
+      "shirtNumber": 27,
+      "rating": "78",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "84",
+        "saving": "12",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "290",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13607",
+      "teamID": "136",
+      "name": "James Garner",
+      "position": "CM",
+      "shirtNumber": 37,
+      "rating": "77",
+      "skill": {
+        "passing": "80",
+        "shooting": "70",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "74",
+        "strength": "72",
+        "jumping": "288",
+        "penalty_taking": "76"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13608",
+      "teamID": "136",
+      "name": "Dwight McNeil",
+      "position": "LM",
+      "shirtNumber": 7,
+      "rating": "78",
+      "skill": {
+        "passing": "82",
+        "shooting": "76",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "76",
+        "strength": "75",
+        "jumping": "278",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13609",
+      "teamID": "136",
+      "name": "Jack Harrison",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "77",
+      "skill": {
+        "passing": "76",
+        "shooting": "72",
+        "tackling": "58",
+        "saving": "10",
+        "agility": "84",
+        "strength": "70",
+        "jumping": "272",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13610",
+      "teamID": "136",
+      "name": "Dominic Calvert-Lewin",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "79",
+      "skill": {
+        "passing": "65",
+        "shooting": "80",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "82",
+        "strength": "90",
+        "jumping": "320",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "13611",
+      "teamID": "136",
+      "name": "Beto",
+      "position": "ST",
+      "shirtNumber": 14,
+      "rating": "76",
+      "skill": {
+        "passing": "62",
+        "shooting": "78",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "85",
+        "strength": "88",
+        "jumping": "312",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

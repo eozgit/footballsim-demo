@@ -1,0 +1,276 @@
+{
+  "name": "Portugal",
+  "description": "A Seleção",
+  "primaryColour": "Red",
+  "secondaryColour": "Green",
+  "awayColour": "White",
+  "rating": 89,
+  "teamID": "37",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "3701",
+      "teamID": "37",
+      "name": "Diogo Costa",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "86",
+      "skill": {
+        "passing": "78",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3702",
+      "teamID": "37",
+      "name": "Nuno Mendes",
+      "position": "LB",
+      "shirtNumber": 19,
+      "rating": "83",
+      "skill": {
+        "passing": "78",
+        "shooting": "65",
+        "tackling": "79",
+        "saving": "10",
+        "agility": "90",
+        "strength": "76",
+        "jumping": "278",
+        "penalty_taking": "66"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3703",
+      "teamID": "37",
+      "name": "Rúben Dias",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "88",
+      "skill": {
+        "passing": "72",
+        "shooting": "45",
+        "tackling": "89",
+        "saving": "12",
+        "agility": "65",
+        "strength": "92",
+        "jumping": "298",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3704",
+      "teamID": "37",
+      "name": "Gonçalo Inácio",
+      "position": "CB",
+      "shirtNumber": 14,
+      "rating": "83",
+      "skill": {
+        "passing": "78",
+        "shooting": "50",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "72",
+        "strength": "85",
+        "jumping": "294",
+        "penalty_taking": "58"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3705",
+      "teamID": "37",
+      "name": "João Cancelo",
+      "position": "RB",
+      "shirtNumber": 20,
+      "rating": "85",
+      "skill": {
+        "passing": "84",
+        "shooting": "72",
+        "tackling": "78",
+        "saving": "10",
+        "agility": "86",
+        "strength": "78",
+        "jumping": "274",
+        "penalty_taking": "77"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3706",
+      "teamID": "37",
+      "name": "Vitinha",
+      "position": "CM",
+      "shirtNumber": 23,
+      "rating": "86",
+      "skill": {
+        "passing": "88",
+        "shooting": "74",
+        "tackling": "75",
+        "saving": "12",
+        "agility": "82",
+        "strength": "68",
+        "jumping": "268",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3707",
+      "teamID": "37",
+      "name": "Bruno Fernandes",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "88",
+      "skill": {
+        "passing": "92",
+        "shooting": "84",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "78",
+        "strength": "75",
+        "jumping": "275",
+        "penalty_taking": "86"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3708",
+      "teamID": "37",
+      "name": "Rafael Leão",
+      "position": "LM",
+      "shirtNumber": 17,
+      "rating": "87",
+      "skill": {
+        "passing": "82",
+        "shooting": "80",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "94",
+        "strength": "80",
+        "jumping": "282",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3709",
+      "teamID": "37",
+      "name": "Bernardo Silva",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "88",
+      "skill": {
+        "passing": "90",
+        "shooting": "78",
+        "tackling": "62",
+        "saving": "10",
+        "agility": "84",
+        "strength": "70",
+        "jumping": "270",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3710",
+      "teamID": "37",
+      "name": "Cristiano Ronaldo",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "75",
+        "shooting": "90",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "78",
+        "strength": "82",
+        "jumping": "308",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "3711",
+      "teamID": "37",
+      "name": "Gonçalo Ramos",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "83",
+      "skill": {
+        "passing": "72",
+        "shooting": "84",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "78",
+        "strength": "80",
+        "jumping": "292",
+        "penalty_taking": "83"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

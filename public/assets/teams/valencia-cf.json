@@ -1,0 +1,276 @@
+{
+  "name": "Valencia CF",
+  "description": "2004 La Liga & UEFA Double",
+  "primaryColour": "White",
+  "secondaryColour": "Black",
+  "awayColour": "Orange",
+  "rating": 91,
+  "teamID": "197",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "19701",
+      "teamID": "197",
+      "name": "Santiago Cañizares",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "90",
+      "skill": {
+        "passing": "74",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "92",
+        "agility": "85",
+        "strength": "78",
+        "jumping": "282",
+        "penalty_taking": "35"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19702",
+      "teamID": "197",
+      "name": "Amedeo Carboni",
+      "position": "LB",
+      "shirtNumber": 15,
+      "rating": "85",
+      "skill": {
+        "passing": "78",
+        "shooting": "60",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "80",
+        "strength": "82",
+        "jumping": "275",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19703",
+      "teamID": "197",
+      "name": "Roberto Ayala",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "92",
+      "skill": {
+        "passing": "72",
+        "shooting": "45",
+        "tackling": "95",
+        "saving": "12",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "330",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19704",
+      "teamID": "197",
+      "name": "Carlos Marchena",
+      "position": "CB",
+      "shirtNumber": 5,
+      "rating": "86",
+      "skill": {
+        "passing": "75",
+        "shooting": "42",
+        "tackling": "90",
+        "saving": "10",
+        "agility": "70",
+        "strength": "92",
+        "jumping": "320",
+        "penalty_taking": "54"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19705",
+      "teamID": "197",
+      "name": "Curro Torres",
+      "position": "RB",
+      "shirtNumber": 23,
+      "rating": "82",
+      "skill": {
+        "passing": "72",
+        "shooting": "52",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "282",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19706",
+      "teamID": "197",
+      "name": "David Albelda",
+      "position": "CM",
+      "shirtNumber": 6,
+      "rating": "88",
+      "skill": {
+        "passing": "78",
+        "shooting": "62",
+        "tackling": "94",
+        "saving": "12",
+        "agility": "74",
+        "strength": "92",
+        "jumping": "305",
+        "penalty_taking": "69"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19707",
+      "teamID": "197",
+      "name": "Rubén Baraja",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "88",
+      "skill": {
+        "passing": "86",
+        "shooting": "84",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "78",
+        "strength": "86",
+        "jumping": "298",
+        "penalty_taking": "81"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19708",
+      "teamID": "197",
+      "name": "Vicente",
+      "position": "LM",
+      "shirtNumber": 14,
+      "rating": "90",
+      "skill": {
+        "passing": "88",
+        "shooting": "84",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "92",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19709",
+      "teamID": "197",
+      "name": "Francisco Rufete",
+      "position": "RM",
+      "shirtNumber": 19,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "78",
+        "tackling": "58",
+        "saving": "10",
+        "agility": "85",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19710",
+      "teamID": "197",
+      "name": "Mista",
+      "position": "ST",
+      "shirtNumber": 23,
+      "rating": "86",
+      "skill": {
+        "passing": "76",
+        "shooting": "88",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "315",
+        "penalty_taking": "88"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19711",
+      "teamID": "197",
+      "name": "Pablo Aimar",
+      "position": "ST",
+      "shirtNumber": 21,
+      "rating": "92",
+      "skill": {
+        "passing": "96",
+        "shooting": "84",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "86",
+        "strength": "62",
+        "jumping": "285",
+        "penalty_taking": "90"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

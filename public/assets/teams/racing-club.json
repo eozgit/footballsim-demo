@@ -1,0 +1,276 @@
+{
+  "name": "Racing Club",
+  "description": "1967 Intercontinental Cup winners",
+  "primaryColour": "Sky Blue",
+  "secondaryColour": "White",
+  "awayColour": "Navy",
+  "rating": 82,
+  "teamID": "177",
+  "intent": "defensive",
+  "players": [
+    {
+      "playerID": "17701",
+      "teamID": "177",
+      "name": "Agustín Cejas",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "86",
+      "skill": {
+        "passing": "70",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "88",
+        "agility": "78",
+        "strength": "80",
+        "jumping": "285",
+        "penalty_taking": "29"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17702",
+      "teamID": "177",
+      "name": "Nelson Chabay",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "80",
+      "skill": {
+        "passing": "75",
+        "shooting": "55",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "80",
+        "strength": "78",
+        "jumping": "278",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17703",
+      "teamID": "177",
+      "name": "Roberto Perfumo",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "92",
+      "skill": {
+        "passing": "82",
+        "shooting": "50",
+        "tackling": "95",
+        "saving": "12",
+        "agility": "78",
+        "strength": "92",
+        "jumping": "320",
+        "penalty_taking": "53"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17704",
+      "teamID": "177",
+      "name": "Alfio Basile",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "85",
+      "skill": {
+        "passing": "72",
+        "shooting": "45",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "65",
+        "strength": "94",
+        "jumping": "325",
+        "penalty_taking": "47"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17705",
+      "teamID": "177",
+      "name": "Oscar Martín",
+      "position": "RB",
+      "shirtNumber": 4,
+      "rating": "82",
+      "skill": {
+        "passing": "74",
+        "shooting": "52",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "82",
+        "strength": "82",
+        "jumping": "282",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17706",
+      "teamID": "177",
+      "name": "Juan Carlos Rulli",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "84",
+      "skill": {
+        "passing": "80",
+        "shooting": "72",
+        "tackling": "85",
+        "saving": "12",
+        "agility": "76",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17707",
+      "teamID": "177",
+      "name": "Miguel Mori",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "68",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "74",
+        "strength": "86",
+        "jumping": "302",
+        "penalty_taking": "68"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17708",
+      "teamID": "177",
+      "name": "Humberto Maschio",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "88",
+      "skill": {
+        "passing": "92",
+        "shooting": "85",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "78",
+        "strength": "74",
+        "jumping": "275",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17709",
+      "teamID": "177",
+      "name": "Juan José Rodríguez",
+      "position": "RM",
+      "shirtNumber": 11,
+      "rating": "82",
+      "skill": {
+        "passing": "76",
+        "shooting": "80",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "88",
+        "strength": "72",
+        "jumping": "280",
+        "penalty_taking": "84"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17710",
+      "teamID": "177",
+      "name": "Juan Carlos Cárdenas",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "86",
+      "skill": {
+        "passing": "84",
+        "shooting": "88",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "85",
+        "strength": "82",
+        "jumping": "315",
+        "penalty_taking": "91"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "17711",
+      "teamID": "177",
+      "name": "Jaime Martinoli",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "84",
+      "skill": {
+        "passing": "75",
+        "shooting": "86",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "82",
+        "strength": "80",
+        "jumping": "310",
+        "penalty_taking": "85"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

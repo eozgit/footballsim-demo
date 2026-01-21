@@ -1,0 +1,276 @@
+{
+  "name": "The Sidemen FC",
+  "description": "2026 Charity Shield",
+  "primaryColour": "Black",
+  "secondaryColour": "White",
+  "awayColour": "DimGray",
+  "rating": 12,
+  "teamID": "194",
+  "intent": "attacking",
+  "players": [
+    {
+      "playerID": "19401",
+      "teamID": "194",
+      "name": "Wroetoshaw",
+      "position": "GK",
+      "shirtNumber": 19,
+      "rating": "45",
+      "skill": {
+        "passing": "40",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "50",
+        "agility": "45",
+        "strength": "55",
+        "jumping": "280",
+        "penalty_taking": "16"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19402",
+      "teamID": "194",
+      "name": "Vikkstar123",
+      "position": "LB",
+      "shirtNumber": 12,
+      "rating": "38",
+      "skill": {
+        "passing": "42",
+        "shooting": "35",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "60",
+        "strength": "35",
+        "jumping": "270",
+        "penalty_taking": "36"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19403",
+      "teamID": "194",
+      "name": "W2S",
+      "position": "CB",
+      "shirtNumber": 16,
+      "rating": "48",
+      "skill": {
+        "passing": "45",
+        "shooting": "40",
+        "tackling": "52",
+        "saving": "12",
+        "agility": "55",
+        "strength": "60",
+        "jumping": "310",
+        "penalty_taking": "46"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19404",
+      "teamID": "194",
+      "name": "Zerkaa",
+      "position": "CB",
+      "shirtNumber": 13,
+      "rating": "42",
+      "skill": {
+        "passing": "38",
+        "shooting": "30",
+        "tackling": "55",
+        "saving": "10",
+        "agility": "45",
+        "strength": "62",
+        "jumping": "315",
+        "penalty_taking": "36"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19405",
+      "teamID": "194",
+      "name": "Behzinga",
+      "position": "RB",
+      "shirtNumber": 6,
+      "rating": "45",
+      "skill": {
+        "passing": "42",
+        "shooting": "48",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "70",
+        "strength": "65",
+        "jumping": "275",
+        "penalty_taking": "51"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19406",
+      "teamID": "194",
+      "name": "Tobjizzle",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "62",
+      "skill": {
+        "passing": "65",
+        "shooting": "60",
+        "tackling": "52",
+        "saving": "12",
+        "agility": "78",
+        "strength": "58",
+        "jumping": "285",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19407",
+      "teamID": "194",
+      "name": "Simon",
+      "position": "CM",
+      "shirtNumber": 19,
+      "rating": "65",
+      "skill": {
+        "passing": "68",
+        "shooting": "65",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "75",
+        "strength": "52",
+        "jumping": "275",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19408",
+      "teamID": "194",
+      "name": "Miniminter",
+      "position": "LM",
+      "shirtNumber": 19,
+      "rating": "68",
+      "skill": {
+        "passing": "70",
+        "shooting": "72",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "78",
+        "strength": "50",
+        "jumping": "265",
+        "penalty_taking": "74"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19409",
+      "teamID": "194",
+      "name": "TBJZL",
+      "position": "RM",
+      "shirtNumber": 10,
+      "rating": "64",
+      "skill": {
+        "passing": "66",
+        "shooting": "68",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "82",
+        "strength": "55",
+        "jumping": "270",
+        "penalty_taking": "70"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19410",
+      "teamID": "194",
+      "name": "KSI",
+      "position": "ST",
+      "shirtNumber": 7,
+      "rating": "55",
+      "skill": {
+        "passing": "50",
+        "shooting": "65",
+        "tackling": "42",
+        "saving": "10",
+        "agility": "76",
+        "strength": "82",
+        "jumping": "320",
+        "penalty_taking": "61"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "19411",
+      "teamID": "194",
+      "name": "JME",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "58",
+      "skill": {
+        "passing": "55",
+        "shooting": "62",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "80",
+        "strength": "65",
+        "jumping": "305",
+        "penalty_taking": "62"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

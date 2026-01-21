@@ -1,0 +1,276 @@
+{
+  "name": "Al-Ittihad",
+  "description": "2004-2005 Back-to-back AFC Champions",
+  "primaryColour": "Yellow",
+  "secondaryColour": "Black",
+  "awayColour": "White",
+  "rating": 75,
+  "teamID": "106",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "10601",
+      "teamID": "106",
+      "name": "Mabrouk Zaid",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "75",
+      "skill": {
+        "passing": "62",
+        "shooting": "12",
+        "tackling": "15",
+        "saving": "78",
+        "agility": "70",
+        "strength": "72",
+        "jumping": "280",
+        "penalty_taking": "23"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10602",
+      "teamID": "106",
+      "name": "Saleh Al-Saqri",
+      "position": "LB",
+      "shirtNumber": 16,
+      "rating": "72",
+      "skill": {
+        "passing": "70",
+        "shooting": "50",
+        "tackling": "68",
+        "saving": "10",
+        "agility": "82",
+        "strength": "65",
+        "jumping": "270",
+        "penalty_taking": "56"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10603",
+      "teamID": "106",
+      "name": "Redha Tukar",
+      "position": "CB",
+      "shirtNumber": 4,
+      "rating": "76",
+      "skill": {
+        "passing": "58",
+        "shooting": "35",
+        "tackling": "80",
+        "saving": "12",
+        "agility": "55",
+        "strength": "88",
+        "jumping": "305",
+        "penalty_taking": "43"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10604",
+      "teamID": "106",
+      "name": "Hamad Al-Montashari",
+      "position": "CB",
+      "shirtNumber": 3,
+      "rating": "78",
+      "skill": {
+        "passing": "62",
+        "shooting": "32",
+        "tackling": "82",
+        "saving": "10",
+        "agility": "65",
+        "strength": "84",
+        "jumping": "298",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10605",
+      "teamID": "106",
+      "name": "Ahmed Dokhi",
+      "position": "RB",
+      "shirtNumber": 2,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "55",
+        "tackling": "74",
+        "saving": "10",
+        "agility": "84",
+        "strength": "72",
+        "jumping": "275",
+        "penalty_taking": "57"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10606",
+      "teamID": "106",
+      "name": "Saud Kariri",
+      "position": "CM",
+      "shirtNumber": 14,
+      "rating": "76",
+      "skill": {
+        "passing": "74",
+        "shooting": "62",
+        "tackling": "78",
+        "saving": "12",
+        "agility": "74",
+        "strength": "80",
+        "jumping": "288",
+        "penalty_taking": "63"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10607",
+      "teamID": "106",
+      "name": "Tcheco",
+      "position": "CM",
+      "shirtNumber": 10,
+      "rating": "78",
+      "skill": {
+        "passing": "84",
+        "shooting": "75",
+        "tackling": "60",
+        "saving": "10",
+        "agility": "72",
+        "strength": "68",
+        "jumping": "272",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10608",
+      "teamID": "106",
+      "name": "Mohammad Noor",
+      "position": "LM",
+      "shirtNumber": 18,
+      "rating": "82",
+      "skill": {
+        "passing": "82",
+        "shooting": "78",
+        "tackling": "65",
+        "saving": "10",
+        "agility": "80",
+        "strength": "84",
+        "jumping": "295",
+        "penalty_taking": "82"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10609",
+      "teamID": "106",
+      "name": "Ibrahim Suwayed",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "74",
+      "skill": {
+        "passing": "72",
+        "shooting": "70",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "78",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "73"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10610",
+      "teamID": "106",
+      "name": "Hamzah Idris",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "78",
+      "skill": {
+        "passing": "65",
+        "shooting": "84",
+        "tackling": "30",
+        "saving": "10",
+        "agility": "75",
+        "strength": "82",
+        "jumping": "302",
+        "penalty_taking": "75"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "10611",
+      "teamID": "106",
+      "name": "Mohamed Kallon",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "80",
+      "skill": {
+        "passing": "74",
+        "shooting": "82",
+        "tackling": "35",
+        "saving": "10",
+        "agility": "88",
+        "strength": "76",
+        "jumping": "285",
+        "penalty_taking": "79"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}

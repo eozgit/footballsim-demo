@@ -1,0 +1,276 @@
+{
+  "name": "Independiente",
+  "description": "'King of Cups' Era",
+  "primaryColour": "Red",
+  "secondaryColour": "White",
+  "awayColour": "Blue",
+  "rating": 91,
+  "teamID": "149",
+  "intent": "balanced",
+  "players": [
+    {
+      "playerID": "14901",
+      "teamID": "149",
+      "name": "Miguel Ángel Santoro",
+      "position": "GK",
+      "shirtNumber": 1,
+      "rating": "90",
+      "skill": {
+        "passing": "68",
+        "shooting": "15",
+        "tackling": "20",
+        "saving": "92",
+        "agility": "74",
+        "strength": "82",
+        "jumping": "285",
+        "penalty_taking": "23"
+      },
+      "currentPOS": [
+        340,
+        1000
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14902",
+      "teamID": "149",
+      "name": "Ricardo Pavoni",
+      "position": "LB",
+      "shirtNumber": 3,
+      "rating": "88",
+      "skill": {
+        "passing": "85",
+        "shooting": "82",
+        "tackling": "86",
+        "saving": "10",
+        "agility": "84",
+        "strength": "82",
+        "jumping": "278",
+        "penalty_taking": "78"
+      },
+      "currentPOS": [
+        100,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14903",
+      "teamID": "149",
+      "name": "Francisco Sá",
+      "position": "CB",
+      "shirtNumber": 2,
+      "rating": "86",
+      "skill": {
+        "passing": "72",
+        "shooting": "40",
+        "tackling": "90",
+        "saving": "12",
+        "agility": "68",
+        "strength": "88",
+        "jumping": "312",
+        "penalty_taking": "45"
+      },
+      "currentPOS": [
+        260,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14904",
+      "teamID": "149",
+      "name": "Miguel Ángel López",
+      "position": "CB",
+      "shirtNumber": 6,
+      "rating": "85",
+      "skill": {
+        "passing": "70",
+        "shooting": "35",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "65",
+        "strength": "86",
+        "jumping": "308",
+        "penalty_taking": "39"
+      },
+      "currentPOS": [
+        420,
+        850
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14905",
+      "teamID": "149",
+      "name": "Eduardo Commisso",
+      "position": "RB",
+      "shirtNumber": 4,
+      "rating": "82",
+      "skill": {
+        "passing": "78",
+        "shooting": "55",
+        "tackling": "84",
+        "saving": "10",
+        "agility": "85",
+        "strength": "80",
+        "jumping": "282",
+        "penalty_taking": "59"
+      },
+      "currentPOS": [
+        580,
+        800
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14906",
+      "teamID": "149",
+      "name": "Miguel Ángel Raimondo",
+      "position": "CM",
+      "shirtNumber": 5,
+      "rating": "85",
+      "skill": {
+        "passing": "80",
+        "shooting": "65",
+        "tackling": "92",
+        "saving": "12",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "295",
+        "penalty_taking": "64"
+      },
+      "currentPOS": [
+        260,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14907",
+      "teamID": "149",
+      "name": "Alejandro Semenewicz",
+      "position": "CM",
+      "shirtNumber": 8,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "68",
+        "tackling": "88",
+        "saving": "10",
+        "agility": "80",
+        "strength": "90",
+        "jumping": "292",
+        "penalty_taking": "71"
+      },
+      "currentPOS": [
+        420,
+        600
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14908",
+      "teamID": "149",
+      "name": "Ricardo Bochini",
+      "position": "LM",
+      "shirtNumber": 10,
+      "rating": "96",
+      "skill": {
+        "passing": "99",
+        "shooting": "88",
+        "tackling": "45",
+        "saving": "10",
+        "agility": "82",
+        "strength": "72",
+        "jumping": "272",
+        "penalty_taking": "96"
+      },
+      "currentPOS": [
+        100,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14909",
+      "teamID": "149",
+      "name": "Agustín Balbuena",
+      "position": "RM",
+      "shirtNumber": 7,
+      "rating": "84",
+      "skill": {
+        "passing": "82",
+        "shooting": "80",
+        "tackling": "40",
+        "saving": "10",
+        "agility": "88",
+        "strength": "74",
+        "jumping": "278",
+        "penalty_taking": "80"
+      },
+      "currentPOS": [
+        580,
+        650
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14910",
+      "teamID": "149",
+      "name": "Daniel Bertoni",
+      "position": "ST",
+      "shirtNumber": 11,
+      "rating": "88",
+      "skill": {
+        "passing": "84",
+        "shooting": "90",
+        "tackling": "38",
+        "saving": "10",
+        "agility": "86",
+        "strength": "82",
+        "jumping": "310",
+        "penalty_taking": "87"
+      },
+      "currentPOS": [
+        340,
+        520
+      ],
+      "fitness": 100,
+      "injured": false
+    },
+    {
+      "playerID": "14911",
+      "teamID": "149",
+      "name": "Luis Artime",
+      "position": "ST",
+      "shirtNumber": 9,
+      "rating": "92",
+      "skill": {
+        "passing": "72",
+        "shooting": "96",
+        "tackling": "32",
+        "saving": "10",
+        "agility": "78",
+        "strength": "88",
+        "jumping": "325",
+        "penalty_taking": "94"
+      },
+      "currentPOS": [
+        440,
+        540
+      ],
+      "fitness": 100,
+      "injured": false
+    }
+  ]
+}
