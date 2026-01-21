@@ -50,6 +50,20 @@ export class MatchScene extends Scene {
       this.manager.terminate();
     });
 
+    // Handle simulation reload
+    const onReload = (): void => {
+      this.scene.restart();
+    };
+
+    window.addEventListener('reload-simulation', onReload);
+
+    // CLEANUP: Stop the worker and remove listeners when the scene is destroyed/restarted
+    this.events.once('shutdown', () => {
+      window.removeEventListener('reload-simulation', onReload);
+      if (this.manager) {
+        this.manager.terminate();
+      }
+    });
     const teamA = this.cache.json.get(homeTeam) as Team;
 
     const teamB = this.cache.json.get(awayTeam) as Team;

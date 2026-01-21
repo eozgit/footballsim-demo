@@ -17,8 +17,14 @@ export class SimulationBridge {
   }
 
   private static syncTeamNames(state: MatchDetails, store: SimulationState): void {
-    if (store.teams.home === 'HOME' && state.kickOffTeam?.name) {
-      store.setTeams(state.kickOffTeam.name, state.secondTeam?.name || 'AWAY');
+    const engineHome = state.kickOffTeam?.name;
+
+    const engineAway = state.secondTeam?.name;
+
+    // Update only if names have changed or are missing
+    if (engineHome && engineAway &&
+      (engineHome !== store.teams.home || engineAway !== store.teams.away)) {
+      store.setTeams(engineHome, engineAway);
     }
   }
 
