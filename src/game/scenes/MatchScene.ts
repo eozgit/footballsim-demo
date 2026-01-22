@@ -22,6 +22,7 @@ export class MatchScene extends Scene {
   preload(): void {
     const { homeTeam, awayTeam } = useSimulationStore.getState();
 
+    this.load.setPath(import.meta.env.BASE_URL);
     this.load.json('colors', 'assets/colors.json');
     this.load.json(homeTeam, `assets/teams/${homeTeam}.json`);
     this.load.json(awayTeam, `assets/teams/${awayTeam}.json`);

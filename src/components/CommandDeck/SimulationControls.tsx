@@ -30,7 +30,7 @@ export const SimulationControls = ({ store }: { store: StoreType }): null => {
 
   // Fetch the teams list on mount
   useEffect(() => {
-    fetch('/assets/teams/list.json')
+    fetch(`${import.meta.env.BASE_URL}assets/teams/list.json`)
       .then((res) => res.json())
       .then((data: { teams: TeamListItem[] }) => {
         // Map to { [DisplayName]: "filename" } for Leva options

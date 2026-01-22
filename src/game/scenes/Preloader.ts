@@ -10,7 +10,7 @@ export class Preloader extends Scene {
   }
 
   preload(): void {
-    this.load.setPath('assets');
+    this.load.setPath(`${import.meta.env.BASE_URL}assets/`);
   }
 
   create(): void {
