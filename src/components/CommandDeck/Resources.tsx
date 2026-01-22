@@ -8,24 +8,20 @@ export const Resources = ({ store }: { store: StoreType }): null => {
       RESOURCES: folder(
         {
           LINKS: buttonGroup({
-            label: '', // Removes the "External" label next to the buttons
+            label: '',
             opts: {
-              DEMO: (): Window | null =>
-                window.open(
-                  'https://github.com/eozgit/footballsim-demo',
-                  '_blank',
-                  'rel="noopener"',
-                ),
-              ENGINE: (): Window | null =>
-                window.open(
-                  'https://github.com/GallagherAiden/footballSimulationEngine',
-                  '_blank',
-                  'rel="noopener"',
-                ),
+              REPO: () =>
+                window.open('https://github.com/eozgit/footballsim', '_blank', 'noopener'),
+              DEMO: () =>
+                window.open('https://github.com/eozgit/footballsim-demo', '_blank', 'noopener'),
+              NPM: () =>
+                window.open('https://www.npmjs.com/package/footballsim', '_blank', 'noopener'),
+              ORIGINAL: () =>
+                window.open('https://github.com/GallagherAiden/footballSimulationEngine', '_blank', 'noopener'),
             },
           }),
         },
-        { collapsed: true }, // Sets the folder to start closed
+        { collapsed: true },
       ),
     },
     { store },
