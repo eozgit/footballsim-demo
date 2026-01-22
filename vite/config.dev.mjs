@@ -6,7 +6,7 @@ export default defineConfig({
   define: {
     BUILD_TIME: JSON.stringify(new Date().toLocaleTimeString()),
   },
-  base: './',
+  base: '/footballsim-demo/',
   plugins: [
     react(),
   ],

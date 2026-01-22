@@ -14,7 +14,7 @@ const phasermsg = () => {
 }
 
 export default defineConfig({
-  base: './',
+  base: '/footballsim-demo/',
   plugins: [
     react(),
     phasermsg()
